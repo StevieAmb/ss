@@ -3,6 +3,7 @@ body {
   padding: 0;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   background-color: #F5EFF2;
+  text-align: center;
 }
 
 header {
@@ -28,4 +29,10 @@ header p {
 .nav-bar-tabs {
   display: flex;
   gap: 2.5rem;
+}
+
+.provide-list {
+  display: flex;
+  justify-content: center;
+  gap: 6rem;
 }
