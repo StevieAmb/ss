@@ -34,5 +34,5 @@ header p {
 .provide-list {
   display: flex;
   justify-content: center;
-  gap: 6rem;
+  gap: 18rem;
 }
