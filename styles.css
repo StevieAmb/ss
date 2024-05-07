@@ -52,3 +52,14 @@ header {
   justify-content: center;
   gap: 18rem;
 }
+
+.book-button {
+  height: 6rem;
+  background-color: #A1CAA7;
+  width: 12rem;
+  border: none;
+  font-weight: bolder;
+  font-size: larger;
+  color: white;
+  border-radius: 7px;
+}
