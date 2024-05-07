@@ -17,6 +17,13 @@ header p {
   font-style: italic;
 }
 
+.hero-images {
+  background-image: url('images/stubble-8142239_1280.jpg');
+  background-size: cover;
+  height: 25rem;
+  background-color: red;
+}
+
 .nav-bar {
   display: flex;
   justify-content: flex-end;
