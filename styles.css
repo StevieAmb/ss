@@ -50,11 +50,16 @@ header {
 .provide-list {
   display: flex;
   justify-content: center;
-  gap: 18rem;
+  gap: 12rem;
+}
+
+article p {
+  width: 19rem;
 }
 
 .book-button {
-  height: 6rem;
+  margin: 3rem 0;
+  height: 4rem;
   background-color: #A1CAA7;
   width: 12rem;
   border: none;
