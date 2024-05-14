@@ -53,6 +53,10 @@ header {
   gap: 18rem;
 }
 
+article p {
+  width: 19rem;
+}
+
 .book-button {
   height: 6rem;
   background-color: #A1CAA7;
