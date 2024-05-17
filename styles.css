@@ -16,7 +16,6 @@ header {
   background-image: url('images/insect-8211593_1280.jpg');
   background-size: cover;
   height: 25rem;
-  background-color: red;
 }
 
 .hero-images p {
@@ -58,11 +57,12 @@ article p {
 }
 
 .book-button {
+  display: block;
+  padding: 1rem;
+  height: 1.7rem;
+  width: 16rem;
   margin: 3rem 0;
-  height: 4rem;
   background-color: #A1CAA7;
-  width: 12rem;
-  border: none;
   font-weight: bolder;
   font-size: larger;
   color: white;
