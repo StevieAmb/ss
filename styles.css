@@ -7,6 +7,10 @@ body {
   padding-bottom: 4rem;
 }
 
+a {
+  text-decoration: none;
+}
+
 header {
   display: flex;
   gap: 2.8rem;
