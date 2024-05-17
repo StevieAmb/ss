@@ -4,6 +4,7 @@ body {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   background-color: #F5EFF2;
   text-align: center;
+  padding-bottom: 4rem;
 }
 
 header {
@@ -50,7 +51,7 @@ header {
   display: flex;
   justify-content: center;
   gap: 12rem;
-  margin-bottom: 4rem;
+  margin-bottom: 6rem;
 }
 
 article p {
