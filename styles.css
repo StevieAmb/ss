@@ -4,6 +4,11 @@ body {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   background-color: #F5EFF2;
   text-align: center;
+  padding-bottom: 4rem;
+}
+
+a {
+  text-decoration: none;
 }
 
 header {
@@ -16,7 +21,6 @@ header {
   background-image: url('images/insect-8211593_1280.jpg');
   background-size: cover;
   height: 25rem;
-  background-color: red;
 }
 
 .hero-images p {
@@ -51,6 +55,7 @@ header {
   display: flex;
   justify-content: center;
   gap: 12rem;
+  margin-bottom: 6rem;
 }
 
 article p {
@@ -58,13 +63,28 @@ article p {
 }
 
 .book-button {
-  margin: 3rem 0;
-  height: 4rem;
+  display: block;
+  padding: 1rem;
+  height: 1.7rem;
+  width: 16rem;
+  margin: 0 auto;
   background-color: #A1CAA7;
-  width: 12rem;
-  border: none;
   font-weight: bolder;
+  text-decoration: none;
   font-size: larger;
   color: white;
   border-radius: 7px;
+}
+
+@media screen and (max-width: 1092px) {
+  .provide-list {
+    display: flex;
+    flex-direction: column;
+  }
+ 
+}
+
+/* On screens that are 600px or less, set the background color to olive */
+@media screen and (max-width: 600px) {
+
 }
