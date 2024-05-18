@@ -19,6 +19,12 @@ header {
   padding: 0 1.5rem;
 }
 
+header h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
 .hero-images {
   background-image: url('images/insect-8211593_1280.jpg');
   background-size: cover;
@@ -46,7 +52,7 @@ header {
   margin: 0;
   padding: 0 5rem;
   color: white;
-  box-shadow: 1px -13px 19px rgb(67, 1, 67);
+  box-shadow: 1px 13px 21px rgb(67, 1, 67);
 }
 
 .nav-bar-tabs {
@@ -55,9 +61,12 @@ header {
 }
 
 .nav-bar-tabs h4 {
-  margin: 0;
-  padding: 1rem 3.5rem;
-  border-left: 3px solid #F5EFF2 ;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  margin: .3rem 0;
+  padding: 1rem 2rem;
+  border-left: 2px solid #F5EFF2 ;
 }
 
 .provide-list {
