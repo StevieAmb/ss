@@ -51,7 +51,13 @@ header {
 
 .nav-bar-tabs {
   display: flex;
-  gap: 2.5rem;
+  gap: 5rem;
+}
+
+.nav-bar-tabs h4 {
+  margin: 0;
+  padding: 1rem 3.5rem;
+  border-left: 3px solid #F5EFF2 ;
 }
 
 .provide-list {
@@ -68,6 +74,7 @@ article p {
 
 article h4 {
   font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
 }
 
 .book-button {
