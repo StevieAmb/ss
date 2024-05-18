@@ -1,7 +1,9 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
   background-color: #F5EFF2;
   text-align: center;
   padding-bottom: 4rem;
@@ -17,21 +19,32 @@ header {
   padding: 0 1.5rem;
 }
 
+header h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
 .hero-images {
-  background-image: url('images/insect-8211593_1280.jpg');
+  background-image: url('images/pexels-valeriiamiller-20085523.jpg');
   background-size: cover;
   height: 25rem;
 }
 
 .hero-images p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
   margin: 0;
   padding-top: 9rem;
   font-style: italic;
   color: white;
-  font-weight: 900;
 }
 
 .hero-images h2 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
   margin: 0;
   padding-top: 1.5rem;
   color: white;
@@ -40,18 +53,31 @@ header {
 .nav-bar {
   display: flex;
   justify-content: flex-end;
-  background-color: #A7A1CA;
+  background-color: #EFF5F2;
   margin: 0;
   padding: 0 5rem;
-  color: white;
+  color: rgb(67, 1, 67);
+  border-top: 1px solid rgb(67, 1, 67);
 }
 
 .nav-bar-tabs {
   display: flex;
-  gap: 2.5rem;
+  gap: 5rem;
+}
+
+
+
+.nav-bar-tabs h4 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  margin: .3rem 0;
+  padding: 1rem 2rem;
+  border-left: 2px solid #F5EFF2 ;
 }
 
 .provide-list {
+  font-family: "Poppins", sans-serif;
   display: flex;
   justify-content: center;
   gap: 12rem;
@@ -60,6 +86,11 @@ header {
 
 article p {
   width: 19rem;
+}
+
+article h4 {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
 }
 
 .book-button {
