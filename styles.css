@@ -52,6 +52,7 @@ header {
 }
 
 .provide-list {
+  font-family: "Poppins", sans-serif;
   display: flex;
   justify-content: center;
   gap: 12rem;
