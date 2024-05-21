@@ -76,7 +76,11 @@ header h1 {
   font-style: normal;
   margin: .3rem 0;
   padding: 1rem 2rem;
-  border-left: 2px solid #F5EFF2 ;
+}
+
+.nav-bar-tabs h4:hover {
+  background-color:rgb(67, 1, 67); 
+  color: white;
 }
 
 .list-of-services {
