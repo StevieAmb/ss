@@ -3,7 +3,6 @@ body {
   padding: 0;
   font-family: "Poppins", sans-serif;
   font-weight: 300;
-  text-align: center;
   font-style: normal;
   background-color: #F5EFF2;
   padding-bottom: 4rem;
@@ -67,20 +66,25 @@ header h1 {
 
 .nav-bar-tabs {
   display: flex;
-  gap: 5rem;
+  gap: 3rem;
 }
 
-.nav-bar-tabs h4 {
+.nav-bar-tabs .nav-tab {
   font-family: "Poppins", sans-serif;
   font-weight: 500;
   font-style: normal;
+  width: 13rem;
   margin: .3rem 0;
   padding: 1rem 2rem;
 }
 
-.nav-bar-tabs h4:hover {
+.nav-bar-tabs .nav-tab:hover {
   background-color:rgb(67, 1, 67); 
   color: white;
+}
+
+.services h2 {
+  text-align: center;
 }
 
 .list-of-services {
