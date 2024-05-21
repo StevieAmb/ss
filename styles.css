@@ -12,6 +12,11 @@ a {
   text-decoration: none;
 }
 
+h2 {
+  width: 18rem;
+  margin: 0 auto;
+}
+
 header {
   display: flex;
   gap: 2.8rem;
@@ -72,6 +77,13 @@ header h1 {
   margin: .3rem 0;
   padding: 1rem 2rem;
   border-left: 2px solid #F5EFF2 ;
+}
+
+.list-of-services {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 7rem;
 }
 
 .provide-list {
