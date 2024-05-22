@@ -5,12 +5,15 @@ body {
   font-weight: 300;
   font-style: normal;
   background-color: #F5EFF2;
-  text-align: center;
   padding-bottom: 4rem;
 }
 
 a {
   text-decoration: none;
+}
+
+h2 {
+  padding-top: 1rem;
 }
 
 header {
@@ -29,6 +32,7 @@ header h1 {
   background-image: url('images/pexels-valeriiamiller-20085523.jpg');
   background-size: cover;
   height: 25rem;
+  text-align: center;
 }
 
 .hero-images p {
@@ -62,18 +66,33 @@ header h1 {
 
 .nav-bar-tabs {
   display: flex;
-  gap: 5rem;
+  gap: 3rem;
 }
 
-
-
-.nav-bar-tabs h4 {
+.nav-bar-tabs .nav-tab {
   font-family: "Poppins", sans-serif;
   font-weight: 500;
   font-style: normal;
+  width: 13rem;
   margin: .3rem 0;
   padding: 1rem 2rem;
-  border-left: 2px solid #F5EFF2 ;
+  text-align: center;
+}
+
+.nav-bar-tabs .nav-tab:hover {
+  background-color:rgb(67, 1, 67); 
+  color: white;
+}
+
+.services h2 {
+  text-align: center;
+}
+
+.list-of-services {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 7rem;
 }
 
 .provide-list {
@@ -82,6 +101,19 @@ header h1 {
   justify-content: center;
   gap: 12rem;
   margin-bottom: 6rem;
+}
+
+.client-benefits h2 {
+  text-align: center;
+  padding-bottom: 1.5rem;
+}
+
+.provide-list h2 {
+  text-align: center;
+}
+
+.provide-list article {
+  text-align: center;
 }
 
 article p {
@@ -95,6 +127,7 @@ article h4 {
 
 .book-button {
   display: block;
+  text-align: center;
   padding: 1rem;
   height: 1.7rem;
   width: 16rem;
@@ -109,13 +142,27 @@ article h4 {
 
 @media screen and (max-width: 1092px) {
   .provide-list {
+    display: block;
+  }
+
+  .provide-list article {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
  
 }
 
-/* On screens that are 600px or less, set the background color to olive */
 @media screen and (max-width: 600px) {
+  .provide-list {
+    display: block;
+  }
 
+  .provide-list article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 }
