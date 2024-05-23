@@ -84,6 +84,10 @@ header h1 {
   color: white;
 }
 
+.services {
+  padding: .75rem 0;
+}
+
 .services h2 {
   text-align: center;
 }
@@ -92,7 +96,7 @@ header h1 {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 0 7rem;
+  padding: 0 0 1.5rem 7rem;
 }
 
 .provide-list {
@@ -100,7 +104,12 @@ header h1 {
   display: flex;
   justify-content: center;
   gap: 12rem;
-  margin-bottom: 6rem;
+  margin-bottom: 2rem;
+}
+
+.client-benefits {
+  background-color: #dde0de;
+  padding: 1rem 0;
 }
 
 .client-benefits h2 {
