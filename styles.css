@@ -5,7 +5,7 @@ body {
   font-weight: 300;
   font-style: normal;
   background-color: #F5EFF2;
-  padding-bottom: 4rem;
+  /* padding-bottom: 4rem; */
 }
 
 a {
@@ -111,7 +111,7 @@ header h1 {
 
 .client-benefits {
   background-color: #dde0de;
-  padding: 1rem 0;
+  padding: 1rem 0 5rem 0;
 }
 
 .client-benefits h2 {
@@ -149,6 +149,13 @@ article h4 {
   font-size: larger;
   color: white;
   border-radius: 7px;
+}
+
+footer {
+  text-align: center;
+  background-color:rgb(67, 1, 67);
+  color: white;
+  padding: 2rem 0;
 }
 
 @media screen and (max-width: 1092px) {
