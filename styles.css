@@ -159,6 +159,14 @@ footer {
 }
 
 @media screen and (max-width: 1092px) {
+  .list-of-services {
+    padding: .4rem;
+    gap: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
   .provide-list {
     display: block;
   }
@@ -173,6 +181,14 @@ footer {
 }
 
 @media screen and (max-width: 600px) {
+  .list-of-services {
+    padding: .5rem;
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+  }
+
   .provide-list {
     display: block;
   }
