@@ -36,9 +36,25 @@ header h1 {
 .hero-images {
   background-image: url('images/pexels-valeriiamiller-20085523.jpg');
   background-size: cover;
-  height: 25rem;
+  height: 45rem;
   text-align: center;
+  letter-spacing: .15rem;
+  animation: ease-in-out headerChange 20s forwards;
 }
+
+@keyframes headerChange {
+  from {  
+    background-image: url('images/pexels-brunocervera-20693639.jpg') ; 
+  }
+
+  to { 
+    background-image: url('images/pexels-tomas-malik-793526-8252045.jpg') ;
+    text-shadow: 5px 5px 5px black;
+    height: 47rem;
+  }
+}
+
+
 
 .hero-images p {
   font-family: "Poppins", sans-serif;
@@ -50,12 +66,12 @@ header h1 {
   color: white;
 }
 
-.hero-images h2 {
+.hero-images h1 {
   font-family: "Poppins", sans-serif;
-  font-weight: 500;
+  font-weight: 600;
   font-style: normal;
   margin: 0;
-  padding-top: 7.5rem;
+  padding-top: 16.5rem;
   color: white;
 }
 
@@ -112,7 +128,8 @@ header h1 {
   background: white;
   gap: 1rem;
   margin-bottom: 1.5rem;
-  padding: 1.1rem;
+  padding: 1.1rem 4rem;
+  /* width: 40rem; */
   list-style-type: none;
   border-radius: 7px;
   box-shadow: .15rem .15rem .15rem rgb(67, 1, 67);
