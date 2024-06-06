@@ -22,15 +22,17 @@ header {
   padding: 0 1.5rem;
 }
 
-header h1 {
+.page-title h1 {
   font-family: "Poppins", sans-serif;
   font-weight: 600;
   font-style: normal;
 }
 
-.page-title p {
-  margin: 2.35rem 0 0 1rem;
+.page-title h2 {
+  margin: 1rem 0 0 1rem;
   font-style: italic;
+  font-weight: 100;
+  font-size: larger;
 }
 
 .hero-images {
