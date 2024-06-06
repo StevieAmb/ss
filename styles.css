@@ -52,7 +52,7 @@ header {
 
   to { 
     background-image: url('images/pexels-tomas-malik-793526-8252045.jpg') ;
-    color:yellow;
+    color:whitesmoke;
     text-shadow: 5px 5px 5px black;
     height: 47rem;
   }
@@ -60,7 +60,7 @@ header {
 
 .hero-images p {
   font-family: "Poppins", sans-serif;
-  font-weight: 300;
+  font-weight: 400;
   font-style: normal;
   margin: 0;
   padding-top: 2.5rem;
