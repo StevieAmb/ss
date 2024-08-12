@@ -4,7 +4,7 @@ body {
   font-family: "Poppins", sans-serif;
   font-weight: 300;
   font-style: normal;
-  background-color: #F5EFF2;
+  background-color: #92BDB6;
   /* padding-bottom: 4rem; */
 }
 
@@ -20,6 +20,7 @@ header {
   display: flex;
   gap: 2.8rem;
   padding: 0 1.5rem;
+  color: white;
 }
 
 .page-title h1 {
@@ -104,7 +105,7 @@ header {
 }
 
 .nav-bar-tabs .nav-tab:hover {
-  background-color:rgb(67, 1, 67); 
+  background-color:#F1A83F;
   color: white;
 }
 
@@ -161,7 +162,7 @@ header {
   text-align: center;
   border-radius: 7px;
   padding: 1.5rem 2.5rem;
-  box-shadow: -1rem -1rem 1rem #EFF5F2;
+  box-shadow: -.25rem -.25rem 1rem #CD6C34;
 }
 
 article p {
@@ -190,7 +191,7 @@ article h4 {
 
 footer {
   text-align: center;
-  background-color:rgb(67, 1, 67);
+  background-color:#B19E37;
   color: white;
   padding: 2rem 0;
 }
