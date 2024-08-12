@@ -94,6 +94,7 @@ header {
 .nav-bar-tabs {
   display: flex;
   gap: 3rem;
+  color: #F1A83F;
 }
 
 .nav-bar-tabs .nav-tab {
@@ -104,6 +105,7 @@ header {
   margin: .3rem 0;
   padding: 1rem 2rem;
   text-align: center;
+  color: #F1A83F
 }
 
 .nav-bar-tabs .nav-tab:hover {
