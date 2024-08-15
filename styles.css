@@ -29,6 +29,7 @@ header {
   font-family: "Poppins", sans-serif;
   font-weight: 600;
   font-style: normal;
+  color: black;
 }
 
 .page-title h2 {
@@ -41,13 +42,14 @@ header {
 .hero-images {
   background-image: url('images/pexels-valeriiamiller-20085523.jpg');
   background-size: cover;
-  height: 45rem;
+  height: 40rem;
+  color: white;
   text-align: center;
   letter-spacing: .15rem;
   animation: ease-in-out headerChange 20s forwards;
 }
 
-@keyframes headerChange {
+/* @keyframes headerChange {
   from {  
     background-image: url('images/pexels-brunocervera-20693639.jpg') ; 
     color: white;
@@ -59,7 +61,7 @@ header {
     text-shadow: 5px 5px 5px black;
     height: 47rem;
   }
-}
+} */
 
 .hero-images p {
   font-family: "Poppins", sans-serif;
@@ -83,11 +85,9 @@ header {
   justify-content: flex-end;
   top: 0;
   position: sticky;
-  background-color: #EFF5F2;
+  background-color: white;
   margin: 0;
   padding: 0 5rem;
-  border-top: 1px solid rgb(67, 1, 67);
-  border-bottom: 1px solid rgb(67, 1, 67);
 }
 
 .nav-bar-tabs {
