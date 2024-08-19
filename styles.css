@@ -40,7 +40,7 @@ header {
 }
 
 .hero-images {
-  background-image: url('images/pexels-valeriiamiller-20085523.jpg');
+  background-image: url('images/insect-8211593_1280.jpg');
   background-size: cover;
   height: 40rem;
   color: white;
@@ -56,7 +56,7 @@ header {
   }
 
   to { 
-    background-image: url('images/pexels-tomas-malik-793526-8252045.jpg') ;
+    background-image: url('images/insect-8211593_1280.jpg') ;
     color:whitesmoke;
     text-shadow: 5px 5px 5px black;
     height: 47rem;
@@ -87,6 +87,7 @@ header {
   position: sticky;
   background-color: #EAECF3;
   margin: 0;
+  border-top: 2px solid #8F7C71;
   padding: 0 5rem;
 }
 
