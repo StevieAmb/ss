@@ -40,10 +40,10 @@ header {
 }
 
 .hero-images {
-  background-image: url('images/insect-8211593_1280.jpg');
+  background-image: url('images/pexels-brunocervera-20693639.jpg');
   background-size: cover;
   height: 40rem;
-  color: white;
+  background-color: white;
   text-align: center;
   letter-spacing: .15rem;
   animation: ease-in-out headerChange 20s forwards;
