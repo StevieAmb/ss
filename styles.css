@@ -40,7 +40,7 @@ header {
 }
 
 .hero-images {
-  background-image: url('images/pexels-brunocervera-20693639.jpg');
+  background-image: url('images/stubble-8142239_1280.jpg');
   background-size: cover;
   height: 40rem;
   background-color: white;
@@ -51,7 +51,7 @@ header {
 
 /* @keyframes headerChange {
   from {  
-    background-image: url('images/pexels-brunocervera-20693639.jpg') ; 
+    background-image: url('images/st') ; 
     color: white;
   }
 
@@ -85,7 +85,7 @@ header {
   justify-content: flex-end;
   top: 0;
   position: sticky;
-  background-color: #EAECF3;
+  background-color: #FAF0EB;
   margin: 0;
   border-top: 3px solid #8F7C71;
   padding: 0 5rem;
