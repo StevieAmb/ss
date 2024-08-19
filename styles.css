@@ -4,7 +4,7 @@ body {
   font-family: "Poppins", sans-serif;
   font-weight: 300;
   font-style: normal;
-  background-color: #92BDB6;
+  background-color: #F5D0D0;
   /* padding-bottom: 4rem; */
   /*PLAYFAIR DISPLAY*/
   /*FONT-PAIRINGS*/
@@ -22,7 +22,7 @@ header {
   display: flex;
   gap: 2.8rem;
   padding: 0 1.5rem;
-  color: white;
+  color: black;
 }
 
 .page-title h1 {
@@ -106,7 +106,7 @@ header {
 }
 
 .nav-bar-tabs .nav-tab:hover {
-  background-color:#84732B;
+  background-color:#92BDB6;
   color: white;
 }
 
