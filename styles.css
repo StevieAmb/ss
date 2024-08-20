@@ -89,7 +89,7 @@ header {
   justify-content: flex-end;
   top: 0;
   position: sticky;
-  background-color: #FDF2F4;
+  background-color: white;
   margin: 0;
   border-top: 3px solid #8F7C71;
   padding: 0 5rem;
@@ -202,7 +202,7 @@ article h4 {
 
 footer {
   text-align: center;
-  background-color: rgb(67, 1, 67);
+  background-color: #4A560B;
   color: white;
   padding: 2rem 0;
 }
