@@ -46,26 +46,12 @@ h2 {
 .hero-images {
   background-image: url('images/christina-wocintechchat-com-UTw3j_aoIKM-unsplash.jpg');
   background-size: cover;
-  height: 40rem;
+  height: 43rem;
   color: white;
   text-align: center;
   letter-spacing: .15rem;
   animation: ease-in-out headerChange 20s forwards;
 }
-
-/* @keyframes headerChange {
-  from {  
-    background-image: url('images/st') ; 
-    color: white;
-  }
-
-  to { 
-    background-image: url('images/insect-8211593_1280.jpg') ;
-    color:whitesmoke;
-    text-shadow: 5px 5px 5px black;
-    height: 47rem;
-  }
-} */
 
 .hero-images p {
   font-family: "Poppins", sans-serif;
