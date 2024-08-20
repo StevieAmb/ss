@@ -106,15 +106,14 @@ header {
   font-family: "Poppins", sans-serif;
   font-weight: 500;
   font-style: normal;
-  width: 13rem;
+  width: 12.5rem;
   margin: .3rem 0;
-  padding: 1rem 2rem;
+  padding: 1rem 1rem;
   text-align: center;
 }
 
 .nav-bar-tabs .nav-tab:hover {
-  background-color:#92BDB6;
-  color: white;
+  border-bottom: 3px solid #0B3A81;
 }
 
 .services {
@@ -194,7 +193,7 @@ article h4 {
   height: 1.7rem;
   width: 16rem;
   margin: 0 auto;
-  background-color: #B19E37;
+  background-color: #0B3A81;
   font-weight: bolder;
   text-decoration: none;
   font-size: larger;
