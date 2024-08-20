@@ -26,7 +26,7 @@ header {
 }
 
 .page-title {
-  background-color: #B19E37;
+  background-color: #F4C57E;
 }
 
 .page-title h1 {
@@ -89,7 +89,7 @@ header {
   justify-content: flex-end;
   top: 0;
   position: sticky;
-  background-color: white;
+  background-color: #FDF2F4;
   margin: 0;
   border-top: 3px solid #8F7C71;
   padding: 0 5rem;
@@ -156,7 +156,7 @@ hr {
 }
 
 .client-benefits {
-  background-color: #FAF0EB;
+  background-color: #FDF3E5;
   padding: 1rem 0 5rem 0;
 }
 
