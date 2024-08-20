@@ -4,7 +4,7 @@ body {
   font-family: "Poppins", sans-serif;
   font-weight: 300;
   font-style: normal;
-  background-color: #92BDB6;
+  background-color: #FAF0EB;
   /* padding-bottom: 4rem; */
   /*PLAYFAIR DISPLAY*/
   /*FONT-PAIRINGS*/
@@ -22,13 +22,18 @@ header {
   display: flex;
   gap: 2.8rem;
   padding: 0 1.5rem;
-  color: white;
+  color: black;
+}
+
+.page-title {
+  background-color: #F4C57E;
 }
 
 .page-title h1 {
   font-family: "Poppins", sans-serif;
   font-weight: 600;
   font-style: normal;
+  color: black;
 }
 
 .page-title h2 {
@@ -39,27 +44,28 @@ header {
 }
 
 .hero-images {
-  background-image: url('images/pexels-valeriiamiller-20085523.jpg');
+  background-image: url('images/christina-wocintechchat-com-UTw3j_aoIKM-unsplash.jpg');
   background-size: cover;
-  height: 45rem;
+  height: 40rem;
+  color: white;
   text-align: center;
   letter-spacing: .15rem;
   animation: ease-in-out headerChange 20s forwards;
 }
 
-@keyframes headerChange {
+/* @keyframes headerChange {
   from {  
-    background-image: url('images/pexels-brunocervera-20693639.jpg') ; 
+    background-image: url('images/st') ; 
     color: white;
   }
 
   to { 
-    background-image: url('images/pexels-tomas-malik-793526-8252045.jpg') ;
+    background-image: url('images/insect-8211593_1280.jpg') ;
     color:whitesmoke;
     text-shadow: 5px 5px 5px black;
     height: 47rem;
   }
-}
+} */
 
 .hero-images p {
   font-family: "Poppins", sans-serif;
@@ -83,11 +89,12 @@ header {
   justify-content: flex-end;
   top: 0;
   position: sticky;
-  background-color: #EFF5F2;
+  background-color: white;
   margin: 0;
+  border-top: 3px solid #757F86;
+
+  border-bottom: 3px solid #757F86;
   padding: 0 5rem;
-  border-top: 1px solid rgb(67, 1, 67);
-  border-bottom: 1px solid rgb(67, 1, 67);
 }
 
 .nav-bar-tabs {
@@ -106,17 +113,22 @@ header {
 }
 
 .nav-bar-tabs .nav-tab:hover {
-  background-color:#F1A83F;
+  background-color:#92BDB6;
   color: white;
 }
 
 .services {
   padding: .75rem 0;
+  background-color: white;
 }
 
 .services h2 {
   padding-bottom: 1rem;
   text-align: center;
+}
+
+hr {
+  margin: 0;
 }
 
 .list-of-services {
@@ -146,7 +158,7 @@ header {
 }
 
 .client-benefits {
-  background-color: white;
+  background-color: #FDF3E5;
   padding: 1rem 0 5rem 0;
 }
 
@@ -163,7 +175,7 @@ header {
   text-align: center;
   border-radius: 7px;
   padding: 1.5rem 2.5rem;
-  box-shadow: -.25rem -.25rem .5rem #CD6C34;
+  box-shadow: -.25rem -.25rem .5rem #FAF0EB;
 }
 
 article p {
@@ -182,7 +194,7 @@ article h4 {
   height: 1.7rem;
   width: 16rem;
   margin: 0 auto;
-  background-color: #A1CAA7;
+  background-color: #B19E37;
   font-weight: bolder;
   text-decoration: none;
   font-size: larger;
@@ -192,7 +204,7 @@ article h4 {
 
 footer {
   text-align: center;
-  background-color:#B19E37;
+  background-color: #4A560B;
   color: white;
   padding: 2rem 0;
 }
