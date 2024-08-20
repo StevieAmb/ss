@@ -91,7 +91,9 @@ header {
   position: sticky;
   background-color: white;
   margin: 0;
-  border-top: 3px solid #8F7C71;
+  border-top: 3px solid #757F86;
+
+  border-bottom: 3px solid #757F86;
   padding: 0 5rem;
 }
 
