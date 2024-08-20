@@ -4,7 +4,7 @@ body {
   font-family: "Poppins", sans-serif;
   font-weight: 300;
   font-style: normal;
-  background-color: #F5D0D0;
+  background-color: #FAF0EB;
   /* padding-bottom: 4rem; */
   /*PLAYFAIR DISPLAY*/
   /*FONT-PAIRINGS*/
@@ -25,6 +25,10 @@ header {
   color: black;
 }
 
+.page-title {
+  background-color: #B19E37;
+}
+
 .page-title h1 {
   font-family: "Poppins", sans-serif;
   font-weight: 600;
@@ -40,10 +44,10 @@ header {
 }
 
 .hero-images {
-  background-image: url('images/stubble-8142239_1280.jpg');
+  background-image: url('images/christina-wocintechchat-com-UTw3j_aoIKM-unsplash.jpg');
   background-size: cover;
   height: 40rem;
-  background-color: white;
+  color: white;
   text-align: center;
   letter-spacing: .15rem;
   animation: ease-in-out headerChange 20s forwards;
@@ -85,7 +89,7 @@ header {
   justify-content: flex-end;
   top: 0;
   position: sticky;
-  background-color: #FAF0EB;
+  background-color: white;
   margin: 0;
   border-top: 3px solid #8F7C71;
   padding: 0 5rem;
@@ -121,6 +125,10 @@ header {
   text-align: center;
 }
 
+hr {
+  margin: 0;
+}
+
 .list-of-services {
   display: flex;
   justify-content: center;
@@ -148,7 +156,7 @@ header {
 }
 
 .client-benefits {
-  background-color: #FAE8E7;
+  background-color: #FAF0EB;
   padding: 1rem 0 5rem 0;
 }
 
@@ -165,7 +173,7 @@ header {
   text-align: center;
   border-radius: 7px;
   padding: 1.5rem 2.5rem;
-  box-shadow: -.25rem -.25rem .5rem #CD6C34;
+  box-shadow: -.25rem -.25rem .5rem #FAF0EB;
 }
 
 article p {
@@ -184,7 +192,7 @@ article h4 {
   height: 1.7rem;
   width: 16rem;
   margin: 0 auto;
-  background-color: #A1CAA7;
+  background-color: #B19E37;
   font-weight: bolder;
   text-decoration: none;
   font-size: larger;
@@ -194,7 +202,7 @@ article h4 {
 
 footer {
   text-align: center;
-  background-color:#B19E37;
+  background-color: rgb(67, 1, 67);
   color: white;
   padding: 2rem 0;
 }
