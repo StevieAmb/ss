@@ -163,11 +163,11 @@ hr {
   box-shadow: -.25rem -.25rem .5rem #FAF0EB;
 }
 
-article p {
+.provide-list article p {
   width: 19rem;
 }
 
-article h4 {
+.provide-list article h4 {
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;
 }
