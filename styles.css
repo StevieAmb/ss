@@ -201,6 +201,10 @@ hr {
   width: 45%;
 }
 
+.technical-skills {
+  display: flex;
+  gap: 6rem;
+}
 footer {
   text-align: center;
   padding: 2rem 0;
