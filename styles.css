@@ -187,6 +187,21 @@ hr {
   border-radius: 7px;
 }
 
+.articles-container {
+  display: flex;
+  gap: 3rem;
+}
+
+.image-of-self {
+  width: 30%;
+  height: 60%;
+  margin-left: 2rem;
+}
+
+.about-founder {
+  width: 45%;
+}
+
 footer {
   text-align: center;
   padding: 2rem 0;
@@ -211,7 +226,6 @@ footer {
     justify-content: center;
     align-items: center;
   }
- 
 }
 
 @media screen and (max-width: 600px) {
