@@ -208,11 +208,11 @@ hr {
 
 .contact-me {
  display: flex;
- gap: 9rem;
+ gap: 6rem;
 }
 
 .contact-me-message {
-  width: 45%;
+  width: 40%;
   margin: 5rem 0 0 5rem;
 }
 
@@ -220,6 +220,16 @@ hr {
   width: 45%;
   margin: 6rem 0 0 5rem;
 }
+
+input {
+  width: 30%;
+}
+
+.user-identifier, .user-contact {
+  display: flex;
+  margin-bottom: 3rem;
+}
+
 
 footer {
   text-align: center;
