@@ -208,6 +208,17 @@ hr {
 
 .contact-me {
  display: flex;
+ gap: 9rem;
+}
+
+.contact-me-message {
+  width: 45%;
+  margin: 5rem 0 0 5rem;
+}
+
+.contact-me-form {
+  width: 45%;
+  margin: 6rem 0 0 5rem;
 }
 
 footer {
