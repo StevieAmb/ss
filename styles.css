@@ -205,6 +205,11 @@ hr {
   display: flex;
   gap: 6rem;
 }
+
+.contact-me {
+ display: flex;
+}
+
 footer {
   text-align: center;
   padding: 2rem 0;
