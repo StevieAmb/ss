@@ -219,18 +219,19 @@ hr {
 
 .contact-me-form {
   width: 45%;
-  margin: 6rem 0 0 5rem;
+  margin: 6rem 0 14rem 5rem;
 }
 
 input {
   width: 30%;
+  padding: 1rem;
+  background-color: lightgray;
 }
 
 .user-identifier, .user-contact {
   display: flex;
   margin-bottom: 3rem;
 }
-
 
 footer {
   text-align: center;
