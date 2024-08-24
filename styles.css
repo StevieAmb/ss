@@ -209,6 +209,7 @@ hr {
 .contact-me {
  display: flex;
  gap: 6rem;
+ background-color: white;
 }
 
 .contact-me-message {
