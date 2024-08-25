@@ -239,6 +239,18 @@ input {
   margin-bottom: 1.7rem;
 }
 
+.submit-button {
+  background-color: #0B3A81;
+  font-weight: bolder;
+  height: 1.7rem;
+  width: 16rem;
+  margin-left: 1rem;
+  border: none;
+  font-size: larger;
+  color: white;
+  border-radius: 7px;
+}
+
 footer {
   text-align: center;
   padding: 2rem 0;
