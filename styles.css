@@ -219,7 +219,7 @@ hr {
 
 .contact-me-form {
   width: 45%;
-  margin: 6rem 0 14rem 5rem;
+  margin: 6rem 0 10rem 5rem;
 }
 
 input {
@@ -242,9 +242,9 @@ input {
 .submit-button {
   background-color: #0B3A81;
   font-weight: bolder;
-  height: 1.7rem;
+  height: 2.5rem;
   width: 16rem;
-  margin-left: 1rem;
+  margin:  1rem 0 0 1rem;
   border: none;
   font-size: larger;
   color: white;
