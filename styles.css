@@ -226,14 +226,14 @@ hr {
 
 input {
   height: 2.5rem;
-  width: 100%;
+  width: 80%;
+  height: 4vh;
 }
 
 .input-field {
   display: flex;
   flex-direction: column;
   width: 40%;
-  padding: 1rem;
 }
 
 .user-identifier, .user-contact {
@@ -245,8 +245,8 @@ input {
   background-color: #0B3A81;
   font-weight: bolder;
   height: 2.5rem;
-  width: 16rem;
-  margin:  1rem 0 0 1rem;
+  width: 18rem;
+  margin:  1rem 0 0 0;
   border: none;
   font-size: larger;
   color: white;
