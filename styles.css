@@ -126,7 +126,6 @@ hr {
 }
 
 .list-of-services ul li {
-  background: white;
   gap: 1rem;
   margin-bottom: 1.5rem;
   padding: 1.1rem 4rem;
@@ -210,30 +209,32 @@ hr {
 
 .contact-me {
  display: flex;
- gap: 6rem;
  background-color: white;
 }
 
 .contact-me-message {
-  width: 40%;
-  margin: 5rem 0 0 5rem;
+  width: 55%;
+  padding: 5rem 0 0 5rem;
 }
 
 .contact-me-form {
   width: 45%;
-  margin: 6rem 0 10rem 5rem;
+  padding: 6rem 0 10rem 5rem;
+  background-color: #E7F1F2;
+  border-radius: 40px 30px 70px;
 }
 
 input {
   height: 2.5rem;
-  width: 80%;
+  width: 90%;
   height: 4vh;
+  border-radius: 4px;
 }
 
 .input-field {
   display: flex;
   flex-direction: column;
-  width: 40%;
+  width: 50%;
 }
 
 .user-identifier, .user-contact {
