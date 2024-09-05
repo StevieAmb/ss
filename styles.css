@@ -205,7 +205,7 @@ hr {
 }
 
 .contact-me-message {
-  width: 55%;
+  width: 50%;
   line-height: 1.5rem;
   font-size: 20px;
   padding: 6rem 0 0 5rem;
@@ -216,7 +216,7 @@ hr {
 }
 
 .contact-me-form {
-  width: 45%;
+  width: 50%;
   padding: 7rem 0 10rem 7rem;
   background-color: #E7F1F2;
   border-radius: 40px 30px 150px;
@@ -224,18 +224,15 @@ hr {
 
 input {
   margin-top: .4rem;
-  width: 90%;
+  width: 85%;
   height: 6vh;
   border: none;
-  border-bottom: 2px solid #0B3A81;
-  border-right: 2px solid #FAF0EB;
+  border-right: 6px solid #f5d9af;
 }
 
 textarea {
   margin-top: .4rem;
   border: none;
-  border-bottom: 2px solid #FDF3E5;
-  border-left: 2px solid #FDF3E5;
 }
 
 .input-field {
