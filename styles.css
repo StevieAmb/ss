@@ -228,6 +228,7 @@ input {
   width: 85%;
   height: 6vh;
   border: none;
+  border-radius: 2px;
   border-right: 2px solid black;
 }
 
