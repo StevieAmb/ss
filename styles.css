@@ -72,7 +72,8 @@ h2 {
   background-color: white;
   margin: 0;
   /* border-top: 3px solid #757F86; */
-  border-bottom: 3px solid #757F86;
+  /* border-bottom: 3px solid #757F86; */
+  box-shadow: 0 0 30px #757F86;
   padding: 0 5rem;
 }
 
@@ -217,7 +218,7 @@ hr {
 
 .contact-me-form {
   width: 50%;
-  padding: 7rem 0 10rem 7rem;
+  padding: 7rem 0 6rem 7rem;
   background-color: #E7F1F2;
   border-radius: 40px 30px 150px;
 }
@@ -227,7 +228,7 @@ input {
   width: 85%;
   height: 6vh;
   border: none;
-  border-right: 6px solid #f5d9af;
+  border-right: 2px solid black;
 }
 
 textarea {
@@ -240,11 +241,11 @@ textarea {
   font-size: 1.25rem;
   flex-direction: column;
   width: 47%;
+  margin-bottom: 1rem;
 }
 
 .user-identifier, .user-contact {
   display: flex;
-  margin-bottom: 1.7rem;
 }
 
 .submit-button {
