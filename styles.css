@@ -48,7 +48,8 @@ h2 {
 .hero-images {
   background-image: url('images/christina-wocintechchat-com-UTw3j_aoIKM-unsplash.jpg');
   background-size: cover;
-  height: 40rem;
+  background-blend-mode: hue;
+  height: 40.5rem;
   color: white;
   font-family: "Lato", sans-serif;
   text-align: center;
@@ -95,8 +96,8 @@ h2 {
   font-weight: 500;
   width: 12.5rem;
   margin: .3rem 0;
+  font-size: .9rem;
   padding: 1rem 1rem;
-  font-weight: bold;
   text-align: center;
 }
 
@@ -216,7 +217,9 @@ hr {
 
 .contact-me-message {
   width: 55%;
-  padding: 7rem 0 0 5rem;
+  line-height: 1.5rem;
+  font-size: 20px;
+  padding: 6rem 0 0 5rem;
 }
 
 .contact-me-message p {
@@ -232,14 +235,23 @@ hr {
 
 input {
   margin-top: .4rem;
-  height: 2.5rem;
   width: 90%;
-  height: 4vh;
-  border-radius: 4px;
+  height: 6vh;
+  border: none;
+  border-bottom: 2px solid #FAF0EB;
+  border-left: 2px solid #FAF0EB;
+}
+
+textarea {
+  margin-top: .4rem;
+  border: none;
+  border-bottom: 2px solid #FDF3E5;
+  border-left: 2px solid #FDF3E5;
 }
 
 .input-field {
   display: flex;
+  font-size: 1.25rem;
   flex-direction: column;
   width: 47%;
 }
