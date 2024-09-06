@@ -18,21 +18,14 @@ h2 {
 .page-title {
   background-color: #0B3A81;
   display: flex;
-  /* justify-content: center; */
+  justify-content: center;
   align-items: center; 
-  padding: 0 0 .5rem 0;
   letter-spacing: .1rem;
   color: white;
-  width: 100%;
-}
-.page-title .logo {
-  width: 10%;
-  height: 20%;
 }
 
 .page-title h1 {
   margin: 0;
-  padding: 2.5rem 0 0 1rem;
   font-family: "Salsa", system-ui;
   letter-spacing: 1rem;
   font-size: 65px;
@@ -43,7 +36,6 @@ h2 {
 
 .page-title h2 {
   margin: 0;
-  padding: 1.5rem 0 3.45rem 1rem;
   font-family: "Merriweather", sans-serif;
   letter-spacing: .1rem;
   font-size: 1.1rem;
