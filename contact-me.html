@@ -30,7 +30,11 @@
         you every step of the way. Fill out the form below with any question you may have, and I will answer 
         promptly. Let's build something amazing together!</p>
     </article>
-    <form action="" class="contact-me-form">
+    <form action="https://api.web3forms.com/submit" class="contact-me-form" method="POST">
+      <input type="hidden" name="access_key" value="caf63cdd-55e1-4c62-a86f-99bbb7c07fd2">
+      <input type="hidden" name="subject" value="New Submission from Web3Forms">
+      <input type="hidden" name="from_name" value="SoftSolves">
+      <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
       <div class="user-identifier">
         <div class="input-field">
           <label for="fname">First name:</label>
@@ -55,6 +59,7 @@
         <label for="user-message">Message:</label>
         <textarea name="user-message" id="user-message" cols="10" rows="10" placeholder="Enter message here..." required></textarea>
       </div>
+      <!-- <input type="hidden" name="redirect" value="https://mywebsite.com/thanks.html"> -->
       <button type="submit" class="submit-button">Submit</button>
     </form>
     <hr>

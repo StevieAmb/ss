@@ -236,6 +236,14 @@ input {
   border-right: 2px solid black;
 }
 
+/* input:focus {
+
+}
+
+input::placeholder {
+  color: #a9a9a9;
+} */
+
 textarea {
   display: flex;
   margin-top: .4rem;
