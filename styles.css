@@ -18,16 +18,16 @@ h2 {
 .page-title {
   background-color: #0B3A81;
   display: flex;
-  justify-content: start;
-  align-items: start;
+  /* justify-content: center; */
+  align-items: center; 
   padding: 0 0 .5rem 0;
   letter-spacing: .1rem;
   color: white;
   width: 100%;
 }
 .page-title .logo {
-  width: 20%;
-  height: 30%;
+  width: 10%;
+  height: 20%;
 }
 
 .page-title h1 {
