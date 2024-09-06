@@ -17,9 +17,7 @@ h2 {
 
 .page-title {
   background-color: #0B3A81;
-  display: flex;
-  justify-content: center;
-  align-items: center; 
+  text-align: center;
   letter-spacing: .1rem;
   color: white;
 }
