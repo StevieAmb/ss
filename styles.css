@@ -34,6 +34,9 @@ h2 {
   color: white;
 }
 
+/* Gonna have to use Z-index to put the words over the logo */
+/* Also, gonna have to use a flavicon for the logo in the tab */
+
 .page-title h2 {
   margin: 0;
   font-family: "Merriweather", sans-serif;
