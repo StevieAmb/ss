@@ -218,9 +218,13 @@ hr {
 
 .contact-me-form {
   width: 50%;
-  padding: 7rem 0 6rem 7rem;
+  padding: 6.5rem 0 6rem 7rem;
   background-color: #E7F1F2;
   border-radius: 40px 30px 150px;
+}
+
+label {
+    font-size: 1.25rem;
 }
 
 input {
@@ -233,15 +237,17 @@ input {
 }
 
 textarea {
+  display: flex;
   margin-top: .4rem;
   border: none;
+  width: 42.7%;
 }
 
 .input-field {
   display: flex;
   font-size: 1.25rem;
+  width: 50%;
   flex-direction: column;
-  width: 47%;
   margin-bottom: 1rem;
 }
 
