@@ -66,6 +66,8 @@ h2 {
   color: white;
   font-family: "Lato", sans-serif;
   text-align: center;
+  position: sticky;
+  z-index: auto;
 }
 
 .hero-images p {
