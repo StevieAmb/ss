@@ -17,12 +17,27 @@ h2 {
 
 .page-title {
   background-color: #0B3A81;
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   letter-spacing: .1rem;
   color: white;
+  padding: 2rem 0rem;
+}
+
+.logo img {
+  width: 9.5rem;
+  height: 9rem;
+  margin-left: 17rem;
+  position: absolute;
+  left: 1px;
+  top: 1px;
+  z-index: auto;
 }
 
 .page-title h1 {
+  z-index: 1;
+  position: relative;
   margin: 0;
   font-family: "Salsa", system-ui;
   letter-spacing: 1rem;
@@ -32,10 +47,10 @@ h2 {
   color: white;
 }
 
-/* Gonna have to use Z-index to put the words over the logo */
-/* Also, gonna have to use a flavicon for the logo in the tab */
-
 .page-title h2 {
+  z-index: 1;
+  position: relative;
+  bottom: 1px;
   margin: 0;
   font-family: "Merriweather", sans-serif;
   letter-spacing: .1rem;
@@ -70,8 +85,6 @@ h2 {
   position: sticky;
   background-color: white;
   margin: 0;
-  /* border-top: 3px solid #757F86; */
-  /* border-bottom: 3px solid #757F86; */
   box-shadow: 0 0 30px #757F86;
   padding: 0 5rem;
 }
@@ -280,6 +293,39 @@ footer {
 }
 
 @media screen and (max-width: 1092px) {
+
+  .page-title {
+    background-color: #0B3A81;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: .1rem;
+    color: white;
+    padding: 2rem 0rem;
+  }
+  
+  .logo img {
+    width: 9.5rem;
+    height: 9rem;
+    margin-left: 2.2rem;
+    position: absolute;
+    left: 1px;
+    top: 1px;
+    z-index: auto;
+  }
+  
+  .page-title h1 {
+    z-index: 1;
+    position: relative;
+    margin: 0;
+    font-family: "Salsa", system-ui;
+    letter-spacing: 1rem;
+    font-size: 65px;
+    font-weight: 700;
+    font-style: normal;
+    color: white;
+  }
+
   .list-of-services {
     padding: .4rem;
     gap: 1rem;
@@ -300,23 +346,3 @@ footer {
   }
 }
 
-@media screen and (max-width: 600px) {
-  .list-of-services {
-    padding: .5rem;
-    display: flex;
-    gap: 1rem;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .provide-list {
-    display: block;
-  }
-
-  .provide-list article {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-}
