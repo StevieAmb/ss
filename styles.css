@@ -297,12 +297,12 @@ textarea {
   align-items: center;
 }
 
-.thank-you p {
-  font-size: 24px;
+.thank-you h1 {
   width: 70%;
 }
 
-.thank-you h1 {
+.thank-you p {
+  font-size: 24px;
   width: 70%;
 }
 
@@ -310,7 +310,6 @@ footer {
   text-align: center;
   padding: 2rem 0;
 }
-
 
 @media screen and (max-width: 1092px) {
 
