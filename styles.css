@@ -66,15 +66,13 @@ h2 {
   color: white;
   font-family: "Lato", sans-serif;
   text-align: center;
-  position: sticky;
-  z-index: auto;
 }
 
 .hero-images p {
   font-weight: 400;
   margin: 0;
   font-size: 1.4rem;
-  padding: 15rem 29rem 2rem 0rem;
+  padding: 13rem 29rem 2rem 0rem;
   font-style: italic;
   letter-spacing: .05rem;
   line-height: 3rem;
@@ -113,6 +111,7 @@ h2 {
 .services {
   padding: .75rem 0;
   background-color: white;
+  position: sticky;
 }
 
 .services h2 {
