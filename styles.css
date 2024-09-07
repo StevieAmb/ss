@@ -300,7 +300,10 @@ textarea {
 .thank-you p {
   font-size: 24px;
   width: 70%;
-  /* text-indent: 3.5rem; */
+}
+
+.thank-you h1 {
+  width: 70%;
 }
 
 footer {
