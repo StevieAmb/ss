@@ -252,11 +252,11 @@ input {
 
 /* input:focus {
 
-}
+}*/
 
 input::placeholder {
   color: #a9a9a9;
-} */
+} 
 
 textarea {
   display: flex;
@@ -403,10 +403,19 @@ footer {
   input {
     margin-top: 1rem;
     width: 91%;
-    height: 8vh;
+    height: 7.5vh;
     border: none;
     border-radius: 2rem;
-    border-right: 8px solid #757F86;
+    border-right: 7px solid #757F86;
+  }
+
+  input::placeholder {
+    color: #c1c0c0;
+    padding: .5rem;
+  } 
+
+  input[type="text"] {
+      font-size: 2.5rem;
   }
 
   .contact-me-form {
