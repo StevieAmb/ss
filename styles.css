@@ -411,11 +411,11 @@ footer {
 
   input::placeholder {
     color: #c1c0c0;
-    padding: .5rem;
+    padding-left: .5rem;
   } 
 
   input[type="text"] {
-      font-size: 2.5rem;
+      font-size: 2.4rem;
   }
 
   .contact-me-form {
