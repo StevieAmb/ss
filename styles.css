@@ -364,7 +364,7 @@ footer {
   }
 
   input {
-    margin-top: 1.5rem;
+    margin-top: 1rem;
     width: 91%;
     height: 8vh;
     border: none;
@@ -377,6 +377,11 @@ footer {
     height: 70vh;
     padding: 6.5rem 0 7rem 3rem;
     border-radius: 40px 30px 290px;
+  }
+
+  .user-identifier, .user-contact {
+    margin-top: 2.5rem;
+    display: flex;
   }
 
   textarea {
