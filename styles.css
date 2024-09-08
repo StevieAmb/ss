@@ -365,7 +365,7 @@ footer {
 
   input {
     margin-top: .4rem;
-    width: 85%;
+    width: 91%;
     height: 8vh;
     border: none;
     border-radius: 2rem;
@@ -375,6 +375,7 @@ footer {
   .contact-me-form {
     width: 100%;
     height: 70vh;
+    padding: 6.5rem 0 7rem 3rem;
   }
 
   .hidden {
