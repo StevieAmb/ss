@@ -96,7 +96,7 @@ h2 {
   gap: 3rem;
 }
 
-.nav-bar-tabs .nav-tab {
+.nav-tab {
   font-weight: 500;
   width: 12.5rem;
   margin: .3rem 0;
@@ -312,7 +312,6 @@ footer {
 }
 
 @media screen and (max-width: 1092px) {
-
   .page-title {
     background-color: #0B3A81;
     display: flex;
@@ -321,6 +320,19 @@ footer {
     letter-spacing: .1rem;
     color: white;
     padding: 2rem 0rem;
+  }
+
+  .page-title h2 {
+    z-index: 1;
+    position: relative;
+    bottom: 1px;
+    margin: 0;
+    font-family: "Merriweather", sans-serif;
+    letter-spacing: .1rem;
+    font-size: 1.5rem;
+    font-style: italic;
+    font-weight: 300;
+    margin-left: 2rem;
   }
   
   .logo img {
@@ -345,23 +357,150 @@ footer {
     color: white;
   }
 
+  .nav-bar-tabs {
+    display: flex;
+  }
+
+  .nav-tab {
+    font-weight: 500;
+    width: 13rem;
+    font-size: 1.56rem;
+    padding: 1rem .5rem;
+    text-align: center;
+  }
+
   .list-of-services {
-    padding: .4rem;
-    gap: 1rem;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-bottom: 4rem;
   }
 
   .provide-list {
     display: block;
   }
 
+  .book-button {
+    display: block;
+    text-align: center;
+    padding: 1rem;
+    height: 10rem;
+    width: 30rem;
+    margin: 0 auto;
+    background-color: #0B3A81;
+    font-weight: bolder;
+    text-decoration: none;
+    font-size: 3.5rem;
+    color: white;
+    border-radius: 14px;
+  }
+
+  label {
+    font-size: 3rem;
+    font-weight: bold;
+  }
+
+  input {
+    margin-top: 1rem;
+    width: 91%;
+    height: 8vh;
+    border: none;
+    border-radius: 2rem;
+    border-right: 8px solid #757F86;
+  }
+
+  .contact-me-form {
+    width: 100%;
+    height: 70vh;
+    padding: 4rem 0 7rem 3rem;
+    border-radius: 40px 30px 290px;
+  }
+
+  .user-identifier, .user-contact {
+    margin-top: 2rem;
+    display: flex;
+  }
+
+  .user-message {
+    margin-top: 2rem;
+  }
+
+  textarea {
+    margin-top: 1rem;
+    display: flex;
+    margin-top: .4rem;
+    border: none;
+    width: 95.5%;
+    height: 20vh;
+    border-radius: 2.5rem;
+    margin-bottom: 4rem;
+    border-right: 8px solid #757F86;
+  }
+
+  .submit-button {
+    background-color: #0B3A81;
+    font-weight: bolder;
+    height: 7rem;
+    width: 21rem;
+    margin:  1rem 0 0 0;
+    border: none;
+    font-size: 3.5rem;
+    color: white;
+    border-radius: 1.5rem;
+  }
+
+  .hidden {
+    display: none;
+  }
+
   .provide-list article {
+    font-size: 2.5rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+  }
+
+  .provide-list article p {
+    width: 75%;
+  }
+
+  .about-left {
+    display: flex;
+    gap: 3rem;
+  }
+
+  .image-of-self {
+    width: 30%;
+    height: 45%;
+  }
+
+  .about-founder {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.5rem;
+    width: 60%;
+  }
+
+  .articles-container {
+    display: flex;
+    gap: 2rem;
+  }
+
+  .technical-skills {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    font-size: .96rem;
+    margin-top: -37rem;
+    margin-bottom: 8rem;
+  }
+
+  footer {
+    text-align: center;
+    padding: 2rem 0;
+    font-size: 2.5rem;
+    font-weight: bold;
   }
 }
 
