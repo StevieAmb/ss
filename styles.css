@@ -412,6 +412,7 @@ footer {
   input::placeholder {
     color: #c1c0c0;
     padding-left: .5rem;
+    font-style: italic;
   } 
 
   input[type="text"] {
