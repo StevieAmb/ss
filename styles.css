@@ -468,7 +468,11 @@ footer {
   .about-left {
     display: flex;
     gap: 3rem;
-    /* width: 100%; */
+  }
+
+  .image-of-self {
+    width: 30%;
+    height: 45%;
   }
 
   .about-founder {
@@ -484,14 +488,13 @@ footer {
   }
 
   .technical-skills {
-
     display: flex;
     flex-direction: column;
     gap: 1rem;
     font-size: .96rem;
-    margin-top: -35rem;
+    margin-top: -37rem;
+    margin-bottom: 8rem;
   }
-
 
   footer {
     text-align: center;
