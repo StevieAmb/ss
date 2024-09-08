@@ -379,6 +379,14 @@ footer {
     border-radius: 40px 30px 290px;
   }
 
+  textarea {
+    display: flex;
+    margin-top: .4rem;
+    border: none;
+    width: 77.7%;
+    height: 30vh;
+  }
+
   .hidden {
     display: none;
   }
