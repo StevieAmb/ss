@@ -359,10 +359,15 @@ footer {
   }
 
   .provide-list article {
+    font-size: 1.75rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+  }
+
+  .provide-list article p {
+    width: 75%;
   }
 
   footer {
