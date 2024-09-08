@@ -393,11 +393,23 @@ footer {
     display: flex;
     margin-top: .4rem;
     border: none;
-    width: 95%;
+    width: 95.5%;
     height: 20vh;
     border-radius: 2.5rem;
-    margin-bottom: 3rem;
+    margin-bottom: 4rem;
     border-right: 8px solid #757F86;
+  }
+
+  .submit-button {
+    background-color: #0B3A81;
+    font-weight: bolder;
+    height: 7rem;
+    width: 21rem;
+    margin:  1rem 0 0 0;
+    border: none;
+    font-size: 3.5rem;
+    color: white;
+    border-radius: 1.5rem;
   }
 
   .hidden {
