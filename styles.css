@@ -332,14 +332,6 @@ footer {
     top: 1px;
     z-index: auto;
   }
-
-  form {
-    display: block;
-    /* width: 50%;
-    padding: 6.5rem 0 6rem 7rem;
-    background-color: #E7F1F2;
-    border-radius: 40px 30px 150px; */
-  }
   
   .page-title h1 {
     z-index: 1;
@@ -364,6 +356,20 @@ footer {
 
   .provide-list {
     display: block;
+  }
+
+  label {
+    font-size: 3rem;
+    font-weight: bold;
+  }
+
+  input {
+    margin-top: .4rem;
+    width: 85%;
+    height: 8vh;
+    border: none;
+    border-radius: 2rem;
+    border-right: 8px solid #757F86;
   }
 
   .contact-me-form {
