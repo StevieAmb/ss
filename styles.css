@@ -96,7 +96,7 @@ h2 {
   gap: 3rem;
 }
 
-.nav-bar-tabs .nav-tab {
+.nav-tab {
   font-weight: 500;
   width: 12.5rem;
   margin: .3rem 0;
@@ -357,15 +357,17 @@ footer {
     color: white;
   }
 
-  /* .list-of-services {
-    padding: .2rem;
-    gap: .5rem;
-    font-size: 1.75rem;
+  .nav-bar-tabs {
     display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-  } */
+  }
+
+  .nav-tab {
+    font-weight: 500;
+    width: 13rem;
+    font-size: 1.56rem;
+    padding: 1rem .5rem;
+    text-align: center;
+  }
 
   .list-of-services {
     display: flex;
