@@ -380,11 +380,16 @@ footer {
   }
 
   .user-identifier, .user-contact {
-    margin-top: 2.5rem;
+    margin-top: 2rem;
     display: flex;
   }
 
+  .user-message {
+    margin-top: 2rem;
+  }
+
   textarea {
+    margin-top: 1rem;
     display: flex;
     margin-top: .4rem;
     border: none;
