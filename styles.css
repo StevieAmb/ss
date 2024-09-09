@@ -172,6 +172,7 @@ hr {
 
 .provide-list article p {
   width: 19rem;
+  letter-spacing: .07rem;
 }
 
 .provide-list article h4 {
