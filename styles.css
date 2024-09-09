@@ -241,7 +241,7 @@ hr {
 
 .contact-me-form {
   width: 50%;
-  padding: 6.5rem 0 6rem 7rem;
+  padding: 6.5rem 0 6rem 5rem;
   background-color: #E7F1F2;
   border-radius: 40px 30px 150px;
 }
@@ -304,12 +304,16 @@ textarea {
   background-color: #0B3A81;
   font-weight: bolder;
   height: 2.5rem;
-  width: 18rem;
-  margin:  1rem 0 0 0;
+  width: 17.5rem;
+  margin: 1rem 0 0 0;
   border: none;
   font-size: larger;
   color: white;
   border-radius: 7px;
+}
+
+.submit-button:hover {
+  background-color: #a9a9a9;
 }
 
 .thank-you {
