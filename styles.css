@@ -392,6 +392,17 @@ footer {
     text-align: center;
   }
 
+  .hero-images p {
+    font-weight: 400;
+    margin: 0;
+    font-size: 1.6rem;
+    padding: 6.59rem 29rem 2rem 1rem;
+    font-style: italic;
+    letter-spacing: .05rem;
+    line-height: 3rem;
+    color: black
+  }
+
   .list-of-services {
     display: flex;
     justify-content: center;
