@@ -143,7 +143,6 @@ hr {
 }
 
 .provide-list {
-  font-family: "Poppins", sans-serif;
   display: flex;
   justify-content: center;
   gap: 5.5rem;
