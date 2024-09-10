@@ -48,7 +48,7 @@ h2 {
   color: white;
 }
 
-.page-title h2 {
+.page-title p {
   z-index: 1;
   position: relative;
   bottom: 1px;
