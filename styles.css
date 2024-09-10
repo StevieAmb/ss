@@ -184,13 +184,9 @@ hr {
   padding: 1rem 0 5rem 0;
 }
 
-.client-benefits h2 {
+.client-benefits h3 {
   text-align: center;
   padding-bottom: 1.5rem;
-}
-
-.provide-list h2 {
-  text-align: center;
 }
 
 .provide-list article {
