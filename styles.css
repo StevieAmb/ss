@@ -112,10 +112,6 @@ h2 {
 }
 
 .hero-images {
-  /* display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  justify-items:baseline; */
   background-image: url('images/christina-wocintechchat-com-UTw3j_aoIKM-unsplash.jpg');
   background-size: cover;
   height: 40.5rem;
@@ -482,12 +478,21 @@ footer {
     padding: .5rem;
   }
 
+  .hero-images {
+    background-image: url('images/christina-wocintechchat-com-UTw3j_aoIKM-unsplash.jpg');
+    background-size: cover;
+    height: 30rem;
+    color: white;
+    font-family: "Lato", sans-serif;
+    text-align: center;
+  }
+
   .hero-images p {
     width: 70%;
     font-weight: 400;
     margin: 0;
     padding: 0;
-    padding: 6.5rem 0 0 1.7rem;
+    padding: 4.5rem 0 0 1rem;
     font-size: .7rem;
     font-style: italic;
     letter-spacing: .05rem;
@@ -498,6 +503,7 @@ footer {
   .list-of-services {
     display: flex;
     justify-content: center;
+    gap: 2rem;
     align-items: center;
     padding-bottom: 4rem;
   }
@@ -505,9 +511,12 @@ footer {
   .list-of-services ul li {
     gap: 1rem;
     margin-bottom: 1.5rem;
-    padding: 1.1rem 2rem;
+    text-align: center;
+    padding: 0;
+    padding: 1rem 1rem;
     font-weight: 300;
-    width: 5rem;
+    width: 7.5rem;
+    height: 12.5vh;
     list-style-type: none;
     border-radius: 7px;
     box-shadow: .15rem .15rem .15rem #5c5111;
