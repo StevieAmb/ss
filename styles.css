@@ -366,7 +366,6 @@ footer {
 
 @media screen and (max-width: 1092px) {
   .page-title {
-    background-color: #0B3A81;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -375,7 +374,7 @@ footer {
     padding: 2rem 0rem;
   }
 
-  .page-title h2 {
+.page-title h2 {
     z-index: 1;
     position: relative;
     bottom: 1px;
@@ -388,17 +387,8 @@ footer {
     margin-left: 2rem;
   }
   
-  .logo img {
-    width: 9.5rem;
-    height: 9rem;
-    margin-left: 2.2rem;
-    position: absolute;
-    left: 1px;
-    top: 1px;
-    z-index: auto;
-  }
-  
   .page-title h1 {
+    width: 100%;
     z-index: 1;
     position: relative;
     margin: 0;
@@ -410,23 +400,36 @@ footer {
     color: white;
   }
 
+  .logo img {
+    width: 9.5rem;
+    height: 9rem;
+    margin-left: 2.2rem;
+    position: absolute;
+    left: 1px;
+    top: 1px;
+    z-index: auto;
+  }
+  
+
   .nav-bar-tabs {
     display: flex;
+    gap: 1.7rem;
   }
 
   .nav-tab {
     font-weight: 500;
-    width: 13rem;
-    font-size: 1.56rem;
+    width: 4.3rem;
+    font-size: .7rem;
     padding: 1rem .5rem;
     text-align: center;
   }
 
   .hero-images p {
+    width: 80%;
     font-weight: 400;
     margin: 0;
-    font-size: 1.6rem;
-    padding: 6.5rem 29rem 2rem 1rem;
+    font-size: .9rem;
+    padding: 6rem 18rem 2rem 0rem;
     font-style: italic;
     letter-spacing: .05rem;
     line-height: 3rem;
@@ -457,7 +460,7 @@ footer {
     font-size: 3.5rem;
     color: white;
     border-radius: 14px;
-  }
+  } */
 
   label {
     font-size: 3rem;
