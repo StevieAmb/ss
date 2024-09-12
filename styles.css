@@ -589,7 +589,6 @@ footer {
 
   .user-identifier, .user-contact {
     margin-top: .4rem;
-    display: flex;
   }
 
   .hidden {
