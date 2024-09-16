@@ -114,6 +114,7 @@ h2 {
 .hero-images {
   background-image: url('images/christina-wocintechchat-com-UTw3j_aoIKM-unsplash.jpg');
   background-size: cover;
+  /* background-attachment: fixed; */
   height: 40.5rem;
   color: white;
   font-family: "Lato", sans-serif;
@@ -414,6 +415,10 @@ footer {
   padding: 2rem 0;
 }
 
+@media screen and (max-width: 600px) {
+  
+}
+
 @media screen and (max-width: 1092px) {
   .page-title {
     letter-spacing: .1rem;
@@ -429,7 +434,7 @@ footer {
     letter-spacing: .5rem;
     font-size: 1.5rem;
     font-weight: 700;
-    padding-left: 2.5rem;
+    padding-left: 1.3rem;
     color: white;
   }
 
@@ -443,7 +448,7 @@ footer {
     font-size: .5rem;
     font-style: italic;
     font-weight: 300;
-    padding-left: 1.1rem;
+    padding-left: .9rem;
     margin-left: 2rem;
   }
 
