@@ -266,17 +266,16 @@ hr {
   height: 1.7rem;
   width: 16rem;
   margin: 0 auto;
-  background-color: #0B3A81;
+  border: 2px solid #0B3A81;
   font-weight: bolder;
   text-decoration: none;
   font-size: larger;
-  color: white;
   border-radius: 7px;
-}
+}h
 
 .book-button:hover {
-  background-color:#f0bc6e;
-  box-shadow: 5px 3px 3px .5px #ab8347;
+  background-color: #0B3A81;
+  color: white;
 }
 
 .articles-container {
@@ -651,6 +650,7 @@ footer {
   .page-title {
     letter-spacing: .1rem;
     padding: 2rem 0rem;
+    height: 19vh;
   }
   
   .page-title h1 {
@@ -688,7 +688,7 @@ footer {
     padding-bottom: 2rem;
     position: absolute;
     left: 2rem;
-    top: 1px;
+    top: 2rem;
     z-index: auto;
   }
 
@@ -711,12 +711,12 @@ footer {
   }
 
   .hero-images p {
-    width: 70%;
+    width: 65%;
     font-weight: 400;
     margin: 0;
     padding: 0;
-    padding: 4.5rem 0 0 1rem;
-    font-size: .741rem;
+    padding: 4.5rem 0 0 0;
+    font-size: 1rem;
     font-style: italic;
     letter-spacing: .05rem;
     line-height: 3rem;
