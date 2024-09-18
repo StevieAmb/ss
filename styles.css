@@ -286,8 +286,8 @@ hr {
 
 .image-of-self {
   margin: 2.7rem;
-  width: 20%;
-  height: 60%;
+  width: 27rem;
+  height: 40rem;
 }
 
 .about-left {
@@ -296,7 +296,13 @@ hr {
 }
 
 .about-founder {
+  margin-top: 2.6rem;
   width: 51%;
+}
+
+.about-founder p {
+  margin-top: 3%;
+  font-size: 1.2rem;
 }
 
 .technical-skills {
@@ -308,10 +314,12 @@ hr {
 
 .skills-circle {
   text-align: center;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   width: 15vw;
-  height: 30vh;
+  height: 11rem;
   border-radius: 10%;
+  font-weight: bolder;
+  padding-top: 1.2rem;
   background-color: #0B3A81;
   color: white;
 }
