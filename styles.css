@@ -57,6 +57,10 @@ body {
   background-color: #FAF0EB;
 }
 
+main {
+  background-color: white;
+}
+
 a {
   text-decoration: none;
 }
@@ -271,7 +275,7 @@ hr {
   text-decoration: none;
   font-size: larger;
   border-radius: 7px;
-}h
+}
 
 .book-button:hover {
   background-color: #0B3A81;
@@ -283,6 +287,7 @@ hr {
   font-size: 1.7rem;
   background-color: white;
   padding-bottom: 3rem;
+  height: 80%;
 }
 
 .image-of-self {
@@ -308,23 +313,37 @@ hr {
 
 .technical-skills {
   display: flex;
-  gap: 7rem;
+  gap: 3rem;
   margin: 0;
-  padding: 7rem 0;
-  background-color: white;
+  padding: 3rem 0;
+  background-color:#d38818;
+}
+
+.technical-skills h3 {
+  margin-left: 1.5rem;
+  font-size: 4.5rem;
+  font-weight: bold;
 }
 
 .skills-circle {
   text-align: center;
   margin: 0 auto;
   font-size: 1.1rem;
-  width: 15vw;
-  height: 11rem;
+  width: 28vw;
+  height: 1.4rem;
   border-radius: 4rem;
   font-weight: bolder;
   padding: 1.2rem;
-  background-color: #85BAC0;
-  color: white;
+  background-color: #FAF0EB;
+}
+
+details {
+  background-color: #FAF0EB;
+  text-align: center;
+  border-radius: 4rem;
+  width: 16rem;
+  height: 2.5rem;
+  padding: 1.2rem;
 }
 
 .contact-me {
