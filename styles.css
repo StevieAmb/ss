@@ -282,6 +282,18 @@ hr {
   color: white;
 }
 
+.call-to-action {
+  padding: 4rem 20rem;
+  background: #E7F1F2;
+  border-top:2px solid #3a629f;
+}
+
+.call-to-action p {
+  text-align: center;
+  font-size: 1.7rem;
+  margin-bottom: 2rem;
+}
+
 .articles-container {
   display: flex;
   font-size: 1.7rem;
