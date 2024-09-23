@@ -275,6 +275,7 @@ hr {
   width: 16rem;
   margin: 0 auto;
   border: 2px solid #0B3A81;
+  background-color: white;
   font-weight: bolder;
   text-decoration: none;
   font-size: larger;
@@ -295,7 +296,7 @@ hr {
 .call-to-action p {
   text-align: center;
   font-size: 1.7rem;
-  margin-bottom: 2rem;
+  margin-bottom: 3.1rem;
 }
 
 .articles-container {
