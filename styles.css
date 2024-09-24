@@ -303,11 +303,23 @@ hr {
   padding: 4rem;
 }
 
-.meet-the-founder p {
-  font-size: 2rem;
-  width: 70%;
+.brown-header {
+  margin: 5rem 0;
+  background-color: #81170B;
+  padding: 2rem 0;
 }
 
+.brown-header h4 {
+  text-align: center;
+  font-size: 2rem;
+  color: white;
+}
+
+.meet-the-founder p {
+  font-size: 2rem;
+  margin-left: 42rem;
+  width: 45%;
+}
 
 .articles-container {
   display: flex;
