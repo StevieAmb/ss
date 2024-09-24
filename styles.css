@@ -268,7 +268,7 @@ hr {
   margin: 0;
 }
 
-.book-button {
+.book-button, .learn-more {
   display: block;
   text-align: center;
   padding: 1rem;
@@ -283,7 +283,7 @@ hr {
   border-radius: 7px;
 }
 
-.book-button:hover {
+.book-button:hover, .learn-more:hover {
   background-color: #0B3A81;
   color: white;
 }
@@ -301,7 +301,7 @@ hr {
 }
 
 .meet-the-founder {
-  padding: 4rem;
+  padding: 4rem 4rem 16rem 4rem;
 }
 
 .brown-header {
