@@ -299,6 +299,16 @@ hr {
   margin-bottom: 3.1rem;
 }
 
+.meet-the-founder {
+  padding: 4rem;
+}
+
+.meet-the-founder p {
+  font-size: 2rem;
+  width: 70%;
+}
+
+
 .articles-container {
   display: flex;
   font-size: 1.7rem;
