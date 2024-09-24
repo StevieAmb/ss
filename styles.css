@@ -175,6 +175,7 @@ h3 {
   justify-content: center;
   top: 0;
   position: sticky;
+  z-index: 2;
   background-color: white;
   margin: 0;
   box-shadow: 0 0 30px #757F86;
@@ -317,8 +318,15 @@ hr {
 
 .meet-the-founder p {
   font-size: 2rem;
-  margin-left: 42rem;
+  margin-left: 40rem;
   width: 45%;
+}
+
+.meet-the-founder article img {
+  z-index: 1;
+  position: absolute;
+  top: 146.5rem;
+  left: 11rem;
 }
 
 .articles-container {
