@@ -667,12 +667,11 @@ footer {
   }
   
   .meet-the-founder {
-    height: 100vh;
     padding: 0;
   }
   
   .brown-header {
-    margin: 5rem 0;
+    margin: 1.2rem 2rem;
     background-color: #81170B;
     padding: 2rem 0;
   }
@@ -684,18 +683,16 @@ footer {
   }
   
   .meet-the-founder p {
-    padding-top: 17rem;
     margin: 0;
     font-size: 2rem;
     width: 100%;
   }
   
   .meet-the-founder article img {
-    /* top: 250rem;
-    left: 5rem;
-    width: 60%;
-    height: 40%; */
+    margin: 0 4rem;
     position: static;
+    width: 60%;
+    height: 40%;
   }
   
   .learn-more {
