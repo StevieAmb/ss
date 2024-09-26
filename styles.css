@@ -54,7 +54,7 @@ body {
   font-family: "Lato", sans-serif;
   font-weight: 300;
   font-style: normal;
-  background-color: #FAF0EB;
+  /* background-color: #FAF0EB; */
 }
 
 main {
@@ -304,7 +304,9 @@ hr {
 }
 
 .meet-the-founder {
-  padding: 4rem 4rem 16rem 4rem;
+  height: 60vh;
+  padding: 4rem 4rem 10rem 4rem;
+  margin-bottom: 10rem;
 }
 
 .brown-header {
@@ -333,18 +335,16 @@ hr {
 }
 
 .learn-more {
-  text-align: center;
-  border: 2px solid #0B3A81;
+  border: 2px solid hsl(216, 84%, 27%);
   background-color: white;
   font-weight: bolder;
   text-decoration: none;
   margin-left: 40rem;
-  margin-top: 6rem;
-  text-align: center;
-  height: 3.5rem;
-  width: 16rem;
-  font-weight: bolder;
-  text-decoration: none;
+  margin-bottom: 10rem;
+  position: relative;
+  bottom: 8rem;
+  left: 4rem;
+  padding: 1rem;
   font-size: larger;
   border-radius: 7px;
 }
