@@ -292,7 +292,7 @@ hr {
 }
 
 .call-to-action {
-  padding: 4rem 20rem;
+  padding: 5rem 20rem;
   background: #E7F1F2;
   border-top:2px solid #688bc1;
 }
@@ -328,7 +328,7 @@ hr {
 .meet-the-founder article img {
   z-index: 1;
   position: absolute;
-  top: 161rem;
+  top: 163rem;
   left: 11rem;
 }
 
