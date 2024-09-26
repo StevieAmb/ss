@@ -237,18 +237,17 @@ hr {
 .provide-list {
   display: flex;
   justify-content: center;
-  gap: 5.5rem;
-  margin-bottom: 6.5rem;
+  gap: 5rem;
 }
 
 .client-benefits {
   background-color: #FDF3E5;
-  padding: 1rem 0 5rem 0;
+  padding: 1rem 0 2rem 0;
 }
 
 .client-benefits h3 {
   text-align: center;
-  padding-bottom: 1.5rem;
+  padding-bottom: 3.5rem;
 }
 
 .provide-list article {
@@ -260,12 +259,15 @@ hr {
 
 .provide-list article p {
   width: 19rem;
+  font-size: 1.25rem;
   letter-spacing: .07rem;
 }
 
 .provide-list article h4 {
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;
+  font-size: 1.16rem;
+  padding-bottom: 1.1rem;
 }
 
 .book-button {
