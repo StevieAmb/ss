@@ -71,7 +71,7 @@ a:visited {
 
 h3 {
   padding: 4.2rem 0;
-  font-size: 2.7rem;
+  font-size: 2.9rem;
   letter-spacing: .4rem;
   font-weight: 700;
 }
@@ -93,7 +93,7 @@ h3 {
   margin-top: .5rem;
   position: absolute;
   left: 1px;
-  top: 1px;
+  top: .1px;
   z-index: auto;
 }
 
@@ -219,17 +219,17 @@ hr {
 .list-of-services {
   display: flex;
   justify-content: center;
+  gap: 1.5rem;
   align-items: center;
   padding-bottom: 4rem;
   padding-top: 1.5rem;
 }
 
 .list-of-services ul li {
-  gap: 1rem;
+  gap: 1.7rem;
   margin-bottom: 1.5rem;
-  padding: 1.1rem 4rem;
+  padding: 1.1rem 2rem;
   font-weight: 500;
-  /* width: 40rem; */
   list-style-type: none;
   border-radius: 7px;
   box-shadow: .15rem .15rem .15rem #5c5111;
@@ -238,7 +238,8 @@ hr {
 .provide-list {
   display: flex;
   justify-content: center;
-  gap: 5rem;
+  gap: 3.5rem;
+  padding-bottom: 2rem;
 }
 
 .client-benefits {
@@ -264,7 +265,7 @@ hr {
 }
 
 .provide-list article h4 {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Salsa", system-ui;
   margin: 0;
   font-size: 1.16rem;
   padding-bottom: 1.1rem;
