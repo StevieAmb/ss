@@ -54,7 +54,6 @@ body {
   font-family: "Lato", sans-serif;
   font-weight: 300;
   font-style: normal;
-  /* background-color: #FAF0EB; */
 }
 
 main {
@@ -531,6 +530,8 @@ textarea {
 footer {
   text-align: center;
   padding: 2rem 0;
+  background-color: #FAF0EB;
+
 }
 
 @media screen and (max-width: 767px) {
@@ -652,6 +653,63 @@ footer {
     font-size: 1.3rem;
     border-radius: 14px;
     text-align: center;
+  }
+
+  .call-to-action {
+    padding: 3rem 1rem;
+    background: #E7F1F2;
+    border-top:2px solid #688bc1;
+  }
+  
+  .call-to-action p {
+    font-size: 2.7rem;
+    width: 100%;
+  }
+  
+  .meet-the-founder {
+    /* height: 60vh; */
+    padding: 4rem 4rem 10rem 4rem;
+    margin-bottom: 10rem;
+  }
+  
+  .brown-header {
+    margin: 5rem 0;
+    background-color: #81170B;
+    padding: 2rem 0;
+  }
+  
+  .brown-header h4 {
+    text-align: center;
+    font-size: 2rem;
+    color: white;
+  }
+  
+  .meet-the-founder p {
+    font-size: 2rem;
+    margin-left: 40rem;
+    width: 45%;
+  }
+  
+  .meet-the-founder article img {
+    z-index: 1;
+    position: absolute;
+    top: 303rem;
+    left: 11rem;
+  }
+  
+  .learn-more {
+    border: 2px solid hsl(216, 84%, 27%);
+    background-color: white;
+    font-weight: bolder;
+    text-decoration: none;
+    margin-left: 40rem;
+    margin-bottom: 10rem;
+    position: relative;
+    bottom: 8rem;
+    left: 4rem;
+    padding: 1rem;
+    font-size: larger;
+    border-radius: 7px;
   }
 
   label {
