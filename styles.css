@@ -667,9 +667,7 @@ footer {
   }
   
   .meet-the-founder {
-    /* height: 60vh; */
-    padding: 4rem 4rem 10rem 4rem;
-    margin-bottom: 10rem;
+    padding: 0;
   }
   
   .brown-header {
@@ -685,16 +683,17 @@ footer {
   }
   
   .meet-the-founder p {
+    padding-top: 15rem;
+    margin: 0;
     font-size: 2rem;
-    margin-left: 40rem;
-    width: 45%;
+    width: 100%;
   }
   
   .meet-the-founder article img {
-    z-index: 1;
-    position: absolute;
-    top: 303rem;
-    left: 11rem;
+    top: 243rem;
+    left: 5rem;
+    width: 60%;
+    height: 40%;
   }
   
   .learn-more {
@@ -702,11 +701,8 @@ footer {
     background-color: white;
     font-weight: bolder;
     text-decoration: none;
-    margin-left: 40rem;
+    margin-left: 3rem;
     margin-bottom: 10rem;
-    position: relative;
-    bottom: 8rem;
-    left: 4rem;
     padding: 1rem;
     font-size: larger;
     border-radius: 7px;
