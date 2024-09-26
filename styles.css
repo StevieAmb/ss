@@ -54,7 +54,7 @@ body {
   font-family: "Lato", sans-serif;
   font-weight: 300;
   font-style: normal;
-  background-color: #FAF0EB;
+  /* background-color: #FAF0EB; */
 }
 
 main {
@@ -65,9 +65,15 @@ a {
   text-decoration: none;
 }
 
+a:visited {
+  color: #0B3A81;
+}
+
 h3 {
-  padding-top: 1rem;
-  font-size: 2.7rem;
+  padding: 4.2rem 0;
+  font-size: 2.9rem;
+  letter-spacing: .4rem;
+  font-weight: 700;
 }
 
 .page-title {
@@ -87,7 +93,7 @@ h3 {
   margin-top: .5rem;
   position: absolute;
   left: 1px;
-  top: 1px;
+  top: .1px;
   z-index: auto;
 }
 
@@ -171,6 +177,7 @@ h3 {
   justify-content: center;
   top: 0;
   position: sticky;
+  z-index: 2;
   background-color: white;
   margin: 0;
   box-shadow: 0 0 30px #757F86;
@@ -202,7 +209,6 @@ h3 {
 }
 
 .services h3 {
-  padding-bottom: 1rem;
   text-align: center;
 }
 
@@ -213,17 +219,17 @@ hr {
 .list-of-services {
   display: flex;
   justify-content: center;
+  gap: 1.5rem;
   align-items: center;
   padding-bottom: 4rem;
   padding-top: 1.5rem;
 }
 
 .list-of-services ul li {
-  gap: 1rem;
+  gap: 1.7rem;
   margin-bottom: 1.5rem;
-  padding: 1.1rem 4rem;
+  padding: 1.1rem 2rem;
   font-weight: 500;
-  /* width: 40rem; */
   list-style-type: none;
   border-radius: 7px;
   box-shadow: .15rem .15rem .15rem #5c5111;
@@ -232,18 +238,17 @@ hr {
 .provide-list {
   display: flex;
   justify-content: center;
-  gap: 5.5rem;
-  margin-bottom: 6.5rem;
+  gap: 3.5rem;
+  padding-bottom: 2rem;
 }
 
 .client-benefits {
   background-color: #FDF3E5;
-  padding: 1rem 0 5rem 0;
+  padding: 1rem 0 2rem 0;
 }
 
 .client-benefits h3 {
   text-align: center;
-  padding-bottom: 1.5rem;
 }
 
 .provide-list article {
@@ -255,22 +260,26 @@ hr {
 
 .provide-list article p {
   width: 19rem;
+  font-size: 1.25rem;
   letter-spacing: .07rem;
 }
 
 .provide-list article h4 {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Salsa", system-ui;
   margin: 0;
+  font-size: 1.16rem;
+  padding-bottom: 1.1rem;
 }
 
 .book-button {
   display: block;
+  padding-top: 2rem;
   text-align: center;
-  padding: 1rem;
-  height: 1.7rem;
+  height: 3rem;
   width: 16rem;
   margin: 0 auto;
   border: 2px solid #0B3A81;
+  background-color: white;
   font-weight: bolder;
   text-decoration: none;
   font-size: larger;
@@ -280,6 +289,69 @@ hr {
 .book-button:hover {
   background-color: #0B3A81;
   color: white;
+}
+
+.call-to-action {
+  padding: 5rem 20rem;
+  background: #E7F1F2;
+  border-top:2px solid #688bc1;
+}
+
+.call-to-action p {
+  text-align: center;
+  font-size: 1.7rem;
+  margin-bottom: 3.1rem;
+}
+
+.meet-the-founder {
+  height: 60vh;
+  padding: 4rem 4rem 10rem 4rem;
+  margin-bottom: 10rem;
+}
+
+.brown-header {
+  margin: 5rem 0;
+  background-color: #81170B;
+  padding: 2rem 0;
+}
+
+.brown-header h4 {
+  text-align: center;
+  font-size: 2rem;
+  color: white;
+}
+
+.meet-the-founder p {
+  font-size: 2rem;
+  margin-left: 40rem;
+  width: 45%;
+}
+
+.meet-the-founder article img {
+  z-index: 1;
+  position: absolute;
+  top: 163rem;
+  left: 11rem;
+}
+
+.learn-more {
+  border: 2px solid hsl(216, 84%, 27%);
+  background-color: white;
+  font-weight: bolder;
+  text-decoration: none;
+  margin-left: 40rem;
+  margin-bottom: 10rem;
+  position: relative;
+  bottom: 8rem;
+  left: 4rem;
+  padding: 1rem;
+  font-size: larger;
+  border-radius: 7px;
+}
+
+.learn-more:hover {
+  background-color: #0B3A81;
+  color: #fff;
 }
 
 .articles-container {
