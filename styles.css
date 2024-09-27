@@ -765,6 +765,11 @@ footer {
     display: none;
   }
 
+  .articles-container {
+    display: flex;
+    gap: 2rem;
+  }
+
   .about-left {
     display: block;
     gap: 3rem;
@@ -773,7 +778,7 @@ footer {
   .image-of-self {
     margin-top: 2rem;
     width: 75%;
-    height: 30%;
+    height: 35%;
   }
 
   .about-founder {
@@ -787,11 +792,6 @@ footer {
     padding: 0;
     margin: 0;
     text-align: center;
-  }
-
-  .articles-container {
-    display: flex;
-    gap: 2rem;
   }
 
   .technical-skills {
@@ -811,10 +811,6 @@ footer {
     font-weight: 500;
   }
 }
-
-/* @media screen and (min-width: 481px) and (max-width: 1024px) and (orientation:portrait) {
-  /* For portrait layouts only */
-/* } */
 
 @media (min-width: 768px) and (max-width: 1024px) {
   .page-title {
