@@ -779,9 +779,14 @@ footer {
   .about-founder {
     display: flex;
     flex-direction: column;
-    font-size: 1.5rem;
     width: 100%;
-    margin-bottom: 3.5rem;
+    margin-top: 0;
+  }
+
+  .about-founder h3 {
+    padding: 0;
+    margin: 0;
+    text-align: center;
   }
 
   .articles-container {
