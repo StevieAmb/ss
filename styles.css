@@ -994,8 +994,9 @@ footer {
 
   .image-of-self {
     margin-top: 2rem;
-    width: 75%;
-    height: 35%;
+    padding: 0 3rem;
+    width: 70%;
+    height: 43%;
   }
 
   .about-founder {
@@ -1012,6 +1013,10 @@ footer {
     padding: 0;
     margin: 0;
     text-align: center;
+  }
+
+  .about-founder p {
+    font-size: 2rem;
   }
 }
 
