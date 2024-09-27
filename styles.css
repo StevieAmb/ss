@@ -548,7 +548,7 @@ footer {
     margin: 0;
     font-family: "Salsa", system-ui;
     letter-spacing: .5rem;
-    font-size: 1.4rem;
+    font-size: 1.81rem;
     font-weight: 700;
     padding-left: 1.3rem;
     color: white;
@@ -575,8 +575,8 @@ footer {
     margin-bottom: 0.1rem;
     padding-bottom: 2rem;
     position: absolute;
-    left: .05rem;
-    top: 1.1rem;
+    left: 10rem;
+    top: 2.7rem;
     z-index: auto;
   }
 
@@ -603,8 +603,8 @@ footer {
     font-weight: 400;
     margin: 0;
     padding: 0;
-    padding: 4.5rem 0 0 1rem;
-    font-size: .741rem;
+    padding: 4.3rem 0 0 1rem;
+    font-size: .71rem;
     font-style: italic;
     letter-spacing: .05rem;
     line-height: 3rem;
@@ -768,6 +768,7 @@ footer {
   .articles-container {
     display: flex;
     gap: 2rem;
+    padding: 1rem;
   }
 
   .about-left {
@@ -784,6 +785,9 @@ footer {
   .about-founder {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
     width: 100%;
     margin-top: 0;
   }
