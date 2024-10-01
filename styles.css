@@ -1120,7 +1120,7 @@ footer {
   }
 
   .provide-list article {
-    font-size: 1.5rem;
+    font-size: 2rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -1152,15 +1152,30 @@ footer {
   }
 
   .meet-the-founder article img {
-    margin: 0 0 1.2rem 9rem;
+    margin: 0 0 .2rem 4rem;
     position: static;
     width: 30%;
     height: 10%;
   }
 
   .meet-the-founder p {
-    margin-left: 32rem;
+    margin-left: 28rem;
     margin-top: -29rem;
+  }
+
+  .call-to-action {
+    padding: 5rem 10rem;
+    background: #E7F1F2;
+    border-top:2px solid #688bc1;
+  }
+  
+  .call-to-action p {
+    font-size: 2.1rem;
+    width: 100%;
+  }
+
+  .call-to-action a {
+    margin-left: 18rem;
   }
 }
 
