@@ -575,7 +575,7 @@ footer {
     margin-bottom: 0.1rem;
     padding-bottom: 2rem;
     position: absolute;
-    left: 10rem;
+    left: 9rem;
     top: 2.7rem;
     z-index: auto;
   }
@@ -603,11 +603,11 @@ footer {
     font-weight: 400;
     margin: 0;
     padding: 0;
-    padding: 4.3rem 0 0 1rem;
-    font-size: .71rem;
+    padding: 5rem 0 0 1rem;
+    font-size: .78rem;
     font-style: italic;
     letter-spacing: .05rem;
-    line-height: 3rem;
+    line-height: 1.7rem;
     color: black
   }
 
