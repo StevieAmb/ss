@@ -976,8 +976,8 @@ footer {
   }
   
   .learn-more {
-    margin-top: 10rem;
-    margin-left: 7rem;
+    margin-top: 2rem;
+    margin-left: 19rem;
     padding: 1rem;
     font-size: larger;
     position: static;
@@ -1078,6 +1078,10 @@ footer {
 }
 
 @media (orientation: landscape) {
+  body {
+    flex-direction: row;
+  }
+
   .logo img {
     width: 7.5rem;
     height: 7.5rem;
@@ -1103,7 +1107,7 @@ footer {
     padding: 1.2rem 1rem;
     font-weight: 500;
     font-size: 1.1rem;
-    width: 29.5rem;
+    width: 27.5rem;
     height: 4vh;
     list-style-type: none;
     border-radius: 7px;
@@ -1126,9 +1130,37 @@ footer {
   .provide-list article p {
     width: 75%;
   }
-  
-  body {
-    flex-direction: row;
+
+  .about-founder {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    margin-top: 0;
+  }
+
+  .about-founder h3 {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+  }
+
+  .about-founder p {
+    font-size: 2rem;
+  }
+
+  .meet-the-founder article img {
+    margin: 0 0 1.2rem 9rem;
+    position: static;
+    width: 30%;
+    height: 10%;
+  }
+
+  .meet-the-founder p {
+    margin-left: 32rem;
+    margin-top: -29rem;
   }
 }
 
