@@ -1082,6 +1082,19 @@ footer {
     flex-direction: row;
   }
 
+  .hero-images p {
+    width: 65%;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    padding: 7rem 0 0 0;
+    font-size: 1.5rem;
+    font-style: italic;
+    letter-spacing: .05rem;
+    line-height: 3rem;
+    color: black;
+  }
+
   .logo img {
     width: 7.5rem;
     height: 7.5rem;
