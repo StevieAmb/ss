@@ -339,7 +339,7 @@ hr {
   margin-left: 40rem;
   margin-bottom: 4rem;
   position: relative;
-  bottom: 14rem;
+  bottom: 10rem;
   left: 4rem;
   padding: 1rem;
   font-size: larger;
@@ -1077,7 +1077,7 @@ footer {
   }
 }
 
-@media (orientation: landscape) {
+@media (min-width: 1024px) and (max-width: 1279px) and (orientation: landscape) {
   body {
     flex-direction: row;
   }
