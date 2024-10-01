@@ -271,12 +271,10 @@ hr {
 }
 
 .book-button {
-  display: block;
-  padding-top: 2rem;
-  text-align: center;
-  height: 3rem;
+  height: 2.7rem;
   width: 16rem;
-  margin: 0 auto;
+  margin-left: 16rem;
+  padding: 1.7rem;
   border: 2px solid #0B3A81;
   background-color: white;
   font-weight: bolder;
@@ -329,7 +327,7 @@ hr {
 .meet-the-founder article img {
   z-index: 1;
   position: absolute;
-  top: 163rem;
+  top: 159.5rem;
   left: 11rem;
 }
 
@@ -341,7 +339,7 @@ hr {
   margin-left: 40rem;
   margin-bottom: 4rem;
   position: relative;
-  bottom: 8rem;
+  bottom: 14rem;
   left: 4rem;
   padding: 1rem;
   font-size: larger;
@@ -375,10 +373,12 @@ hr {
 .about-founder {
   margin-top: 2.6rem;
   width: 51%;
+  margin-bottom: 4.7rem;
 }
 
 .about-founder p {
   margin-top: 3%;
+  margin-bottom: 1.5rem;
   font-size: 1.2rem;
 }
 
@@ -647,16 +647,18 @@ footer {
   }
 
   .book-button, .submit-button {
-    padding: 1rem;
+    display: block;
+    padding: 1.5rem;
     height: 3rem;
     width: 9rem;
     font-size: 1.3rem;
     border-radius: 14px;
     text-align: center;
+    margin-left: 5rem;
   }
 
   .call-to-action {
-    padding: 3rem 1rem;
+    padding: 3.5rem 1rem;
     background: #E7F1F2;
     border-top:2px solid #688bc1;
   }
@@ -691,7 +693,7 @@ footer {
   }
   
   .meet-the-founder article img {
-    margin: 0 0 1.2rem 4.8rem;
+    margin: 0 0 1.2rem 4.4rem;
     position: static;
     width: 60%;
     height: 40%;
@@ -701,6 +703,7 @@ footer {
     margin-left: 7rem;
     margin-top: 3rem;
     padding: 1rem;
+    margin-bottom: 1rem;
     font-size: larger;
     position: static;
     border-radius: 7px;
@@ -816,7 +819,7 @@ footer {
   }
 }
 
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 768px) and (max-width: 1023px) {
   .page-title {
     letter-spacing: .1rem;
     padding: 2rem 0rem;
@@ -973,8 +976,8 @@ footer {
   }
   
   .learn-more {
-    margin-top: 10rem;
-    margin-left: 7rem;
+    margin-top: 2rem;
+    margin-left: 19rem;
     padding: 1rem;
     font-size: larger;
     position: static;
@@ -1071,6 +1074,113 @@ footer {
 
   .hidden {
     display: none;
+  }
+}
+
+@media (orientation: landscape) {
+  body {
+    flex-direction: row;
+  }
+
+  .logo img {
+    width: 7.5rem;
+    height: 7.5rem;
+    margin-left: .005rem;
+    margin-bottom: 0.1rem;
+    padding-bottom: 2rem;
+    position: absolute;
+    left: 10rem;
+    top: 1.5rem;
+    z-index: auto;
+  }
+
+  .list-of-services {
+    gap: 2.3rem;
+    padding-bottom: 4rem;
+  }
+
+  .list-of-services ul li {
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+    padding: 0;
+    padding: 1.2rem 1rem;
+    font-weight: 500;
+    font-size: 1.1rem;
+    width: 27.5rem;
+    height: 4vh;
+    list-style-type: none;
+    border-radius: 7px;
+    box-shadow: .15rem .15rem .15rem #5c5111;
+  }
+
+  .provide-list {
+    display: block;
+    margin-bottom: 2rem;
+  }
+
+  .provide-list article {
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1.5rem;
+  }
+
+  .provide-list article p {
+    width: 75%;
+  }
+
+  .about-founder {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 50%;
+    margin-top: 4rem;
+  }
+
+  .about-left {
+    display: flex;
+    gap: 1rem;
+  }
+
+  .about-founder h3 {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+  }
+
+  .about-founder p {
+    font-size: 1.2rem;
+  }
+
+  .meet-the-founder article img {
+    margin: 0 0 .2rem 4rem;
+    position: static;
+    width: 30%;
+    height: 10%;
+  }
+
+  .meet-the-founder p {
+    margin-left: 28rem;
+    margin-top: -29rem;
+  }
+
+  .call-to-action {
+    padding: 5rem 10rem;
+    background: #E7F1F2;
+    border-top:2px solid #688bc1;
+  }
+  
+  .call-to-action p {
+    font-size: 2.1rem;
+    width: 100%;
+  }
+
+  .call-to-action a {
+    margin-left: 18rem;
   }
 }
 
