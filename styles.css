@@ -234,6 +234,16 @@ hr {
   box-shadow: .15rem .15rem .15rem #5c5111;
 }
 
+li span {
+  font-weight: bold;
+  padding-bottom: 2rem;
+  font-size: 1.5rem;
+}
+
+li img {
+  filter: sepia(45%);
+}
+
 .provide-list {
   display: flex;
   justify-content: center;
