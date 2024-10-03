@@ -248,8 +248,8 @@ li img {
 
 .provide-list {
   display: flex;
+  flex-direction: column;
   justify-content: center;
-  gap: 3.5rem;
   padding-bottom: 2rem;
 }
 
@@ -263,23 +263,29 @@ li img {
 }
 
 .provide-list article {
+  display: flex;
   text-align: center;
+  gap: 15rem;
+  padding-left: 15rem;
   border-radius: 7px;
-  padding: 1.5rem 2.5rem;
-  box-shadow: -.25rem -.25rem .5rem #FAF0EB;
+  box-shadow: -.1rem .1rem .15rem #352f0a;
+  background-color: #0B3A81;
 }
 
 .provide-list article p {
+  margin-top: 1rem;
   width: 19rem;
   font-size: 1.25rem;
   letter-spacing: .07rem;
+  color: white;
 }
 
 .provide-list article h4 {
   font-family: "Salsa", system-ui;
-  margin: 0;
-  font-size: 1.16rem;
+  margin-top: 6rem;
+  font-size: 1.26rem;
   padding-bottom: 1.1rem;
+  color: white;
 }
 
 .book-button {
