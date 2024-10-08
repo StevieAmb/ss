@@ -69,7 +69,7 @@ a:visited {
 }
 
 h3 {
-  padding: 4.2rem 0;
+  margin: 4.2rem 0;
   font-size: 2.9rem;
   letter-spacing: .4rem;
   font-weight: 700;
@@ -252,11 +252,12 @@ li img {
   justify-content: center;
 }
 
-.client-benefits {
+/* .client-benefits {
   background-color: #FDF3E5;
-}
+} */
 
 .client-benefits h3 {
+  padding: 1rem 0;
   text-align: center;
 }
 
@@ -283,6 +284,11 @@ li img {
 }
 
 .provide-list .end-benefits div {
+  width: 40%;
+  margin-right: 9rem;
+}
+
+.provide-list .end-benefits img {
   width: 50%;
 }
 
@@ -363,7 +369,7 @@ li img {
 .meet-the-founder article img {
   z-index: 1;
   position: absolute;
-  top: 247.5rem;
+  top: 212.8rem;
   left: 11rem;
 }
 
