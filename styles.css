@@ -252,10 +252,6 @@ li img {
   justify-content: center;
 }
 
-/* .client-benefits {
-  background-color: #FDF3E5;
-} */
-
 .client-benefits h3 {
   padding: 1rem 0;
   text-align: center;
@@ -264,14 +260,14 @@ li img {
 .provide-list, .end-benefits {
   display: flex;
   text-align: center;
-  border-radius: 7px;
-  box-shadow: -.1rem .1rem .15rem #352f0a;
   background-color: white;
+  border: 1px solid #E7F1F2;
 }
 
 .provide-list .end-benefits p {
   margin: 0 auto;
   width: 19rem;
+  margin-left: 12rem;
   font-size: 1.25rem;
   letter-spacing: .07rem;
 }
@@ -280,6 +276,7 @@ li img {
   font-family: "Salsa", system-ui;
   margin-top: 6rem;
   font-size: 1.26rem;
+  margin-left: 7rem;
   padding-bottom: 1.1rem;
 }
 
@@ -299,7 +296,7 @@ li img {
 
 .middle-benefit h4 {
   font-family: "Salsa", system-ui;
-  margin-top: 6rem;
+  margin-top: 3.5rem;
   margin-left: 15rem;
   font-size: 1.26rem;
   padding-bottom: 1.1rem;
@@ -310,6 +307,10 @@ li img {
   width: 19rem;
   font-size: 1.25rem;
   letter-spacing: .07rem;
+}
+
+.middle-benefit img {
+  width: 50%;
 }
 
 .book-button {
@@ -369,7 +370,7 @@ li img {
 .meet-the-founder article img {
   z-index: 1;
   position: absolute;
-  top: 212.8rem;
+  top: 215rem;
   left: 11rem;
 }
 
