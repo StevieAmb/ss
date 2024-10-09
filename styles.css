@@ -655,22 +655,40 @@ footer {
   }
 
   .list-of-services {
-    gap: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    padding-top: 0;
     padding-bottom: 4rem;
   }
 
-  .list-of-services ul li {
+  .list-of-services ul .more-content {
     gap: 1rem;
     margin-bottom: 1.5rem;
     text-align: center;
     padding: 0;
     padding: 1rem 1rem;
     font-weight: 300;
-    width: 7.5rem;
-    height: 12.5vh;
+    width: 15.5rem;
+    height: 31.5vh;
     list-style-type: none;
     border-radius: 7px;
     box-shadow: .15rem .15rem .15rem #5c5111;
+  }
+
+  .list-of-services ul .less-wording {
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+    padding: 0;
+    padding: 1rem 1rem;
+    font-weight: 300;
+    width: 15.5rem;
+    height: 13.5vh;
+    list-style-type: none;
+    border-radius: 7px;
+    box-shadow: .15rem .15rem .15rem #5c5111;
+    background-color: #f5d9af;
   }
 
   .provide-list {
