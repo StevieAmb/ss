@@ -267,17 +267,15 @@ li img {
 .provide-list .end-benefits p {
   margin: 0 auto;
   width: 19rem;
-  margin-left: 12rem;
+  padding-left: 12rem;
   font-size: 1.25rem;
   letter-spacing: .07rem;
 }
 
 .provide-list .end-benefits h4 {
   font-family: "Salsa", system-ui;
-  margin-top: 6.5rem;
+  padding: 6.5rem 0 1.1rem 7rem;
   font-size: 1.26rem;
-  margin-left: 7rem;
-  padding-bottom: 1.1rem;
 }
 
 .provide-list .end-benefits div {
@@ -642,7 +640,6 @@ footer {
   }
 
   .hero-images p {
-    /* width: 70%; */
     font-weight: 400;
     margin: 0;
     padding: 0;
@@ -691,24 +688,35 @@ footer {
     background-color: #f6f0e4;
   }
 
-  /* .list-of-services ul li span {
-    font-size: 1.5rem;
-  } */
-
   .provide-list {
-    display: block;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     margin-bottom: 2.5rem;
   }
 
   .provide-list article {
-    font-size: .9rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    display: block;
+    width: 100%;
   }
 
-  .provide-list article p {
-    width: 75%;
+  .provide-list .end-benefits div {
+    width: 100%;
+  }
+
+  .provide-list .end-benefits h4 { 
+    text-align: center;
+    width: 100%;
+    padding: 1rem 0rem 0rem 2.5rem;
+  }
+
+  .provide-list .end-benefits p {
+    padding: 1rem 0rem 0rem 2.5rem;
+  }
+
+  .provide-list .end-benefits img {
+    width: 100vw;
   }
 
   .book-button, .submit-button {
