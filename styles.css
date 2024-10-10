@@ -698,14 +698,16 @@ footer {
   .provide-list article {
     display: block;
     width: 100%;
+    padding-bottom: 4rem;
   }
 
-  .provide-list .end-benefits div {
+  .provide-list .end-benefits div,
+  .provide-list .middle-benefit div {
     width: 100%;
   }
 
   .provide-list .end-benefits h4,
-  .provide-list .end-benefits h4 { 
+  .provide-list .middle-benefit h4 { 
     text-align: center;
     width: 100%;
     padding: 1rem 0rem 0rem 2.5rem;
@@ -713,6 +715,7 @@ footer {
 
   .provide-list .end-benefits p,
   .provide-list .middle-benefit p {
+    width: 100%;
     padding: 1rem 0rem 0rem 2.5rem;
   }
 
@@ -1007,20 +1010,40 @@ footer {
   }
 
   .provide-list {
-    display: block;
-    margin-bottom: 2rem;
-  }
-
-  .provide-list article {
-    font-size: 1.5rem;
+    width: 80%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 1.5rem;
+    margin-bottom: 2.5rem;
   }
 
-  .provide-list article p {
-    width: 75%;
+  .provide-list article {
+    display: block;
+    width: 100%;
+    padding-bottom: 4rem;
+  }
+
+  .provide-list .end-benefits div,
+  .provide-list .middle-benefit div {
+    width: 100%;
+  }
+
+  .provide-list .end-benefits h4,
+  .provide-list .middle-benefit h4 { 
+    text-align: center;
+    width: 100%;
+    padding: 2rem 0rem 0rem 4.5rem;
+  }
+
+  .provide-list .end-benefits p,
+  .provide-list .middle-benefit p {
+    width: 100%;
+    padding: 1rem 0rem 0rem 4.5rem;
+  }
+
+  .provide-list .end-benefits img,
+  .provide-list .middle-benefit img {
+    width: 100vw;
   }
 
   .call-to-action {
