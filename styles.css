@@ -262,6 +262,7 @@ li img {
   text-align: center;
   background-color: white;
   border-top: 1px solid #E7F1F2;
+  border-bottom: 1px solid #E7F1F2;
 }
 
 .provide-list .end-benefits p {
