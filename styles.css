@@ -710,13 +710,13 @@ footer {
   .provide-list .middle-benefit h4 { 
     text-align: center;
     width: 100%;
-    padding: 1rem 0rem 0rem 2.5rem;
+    padding: 2rem 0rem 1rem 2.5rem;
   }
 
   .provide-list .end-benefits p,
   .provide-list .middle-benefit p {
     width: 100%;
-    padding: 1rem 0rem 0rem 2.5rem;
+    padding: 1rem 0rem 1rem 2.5rem;
   }
 
   .provide-list .end-benefits img,
