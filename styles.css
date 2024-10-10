@@ -267,14 +267,14 @@ li img {
 .provide-list .end-benefits p {
   margin: 0 auto;
   width: 19rem;
-  padding-left: 12rem;
+  padding-left: 8rem;
   font-size: 1.25rem;
   letter-spacing: .07rem;
 }
 
 .provide-list .end-benefits h4 {
   font-family: "Salsa", system-ui;
-  padding: 6.5rem 0 1.1rem 7rem;
+  padding: 7rem 0 1.1rem 7rem;
   font-size: 1.26rem;
 }
 
@@ -295,7 +295,7 @@ li img {
 
 .middle-benefit h4 {
   font-family: "Salsa", system-ui;
-  padding-top: 5rem 0 1.1rem 0;
+  padding: 5rem 0 1.1rem 0;
   font-size: 1.26rem;
 }
 
@@ -342,7 +342,7 @@ li img {
 
 .meet-the-founder {
   height: 60vh;
-  padding: 4rem 4rem 10rem 4rem;
+  padding: 8rem 4rem 10rem 4rem;
   margin-bottom: 10rem;
 }
 
@@ -367,7 +367,7 @@ li img {
 .meet-the-founder article img {
   z-index: 1;
   position: absolute;
-  top: 217.5rem;
+  top: 221.5rem;
   left: 11rem;
 }
 
@@ -573,6 +573,12 @@ footer {
   background-color: #FAF0EB;
 
 }
+
+.desktop-hidden {
+  display: none;
+}
+
+
 
 @media screen and (max-width: 767px) {
   .page-title {
@@ -842,7 +848,7 @@ footer {
     margin-top: .4rem;
   }
 
-  .hidden {
+  .mobile-tablet-hidden {
     display: none;
   }
 
@@ -1184,7 +1190,7 @@ footer {
     margin-top: .4rem;
   }
 
-  .hidden {
+  .mobile-tablet-hidden {
     display: none;
   }
 }
