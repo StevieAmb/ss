@@ -259,7 +259,6 @@ li img {
   text-align: center;
   background-color: white;
   border-top: 1px solid #E7F1F2;
-  border-bottom: 1px solid #E7F1F2;
 }
 
 .provide-list .end-benefits p {
@@ -569,14 +568,11 @@ footer {
   text-align: center;
   padding: 2rem 0;
   background-color: #FAF0EB;
-
 }
 
-.desktop-hidden {
+.hidden {
   display: none;
 }
-
-
 
 @media screen and (max-width: 767px) {
   .page-title {
@@ -659,7 +655,7 @@ footer {
     flex-direction: column;
     gap: .5rem;
     padding-top: 0;
-    padding-bottom: 4rem;
+    padding-bottom: 2.7rem;
   }
 
   .list-of-services ul .more-content {
@@ -667,7 +663,7 @@ footer {
     margin-bottom: 1.5rem;
     text-align: center;
     padding: 0;
-    padding: 1rem 1rem;
+    padding: 1.3rem 1rem;
     font-weight: 300;
     width: 15.5rem;
     height: 31.5vh;
@@ -692,10 +688,9 @@ footer {
   }
 
   .provide-list {
-    width: 80%;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    justify-content: center;
     margin-bottom: 2.5rem;
   }
 
@@ -707,7 +702,7 @@ footer {
 
   .provide-list .end-benefits div,
   .provide-list .middle-benefit div {
-    width: 100%;
+    width: 80%;
     padding: 0;
   }
 
@@ -727,6 +722,7 @@ footer {
   .provide-list .end-benefits img,
   .provide-list .middle-benefit img {
     width: 100vw;
+    display: block;
   }
 
   .book-button, .submit-button {
@@ -897,7 +893,7 @@ footer {
     font-weight: 500;
   }
 
-  .mobile-tablet-hidden {
+  #hidden {
     display: none;
   }
 }
@@ -1189,7 +1185,7 @@ footer {
     margin-top: .4rem;
   }
 
-  .mobile-tablet-hidden {
+  #hidden {
     display: none;
   }
 }
