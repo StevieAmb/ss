@@ -569,14 +569,11 @@ footer {
   text-align: center;
   padding: 2rem 0;
   background-color: #FAF0EB;
-
 }
 
-.desktop-hidden {
+.hidden {
   display: none;
 }
-
-
 
 @media screen and (max-width: 767px) {
   .page-title {
@@ -726,6 +723,7 @@ footer {
   .provide-list .end-benefits img,
   .provide-list .middle-benefit img {
     width: 100vw;
+    display: block;
   }
 
   .book-button, .submit-button {
@@ -896,7 +894,7 @@ footer {
     font-weight: 500;
   }
 
-  .mobile-tablet-hidden {
+  #hidden {
     display: none;
   }
 }
