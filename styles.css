@@ -124,7 +124,6 @@ h3 {
 .hero-images {
   background-image: url('images/christina-wocintechchat-com-UTw3j_aoIKM-unsplash.jpg');
   background-size: cover;
-  /* background-attachment: fixed; */
   height: 40.5rem;
   color: white;
   font-family: "Lato", sans-serif;
@@ -220,8 +219,7 @@ hr {
   justify-content: center;
   gap: 1.5rem;
   align-items: center;
-  padding-bottom: 4rem;
-  padding-top: 1.5rem;
+  padding-top: 1.5rem 0 4rem 0;
 }
 
 .list-of-services ul li {
@@ -237,9 +235,8 @@ hr {
 
 li span {
   font-weight: bold;
-  padding-bottom: 2rem;
+  padding: 0 0 2rem .5rem;
   font-size: 1.7rem;
-  margin-left: .5rem;
 }
 
 li img {
@@ -281,7 +278,7 @@ li img {
 
 .provide-list .end-benefits div {
   width: 40%;
-  margin-right: 9rem;
+  padding-right: 9rem;
 }
 
 .provide-list .end-benefits img {
@@ -311,6 +308,18 @@ li img {
   height: 30%;
 }
 
+.call-to-action {
+  padding: 5rem 20rem;
+  background: #E7F1F2;
+  border-top: 1px solid #688bc1;
+}
+
+.call-to-action p {
+  text-align: center;
+  font-size: 1.7rem;
+  margin-bottom: 3.9rem;
+}
+
 .book-button {
   height: 2.7rem;
   width: 16rem;
@@ -327,18 +336,6 @@ li img {
 .book-button:hover {
   background-color: #0B3A81;
   color: white;
-}
-
-.call-to-action {
-  padding: 5rem 20rem;
-  background: #E7F1F2;
-  border-top: 1px solid #688bc1;
-}
-
-.call-to-action p {
-  text-align: center;
-  font-size: 1.7rem;
-  margin-bottom: 3.1rem;
 }
 
 .meet-the-founder {
