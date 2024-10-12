@@ -692,10 +692,9 @@ footer {
   }
 
   .provide-list {
-    width: 80%;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    justify-content: center;
     margin-bottom: 2.5rem;
   }
 
@@ -707,7 +706,7 @@ footer {
 
   .provide-list .end-benefits div,
   .provide-list .middle-benefit div {
-    width: 100%;
+    width: 80%;
     padding: 0;
   }
 
