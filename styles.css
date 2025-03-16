@@ -66,6 +66,7 @@ a {
 
 a:visited {
   color: #0B3A81;
+  text-decoration: underline;
 }
 
 h3 {
@@ -78,11 +79,10 @@ h3 {
 .page-title {
   background-color: #0B3A81;
   display: flex;
-  justify-content: center;
   align-items: center;
   letter-spacing: .1rem;
   color: white;
-  padding: 3.4rem 0rem;
+  padding: 5.4rem 10rem;
 }
 
 .logo img {
@@ -113,7 +113,6 @@ h3 {
   position: relative;
   bottom: 1px;
   margin: 0;
-  font-family: "Merriweather", sans-serif;
   letter-spacing: .1rem;
   font-size: 1.1rem;
   font-style: italic;
@@ -123,51 +122,12 @@ h3 {
 
 .hero-images {
   background-image: url('images/christina-wocintechchat-com-UTw3j_aoIKM-unsplash.jpg');
+  background-position: -110% 55%;
   background-size: cover;
   height: 40.5rem;
   color: white;
   font-family: "Lato", sans-serif;
   text-align: center;
-}
-
-.hero-images p {
-  font-weight: 400;
-  margin: 0;
-  font-size: 1.4rem;
-  padding: 11rem 29rem 2rem 0rem;
-  font-style: italic;
-  letter-spacing: .05rem;
-  line-height: 3rem;
-  animation: fadeIn 5s;
-  -webkit-animation: fadeIn 4s;
-  -moz-animation: fadeIn 5s;
-  -o-animation: fadeIn 5s;
-  -ms-animation: fadeIn 5s;
-}
-
-@keyframes fadeIn {
-  0% { opacity: 0; }
-  100% { opacity: 1; }
-}
-
-@-moz-keyframes fadeIn {
-  0% { opacity: 0; }
-  100% { opacity: 1; }
-}
-
-@-webkit-keyframes fadeIn {
-  0% { opacity: 0; }
-  100% { opacity: 1; }
-}
-
-@-o-keyframes fadeIn {
-  0% { opacity: 0; }
-  100% { opacity: 1; }
-}
-
-@-ms-keyframes fadeIn {
-  0% { opacity: 0; }
-  100% { opacity: 1; }
 }
 
 .nav-bar {
@@ -178,7 +138,7 @@ h3 {
   z-index: 2;
   background-color: white;
   margin: 0;
-  box-shadow: 0 0 30px #757F86;
+  box-shadow: 0px 0 30px 0 #757F86;
   padding: 0 5rem;
 }
 
