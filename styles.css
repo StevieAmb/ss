@@ -490,6 +490,10 @@ textarea {
   text-align: center;
 }
 
+.price-scale-section a {
+  font-weight: 700;
+}
+
 .price-scale-section ul {
   font-size: x-large;
   padding-top: 1rem;
@@ -503,6 +507,7 @@ textarea {
 .price-scale-section p {
   font-style: italic;
   font-size: 20px;
+  margin-bottom: .7rem;
 }
 
 .remaining-skillshare-plan {
