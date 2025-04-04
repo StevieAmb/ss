@@ -481,7 +481,7 @@ textarea {
   display: flex;
   gap: 20rem;
   flex-wrap: wrap;
-  border-radius: 1.5rem;
+  border-radius: 2.5rem;
   margin: .3rem 0;
 }
 
@@ -500,9 +500,10 @@ textarea {
   line-height: 2rem;
 }
 
-.price-scale-section h3 {
+.price-scale-section h4 {
   margin: 0;
   font-size: 1.9rem;
+  font-weight: 600;
 }
 
 .price-scale-section p {
