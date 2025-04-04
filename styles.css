@@ -74,6 +74,8 @@ h3 {
   font-size: 2.9rem;
   letter-spacing: .4rem;
   font-weight: 700;
+  text-align: center;
+  padding: 1rem 0;
 }
 
 .page-title {
@@ -82,14 +84,14 @@ h3 {
   align-items: center;
   letter-spacing: .1rem;
   color: white;
-  padding: 5.4rem 10rem;
+  padding: 3.4rem 10rem;
 }
 
 .logo img {
   width: 6.5rem;
   height: 6rem;
   margin-left: 6rem;
-  margin-top: 3.5rem;
+  margin-top: 2.1rem;
   position: absolute;
   left: 1px;
   top: .1px;
@@ -146,7 +148,7 @@ h3 {
 
 .nav-bar-tabs {
   display: flex;
-  gap: 3rem;
+  gap: 2rem;
 }
 
 .nav-tab {
@@ -166,10 +168,6 @@ h3 {
 .services {
   padding: .75rem 0;
   background-color: white;
-}
-
-.services h3 {
-  text-align: center;
 }
 
 hr {
@@ -209,11 +207,6 @@ li img {
   display: flex;
   flex-direction: column;
   justify-content: center;
-}
-
-.client-benefits h3 {
-  padding: 1rem 0;
-  text-align: center;
 }
 
 .provide-list, .end-benefits {
@@ -325,7 +318,7 @@ li img {
 .meet-the-founder article img {
   z-index: 1;
   position: absolute;
-  top: 221.5rem;
+  top: 219.5rem;
   left: 11rem;
 }
 
@@ -379,32 +372,6 @@ li img {
   margin-bottom: 1.5rem;
   font-size: 1.2rem;
   line-height: 2rem;
-}
-
-.technical-skills {
-  display: flex;
-  gap: 3rem;
-  margin: 0;
-  padding: 3rem 0;
-  background-color:#d38818;
-}
-
-.technical-skills h3 {
-  margin-left: 1.5rem;
-  font-size: 4.5rem;
-  font-weight: bold;
-}
-
-.skills-circle {
-  text-align: center;
-  margin: 0 auto;
-  font-size: 1.1rem;
-  width: 28vw;
-  height: 1.4rem;
-  border-radius: 4rem;
-  font-weight: bolder;
-  padding: 1.2rem;
-  background-color: #FAF0EB;
 }
 
 details {
@@ -509,6 +476,53 @@ textarea {
   background-color: #a9a9a9;
 }
 
+.price-scale-section {
+  padding: 3.5rem;
+  display: flex;
+  gap: 20rem;
+  flex-wrap: wrap;
+  border-radius: 1.5rem;
+  margin: .3rem 0;
+}
+
+.price-scale-section div {
+  width: 35%;
+  text-align: center;
+}
+
+.price-scale-section a {
+  font-weight: 700;
+}
+
+.price-scale-section ul {
+  font-size: x-large;
+  padding-top: 1rem;
+  line-height: 2rem;
+}
+
+.price-scale-section h3 {
+  margin: 0;
+}
+
+.price-scale-section p {
+  font-style: italic;
+  font-size: 20px;
+  margin-bottom: .9rem;
+}
+
+.remaining-skillshare-plan {
+  font-weight: 900;
+}
+
+.skillshare, .referrals {
+  background-color: #e6e4e4;
+}
+
+.tierOne {
+  background-color: #d5d9df;
+}
+
+
 .thank-you {
   padding: 9rem 0;
   display: flex;
@@ -583,7 +597,7 @@ footer {
   }
 
   .nav-bar-tabs {
-    gap: .5rem;
+    gap: .3rem;
     height: 2.5rem;
   }
 
