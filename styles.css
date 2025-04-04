@@ -482,6 +482,7 @@ textarea {
   gap: 20rem;
   flex-wrap: wrap;
   border-radius: 1.5rem;
+  margin: .3rem 0;
 }
 
 .price-scale-section div {
