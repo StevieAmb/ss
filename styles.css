@@ -477,10 +477,11 @@ textarea {
 }
 
 .price-scale-section {
-  padding: 2.5rem;
+  padding: 3.5rem;
   display: flex;
   gap: 20rem;
   flex-wrap: wrap;
+  border-radius: 1.5rem;
 }
 
 .price-scale-section div {
@@ -490,7 +491,7 @@ textarea {
 
 .price-scale-section ul {
   font-size: x-large;
-  padding-top: 3.5rem;
+  padding-top: 1rem;
   line-height: 2rem;
 }
 
@@ -500,7 +501,17 @@ textarea {
 
 .price-scale-section p {
   font-style: italic;
+  font-size: 20px;
 }
+
+.skillshare, .referrals {
+  background-color: #e6e4e4;
+}
+
+.tierOne {
+  background-color: #d5d9df;
+}
+
 
 .thank-you {
   padding: 9rem 0;
