@@ -505,6 +505,10 @@ textarea {
   font-size: 20px;
 }
 
+.remaining-skillshare-plan {
+  font-weight: 900;
+}
+
 .skillshare, .referrals {
   background-color: #e6e4e4;
 }
