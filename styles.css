@@ -478,12 +478,13 @@ textarea {
 
 .price-scale-section {
   display: flex;
-  gap: 30rem;
+  gap: 25rem;
 }
 
 .price-scale-section ul {
-  font-size: larger;
+  font-size: x-large;
   padding: 6rem;
+  line-height: 2rem;
 }
 
 .thank-you {
