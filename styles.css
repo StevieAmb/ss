@@ -477,14 +477,29 @@ textarea {
 }
 
 .price-scale-section {
+  padding: 2.5rem;
   display: flex;
   gap: 25rem;
+  flex-wrap: wrap;
+}
+
+.price-scale-section div {
+  width: 28%;
+  text-align: center;
 }
 
 .price-scale-section ul {
   font-size: x-large;
-  padding: 6rem;
+  padding-top: 3.5rem;
   line-height: 2rem;
+}
+
+.price-scale-section h3 {
+  margin: 0;
+}
+
+.price-scale-section p {
+  font-style: italic;
 }
 
 .thank-you {
