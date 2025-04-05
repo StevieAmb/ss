@@ -476,12 +476,16 @@ textarea {
   background-color: #a9a9a9;
 }
 
+.plans-price-section h3 {
+    margin: 2.8rem 0;
+}
+
 .price-scale-section {
   padding: 3.5rem;
   display: flex;
   gap: 20rem;
   flex-wrap: wrap;
-  border-radius: 2.5rem;
+  border-radius: 1.5rem;
   margin: .3rem 0;
 }
 
