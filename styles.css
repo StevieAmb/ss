@@ -69,7 +69,7 @@ a:visited {
   text-decoration: underline;
 }
 
-h3 {
+h2 {
   margin: 4.2rem 0;
   font-size: 2.9rem;
   letter-spacing: .4rem;
@@ -164,11 +164,6 @@ h3 {
   text-decoration: underline;
 }
 
-.services {
-  padding: .75rem 0;
-  background-color: white;
-}
-
 hr {
   margin: 0;
 }
@@ -178,7 +173,7 @@ hr {
   justify-content: center;
   gap: 1.5rem;
   align-items: center;
-  padding-top: 1.5rem 0 4rem 0;
+  padding: 1.5rem 0 4rem 0;
 }
 
 .list-of-services ul li {
@@ -223,7 +218,7 @@ li img {
   letter-spacing: .07rem;
 }
 
-.provide-list .end-benefits h4 {
+.provide-list .end-benefits h3 {
   font-family: "Salsa", system-ui;
   padding: 7rem 0 1.1rem 7rem;
   font-size: 1.26rem;
@@ -244,7 +239,7 @@ li img {
   padding: 0;
 }
 
-.middle-benefit h4 {
+.middle-benefit h3 {
   font-family: "Salsa", system-ui;
   padding: 5rem 0 1.1rem 0;
   font-size: 1.26rem;
@@ -317,7 +312,7 @@ li img {
 .meet-the-founder article img {
   z-index: 1;
   position: absolute;
-  top: 219.5rem;
+  top: 223.5rem;
   left: 11rem;
 }
 
