@@ -49,6 +49,8 @@ table {
 
 
 body {
+  display: flex;
+  flex-direction: column;
   margin: 0;
   padding: 0;
   font-family: "Lato", sans-serif;
@@ -821,6 +823,7 @@ footer {
 
   .booking-section article p {
     font-weight: 500;
+    padding-bottom: 7%;
   }
 
   label {
@@ -912,6 +915,7 @@ footer {
   }
 
   footer {
+    margin-top: auto;
     text-align: center;
     padding: 2rem 1rem;
     font-size: 1.2rem;
