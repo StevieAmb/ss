@@ -373,6 +373,16 @@ li img {
   line-height: 2rem;
 }
 
+.booking-section {
+  display: flex;
+}
+
+.booking-section article {
+  width: 50%;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
 details {
   background-color: #FAF0EB;
   text-align: center;
