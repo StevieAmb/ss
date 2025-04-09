@@ -1126,6 +1126,22 @@ footer {
     border-radius: 7px;
   }
 
+  .booking-section {
+    padding: 0;
+    gap: .9rem;
+  }
+
+  .booking-section img {
+    padding: 2.5rem 0;
+    width: 45vw;
+    height: 55vh;
+  }
+
+  .booking-section article p {
+    font-weight: 500;
+    padding-bottom: 2rem;
+  }
+
   .articles-container {
     display: flex;
     gap: 2rem;
