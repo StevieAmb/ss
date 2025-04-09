@@ -376,17 +376,28 @@ li img {
 .booking-section {
   display: flex;
   gap: 4rem;
-  padding: 4rem;
+  padding: 0 4rem;
+}
+
+.booking-section h2 {
+  line-height: 3rem;
 }
 
 .booking-section article {
   width: 50%;
   font-size: 1.5rem;
   line-height: 2rem;
+  padding-top: 1.75rem;
 }
 
 .booking-section img {
   width: 45%;
+  padding: 4rem 0;
+}
+
+.get-started {
+  padding-top: 1.5rem;
+  text-align: center;
 }
 
 details {
