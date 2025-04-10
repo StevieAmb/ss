@@ -813,25 +813,35 @@ footer img {
     height: 90vh;
     padding: 1rem;
   }
-  
-  .brown-header {
-    margin: 5rem 2rem 1.5rem 2rem;
-    background-color: #81170B;
+
+  .black-background {
+    margin: 8% 4%;
+    background-color: black;
     padding: 2rem 0;
+    width: 90%;
   }
   
-  .brown-header h4 {
+  .meet-the-founder h4 {
     text-align: center;
     font-size: 2rem;
-    color: white;
+    font-weight: 500;
   }
   
   .meet-the-founder p {
     text-align: center;
-    margin: 0;
-    font-size: 1.7rem;
-    width: 100%;
+    position: static;
+    font-size: 1.5rem;
+    margin-left: 2rem;
+    width: 80%;
   }
+  
+  .meet-the-founder article img {
+    z-index: 1;
+    position: absolute;
+    top: 252rem;
+    left: 11rem;
+  }
+  
   
   .meet-the-founder article img {
     margin: 0 0 1.2rem 4.4rem;
@@ -842,7 +852,7 @@ footer img {
   
   .learn-more {
     margin-left: 7rem;
-    margin-top: 3rem;
+    margin-top: 1.5rem;
     padding: 1rem;
     margin-bottom: 1rem;
     font-size: larger;
