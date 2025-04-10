@@ -66,9 +66,8 @@ a {
   text-decoration: none;
 }
 
-a:visited {
-  color: #0B3A81;
-  text-decoration: underline;
+a:active, a:visited {
+  color: black;
 }
 
 h2 {
