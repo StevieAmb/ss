@@ -258,21 +258,22 @@ li img {
 }
 
 .call-to-action {
-  padding: 5rem 20rem;
-  background: #E7F1F2;
+  padding: 11rem 20rem;
+  background: #f6f0e4;
 }
 
 .call-to-action p {
   text-align: center;
-  font-size: 1.7rem;
-  margin-bottom: 3.9rem;
+  line-height: 4rem;
+  font-size: 2.7rem;
+  padding-bottom: 4rem;
 }
 
 .book-button {
   height: 2.7rem;
   width: 16rem;
   margin-left: 16rem;
-  padding: 1.7rem;
+  padding: 2rem;
   border: 2px solid #0B3A81;
   background-color: white;
   font-weight: bolder;
@@ -294,13 +295,14 @@ li img {
 
 .brown-header {
   margin: 5rem 0;
-  background-color: #81170B;
+  background-color: #0B3A81;
   padding: 2rem 0;
 }
 
 .brown-header h4 {
   text-align: center;
   font-size: 2rem;
+  font-weight: 500;
   color: white;
 }
 
@@ -313,7 +315,7 @@ li img {
 .meet-the-founder article img {
   z-index: 1;
   position: absolute;
-  top: 223.5rem;
+  top: 245rem;
   left: 11rem;
 }
 
@@ -782,7 +784,7 @@ footer img {
     display: block;
   }
 
-  .book-button, .submit-button {
+  .submit-button {
     display: block;
     padding: 1.5rem;
     height: 3rem;
