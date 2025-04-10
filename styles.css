@@ -599,15 +599,25 @@ footer {
   background-color: #FAF0EB;
 }
 
+footer img {
+  width: 2%;
+  padding-bottom: 1.5rem;
+}
+
 .top-footer-content {
-  padding: 2rem;
+  padding: 2.5rem;
   display: flex;
-  gap: 65%;
+  gap: 45%;
+  flex-wrap: wrap;
+}
+
+.footer-nav {
+  line-height: 1.7rem;
+  width: 25%;
 }
 
 .icon-acknowledgment {
   padding: 1rem;
-  border: 1px solid #0B3A81;
   display: block;
 }
 
