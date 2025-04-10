@@ -516,9 +516,10 @@ textarea {
 }
 
 .plans-price-section {
-  gap: 1rem;
+  gap: 1.5rem;
   padding: 0 2rem;
   display: flex;
+  padding-bottom: 4rem;
 }
 
 .price-scale-section {
