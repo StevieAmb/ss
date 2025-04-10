@@ -599,6 +599,18 @@ footer {
   background-color: #FAF0EB;
 }
 
+.top-footer-content {
+  padding: 2rem;
+  display: flex;
+  gap: 65%;
+}
+
+.icon-acknowledgment {
+  padding: 1rem;
+  border: 1px solid #0B3A81;
+  display: block;
+}
+
 .hidden {
   display: none;
 }
