@@ -294,9 +294,10 @@ li img {
 }
 
 .brown-header {
-  margin: 5rem 0;
-  background-color: #0B3A81;
-  padding: 2rem 0;
+  margin: 8% 4%;
+  background-color: black;
+  padding: 18rem 0;
+  width: 30%;
 }
 
 .brown-header h4 {
@@ -315,7 +316,7 @@ li img {
 .meet-the-founder article img {
   z-index: 1;
   position: absolute;
-  top: 245rem;
+  top: 250rem;
   left: 11rem;
 }
 
