@@ -656,7 +656,7 @@ footer {
 
   .nav-tab {
     font-weight: 500;
-    width: 6rem;
+    width: 4rem;
     font-size: .5rem;
     padding: .5rem;
   }
@@ -836,6 +836,22 @@ footer {
   .booking-section article p {
     font-weight: 500;
     padding-bottom: 7%;
+  }
+
+  .plans-price-section {
+    padding: 0 .7rem;
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: 1fr 2fr;
+  }
+
+  .price-scale-section {
+    width: 42vw;
+    padding: .5rem;
+  }
+
+  .price-scale-section article ul {
+    font-size: .1rem;
   }
 
   label {
