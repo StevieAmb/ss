@@ -517,8 +517,15 @@ textarea {
 .plans-price-section {
   gap: 1.5rem;
   padding: 0 2rem;
-  display: flex;
+  display: block;
   padding-bottom: 4rem;
+}
+
+.plans-price-section .pricing-layer {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  padding-bottom: 2rem;
 }
 
 .price-scale-section {
@@ -536,6 +543,7 @@ textarea {
 
 
 .price-scale-section div {
+  width: 100%;
   text-align: center;
 }
 
