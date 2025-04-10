@@ -721,7 +721,6 @@ footer img {
   }
 
   .list-of-services ul .more-content {
-    gap: 1rem;
     margin-bottom: 1.5rem;
     text-align: center;
     padding: 0;
@@ -736,7 +735,6 @@ footer img {
   }
 
   .list-of-services ul .less-wording {
-    gap: 1rem;
     margin-bottom: 1.5rem;
     text-align: center;
     padding: 0;
@@ -1011,6 +1009,31 @@ footer img {
     padding: 2rem 1rem;
     font-size: 1.2rem;
     font-weight: 500;
+  }
+
+  footer img {
+    width: 10%;
+    padding-bottom: 1.5rem;
+  }
+
+  .top-footer-content {
+    padding: 2.5rem;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .top-footer-content .footer-nav {
+    width: 100%;
+  }
+  
+  .footer-nav {
+    line-height: 1.7rem;
+    width: 25%;
+  }
+  
+  .icon-acknowledgment {
+    padding: 1rem;
+    display: block;
   }
 
   #hidden {
