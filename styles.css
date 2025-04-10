@@ -851,6 +851,10 @@ footer {
     padding: .5rem;
   }
 
+  .price-scale-section div {
+    width: 100%;
+  }
+
   .price-scale-section article ul {
     font-size: .1rem;
   }
@@ -1009,7 +1013,7 @@ footer {
 
   .nav-tab {
     font-weight: 500;
-    width: 12rem;
+    width: 8rem;
     font-size: .9rem;
     padding: .5rem;
   }
@@ -1169,6 +1173,27 @@ footer {
   .booking-section article p {
     font-weight: 500;
     padding-bottom: 2rem;
+  }
+
+  .plans-price-section {
+    padding: 0 2rem;
+    display: grid;
+    gap: 1.7rem;
+    grid-template-columns: 1fr 2fr;
+    padding-bottom: 4rem;
+  }
+
+  .price-scale-section {
+    width: 42vw;
+    padding: .5rem;
+  }
+
+  .price-scale-section div {
+    width: 100%;
+  }
+
+  .price-scale-section article ul {
+    font-size: .1rem;
   }
 
   .articles-container {
