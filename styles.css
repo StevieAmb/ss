@@ -67,7 +67,7 @@ a {
 }
 
 a:active, a:visited {
-  color: black;
+  color: #0B3A81;
 }
 
 h2 {
@@ -158,7 +158,7 @@ h2 {
   font-size: 1rem;
   letter-spacing: 2px;
   padding: 1rem 1rem;
-  /* text-align: center; */
+  text-align: center;
 }
 
 .nav-bar-tabs .nav-tab:hover {
@@ -603,7 +603,7 @@ textarea {
 footer {
   text-align: center;
   padding: 2rem 0;
-  background-color: #FAF0EB;
+  background-color: #e6e4e4;
 }
 
 footer img {
