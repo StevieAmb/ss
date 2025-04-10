@@ -515,17 +515,28 @@ textarea {
     margin: 2.8rem 0;
 }
 
-.price-scale-section {
-  padding: 3.5rem;
+.plans-price-section {
+  gap: 1.5rem;
+  padding: 0 2rem;
   display: flex;
-  gap: 20rem;
+  padding-bottom: 4rem;
+}
+
+.price-scale-section {
+  padding: 1rem;
+  display: flex;
   flex-wrap: wrap;
   border-radius: 1.5rem;
   margin: .3rem 0;
+  box-shadow: -4px 1px 8px #e6e4e4;
 }
 
+.price-scale-section {
+  width: 19vw;
+}
+
+
 .price-scale-section div {
-  width: 35%;
   text-align: center;
 }
 
@@ -534,13 +545,14 @@ textarea {
 }
 
 .price-scale-section ul {
-  font-size: x-large;
+  font-size: larger;
   padding-top: 1rem;
   line-height: 2rem;
 }
 
 .price-scale-section h3 {
   margin: 0;
+  text-align: center;
   font-size: 1.9rem;
   font-weight: 600;
 }
@@ -644,7 +656,7 @@ footer {
 
   .nav-tab {
     font-weight: 500;
-    width: 6rem;
+    width: 4rem;
     font-size: .5rem;
     padding: .5rem;
   }
@@ -826,6 +838,27 @@ footer {
     padding-bottom: 7%;
   }
 
+  .plans-price-section {
+    padding: 0 .7rem;
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: 1fr 2fr;
+    padding-bottom: 4rem;
+  }
+
+  .price-scale-section {
+    width: 42vw;
+    padding: .5rem;
+  }
+
+  .price-scale-section div {
+    width: 100%;
+  }
+
+  .price-scale-section article ul {
+    font-size: .1rem;
+  }
+  
   label {
     font-size: 1rem;
     font-weight: bold;
@@ -980,7 +1013,7 @@ footer {
 
   .nav-tab {
     font-weight: 500;
-    width: 12rem;
+    width: 8rem;
     font-size: .9rem;
     padding: .5rem;
   }
@@ -1140,6 +1173,27 @@ footer {
   .booking-section article p {
     font-weight: 500;
     padding-bottom: 2rem;
+  }
+
+  .plans-price-section {
+    padding: 0 2rem;
+    display: grid;
+    gap: 1.7rem;
+    grid-template-columns: 1fr 2fr;
+    padding-bottom: 4rem;
+  }
+
+  .price-scale-section {
+    width: 42vw;
+    padding: .5rem;
+  }
+
+  .price-scale-section div {
+    width: 100%;
+  }
+
+  .price-scale-section article ul {
+    font-size: .1rem;
   }
 
   .articles-container {
