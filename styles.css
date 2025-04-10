@@ -86,7 +86,7 @@ h2 {
   align-items: center;
   letter-spacing: .1rem;
   color: white;
-  padding: 3.4rem 10rem;
+  padding: 3.9rem 10rem;
 }
 
 .logo img {
@@ -106,7 +106,7 @@ h2 {
   margin: 0;
   font-family: "Salsa", system-ui;
   letter-spacing: 1rem;
-  font-size: 4rem;
+  font-size: 3rem;
   font-weight: 700;
   font-style: normal;
   color: white;
@@ -582,7 +582,6 @@ textarea {
   background-color: #d5d9df;
 }
 
-
 .thank-you {
   padding: 9rem 0;
   display: flex;
@@ -603,7 +602,7 @@ textarea {
 footer {
   text-align: center;
   padding: 2rem 0;
-  background-color: #e6e4e4;
+  background-color: #FAF0EB;
 }
 
 footer img {
