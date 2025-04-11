@@ -289,14 +289,14 @@ li img {
 
 .meet-the-founder {
   height: 60vh;
-  padding: 8rem 4rem 10rem 4rem;
-  margin-bottom: 15rem;
+  padding: 4rem 4rem 10rem 4.5rem;
+  margin-bottom: 18rem;
 }
 
 .black-background {
-  margin: 8% 4%;
+  margin: 12% 4%;
   background-color: black;
-  padding: 18rem 0;
+  padding: 19rem 0;
   width: 30%;
 }
 
@@ -307,9 +307,9 @@ li img {
 }
 
 .meet-the-founder p {
-  z-index: 2;
+  z-index: 1;
   position: absolute;
-  top: 262rem;
+  top: 265rem;
   font-size: 2rem;
   margin-left: 40rem;
   width: 45%;
@@ -1163,7 +1163,7 @@ footer img {
   .provide-list article {
     display: block;
     width: 100%;
-    padding-bottom: 5rem;
+    padding-bottom: 8rem;
   }
 
   .provide-list .end-benefits div,
@@ -1177,7 +1177,7 @@ footer img {
   .provide-list .middle-benefit h3 { 
     text-align: center;
     width: 100%;
-    padding: 2rem 0rem 0rem 1rem;
+    padding: 8rem 0rem 0rem 1rem;
   }
 
   .provide-list .end-benefits p,
