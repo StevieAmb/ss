@@ -531,6 +531,11 @@ textarea {
   border-radius: 8% 8% 0 0 ;
 }
 
+.plans-price-section h3 {
+  text-align: center;
+  width: 100%;
+}
+
 .plans-price-section .pricing-layer {
   display: flex;
   justify-content: center;
