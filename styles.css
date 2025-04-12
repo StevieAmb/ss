@@ -522,15 +522,13 @@ textarea {
   background-color: #a9a9a9;
 }
 
-.plans-price-section h3 {
-    margin: 2.8rem 0;
-}
-
 .plans-price-section {
   gap: 1.5rem;
-  padding: 0 2rem;
+  padding: 3rem 2rem;
   display: block;
   padding-bottom: 4rem;
+  background-color: #f2dbdb;
+  border-radius: 8% 8% 0 0 ;
 }
 
 .plans-price-section .pricing-layer {
@@ -546,7 +544,7 @@ textarea {
   flex-wrap: wrap;
   border-radius: 1.5rem;
   margin: .3rem 0;
-  box-shadow: -4px 1px 8px #e6e4e4;
+  box-shadow: -4px 1px 8px #5b5656;
 }
 
 .price-scale-section {
@@ -587,11 +585,11 @@ textarea {
 }
 
 .skillshare, .referrals {
-  background-color: #e6e4e4;
+  background-color: #fff;
 }
 
 .tierOne {
-  background-color: #d5d9df;
+  background-color: #fff;
 }
 
 .thank-you {
