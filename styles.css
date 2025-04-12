@@ -700,6 +700,9 @@ footer img {
   }
 
   .hero-images {
+    background-position: -155% 55%;
+    background-size: cover;
+    height: 40.5rem;
     height: 30rem;
     color: white;
     font-family: "Lato", sans-serif;
