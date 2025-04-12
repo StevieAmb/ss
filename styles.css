@@ -788,13 +788,14 @@ footer img {
   .provide-list .end-benefits h3,
   .provide-list .middle-benefit h3 { 
     text-align: center;
-    width: 100%;
-    padding: 2rem 0rem .5rem .5rem;
+    width: 95%;
+    padding: 2rem 0rem .5rem .8rem;
   }
 
   .provide-list .end-benefits p,
   .provide-list .middle-benefit p {
-    width: 100%;
+    font-size: 1.2rem;
+    width: 95%;
     padding: 1rem 0rem 1rem .5rem;
   }
 
