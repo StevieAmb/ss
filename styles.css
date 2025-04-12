@@ -177,7 +177,7 @@ hr {
   padding: 1.5rem 0 4rem 0;
 }
 
-.list-of-services ul li {
+.list-of-services section article {
   gap: 1.7rem;
   margin-bottom: 1.5rem;
   padding: 1.1rem 2rem;
@@ -188,10 +188,11 @@ hr {
   box-shadow: .15rem .15rem .15rem #5c5111;
 }
 
-li span {
+article h3 {
   font-weight: bold;
   padding: 0 0 2rem .5rem;
   font-size: 1.7rem;
+  width: 75%;
 }
 
 li img {
