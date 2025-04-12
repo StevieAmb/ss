@@ -527,8 +527,9 @@ textarea {
   padding: 3rem 2rem;
   display: block;
   padding-bottom: 4rem;
-  background-color: mintcream;
+  background-color: rgb(229, 247, 238);
   border-radius: 8% 8% 0 0 ;
+  border: 1px solid #757F86;
 }
 
 .plans-price-section h3 {
