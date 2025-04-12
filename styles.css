@@ -720,7 +720,7 @@ footer img {
     padding-bottom: 2.7rem;
   }
 
-  .list-of-services ul .more-content {
+  .list-of-services section .more-content {
     margin-bottom: 1.5rem;
     text-align: center;
     padding: 0;
@@ -734,7 +734,7 @@ footer img {
     box-shadow: .15rem .15rem .15rem #5c5111;
   }
 
-  .list-of-services ul .less-wording {
+  .list-of-services section .less-wording {
     margin-bottom: 1.5rem;
     text-align: center;
     padding: 0;
