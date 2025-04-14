@@ -196,7 +196,7 @@ hr {
   font-size: 1.1rem;
   list-style-type: none;
   border-radius: 7px;
-  box-shadow: .15rem .15rem .15rem #5c5111;
+  box-shadow: .15rem .15rem .15rem #802000;
 }
 
 .services-heading {
@@ -239,6 +239,13 @@ article h3 {
   font-family: "Salsa", system-ui;
   padding: 7rem 0 1.1rem 7rem;
   font-size: 1.26rem;
+  width: 80%;
+  color: #802000;
+}
+
+.provide-list .middle-benefit h3 {
+  width: 100%;
+  color: #802000;
 }
 
 .provide-list .end-benefits div {
@@ -345,7 +352,7 @@ article h3 {
 }
 
 .learn-more {
-  border: 2px solid hsl(216, 84%, 27%);
+  border: 2px solid #802000;
   background-color: white;
   font-weight: bolder;
   text-decoration: none;
@@ -354,14 +361,16 @@ article h3 {
   position: relative;
   bottom: 10rem;
   left: 4rem;
-  padding: 1rem;
+  padding: 1.5rem;
   font-size: larger;
   border-radius: 7px;
+  color: #802000;
 }
 
 .learn-more:hover {
-  background-color: #0B3A81;
-  color: #fff;
+  border: 2px solid #4b838b;
+  background-color: #4b838b;
+  color: white
 }
 
 .articles-container {
