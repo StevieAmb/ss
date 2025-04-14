@@ -274,7 +274,7 @@ article h3 {
 }
 
 .call-to-action {
-  padding: 13rem 5rem;
+  padding: 10rem 5rem;
   display: flex;
   gap: 5rem;
   flex-direction: column;
@@ -291,7 +291,7 @@ article h3 {
 
 .book-button {
   width: 16rem;
-  padding: 2rem;
+  padding: 2rem 0 2rem 2rem;
   border: 2px solid #4b838b;
   background-color: white;
   font-weight: bolder;
