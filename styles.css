@@ -903,13 +903,6 @@ footer img {
     height: 90vh;
     padding: 1rem;
   }
-
-  .black-background {
-    margin: 8% 4%;
-    background-color: black;
-    padding: 2rem 0;
-    width: 90%;
-  }
   
   .meet-the-founder h4 {
     text-align: center;
@@ -1117,6 +1110,10 @@ footer img {
   #hidden {
     display: none;
   }
+
+  #mobile-tablet-hidden {
+    display: none;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 1023px) {
@@ -1280,12 +1277,12 @@ footer img {
     margin-bottom: 0;
   }
 
-  .black-background {
+  /* .black-background {
     margin: 8% 4%;
     background-color: black;
     padding: 2rem 0;
     width: 90%;
-  }
+  } */
   
   .meet-the-founder h4 {
     text-align: center;
@@ -1446,6 +1443,10 @@ footer img {
   }
 
   #hidden {
+    display: none;
+  }
+
+  #mobile-tablet-hidden {
     display: none;
   }
 }
