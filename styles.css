@@ -280,7 +280,7 @@ article h3 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: #f6f0e4;
+  background: #fae9e4;
 }
 
 .call-to-action p {
@@ -292,7 +292,7 @@ article h3 {
 .book-button {
   width: 16rem;
   padding: 2rem;
-  border: 2px solid #0B3A81;
+  border: 2px solid #4b838b;
   background-color: white;
   font-weight: bolder;
   text-decoration: none;
@@ -301,7 +301,7 @@ article h3 {
 }
 
 .book-button:hover {
-  background-color: #0B3A81;
+  background-color: #4b838b;
   color: white;
 }
 
