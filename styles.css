@@ -681,10 +681,15 @@ footer img {
 }
 
 @media screen and (max-width: 767px) {
+  .disclaimer {
+    font-size: .6rem;
+  }
+  
   .page-title {
     letter-spacing: .1rem;
-    padding: 2rem 0rem;
-    height: 19vh;
+    text-align: center;
+    padding: 2.5rem 0rem;
+    color: #802000;
   }
   
   .page-title h1 {
@@ -697,7 +702,7 @@ footer img {
     font-size: 1.5rem;
     font-weight: 700;
     padding-left: 1.3rem;
-    color: white;
+    color: #802000;
   }
 
 .page-title p {
@@ -707,7 +712,7 @@ footer img {
     margin: 0;
     font-family: "Merriweather", sans-serif;
     letter-spacing: .1rem;
-    font-size: .6rem;
+    font-size: .65rem;
     font-style: italic;
     font-weight: 300;
     padding-left: .9rem;
