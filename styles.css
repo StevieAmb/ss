@@ -472,8 +472,10 @@ details {
 .contact-me-form {
   width: 50%;
   padding: 6.5rem 0 6rem 5rem;
-  background-color: #E7F1F2;
+  border: .5px solid #802000;
+  background-color: #d7b9af;
   border-radius: 40px 30px 150px;
+  border-bottom: none;
 }
 
 label {
@@ -485,8 +487,8 @@ input {
   width: 85%;
   height: 6vh;
   border: none;
-  border-radius: 2px;
-  border-right: 4px solid #757F86;
+  border-radius: 15px;
+  border-right: 2px solid #802000;
 }
 
 input::placeholder {
@@ -515,7 +517,8 @@ textarea {
   display: flex;
   margin-top: .4rem;
   border: none;
-  width: 42.7%;
+  border-radius: 15px;
+  width: 50.7%;
 }
 
 .input-field {
@@ -531,7 +534,7 @@ textarea {
 }
 
 .submit-button {
-  background-color: #0B3A81;
+  background-color: #802000;
   font-weight: bolder;
   height: 2.5rem;
   width: 17.5rem;
@@ -544,6 +547,7 @@ textarea {
 
 .submit-button:hover {
   background-color: #a9a9a9;
+  color: black;
 }
 
 .plans-price-section {
