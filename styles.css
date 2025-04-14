@@ -67,7 +67,7 @@ a {
 }
 
 a:active, a:visited {
-  color: #0B3A81;
+   color: #802000
 }
 
 h2 {
@@ -77,16 +77,15 @@ h2 {
   font-weight: 700;
   text-align: center;
   padding: 1rem 0;
+  color: #802000;
 }
 
 .page-title {
-  background-color: #0B3A81;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  letter-spacing: .1rem;
-  color: white;
-  padding: 3.9rem 10rem;
+  background-color: #fae9e4;
+  text-align: center;
+  padding: 3rem 12rem;
+  letter-spacing: .05rem;
+  color: black;
 }
 
 .logo img {
@@ -100,6 +99,17 @@ h2 {
   z-index: auto;
 }
 
+.disclaimer {
+  text-align: center;
+  background: #FF9F80;
+  width: 100%;
+  font-size: 12px;
+  padding: .7rem 0;
+  color: black;
+  font-weight: 400;
+  letter-spacing: .1rem;
+}
+
 .page-title h1 {
   z-index: 1;
   position: relative;
@@ -109,7 +119,7 @@ h2 {
   font-size: 3rem;
   font-weight: 700;
   font-style: normal;
-  color: white;
+  color: #802000;
 }
 
 .page-title p {
@@ -122,10 +132,11 @@ h2 {
   font-style: italic;
   font-weight: 300;
   margin-left: 2rem;
+  color: #802000;
 }
 
 .hero-images {
-  background-image: url('images/christina-wocintechchat-com-UTw3j_aoIKM-unsplash.jpg');
+  background-image: url('images/black_woman_engineer_3.jpg');
   background-position: -110% 55%;
   background-size: cover;
   height: 40.5rem;
@@ -140,9 +151,9 @@ h2 {
   top: 0;
   position: sticky;
   z-index: 2;
+  box-shadow: 0px 0px 3px 1px #802000;
   background-color: white;
   margin: 0;
-  box-shadow: 0px 0 30px 0 #757F86;
   padding: 0 5rem;
 }
 
@@ -185,7 +196,7 @@ hr {
   font-size: 1.1rem;
   list-style-type: none;
   border-radius: 7px;
-  box-shadow: .15rem .15rem .15rem #5c5111;
+  box-shadow: .15rem .15rem .15rem #b27966;
 }
 
 .services-heading {
@@ -194,13 +205,14 @@ hr {
 
 article h3 {
   font-weight: bold;
+  font-family: "Salsa", system-ui;
   padding: .8rem 0 .5rem .5rem;
   font-size: 1.7rem;
-  width: 75%;
+  color: #b27966
 }
 
-li img {
-  filter: sepia(45%);
+.services-heading img {
+  filter: grayscale(65%);
 }
 
 .provide-list {
@@ -228,6 +240,13 @@ li img {
   font-family: "Salsa", system-ui;
   padding: 7rem 0 1.1rem 7rem;
   font-size: 1.26rem;
+  width: 80%;
+  color: #b27966
+}
+
+.provide-list .middle-benefit h3 {
+  width: 100%;
+  color: #b27966
 }
 
 .provide-list .end-benefits div {
@@ -236,6 +255,7 @@ li img {
 }
 
 .provide-list .end-benefits img {
+  filter: sepia(30%);
   width: 50%;
   height: 30%;
 }
@@ -263,25 +283,27 @@ li img {
 }
 
 .call-to-action {
-  padding: 13rem 5rem;
+  padding: 10rem 5rem;
   display: flex;
   gap: 5rem;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: #f6f0e4;
+  background: #fae9e4;
 }
 
 .call-to-action p {
   text-align: center;
   line-height: 4rem;
   font-size: 2.7rem;
+  color: #802000;
+  font-family: "Salsa", system-ui;
 }
 
 .book-button {
   width: 16rem;
-  padding: 2rem;
-  border: 2px solid #0B3A81;
+  padding: 2rem 0 2rem 2rem;
+  border: 2px solid #802000;
   background-color: white;
   font-weight: bolder;
   text-decoration: none;
@@ -290,7 +312,8 @@ li img {
 }
 
 .book-button:hover {
-  background-color: #0B3A81;
+  border: 2px solid #4b838b;
+  background-color: #4b838b;
   color: white;
 }
 
@@ -330,23 +353,25 @@ li img {
 }
 
 .learn-more {
-  border: 2px solid hsl(216, 84%, 27%);
+  border: 2px solid #802000;
   background-color: white;
   font-weight: bolder;
   text-decoration: none;
   margin-left: 35.5rem;
   margin-bottom: 4rem;
   position: relative;
-  bottom: 14rem;
+  bottom: 10rem;
   left: 4rem;
-  padding: 1rem;
+  padding: 1.5rem;
   font-size: larger;
   border-radius: 7px;
+  color: #802000;
 }
 
 .learn-more:hover {
-  background-color: #0B3A81;
-  color: #fff;
+  border: 2px solid #4b838b;
+  background-color: #4b838b;
+  color: white
 }
 
 .articles-container {
@@ -377,6 +402,7 @@ li img {
 .about-founder h2 {
   text-align: start;
   margin: 2rem 0;
+
 }
 
 .about-founder p {
@@ -448,8 +474,10 @@ details {
 .contact-me-form {
   width: 50%;
   padding: 6.5rem 0 6rem 5rem;
-  background-color: #E7F1F2;
+  border: .5px solid #802000;
+  background-color: #d7b9af;
   border-radius: 40px 30px 150px;
+  border-bottom: none;
 }
 
 label {
@@ -461,8 +489,8 @@ input {
   width: 85%;
   height: 6vh;
   border: none;
-  border-radius: 2px;
-  border-right: 4px solid #757F86;
+  border-radius: 15px;
+  border-right: 2px solid #802000;
 }
 
 input::placeholder {
@@ -491,7 +519,9 @@ textarea {
   display: flex;
   margin-top: .4rem;
   border: none;
-  width: 42.7%;
+  border-radius: 15px;
+  width: 50.7%;
+  border-right: 2px solid #802000;
 }
 
 .input-field {
@@ -507,7 +537,7 @@ textarea {
 }
 
 .submit-button {
-  background-color: #0B3A81;
+  background-color: #802000;
   font-weight: bolder;
   height: 2.5rem;
   width: 17.5rem;
@@ -520,6 +550,7 @@ textarea {
 
 .submit-button:hover {
   background-color: #a9a9a9;
+  color: black;
 }
 
 .plans-price-section {
@@ -529,10 +560,12 @@ textarea {
   padding-bottom: 4rem;
   background-color: rgb(229, 247, 238);
   border-radius: 8% 8% 0 0 ;
-  border: 1px solid #757F86;
+  border: .5px solid #4b838b;
 }
 
 .plans-price-section h3 {
+  font-family: "Salsa", system-ui;
+  font-size: .5rem;
   text-align: center;
   width: 100%;
 }
@@ -576,8 +609,9 @@ textarea {
 .price-scale-section h3 {
   margin: 0;
   text-align: center;
-  font-size: 1.9rem;
+  font-size: 1.7rem;
   font-weight: 600;
+  color: #5b5656;
 }
 
 .price-scale-section p {
@@ -648,10 +682,15 @@ footer img {
 }
 
 @media screen and (max-width: 767px) {
+  .disclaimer {
+    font-size: .6rem;
+  }
+  
   .page-title {
     letter-spacing: .1rem;
-    padding: 2rem 0rem;
-    height: 19vh;
+    text-align: center;
+    padding: 3.1rem 0rem;
+    color: #802000;
   }
   
   .page-title h1 {
@@ -664,7 +703,7 @@ footer img {
     font-size: 1.5rem;
     font-weight: 700;
     padding-left: 1.3rem;
-    color: white;
+    color: #802000;
   }
 
 .page-title p {
@@ -674,7 +713,7 @@ footer img {
     margin: 0;
     font-family: "Merriweather", sans-serif;
     letter-spacing: .1rem;
-    font-size: .6rem;
+    font-size: .65rem;
     font-style: italic;
     font-weight: 300;
     padding-left: .9rem;
@@ -772,7 +811,7 @@ footer img {
     width: 15.5rem;
     border-radius: 7px;
     box-shadow: .15rem .15rem .15rem #5c5111;
-    background-color: #f6f0e4;
+    background-color: #E7F1F2
   }
 
   .provide-list {
@@ -827,17 +866,15 @@ footer img {
 
   .call-to-action {
     padding: 6.5rem 1rem;
-    background: #E7F1F2;
-    border-top:2px solid #688bc1;
+    color: #fae9e4;
   }
 
   .call-to-action .book-button {
     height: 2.7rem;
     width: 16rem;
     margin: 0 auto;
-    padding: 1rem;
-    border: 2px solid #0B3A81;
-    background-color: white;
+    padding: 1rem 1rem 0 1rem;
+    text-align: center;
     font-weight: bolder;
     text-decoration: none;
     font-size: larger;
@@ -846,7 +883,7 @@ footer img {
     
   
   .call-to-action p {
-    font-size: 1.8rem;
+    font-size: 1.3rem;
     width: 100%;
   }
   
@@ -892,7 +929,7 @@ footer img {
   }
   
   .learn-more {
-    margin-left: 7rem;
+    margin-left: 3.5rem;
     margin-top: 1.5rem;
     padding: 1rem;
     margin-bottom: 1rem;
@@ -924,10 +961,11 @@ footer img {
 
   .plans-price-section {
     padding: 0 .7rem;
-    display: grid;
-    gap: 1rem;
-    grid-template-columns: 1fr 2fr;
-    padding-bottom: 4rem;
+    display: block;
+  }
+
+  .pricing-layer {
+    display: block;
   }
 
   .price-scale-section {
@@ -1072,8 +1110,7 @@ footer img {
 @media (min-width: 768px) and (max-width: 1023px) {
   .page-title {
     letter-spacing: .1rem;
-    padding: 2rem 0rem;
-    height: 19vh;
+    padding: 4rem 0rem;
   }
   
   .page-title h1 {
@@ -1086,7 +1123,7 @@ footer img {
     font-size: 3.5rem;
     font-weight: 700;
     padding-left: 1.3rem;
-    color: white;
+    color: #802000
   }
 
 .page-title p {
@@ -1124,7 +1161,7 @@ footer img {
     font-weight: 500;
     width: 8rem;
     font-size: .9rem;
-    padding: .5rem;
+    padding: .2rem;
   }
 
   .hero-images {
@@ -1217,9 +1254,7 @@ footer img {
   }
 
   .call-to-action {
-    padding: 3rem 1rem;
-    background: #E7F1F2;
-    border-top:2px solid #688bc1;
+    padding: 7rem 1rem;
   }
   
   .call-to-action p {
@@ -1261,8 +1296,8 @@ footer img {
   }
   
   .learn-more {
-    margin-top: 2rem;
-    margin-left: 23rem;
+    margin-top: 25rem;
+    margin-left: 14rem;
     padding: 1rem;
     font-size: larger;
     position: static;
