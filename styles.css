@@ -212,7 +212,7 @@ article h3 {
 }
 
 .services-heading img {
-  filter: grayscale(105%);
+  filter: grayscale(25%);
 }
 
 .provide-list {
@@ -688,7 +688,7 @@ footer img {
   .page-title {
     letter-spacing: .1rem;
     text-align: center;
-    padding: 2.5rem 0rem;
+    padding: 3.1rem 0rem;
     color: #802000;
   }
   
@@ -810,7 +810,7 @@ footer img {
     width: 15.5rem;
     border-radius: 7px;
     box-shadow: .15rem .15rem .15rem #5c5111;
-    background-color: #f6f0e4;
+    background-color: #E7F1F2
   }
 
   .provide-list {
@@ -865,17 +865,15 @@ footer img {
 
   .call-to-action {
     padding: 6.5rem 1rem;
-    background: #E7F1F2;
-    border-top:2px solid #688bc1;
+    color: #fae9e4;
   }
 
   .call-to-action .book-button {
     height: 2.7rem;
     width: 16rem;
     margin: 0 auto;
-    padding: 1rem;
-    border: 2px solid #0B3A81;
-    background-color: white;
+    padding: 1rem 1rem 0 1rem;
+    text-align: center;
     font-weight: bolder;
     text-decoration: none;
     font-size: larger;
@@ -884,7 +882,7 @@ footer img {
     
   
   .call-to-action p {
-    font-size: 1.8rem;
+    font-size: 1.3rem;
     width: 100%;
   }
   
