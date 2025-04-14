@@ -77,7 +77,7 @@ h2 {
   font-weight: 700;
   text-align: center;
   padding: 1rem 0;
-  color: #5b5656;
+  color: #802000;
 }
 
 .page-title {
@@ -196,8 +196,7 @@ hr {
   font-size: 1.1rem;
   list-style-type: none;
   border-radius: 7px;
-  background-color: #f9f0ee;
-  box-shadow: .15rem .15rem .15rem #802000;
+  box-shadow: .15rem .15rem .15rem #b27966;
 }
 
 .services-heading {
@@ -206,9 +205,11 @@ hr {
 
 article h3 {
   font-weight: bold;
+  font-family: "Salsa", system-ui;
   padding: .8rem 0 .5rem .5rem;
   font-size: 1.7rem;
   width: 75%;
+  color: #b27966
 }
 
 .services-heading img {
@@ -241,12 +242,12 @@ article h3 {
   padding: 7rem 0 1.1rem 7rem;
   font-size: 1.26rem;
   width: 80%;
-  color: #802000;
+  color: #b27966
 }
 
 .provide-list .middle-benefit h3 {
   width: 100%;
-  color: #802000;
+  color: #b27966
 }
 
 .provide-list .end-benefits div {
@@ -402,6 +403,7 @@ article h3 {
 .about-founder h2 {
   text-align: start;
   margin: 2rem 0;
+
 }
 
 .about-founder p {
@@ -960,10 +962,11 @@ footer img {
 
   .plans-price-section {
     padding: 0 .7rem;
-    display: grid;
-    gap: 1rem;
-    grid-template-columns: 1fr 2fr;
-    padding-bottom: 4rem;
+    display: block;
+  }
+
+  .pricing-layer {
+    display: block;
   }
 
   .price-scale-section {
