@@ -103,6 +103,7 @@ h2 {
   text-align: center;
   background: #FF9F80;
   width: 100%;
+  font-size: 12px;
   padding: .7rem 0;
   color: black;
   font-weight: 400;
@@ -287,12 +288,14 @@ article h3 {
   text-align: center;
   line-height: 4rem;
   font-size: 2.7rem;
+  color: #802000;
+  font-family: "Salsa", system-ui;
 }
 
 .book-button {
   width: 16rem;
   padding: 2rem 0 2rem 2rem;
-  border: 2px solid #4b838b;
+  border: 2px solid #802000;
   background-color: white;
   font-weight: bolder;
   text-decoration: none;
@@ -301,6 +304,7 @@ article h3 {
 }
 
 .book-button:hover {
+  border: 2px solid #4b838b;
   background-color: #4b838b;
   color: white;
 }
@@ -348,7 +352,7 @@ article h3 {
   margin-left: 35.5rem;
   margin-bottom: 4rem;
   position: relative;
-  bottom: 14rem;
+  bottom: 10rem;
   left: 4rem;
   padding: 1rem;
   font-size: larger;
