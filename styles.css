@@ -208,12 +208,11 @@ article h3 {
   font-family: "Salsa", system-ui;
   padding: .8rem 0 .5rem .5rem;
   font-size: 1.7rem;
-  width: 75%;
   color: #b27966
 }
 
 .services-heading img {
-  filter: grayscale(25%);
+  filter: grayscale(65%);
 }
 
 .provide-list {
