@@ -928,7 +928,7 @@ footer img {
   }
   
   .learn-more {
-    margin-left: 7rem;
+    margin-left: 3.5rem;
     margin-top: 1.5rem;
     padding: 1rem;
     margin-bottom: 1rem;
@@ -1108,8 +1108,7 @@ footer img {
 @media (min-width: 768px) and (max-width: 1023px) {
   .page-title {
     letter-spacing: .1rem;
-    padding: 2rem 0rem;
-    height: 19vh;
+    padding: 4rem 0rem;
   }
   
   .page-title h1 {
@@ -1122,7 +1121,7 @@ footer img {
     font-size: 3.5rem;
     font-weight: 700;
     padding-left: 1.3rem;
-    color: white;
+    color: #802000
   }
 
 .page-title p {
@@ -1160,7 +1159,7 @@ footer img {
     font-weight: 500;
     width: 8rem;
     font-size: .9rem;
-    padding: .5rem;
+    padding: .2rem;
   }
 
   .hero-images {
@@ -1253,9 +1252,7 @@ footer img {
   }
 
   .call-to-action {
-    padding: 3rem 1rem;
-    background: #E7F1F2;
-    border-top:2px solid #688bc1;
+    padding: 7rem 1rem;
   }
   
   .call-to-action p {
@@ -1297,8 +1294,8 @@ footer img {
   }
   
   .learn-more {
-    margin-top: 2rem;
-    margin-left: 23rem;
+    margin-top: 25rem;
+    margin-left: 14rem;
     padding: 1rem;
     font-size: larger;
     position: static;
