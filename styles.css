@@ -687,7 +687,15 @@ footer img {
 
 @media screen and (max-width: 767px) {
   .disclaimer {
-    font-size: .6rem;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: .5rem;
+    padding: 1rem 0rem;
+  }
+
+  .disclaimer p {
+    width: 95%;
   }
   
   .page-title {
