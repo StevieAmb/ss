@@ -246,6 +246,7 @@ article h3 {
 }
 
 .provide-list .end-benefits img {
+  filter: sepia(30%);
   width: 50%;
   height: 30%;
 }
