@@ -639,12 +639,16 @@ textarea {
 
 .to-learn-list {
   display: flex;
-  gap: 30rem;
+  gap: 25rem;
   padding: 5rem 13rem;
 }
 
 .to-learn-list h3 {
   width: 15rem;
+}
+
+.to-learn-list img {
+  width: 40%;
 }
 
 .thank-you {
