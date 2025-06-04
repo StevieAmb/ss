@@ -639,8 +639,8 @@ textarea {
 
 .to-learn-list {
   display: flex;
-  gap: 7rem;
-  padding: 4rem;
+  gap: 30rem;
+  padding: 5rem 13rem;
 }
 
 .to-learn-list h3 {
