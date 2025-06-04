@@ -637,6 +637,16 @@ textarea {
   background-color: #fff;
 }
 
+.to-learn-list {
+  display: flex;
+  gap: 7rem;
+  padding: 4rem;
+}
+
+.to-learn-list h3 {
+  width: 15rem;
+}
+
 .thank-you {
   padding: 9rem 0;
   display: flex;
