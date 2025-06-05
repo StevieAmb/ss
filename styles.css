@@ -365,7 +365,7 @@ article h3 {
   margin-left: 35.5rem;
   margin-bottom: 4rem;
   position: relative;
-  bottom: 10rem;
+  bottom: 8rem;
   left: 4rem;
   padding: 1.5rem;
   font-size: larger;
@@ -640,7 +640,10 @@ textarea {
 .to-learn-list {
   display: flex;
   gap: 25rem;
-  padding: 5rem 13rem;
+  padding: 2.5rem 13rem;
+  border: .75px solid #FF9F80;
+  border-radius: 4rem;
+  background-color: #ffe7e0;
 }
 
 .to-learn-list h3 {
@@ -649,6 +652,7 @@ textarea {
 
 .to-learn-list img {
   width: 40%;
+  border-radius: 4rem;
 }
 
 .thank-you {
