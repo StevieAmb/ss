@@ -389,13 +389,13 @@ article h3 {
 
 .image-of-self {
   margin: 10rem 2.7rem;
-  width: 27rem;
-  height: 40rem;
+  width: 28rem;
+  /* height: 40rem; */
 }
 
 .about-left {
   display: flex;
-  gap: 3rem;
+  gap: 2rem;
 }
 
 .about-founder {
