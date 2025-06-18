@@ -985,7 +985,10 @@ footer img {
 
   .plans-price-section {
     padding: 0 .7rem;
-    display: block;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 0%;
   }
 
   .pricing-layer {
@@ -993,7 +996,7 @@ footer img {
   }
 
   .price-scale-section {
-    width: 100vw;
+    width: 90vw;
     padding: .5rem;
   }
 
