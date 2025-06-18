@@ -216,7 +216,9 @@ article h3 {
 }
 
 .services-heading img {
-  filter: grayscale(65%);
+  margin-left: 1rem;
+  padding-top: .55rem;
+  filter: grayscale(50%);
 }
 
 .provide-list {
@@ -365,7 +367,7 @@ article h3 {
   margin-left: 35.5rem;
   margin-bottom: 4rem;
   position: relative;
-  bottom: 8rem;
+  bottom: 7rem;
   left: 4rem;
   padding: 1.5rem;
   font-size: larger;
@@ -842,7 +844,7 @@ footer img {
     width: 15.5rem;
     border-radius: 7px;
     box-shadow: .15rem .15rem .15rem #5c5111;
-    background-color: #E7F1F2
+    background-color: #f4e4de;
   }
 
   .provide-list {
@@ -868,7 +870,7 @@ footer img {
   .provide-list .middle-benefit h3 { 
     text-align: center;
     width: 95%;
-    padding: 2rem 0rem .5rem .8rem;
+    padding: 4.25rem 0rem .5rem .8rem;
   }
 
   .provide-list .end-benefits p,
@@ -933,8 +935,16 @@ footer img {
     text-align: center;
     position: static;
     font-size: 1.5rem;
-    margin-left: 2rem;
-    width: 80%;
+    margin-left: .75rem;
+    width: 95%;
+    padding-bottom: 5rem;
+  }
+
+  .meet-the-founder article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
   }
   
   .meet-the-founder article img {
@@ -953,10 +963,11 @@ footer img {
   }
   
   .learn-more {
-    margin-left: 3.5rem;
-    margin-top: 1.5rem;
+    margin-left: 7rem;
+    margin-top: 7.5rem;
     padding: 1rem;
-    margin-bottom: 1rem;
+    margin-bottom: 7rem;
+    width: 10rem;
     font-size: larger;
     position: static;
     border-radius: 7px;
@@ -985,16 +996,20 @@ footer img {
 
   .plans-price-section {
     padding: 0 .7rem;
-    display: block;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 1rem;
   }
 
   .pricing-layer {
-    display: block;
+    padding: 1rem;
+    flex-direction: column;
   }
 
   .price-scale-section {
-    width: 100vw;
-    padding: .5rem;
+    width: 85vw;
+    padding: 1rem;
   }
 
   .price-scale-section div {
