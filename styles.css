@@ -216,7 +216,9 @@ article h3 {
 }
 
 .services-heading img {
-  filter: grayscale(65%);
+  margin-left: 1rem;
+  padding-top: .55rem;
+  filter: grayscale(50%);
 }
 
 .provide-list {
