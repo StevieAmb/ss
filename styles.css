@@ -842,7 +842,7 @@ footer img {
     width: 15.5rem;
     border-radius: 7px;
     box-shadow: .15rem .15rem .15rem #5c5111;
-    background-color: #E7F1F2
+    background-color: #e6d7d2;
   }
 
   .provide-list {
@@ -868,7 +868,7 @@ footer img {
   .provide-list .middle-benefit h3 { 
     text-align: center;
     width: 95%;
-    padding: 4rem 0rem .5rem .8rem;
+    padding: 4.25rem 0rem .5rem .8rem;
   }
 
   .provide-list .end-benefits p,
