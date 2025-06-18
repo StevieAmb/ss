@@ -989,7 +989,7 @@ footer img {
   }
 
   .pricing-layer {
-    display: block;
+    flex-direction: column;
   }
 
   .price-scale-section {
