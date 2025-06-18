@@ -934,7 +934,8 @@ footer img {
     position: static;
     font-size: 1.5rem;
     margin-left: 2rem;
-    width: 80%;
+    width: 90%;
+    padding-bottom: 5rem;
   }
   
   .meet-the-founder article img {
@@ -953,10 +954,10 @@ footer img {
   }
   
   .learn-more {
-    margin-left: 3.5rem;
-    margin-top: 1.5rem;
+    margin-left: 3rem;
+    margin-top: 8.5rem;
     padding: 1rem;
-    margin-bottom: 1rem;
+    margin-bottom: 7rem;
     font-size: larger;
     position: static;
     border-radius: 7px;
