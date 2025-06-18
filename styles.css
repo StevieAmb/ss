@@ -954,10 +954,11 @@ footer img {
   }
   
   .learn-more {
-    margin-left: 2.5rem;
+    margin-left: 7rem;
     margin-top: 9.5rem;
     padding: 1rem;
     margin-bottom: 7rem;
+    width: 10rem;
     font-size: larger;
     position: static;
     border-radius: 7px;
