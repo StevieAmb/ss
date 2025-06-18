@@ -988,16 +988,17 @@ footer img {
     display: flex;
     flex-direction: column;
     align-items: center;
-    border-radius: 0%;
+    border-radius: 1rem;
   }
 
   .pricing-layer {
+    padding: 1rem;
     flex-direction: column;
   }
 
   .price-scale-section {
-    width: 90vw;
-    padding: .5rem;
+    width: 85vw;
+    padding: 1rem;
   }
 
   .price-scale-section div {
