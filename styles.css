@@ -839,7 +839,7 @@ footer img {
   .list-of-services section .less-wording {
     margin-bottom: 1.5rem;
     text-align: center;
-    padding: 1rem 1rem;
+    padding: 1rem .95rem;
     font-weight: 300;
     width: 15.5rem;
     border-radius: 7px;
