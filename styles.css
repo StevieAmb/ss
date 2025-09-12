@@ -258,8 +258,7 @@ article h3 {
   justify-content: center;
 }
 
-.provide-list, .end-benefits {
-  display: flex;
+.provide-list .end-benefits {
   text-align: center;
   background-color: white;
   border-top: 1px solid #E7F1F2;
@@ -292,14 +291,17 @@ article h3 {
 }
 
 .provide-list .end-benefits img {
-  filter: sepia(30%);
   width: 50%;
   height: 30%;
 }
 
 .middle-benefit {
-  display: flex;
   padding: 0;
+}
+
+.middle-benefit img {
+  width: 50%;
+  height: 30%;
 }
 
 .middle-benefit h3 {
@@ -309,14 +311,12 @@ article h3 {
 }
 
 .middle-benefit p {
-  padding: 0 12rem;
   font-size: 1.25rem;
   letter-spacing: .07rem;
 }
 
-.middle-benefit img {
-  width: 47%;
-  height: 30%;
+.provide-list article {
+  text-align: center;
 }
 
 .call-to-action {
