@@ -192,6 +192,33 @@ hr {
 
 .user-entry h2 {
   width: 43%;
+  animation: fade-in 10s forwards;
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+
+  25% {
+    opacity: .25;;
+  }
+
+  50% {
+    opacity: .5;
+  }
+
+  75% {
+    opacity: .75;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.hide {
+  display: none;
 }
 
 .list-of-services {
@@ -212,6 +239,10 @@ hr {
 
 .services-heading {
   display: flex;
+}
+
+.services-heading:hover + .services-expanded {
+  display: block;
 }
 
 article h3 {
