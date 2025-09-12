@@ -258,21 +258,21 @@ article h3 {
 }
 
 .provide-list {
-  padding: 4rem 0;
+  padding: 2rem 0 7rem 0;
   animation: change-color-on-scroll 7s forwards;
   animation-timeline: view();
-  animation-range-end: 570px;
+  animation-range-end: 700px;
 }
 
 @keyframes change-color-on-scroll {
   from {
-   background-color: #E7F1F2;
-   color: #b27966;
+    background-color: #fff;
+    color: #b27966;
   }
 
   to {
-    background-color: #688bc1;
-    color: #fff
+    background-color: #FF9F80;
+    color: #fff;
   }
 }
 
@@ -286,6 +286,7 @@ article h3 {
   margin: 0 auto;
   font-size: 1.25rem;
   letter-spacing: .07rem;
+  color: #802000;
 }
 
 .provide-list-content img {
@@ -299,6 +300,7 @@ article h3 {
 }
 
 .provide-list-content article {
+  width: 29%;
   display: flex;
   flex-direction: column;
   justify-content: center;
