@@ -187,6 +187,7 @@ hr {
 .user-entry {
   padding-top: 6rem;
   display: flex;
+  width: 100%;
 }
 
 .user-entry h2 {
@@ -195,7 +196,7 @@ hr {
 
 .list-of-services {
   align-items: center;
-  padding: 1.5rem 0 4rem 0;
+  padding: 1.5rem 0 4rem 3rem;
 }
 
 .list-of-services section article {
