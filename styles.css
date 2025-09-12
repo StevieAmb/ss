@@ -272,41 +272,18 @@ article h3 {
   letter-spacing: .07rem;
 }
 
-.provide-list .end-benefits h3 {
-  font-family: "Salsa", system-ui;
-  padding: 7rem 0 1.1rem 7rem;
-  font-size: 1.26rem;
-  width: 80%;
-  color: #b27966
-}
-
-.provide-list .middle-benefit h3 {
-  width: 100%;
-  color: #b27966
-}
-
-.provide-list .end-benefits div {
-  width: 40%;
-  padding-right: 9rem;
-}
-
 .provide-list .end-benefits img {
+  margin: 0 auto;
   width: 50%;
-  height: 30%;
-}
-
-.middle-benefit {
-  padding: 0;
 }
 
 .middle-benefit img {
   width: 50%;
-  height: 30%;
 }
 
-.middle-benefit h3 {
+.provide-list h3 {
   font-family: "Salsa", system-ui;
-  padding: 5rem 0 1.1rem 0;
+  text-align: center;
   font-size: 1.26rem;
 }
 
