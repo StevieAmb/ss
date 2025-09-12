@@ -144,9 +144,6 @@ h2 {
   background-position: -110% 55%;
   background-size: cover;
   height: 40.5rem;
-  color: white;
-  font-family: "Lato", sans-serif;
-  text-align: center;
 }
 
 .nav-bar {
@@ -191,17 +188,15 @@ hr {
 }
 
 .user-entry h2 {
+  padding-top: 7rem;
   width: 43%;
-  animation: fade-in 10s forwards;
+  font-family: "Salsa", system-ui;
+  animation: fade-in 7s forwards;
 }
 
 @keyframes fade-in {
   0% {
     opacity: 0;
-  }
-
-  25% {
-    opacity: .25;;
   }
 
   50% {
@@ -247,7 +242,6 @@ hr {
 
 article h3 {
   font-weight: bold;
-  font-family: "Salsa", system-ui;
   padding: .8rem 0 .5rem .5rem;
   font-size: 1.7rem;
   color: #b27966
@@ -261,7 +255,6 @@ article h3 {
 
 .provide-list {
   display: flex;
-  flex-direction: column;
   justify-content: center;
 }
 
