@@ -272,7 +272,8 @@ article h3 {
 
   to {
     background-color: #FF9F80;
-    color: #fff;
+    color: #802000;
+    font-weight: 700;
   }
 }
 
@@ -285,8 +286,8 @@ article h3 {
 .provide-list-content p {
   margin: 0 auto;
   font-size: 1.25rem;
+  width: 75%;
   letter-spacing: .07rem;
-  color: #802000;
 }
 
 .provide-list-content img {
@@ -297,10 +298,12 @@ article h3 {
   font-family: "Salsa", system-ui;
   text-align: center;
   font-size: 1.26rem;
+    color: #5b5656;
 }
 
 .provide-list-content article {
-  width: 29%;
+  width: 26%;
+  height: 80%;
   display: flex;
   flex-direction: column;
   justify-content: center;
