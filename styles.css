@@ -184,10 +184,16 @@ hr {
   margin: 0;
 }
 
-.list-of-services {
+.user-entry {
+  padding-top: 6rem;
   display: flex;
-  justify-content: center;
-  gap: 1.5rem;
+}
+
+.user-entry h2 {
+  width: 43%;
+}
+
+.list-of-services {
   align-items: center;
   padding: 1.5rem 0 4rem 0;
 }
@@ -1485,7 +1491,7 @@ footer img {
   }
 }
 
-@media (min-width: 1024px) and (max-width: 1279px) and (orientation: landscape) {
+@media (min-width: 1025px) and (max-width: 1279px) and (orientation: landscape) {
   body {
     flex-direction: row;
   }
