@@ -188,7 +188,6 @@ hr {
 }
 
 .user-entry h2 {
-  padding-top: 7rem;
   width: 43%;
   font-family: "Salsa", system-ui;
   animation: fade-in 7s forwards;
