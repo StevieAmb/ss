@@ -47,7 +47,6 @@ table {
 	border-spacing: 0;
 }
 
-
 body {
   display: flex;
   flex-direction: column;
@@ -56,10 +55,6 @@ body {
   font-family: "Lato", sans-serif;
   font-weight: 300;
   font-style: normal;
-}
-
-main {
-  background-color: white;
 }
 
 a {
@@ -81,11 +76,10 @@ h2 {
 }
 
 .page-title {
-  background-color: #fae9e4;
   text-align: center;
   padding: 3rem 12rem;
   letter-spacing: .05rem;
-  color: black;
+  background-color: #E7F1F2;
 }
 
 .logo img {
@@ -101,13 +95,17 @@ h2 {
 
 .disclaimer {
   text-align: center;
-  background: #FF9F80;
+  background: black;
   width: 100%;
   font-size: 12px;
   padding: .7rem 0;
-  color: black;
+  color: white;
   font-weight: 400;
   letter-spacing: .1rem;
+}
+
+.disclaimer a {
+  color: #b0c72e;
 }
 
 .skillshares-left {
@@ -152,7 +150,7 @@ h2 {
   top: 0;
   position: sticky;
   z-index: 2;
-  box-shadow: 0px 0px 3px 1px #802000;
+  box-shadow: 0px 0px 0px 1px #000000;
   background-color: #edfba2;
   margin: 0;
   padding: 0 5rem;
