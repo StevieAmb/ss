@@ -376,17 +376,17 @@ article h3 {
 .meet-the-founder p {
   z-index: 1;
   position: absolute;
-  top: 265rem;
+  top: 217rem;
   font-size: 1.5rem;
   margin-left: 35rem;
-  line-height: 150%;
+  line-height: 170%;
   width: 45%;
 }
 
 .meet-the-founder article img {
   z-index: 1;
   position: absolute;
-  top: 258rem;
+  top: 208rem;
   left: 11rem;
 }
 
