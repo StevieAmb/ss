@@ -110,7 +110,8 @@ h2 {
   font-size: 3rem;
   font-weight: 700;
   font-style: normal;
-  color: #3b0f00;
+  color: #802000;
+  text-shadow: 1px 1px 1.85px black;
 }
 
 .page-title p {
