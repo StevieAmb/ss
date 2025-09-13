@@ -320,20 +320,22 @@ article h3 {
 }
 
 .call-to-action {
+  background-image: url('images/background_image_decoration_2.jpeg');
+  opacity: .75;
   padding: 10rem 5rem;
   display: flex;
   gap: 5rem;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: #fae9e4;
+  /* background: #FAF0EB */
 }
 
 .call-to-action p {
   text-align: center;
   line-height: 4rem;
   font-size: 2.7rem;
-  color: #802000;
+  color: white;
   font-family: "Salsa", system-ui;
 }
 
