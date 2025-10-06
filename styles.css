@@ -873,7 +873,7 @@ footer img {
     background-color: #f4e4de;
   }
 
-  .provide-list {
+  .provide-list-content {
     display: flex;
     flex-direction: column;
     justify-content: center;
