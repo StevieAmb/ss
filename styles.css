@@ -299,7 +299,7 @@ article h3 {
   font-family: "Salsa", system-ui;
   text-align: center;
   font-size: 1.26rem;
-  color: #802000
+  color: #802000;
 }
 
 .provide-list-content article {
@@ -357,9 +357,10 @@ article h3 {
 
 .black-background {
   margin: 12% 4%;
-  background-color: black;
+  background-color: #FF9F80;
   padding: 19rem 0;
   width: 30%;
+  border-radius: 5%;
 }
 
 .meet-the-founder h4 {
@@ -383,6 +384,7 @@ article h3 {
   position: absolute;
   top: 208rem;
   left: 11rem;
+  border-radius: 5%;
 }
 
 .learn-more {
