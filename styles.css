@@ -435,7 +435,6 @@ article h3 {
 .about-founder h2 {
   text-align: start;
   margin: 2rem 0;
-
 }
 
 .about-founder p {
@@ -824,6 +823,17 @@ footer img {
     color: black
   }
 
+  .user-entry {
+    padding-top: 1rem;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .user-entry h2 {
+    width: 100%;
+    text-align: center;
+  }
+
   .list-of-services {
     display: flex;
     flex-direction: column;
@@ -831,6 +841,24 @@ footer img {
     padding-top: 0;
     padding-bottom: 2.7rem;
   }
+
+  .list-of-services article {
+  gap: 1.7rem;
+  margin-bottom: 1.5rem;
+  padding: 1.1rem 2rem;
+  font-weight: 500;
+  font-size: 1.1rem;
+  list-style-type: none;
+  border-radius: 7px;
+  box-shadow: -.15rem -.15rem .15rem #b27966;
+  position: relative;
+  animation: mymove 5s forwards;
+}
+
+@keyframes mymove {
+  from {left: 2000px;}
+  to {left: 0px;}
+}
 
   .list-of-services section .more-content {
     margin-bottom: 1.5rem;
@@ -1115,7 +1143,6 @@ footer img {
   .image-of-self {
     margin-top: 2rem;
     width: 75%;
-    height: 35%;
   }
 
   .about-founder {
