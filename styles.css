@@ -787,7 +787,8 @@ footer img {
     overflow: hidden;
     /* basic menu styling*/
     list-style: none;
-    background: #F0E9E6;
+    background: #FF9F80;
+    background-size: cover;
     display: flex;
     flex-flow: column nowrap;
     justify-content: space-evenly;
@@ -806,7 +807,7 @@ footer img {
   
   li .menu-links {
     display: block;
-    color: white;
+    color: #714c4c;
     font-weight: bold;
     font-size: 1.5rem;
     /* remove default underline and add our own with padding and border bottom */
