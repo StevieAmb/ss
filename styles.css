@@ -727,11 +727,105 @@ footer img {
   display: block;
 }
 
+.desktop-hidden {
+  display: none;
+}
+
 .hidden {
   display: none;
 }
 
 @media screen and (max-width: 767px) {
+
+
+
+   .hamburger, .close {
+    border: none;
+    cursor: pointer;
+    /* position absolute position the icons relative to the body because they have no position relative parents*/
+    position: absolute;
+    top: -2.5rem;
+    right: 20.5rem;
+    width: 36px;
+    height: 36px;
+  }
+  
+  .hamburger {
+    background: #edfba2;
+  }
+  
+  .close {
+    left: 13rem;
+    margin-left: 7rem;
+    padding-top: 4rem;
+    padding-left: 1rem;
+    background: #FF9F80;
+  }
+
+  .hamburger img { 
+    width: 90%;
+  }
+
+  .close img {
+    width: 65%;
+  }
+  
+  .navbar {
+    padding-left: 3.5rem;
+    position: absolute;
+    /* a higher z-index put navbar above hamburger */
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 85vh;
+    overflow: hidden;
+    /* basic menu styling*/
+    list-style: none;
+    background: #FF9F80;
+    background-size: cover;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-evenly;
+    align-items: start;
+    /* animate slide up/down */
+    transform: translateY(-150%);
+    transition: transform 1.3s ease;
+  }
+  
+  /* :target is called when its anchor id #navbar is called by clicking on the hamburger which has href="#navbar" */
+  
+  .navbar:target {
+    /* show navbar */
+    transform: translateY(0);
+  }
+  
+  li .menu-links {
+    display: block;
+    color: #714c4c;
+    font-weight: bold;
+    font-size: 1.5rem;
+    /* remove default underline and add our own with padding and border bottom */
+    text-decoration: none;
+    border-bottom: 1px solid black;
+    padding-bottom: 0.5rem;
+  }
+  
+  li a:hover, li a:focus {
+    /* show border bottom */
+    border-bottom: 1px solid white;
+  }
+
+
+  .hamburger-menu .menu-links {
+    width: 100%;
+  }
+
+  .navigation-bar .hamburger {
+    padding-top: .61rem;
+    padding-left: 5rem;
+  }
+
   .disclaimer {
     display: flex;
     justify-content: center;
@@ -1196,6 +1290,10 @@ footer img {
 
   #hidden {
     display: none;
+  }
+
+  .desktop-hidden {
+    display: block;
   }
 
   #mobile-tablet-hidden {
