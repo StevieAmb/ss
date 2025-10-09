@@ -737,26 +737,34 @@ footer img {
 
 @media screen and (max-width: 767px) {
 
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+  }
+
    .hamburger, .close {
     border: none;
     cursor: pointer;
     /* position absolute position the icons relative to the body because they have no position relative parents*/
     position: absolute;
-    top: 10px;
-    right: 20px;
+    top: -2.5rem;
+    right: 20.5rem;
     width: 36px;
     height: 36px;
   }
   
   .hamburger {
-    background: #F0E9E6;
+    background: #edfba2;
   }
   
   .close {
-    margin-left: 20rem;
+    margin-left: 1rem;
     padding-top: 1rem;
     padding-left: 3rem;
-    background: #F0E9E6;
+    background: #edfba2;
   }
 
   .hamburger img { 
