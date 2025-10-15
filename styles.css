@@ -170,13 +170,14 @@ hr {
 .user-entry {
   padding-top: 6rem;
   display: flex;
+  gap: 4.5rem;
   width: 100%;
   background-color: #92ba8f;;
 }
 
 .user-entry h2 {
   padding-top: 3rem;
-  width: 42%;
+  width: 41%;
   border-radius: 3rem 50rem 10rem;
   font-family: "Salsa", system-ui;
   animation: fade-in 7s forwards;
