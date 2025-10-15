@@ -590,9 +590,8 @@ textarea {
   padding: 3rem 2rem;
   display: block;
   padding-bottom: 4rem;
-  background-color: rgb(229, 247, 238);
+  background-color: #ffcebe;
   border-radius: 8% 8% 0 0 ;
-  border: .5px solid #4b838b;
 }
 
 .plans-price-section h3 {
@@ -748,14 +747,14 @@ footer a {
     cursor: pointer;
     /* position absolute position the icons relative to the body because they have no position relative parents*/
     position: absolute;
-    top: -2.5rem;
-    right: 20.5rem;
+    top: -7.5rem;
+    right: 13.5rem;
     width: 36px;
     height: 36px;
   }
   
   .hamburger {
-    background: #edfba2;
+    background: #e8f0bf;
   }
   
   .close {
@@ -781,7 +780,7 @@ footer a {
     z-index: 1000;
     top: 0;
     left: 0;
-    width: 100%;
+    width: 86.7%;
     height: 85vh;
     overflow: hidden;
     /* basic menu styling*/
