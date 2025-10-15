@@ -79,7 +79,7 @@ h2 {
   text-align: center;
   padding: 3rem 12rem;
   letter-spacing: .05rem;
-  background-color: #edfba2;
+  background-color: #e8f0bf;
 }
 
 .disclaimer {
@@ -176,9 +176,8 @@ hr {
 
 .user-entry h2 {
   padding-top: 3rem;
-  width: 43%;
+  width: 42%;
   border-radius: 3rem 50rem 10rem;
-  /* background-color: #edfba2; */
   font-family: "Salsa", system-ui;
   animation: fade-in 7s forwards;
 }
@@ -702,12 +701,16 @@ textarea {
 footer {
   text-align: center;
   padding: 2rem 0;
-  background-color: #FAF0EB;
+  background-color: #e8f0bf;
 }
 
 footer img {
   width: 2%;
   padding-bottom: 1.5rem;
+}
+
+footer a {
+  color: black  !important;
 }
 
 .top-footer-content {
