@@ -759,8 +759,8 @@ footer a {
   
   .close {
     left: 13rem;
-    margin-left: 7rem;
-    padding-top: 4rem;
+    margin-left: 9rem;
+    padding-top: 9rem;
     padding-left: 1rem;
     background: #FF9F80;
   }
@@ -770,7 +770,7 @@ footer a {
   }
 
   .close img {
-    width: 65%;
+    width: 95%;
   }
   
   .navbar {
@@ -780,7 +780,7 @@ footer a {
     z-index: 1000;
     top: 0;
     left: 0;
-    width: 86.7%;
+    width: 87%;
     height: 85vh;
     overflow: hidden;
     /* basic menu styling*/
