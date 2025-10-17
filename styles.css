@@ -168,6 +168,7 @@ hr {
 }
 
 .user-entry {
+  margin: 2rem;
   padding-top: 6rem;
   display: flex;
   gap: 4.5rem;
@@ -208,7 +209,7 @@ hr {
 .list-of-services {
   align-items: center;
   padding: 1.5rem 0 4rem 3rem;
-   border-radius: 10rem 280rem 100rem;
+  border-radius: 10rem 280rem 100rem;
  background-color: #edfba2;
 
 }
@@ -254,9 +255,7 @@ article h3 {
 
 .provide-list {
   display: block;
-}
-
-.provide-list {
+  margin: 2rem;
   padding: 2rem 0 7rem 0;
   animation: change-color-on-scroll 7s forwards;
   animation-timeline: view();
@@ -277,7 +276,7 @@ article h3 {
 
 .provide-list-content {
   display: flex;
-  gap: 2rem;
+  gap: 3.5rem;
   justify-content: center;
 }
 
@@ -286,7 +285,7 @@ article h3 {
   font-size: 1.25rem;
   width: 75%;
   letter-spacing: .07rem;
-  font-weight: 400;
+  font-weight: 300;
 }
 
 .provide-list-content img {
@@ -296,14 +295,13 @@ article h3 {
 }
 
 .provide-list-content h3 {
-  font-family: "Salsa", system-ui;
   text-align: center;
   font-size: 1.26rem;
   color: #802000;
 }
 
 .provide-list-content article {
-  width: 31%;
+  width: 28%;
   height: 80%;
   display: flex;
   flex-direction: column;
