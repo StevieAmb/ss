@@ -333,6 +333,7 @@ article h3 {
   line-height: 4rem;
   font-size: 2.7rem;
   font-family: "Salsa", system-ui;
+  opacity: .9;
 }
 
 .book-button {
@@ -352,18 +353,11 @@ article h3 {
   color: #802000;
 }
 
-.meet-the-founder {
-  height: 60vh;
-  padding: 4rem 4rem 10rem 4.5rem;
-  margin-bottom: 18rem;
-}
-
-.black-background {
-  margin: 12% 4%;
-  background-color: #FF9F80;
-  padding: 19rem 0;
-  width: 30%;
-  border-radius: 5%;
+.meet-the-founder article {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .meet-the-founder h4 {
@@ -373,20 +367,12 @@ article h3 {
 }
 
 .meet-the-founder p {
-  z-index: 1;
-  position: absolute;
-  top: 217rem;
   font-size: 1.5rem;
-  margin-left: 35rem;
   line-height: 170%;
   width: 45%;
 }
 
 .meet-the-founder article img {
-  z-index: 1;
-  position: absolute;
-  top: 208rem;
-  left: 11rem;
   border-radius: 5%;
 }
 
@@ -395,11 +381,7 @@ article h3 {
   background-color: white;
   font-weight: bolder;
   text-decoration: none;
-  margin-left: 35.5rem;
   margin-bottom: 4rem;
-  position: relative;
-  bottom: 7rem;
-  left: 4rem;
   padding: 1.5rem;
   font-size: larger;
   border-radius: 7px;
