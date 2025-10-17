@@ -311,10 +311,11 @@ article h3 {
 
 .call-to-action {
   background-image: url('images/background_image_decoration_2.jpeg');
+  background-size: cover;
   opacity: .75;
-  padding: 10rem 5rem;
+  padding: 5rem;
   display: flex;
-  gap: 5rem;
+  gap: 3rem;
   flex-direction: column;
   justify-content: center;
   align-items: center;
