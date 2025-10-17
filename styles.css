@@ -252,6 +252,7 @@ article h3 {
   filter: grayscale(50%);
 }
 
+
 .provide-list {
   display: block;
   margin: 2.25rem;
@@ -310,8 +311,9 @@ article h3 {
 }
 
 .call-to-action {
-  background-image: url('images/background_image_decoration_2.jpeg');
+  background: url('images/black_woman_engineer_4.jpg') fixed;
   background-size: cover;
+  height: 60vh;
   opacity: .75;
   padding: 5rem;
   display: flex;
@@ -323,10 +325,12 @@ article h3 {
 }
 
 .call-to-action p {
+  background-color: #edfba2;
+  border: 2px solid black;
+  padding: 4rem;
   text-align: center;
   line-height: 4rem;
   font-size: 2.7rem;
-  color: white;
   font-family: "Salsa", system-ui;
 }
 
@@ -342,9 +346,9 @@ article h3 {
 }
 
 .book-button:hover {
-  border: 2px solid #4b838b;
-  background-color: #4b838b;
-  color: white;
+  border: 2px solid #802000;
+  background-color: #FF9F80;
+  color: #802000;
 }
 
 .meet-the-founder {
