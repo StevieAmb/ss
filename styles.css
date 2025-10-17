@@ -168,7 +168,7 @@ hr {
 }
 
 .user-entry {
-  margin: 2rem;
+  margin: 2.25rem;
   padding-top: 6rem;
   display: flex;
   gap: 3rem;
@@ -254,7 +254,7 @@ article h3 {
 
 .provide-list {
   display: block;
-  margin: 2rem;
+  margin: 2.25rem;
   padding: 2rem 0 7rem 0;
   animation: change-color-on-scroll 7s forwards;
   animation-timeline: view();
