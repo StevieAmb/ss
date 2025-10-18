@@ -184,6 +184,10 @@ hr {
   margin: 0;
 }
 
+.opening-comment {
+  text-align: center;
+}
+
 .user-entry {
   margin: 2.75rem;
   padding-top: 6rem;
@@ -253,7 +257,7 @@ hr {
   display: block;
 }
 
-article h3 {
+.list-of-services article h3 {
   padding: .8rem 0 .5rem .5rem;
   font-size: 1.7rem;
   color: #802000;
@@ -304,12 +308,14 @@ article h3 {
   width: 75%;
   border-radius: 10px;
   filter: sepia(30%);
+  padding-bottom: 1rem;
 }
 
 .provide-list-content h3 {
   text-align: center;
   font-size: 1.26rem;
   color: #802000;
+  padding-bottom: 1rem;
 }
 
 .provide-list-content article {
