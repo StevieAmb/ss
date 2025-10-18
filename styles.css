@@ -168,16 +168,16 @@ hr {
 }
 
 .user-entry {
+  margin: 2.75rem;
   padding-top: 6rem;
   display: flex;
-  gap: 4.5rem;
-  width: 100%;
+  gap: 3rem;
   background-color: #92ba8f;;
 }
 
 .user-entry h2 {
   padding-top: 3rem;
-  width: 41%;
+  width: 37%;
   border-radius: 3rem 50rem 10rem;
   font-family: "Salsa", system-ui;
   animation: fade-in 7s forwards;
@@ -208,7 +208,7 @@ hr {
 .list-of-services {
   align-items: center;
   padding: 1.5rem 0 4rem 3rem;
-   border-radius: 10rem 280rem 100rem;
+  border-radius: 10rem 280rem 100rem;
  background-color: #edfba2;
 
 }
@@ -252,11 +252,10 @@ article h3 {
   filter: grayscale(50%);
 }
 
-.provide-list {
-  display: block;
-}
 
 .provide-list {
+  display: block;
+  margin: 2.75rem;
   padding: 2rem 0 7rem 0;
   animation: change-color-on-scroll 7s forwards;
   animation-timeline: view();
@@ -277,7 +276,7 @@ article h3 {
 
 .provide-list-content {
   display: flex;
-  gap: 2rem;
+  gap: 3.5rem;
   justify-content: center;
 }
 
@@ -286,7 +285,7 @@ article h3 {
   font-size: 1.25rem;
   width: 75%;
   letter-spacing: .07rem;
-  font-weight: 400;
+  font-weight: 300;
 }
 
 .provide-list-content img {
@@ -296,14 +295,13 @@ article h3 {
 }
 
 .provide-list-content h3 {
-  font-family: "Salsa", system-ui;
   text-align: center;
   font-size: 1.26rem;
   color: #802000;
 }
 
 .provide-list-content article {
-  width: 31%;
+  width: 28%;
   height: 80%;
   display: flex;
   flex-direction: column;
@@ -313,23 +311,29 @@ article h3 {
 }
 
 .call-to-action {
-  background-image: url('images/background_image_decoration_2.jpeg');
+  background: url('images/pexels-mikhail-nilov-6894013.jpg') fixed;
+  background-size: cover;
+  height: 80vh;
   opacity: .75;
-  padding: 10rem 5rem;
+  padding: 5rem;
   display: flex;
-  gap: 5rem;
+  gap: 3rem;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  /* background: #FAF0EB */
+  margin: 2.75rem;
 }
 
 .call-to-action p {
+  background-color: #fff;
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 4rem;
   text-align: center;
   line-height: 4rem;
   font-size: 2.7rem;
-  color: white;
   font-family: "Salsa", system-ui;
+  opacity: .9;
 }
 
 .book-button {
@@ -344,23 +348,16 @@ article h3 {
 }
 
 .book-button:hover {
-  border: 2px solid #4b838b;
-  background-color: #4b838b;
-  color: white;
-}
-
-.meet-the-founder {
-  height: 60vh;
-  padding: 4rem 4rem 10rem 4.5rem;
-  margin-bottom: 18rem;
-}
-
-.black-background {
-  margin: 12% 4%;
+  border: 2px solid #802000;
   background-color: #FF9F80;
-  padding: 19rem 0;
-  width: 30%;
-  border-radius: 5%;
+  color: #802000;
+}
+
+.meet-the-founder article {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .meet-the-founder h4 {
@@ -370,20 +367,12 @@ article h3 {
 }
 
 .meet-the-founder p {
-  z-index: 1;
-  position: absolute;
-  top: 217rem;
   font-size: 1.5rem;
-  margin-left: 35rem;
   line-height: 170%;
   width: 45%;
 }
 
 .meet-the-founder article img {
-  z-index: 1;
-  position: absolute;
-  top: 208rem;
-  left: 11rem;
   border-radius: 5%;
 }
 
@@ -392,11 +381,7 @@ article h3 {
   background-color: white;
   font-weight: bolder;
   text-decoration: none;
-  margin-left: 35.5rem;
   margin-bottom: 4rem;
-  position: relative;
-  bottom: 7rem;
-  left: 4rem;
   padding: 1.5rem;
   font-size: larger;
   border-radius: 7px;
