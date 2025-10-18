@@ -82,7 +82,7 @@ h3, h4 {
 p {
    font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 200;
+  font-weight: 300;
   font-style: normal;
 }
 
@@ -195,7 +195,6 @@ hr {
 .user-entry h2 {
   padding-top: 3rem;
   width: 37%;
-  border-radius: 3rem 50rem 10rem;
   animation: fade-in 7s forwards;
 }
 
@@ -265,7 +264,6 @@ article h3 {
   padding-top: .55rem;
   filter: grayscale(50%);
 }
-
 
 .provide-list {
   display: block;
