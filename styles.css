@@ -65,14 +65,33 @@ a:active, a:visited, a:link {
    color: #802000
 }
 
+h1, h2 {
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+h3, h4 {
+  font-family: "Urbanist", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+}
+
+p {
+   font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+}
+
 h2 {
   margin: 4.2rem 0;
   font-size: 2.9rem;
   letter-spacing: .4rem;
-  font-weight: 700;
   text-align: center;
   padding: 1rem 0;
-  color: #802000;
 }
 
 .page-title {
@@ -105,8 +124,7 @@ h2 {
   z-index: 1;
   position: relative;
   margin: 0;
-  font-family: "Salsa", system-ui;
-  letter-spacing: 1rem;
+  letter-spacing: .75rem;
   font-size: 3rem;
   font-weight: 700;
   font-style: normal;
@@ -150,7 +168,6 @@ h2 {
 }
 
 .nav-tab {
-  font-family: "Salsa", system-ui;
   width: 12.5rem;
   margin: .3rem 0;
   font-size: 1rem;
@@ -172,14 +189,13 @@ hr {
   padding-top: 6rem;
   display: flex;
   gap: 3rem;
-  background-color: #92ba8f;;
+  background-color: #92ba8f;
 }
 
 .user-entry h2 {
   padding-top: 3rem;
   width: 37%;
   border-radius: 3rem 50rem 10rem;
-  font-family: "Salsa", system-ui;
   animation: fade-in 7s forwards;
 }
 
@@ -209,8 +225,7 @@ hr {
   align-items: center;
   padding: 1.5rem 0 4rem 3rem;
   border-radius: 10rem 280rem 100rem;
- background-color: #edfba2;
-
+  background-color: #fec8b5;
 }
 
 .list-of-services article {
@@ -240,7 +255,6 @@ hr {
 }
 
 article h3 {
-  font-weight: bold;
   padding: .8rem 0 .5rem .5rem;
   font-size: 1.7rem;
   color: #802000;
@@ -332,7 +346,6 @@ article h3 {
   text-align: center;
   line-height: 4rem;
   font-size: 2.7rem;
-  font-family: "Salsa", system-ui;
   opacity: .9;
 }
 
@@ -580,7 +593,6 @@ textarea {
 }
 
 .plans-price-section h3 {
-  font-family: "Salsa", system-ui;
   font-size: .5rem;
   text-align: center;
   width: 100%;
@@ -838,7 +850,6 @@ footer a {
     z-index: 1;
     position: relative;
     margin: 0;
-    font-family: "Salsa", system-ui;
     letter-spacing: .5rem;
     font-size: 1.5rem;
     font-weight: 700;
@@ -1300,7 +1311,6 @@ footer a {
     z-index: 1;
     position: relative;
     margin: 0;
-    font-family: "Salsa", system-ui;
     letter-spacing: .5rem;
     font-size: 3.5rem;
     font-weight: 700;
