@@ -266,7 +266,7 @@ hr {
 .services-heading img {
   margin-left: 1rem;
   padding-top: .55rem;
-  filter: grayscale(50%);
+  filter: sepia(80%);
 }
 
 .provide-list {
