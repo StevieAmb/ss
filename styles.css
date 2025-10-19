@@ -388,11 +388,10 @@ hr {
 .call-to-action {
   background: url('images/christina-wocintechchat-com-UTw3j_aoIKM-unsplash.jpg') fixed;
   background-size: cover;
-  height: 70vh;
+  height: 60vh;
   opacity: .75;
   padding: 5rem;
   display: flex;
-  gap: 3rem;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -401,12 +400,12 @@ hr {
 
 .call-to-action p {
   background-image: url('images/background_image_gradient.png');
-  border-radius: 10px;
   padding: 4rem;
   text-align: center;
   line-height: 4rem;
+  font-weight: 700;
   font-size: 2rem;
-  opacity: .9;
+  opacity: .75;
 }
 
 .book-button {
