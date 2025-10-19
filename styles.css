@@ -412,6 +412,7 @@ hr {
 
 .book-button {
   width: 16rem;
+  margin: auto;
   padding: 2rem 0 2rem 2rem;
   border: 2px solid #802000;
   background-color: white;
