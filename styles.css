@@ -98,7 +98,25 @@ h2 {
   text-align: center;
   padding: 3rem 12rem;
   letter-spacing: .05rem;
-  background-color: #e8f0bf;
+  background-color: #F8E71C;
+}
+
+.page-title h1 {
+  z-index: 1;
+  position: relative;
+  margin: 0;
+  letter-spacing: .75rem;
+  font-size: 3rem;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.page-title p {
+  letter-spacing: .1rem;
+  font-size: 1.1rem;
+  font-style: italic;
+  font-weight: 300;
+  margin-left: 2rem;
 }
 
 .disclaimer {
@@ -118,30 +136,6 @@ h2 {
 
 .skillshares-left {
   font-weight: 900;
-}
-
-.page-title h1 {
-  z-index: 1;
-  position: relative;
-  margin: 0;
-  letter-spacing: .75rem;
-  font-size: 3rem;
-  font-weight: 700;
-  font-style: normal;
-  color: #802000;
-  text-shadow: 1px 1px 1.35px black;
-}
-
-.page-title p {
-  z-index: 1;
-  position: relative;
-  bottom: 1px;
-  margin: 0;
-  letter-spacing: .1rem;
-  font-size: 1.1rem;
-  font-style: italic;
-  font-weight: 300;
-  margin-left: 2rem;
 }
 
 .hero-images {
@@ -331,7 +325,7 @@ hr {
 
 .provide-list {
   display: block;
-  margin: 3rem;
+  margin: 5rem;
   padding: 2rem 0 7rem 0;
   animation: change-color-on-scroll 7s forwards;
   animation-timeline: view();
@@ -345,7 +339,7 @@ hr {
   }
 
   to {
-    background-color: #fdc6b3;
+    background-color: #ffdccf;
     color: #802000;
   }
 }
@@ -357,23 +351,24 @@ hr {
 }
 
 .provide-list-content article {
-  width: 25%;
+  width: 20%;
   height: 80%;
   display: flex;
+  text-align: center;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  text-align: center;
-  padding: 2rem 0;
-  border: 1px solid #802000;
+  padding: 1.25rem;
+  background-color: white;
+  box-shadow: 10px 19px 14px #d7b9af;
 }
 
+
 .provide-list-content p {
-  margin: 0 auto;
-  font-size: 1.25rem;
-  width: 75%;
+  font-size: 1.1rem;
   letter-spacing: .07rem;
   font-weight: 300;
+  line-height: 125%;
 }
 
 .provide-list-content img {
@@ -429,10 +424,14 @@ hr {
   color: #802000;
 }
 
+.meet-the-founder {
+  padding: 4rem 0rem 10rem 0;
+}
+
 .meet-the-founder article {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  position: relative;
+  height: 80vh;
 }
 
 .meet-the-founder h4 {
@@ -442,15 +441,20 @@ hr {
 }
 
 .meet-the-founder p {
-  padding-top: 2rem;
+  top: 8rem;
+  left: 40rem;
+  padding: 1rem;
   font-size: 1.5rem;
   line-height: 170%;
-  width: 45%;
+  width: 30%;
+  position: absolute;
+  background-color: #fff;
+  border: 1.5px solid #757F86;
 }
 
 .meet-the-founder article img {
-  border-radius: 5%;
-  padding-top: 2rem;
+  position: absolute;
+  left: 18rem;
 }
 
 .learn-more {
