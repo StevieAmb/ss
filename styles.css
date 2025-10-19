@@ -650,7 +650,7 @@ textarea {
 .plans-price-section {
   /* background: url('images/background_image_gradient.png') fixed; */
   background-size: cover;
-  padding: 3rem 2rem;
+  padding: 8rem 2rem;
   display: block;
   padding-bottom: 4rem;
 }
@@ -658,29 +658,35 @@ textarea {
 .plans-price-section .pricing-layer {
   display: flex;
   justify-content: center;
-  gap: 1.5rem;
+  gap: 1rem;
   padding-bottom: 2rem;
 }
 
 .pricing-layer h2 {
-  height: 25%;
+  height: 80%;
   text-align: center;
   padding: 0 1.5rem;
   writing-mode: vertical-rl;
   text-orientation: sideways;
   position: fixed;
   left: 1rem;
+  top: 1rem;
+  background-color: #92ba8f;
+  z-index: 2;
 }
 
 .price-scale-section {
   padding: 1rem;
   display: flex;
   flex-wrap: wrap;
-  border: 1px solid #757F86;
-  border-radius: 1rem;
   width: 16vw;
   height: 50vh;
+  box-shadow: -3px 3px 3px #a9a9a9;
 }
+
+/* .tierOne, .skillshare, .updates {
+  box-shadow: -3px 3px 3px #FF9F80;
+} */
 
 .price-scale-section div {
   width: 100%;
@@ -709,10 +715,6 @@ textarea {
 
 .price-scale-section div a {
 
-}
-
-.tierOne, .skillshare, .updates {
-  background-color: #ffdccf;
 }
 
 .to-learn-list {
