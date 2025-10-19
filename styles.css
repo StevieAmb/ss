@@ -246,7 +246,7 @@ hr {
 }
 
 .user-entry {
-  margin: 2.75rem;
+  margin: 3rem;
   padding-top: 6rem;
   display: flex;
   gap: 3rem;
@@ -328,7 +328,7 @@ hr {
 
 .provide-list {
   display: block;
-  margin: 2.75rem;
+  margin: 3rem;
   padding: 2rem 0 7rem 0;
   animation: change-color-on-scroll 7s forwards;
   animation-timeline: view();
@@ -386,9 +386,9 @@ hr {
 }
 
 .call-to-action {
-  background: url('images/pexels-mikhail-nilov-6894013.jpg') fixed;
+  background: url('images/christina-wocintechchat-com-UTw3j_aoIKM-unsplash.jpg') fixed;
   background-size: cover;
-  height: 80vh;
+  height: 70vh;
   opacity: .75;
   padding: 5rem;
   display: flex;
@@ -400,20 +400,19 @@ hr {
 }
 
 .call-to-action p {
-  background-color: #fff;
-  border: 2px solid black;
+  background-image: url('images/background_image_gradient.png');
   border-radius: 10px;
   padding: 4rem;
   text-align: center;
   line-height: 4rem;
-  font-size: 2.7rem;
+  font-size: 2rem;
   opacity: .9;
 }
 
 .book-button {
   width: 16rem;
   margin: auto;
-  /* padding: 2rem 0 2rem 2rem; */
+  padding: 2rem 0 2rem 2rem;
   border: 2px solid #802000;
   background-color: white;
   font-weight: bolder;
