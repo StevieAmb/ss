@@ -658,8 +658,18 @@ textarea {
 .plans-price-section .pricing-layer {
   display: flex;
   justify-content: center;
-  gap: 2rem;
+  gap: 1.5rem;
   padding-bottom: 2rem;
+}
+
+.pricing-layer h2 {
+  height: 25%;
+  text-align: center;
+  padding: 0 1.5rem;
+  writing-mode: vertical-rl;
+  text-orientation: sideways;
+  position: fixed;
+  left: 1rem;
 }
 
 .price-scale-section {
@@ -702,7 +712,7 @@ textarea {
 }
 
 .tierOne, .skillshare, .updates {
-  background-color: #fff;
+  background-color: #92ba8f;
 }
 
 .to-learn-list {
