@@ -648,9 +648,8 @@ textarea {
 }
 
 .plans-price-section {
-  background: url('images/background_image_watercolor.png') fixed;
+  background: url('images/background_image_gradient.png') fixed;
   background-size: cover;
-  gap: 1.5rem;
   padding: 3rem 2rem;
   display: block;
   padding-bottom: 4rem;
@@ -672,7 +671,7 @@ textarea {
 }
 
 .price-scale-section {
-  width: 19vw;
+  width: 16vw;
 }
 
 .price-scale-section div {
@@ -681,7 +680,7 @@ textarea {
 }
 
 .price-scale-section ul {
-  font-size: larger;
+  font-size: medium;
   padding-top: 1rem;
   line-height: 2rem;
 }
@@ -698,6 +697,10 @@ textarea {
   font-style: italic;
   font-size: 20px;
   margin-bottom: .9rem;
+}
+
+.price-scale-section div a {
+
 }
 
 .tierOne, .skillshare, .updates {
