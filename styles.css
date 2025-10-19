@@ -285,7 +285,7 @@ hr {
   align-items: center;
   padding: 1.5rem 0 4rem 3rem;
   border-radius: 10rem 280rem 100rem;
-  background-color: #fec8b5;
+  background-color: #ffdccf;
 }
 
 .list-of-services article {
@@ -388,6 +388,7 @@ hr {
 .call-to-action {
   background: url('images/christina-wocintechchat-com-UTw3j_aoIKM-unsplash.jpg') fixed;
   background-size: cover;
+  filter: sepia(23%);
   height: 60vh;
   opacity: .75;
   padding: 5rem;
@@ -395,11 +396,11 @@ hr {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 2.75rem;
+  margin: 3rem;
 }
 
 .call-to-action p {
-  background-image: url('images/background_image_gradient.png');
+  background-color: #fff;
   padding: 4rem;
   text-align: center;
   line-height: 4rem;
