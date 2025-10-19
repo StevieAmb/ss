@@ -458,14 +458,10 @@ hr {
 }
 
 .learn-more {
-  border: 2px solid #802000;
-  background-color: white;
   font-weight: bolder;
   text-decoration: none;
   margin: 3rem 0;
-  padding: 1.5rem;
-  font-size: larger;
-  border-radius: 7px;
+  font-size: large;
   color: #802000;
 }
 
