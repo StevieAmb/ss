@@ -65,14 +65,33 @@ a:active, a:visited, a:link {
    color: #802000
 }
 
+h1, h2 {
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+h3, h4 {
+  font-family: "Urbanist", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+}
+
+p {
+   font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
 h2 {
   margin: 4.2rem 0;
   font-size: 2.9rem;
   letter-spacing: .4rem;
-  font-weight: 700;
   text-align: center;
   padding: 1rem 0;
-  color: #802000;
 }
 
 .page-title {
@@ -105,8 +124,7 @@ h2 {
   z-index: 1;
   position: relative;
   margin: 0;
-  font-family: "Salsa", system-ui;
-  letter-spacing: 1rem;
+  letter-spacing: .75rem;
   font-size: 3rem;
   font-weight: 700;
   font-style: normal;
@@ -150,7 +168,6 @@ h2 {
 }
 
 .nav-tab {
-  font-family: "Salsa", system-ui;
   width: 12.5rem;
   margin: .3rem 0;
   font-size: 1rem;
@@ -167,19 +184,79 @@ hr {
   margin: 0;
 }
 
+.opening-comment {
+  height: 40vh;
+  width: 100%;
+}
+
+.opening-comment h2 {
+  margin: 0; padding: 0;
+  position:absolute;
+  top:  65rem; 
+  left: 45rem;
+  transform:translate(-50%,-50%);
+  font-size: 3em; 
+  text-transform:uppercase;
+}
+
+.opening-comment h2 span:nth-child(1){
+  position: absolute;
+  top:0; 
+  left:0; 
+  color: #000;
+  transition:0.5s;
+  clip-path: polygon(0 0, 100% 0, 100% 50%, 0 50%);
+  overflow:hidden;
+}
+
+.opening-comment h2:hover span:nth-of-type(1){
+  transform:translateY(-18px); 
+}
+
+.opening-comment h2 span:nth-of-type(2){
+  position:absolute;
+  top:0; 
+  left:0; 
+  color: #000;
+  transition:0.5s;
+  clip-path: polygon(0 50%, 100% 50%, 100% 100%, 0 100%);
+  overflow:hidden;
+}
+
+.opening-comment h2:hover span:nth-of-type(2){
+  transform:translateY(18px); 
+}
+
+.opening-comment h2 span:nth-of-type(3){
+  position:absolute;
+  top:50%; left: 0;
+  transform:translateY(-50%) scaleY(0);
+  width: 91%; 
+  color: #000;
+  background: #F8E71C ;
+  font-size: 0.5em; 
+  font-weight: 500;
+  letter-spacing:0.7em;
+  text-align:center;
+  padding-left: 20px; margin-left: 5px;
+  transition:0.5s;
+}
+
+.opening-comment h2:hover span:nth-of-type(3){
+  transform:translateY(-50%) scaleY(1);
+}
+
 .user-entry {
-  margin: 2.75rem;
+  margin: 3rem;
   padding-top: 6rem;
   display: flex;
   gap: 3rem;
-  background-color: #92ba8f;;
+  background-color: #92ba8f;
 }
 
 .user-entry h2 {
-  padding-top: 3rem;
-  width: 37%;
-  border-radius: 3rem 50rem 10rem;
-  font-family: "Salsa", system-ui;
+  padding-top: 4.45rem;
+  width: 41%;
   animation: fade-in 7s forwards;
 }
 
@@ -209,8 +286,7 @@ hr {
   align-items: center;
   padding: 1.5rem 0 4rem 3rem;
   border-radius: 10rem 280rem 100rem;
- background-color: #edfba2;
-
+  background-color: #ffdccf;
 }
 
 .list-of-services article {
@@ -222,7 +298,8 @@ hr {
   list-style-type: none;
   border-radius: 7px;
   box-shadow: -.15rem -.15rem .15rem #b27966;
-   position: relative;
+  position: relative;
+  width: 65%;
   animation: mymove 5s forwards;
 }
 
@@ -236,26 +313,25 @@ hr {
 }
 
 .services-heading:hover + .services-expanded {
-  display: block;
+  display: flex;
+  flex-direction: column;
 }
 
-article h3 {
-  font-weight: bold;
+.list-of-services article h3 {
   padding: .8rem 0 .5rem .5rem;
   font-size: 1.7rem;
   color: #802000;
 }
 
 .services-heading img {
-  margin-left: 1rem;
+  margin-left: .75rem;
   padding-top: .55rem;
-  filter: grayscale(50%);
+  filter: sepia(80%);
 }
-
 
 .provide-list {
   display: block;
-  margin: 2.75rem;
+  margin: 3rem;
   padding: 2rem 0 7rem 0;
   animation: change-color-on-scroll 7s forwards;
   animation-timeline: view();
@@ -276,8 +352,20 @@ article h3 {
 
 .provide-list-content {
   display: flex;
-  gap: 3.5rem;
+  gap: 5rem;
   justify-content: center;
+}
+
+.provide-list-content article {
+  width: 25%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 2rem 0;
+  border: 1px solid #802000;
 }
 
 .provide-list-content p {
@@ -292,63 +380,51 @@ article h3 {
   width: 75%;
   border-radius: 10px;
   filter: sepia(30%);
+  padding-bottom: 2rem;
 }
 
 .provide-list-content h3 {
   text-align: center;
   font-size: 1.26rem;
   color: #802000;
-}
-
-.provide-list-content article {
-  width: 28%;
-  height: 80%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
+  padding-bottom: 1.5rem;
 }
 
 .call-to-action {
-  background: url('images/pexels-mikhail-nilov-6894013.jpg') fixed;
+  background: url('images/christina-wocintechchat-com-UTw3j_aoIKM-unsplash.jpg') fixed;
   background-size: cover;
-  height: 80vh;
+  filter: sepia(23%);
+  height: 60vh;
   opacity: .75;
   padding: 5rem;
   display: flex;
-  gap: 3rem;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 2.75rem;
+  margin: 3rem;
 }
 
 .call-to-action p {
   background-color: #fff;
-  border: 2px solid black;
-  border-radius: 10px;
   padding: 4rem;
   text-align: center;
   line-height: 4rem;
-  font-size: 2.7rem;
-  font-family: "Salsa", system-ui;
-  opacity: .9;
+  font-weight: 700;
+  font-size: 2rem;
+  opacity: .75;
 }
 
 .book-button {
   width: 16rem;
+  margin: auto;
   padding: 2rem 0 2rem 2rem;
-  border: 2px solid #802000;
-  background-color: white;
-  font-weight: bolder;
+  font-weight: 900;
   text-decoration: none;
   font-size: larger;
   border-radius: 7px;
 }
 
 .book-button:hover {
-  border: 2px solid #802000;
   background-color: #FF9F80;
   color: #802000;
 }
@@ -356,7 +432,6 @@ article h3 {
 .meet-the-founder article {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
 }
 
@@ -367,6 +442,7 @@ article h3 {
 }
 
 .meet-the-founder p {
+  padding-top: 2rem;
   font-size: 1.5rem;
   line-height: 170%;
   width: 45%;
@@ -374,6 +450,7 @@ article h3 {
 
 .meet-the-founder article img {
   border-radius: 5%;
+  padding-top: 2rem;
 }
 
 .learn-more {
@@ -381,7 +458,7 @@ article h3 {
   background-color: white;
   font-weight: bolder;
   text-decoration: none;
-  margin-bottom: 4rem;
+  margin: 3rem 0;
   padding: 1.5rem;
   font-size: larger;
   border-radius: 7px;
@@ -580,7 +657,6 @@ textarea {
 }
 
 .plans-price-section h3 {
-  font-family: "Salsa", system-ui;
   font-size: .5rem;
   text-align: center;
   width: 100%;
@@ -838,7 +914,6 @@ footer a {
     z-index: 1;
     position: relative;
     margin: 0;
-    font-family: "Salsa", system-ui;
     letter-spacing: .5rem;
     font-size: 1.5rem;
     font-weight: 700;
@@ -1300,7 +1375,6 @@ footer a {
     z-index: 1;
     position: relative;
     margin: 0;
-    font-family: "Salsa", system-ui;
     letter-spacing: .5rem;
     font-size: 3.5rem;
     font-weight: 700;
