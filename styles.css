@@ -668,10 +668,8 @@ textarea {
   flex-wrap: wrap;
   border: 1px solid #757F86;
   border-radius: 1rem;
-}
-
-.price-scale-section {
   width: 16vw;
+  height: 50vh;
 }
 
 .price-scale-section div {
