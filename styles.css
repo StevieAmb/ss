@@ -391,7 +391,7 @@ hr {
 }
 
 .call-to-action {
-  background: url('images/christina-wocintechchat-com-UTw3j_aoIKM-unsplash.jpg') fixed;
+  background: url('images/background_image_gradient.png') fixed;
   background-size: cover;
   filter: sepia(23%);
   height: 60vh;
