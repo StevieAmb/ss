@@ -648,6 +648,8 @@ textarea {
 }
 
 .plans-price-section {
+  background: url('images/background_image_gradient.png') fixed;
+  background-size: cover;
   gap: 1.5rem;
   padding: 3rem 2rem;
   display: block;
@@ -682,14 +684,9 @@ textarea {
   width: 19vw;
 }
 
-
 .price-scale-section div {
   width: 100%;
   text-align: center;
-}
-
-.price-scale-section a {
-  font-weight: 700;
 }
 
 .price-scale-section ul {
