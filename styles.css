@@ -466,9 +466,9 @@ hr {
 }
 
 .learn-more:hover {
-  border: 2px solid #4b838b;
-  background-color: #4b838b;
-  color: white
+  background-color: #F8E71C;
+  padding: 1rem .5rem;
+  color: #000;
 }
 
 .articles-container {
