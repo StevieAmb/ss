@@ -110,7 +110,7 @@ h2 {
   font-size: 3rem;
   font-weight: 600;
   font-style: normal;
-  color: #749471;
+  color: rgb(181, 139, 35);
 }
 
 .page-title p {
@@ -156,7 +156,7 @@ h2 {
   background-color: white;
   margin: 0;
   padding: 0 5rem;
-  border: .5px solid grey;
+  border: .1px solid rgb(161, 161, 161);
 }
 
 .nav-bar-tabs {
