@@ -47,22 +47,21 @@
       </ul>
     </nav>
     <main>
+      <article>
+        <h2>A lot goes into making a website...</h2>
+        <p>And I want to make sure I am giving you exactly what you want,
+          presenting the exact message and vibe you want to share with your 
+          overall audience. Before we even talk, please share 
+          with me your initial desires for your website, so that I can be prepared
+          to <strong>deliver for you and your customers</strong> to the best of my ability.
+        </p>
+        <p class="get-started">Ready to get started? <br> <button formsappId="67f16ae0cf251a000253e40f"></button>
+          and fill out the form!<br> Then book your consultation at the end!
+        </p>
+      </article>
       <section class="booking-section">
         <img src="images/black_women_coder.jpg"/>
         <div>
-
-          <article>
-            <h2>A lot goes into making a website...</h2>
-            <p>And I want to make sure I am giving you exactly what you want,
-              presenting the exact message and vibe you want to share with your 
-              overall audience. Before we even talk, please share 
-              with me your initial desires for your website, so that I can be prepared
-              to <strong>deliver for you and your customers</strong> to the best of my ability.
-            </p>
-            <p class="get-started">Ready to get started? <br> <button formsappId="67f16ae0cf251a000253e40f"></button>
-              and fill out the form!<br> Then book your consultation at the end!
-            </p>
-          </article>
           <form action="https://api.web3forms.com/submit" class="contact-me-form" method="POST">
           <div class="user-identifier">
             <div class="input-field">
@@ -90,11 +89,19 @@
               <input type="text" id="phone-number" name="number-of-pages" placeholder="Ex: marketing, portfolio, blog..." required>
             </div>
             <div class="input-field">
-              <label for="number-of-pages">What type of website do you need?</label>
+              <label for="number-of-pages">Projected number of pages:</label>
               <input type="number" id="numberOfPages" name="Ex: marketing, portfolio, blog..." placeholder="Ex: 555-555-5555" required>
             </div>
-            <label for="user-message">Message:</label>
-            <textarea name="user-message" id="user-message" cols="10" rows="10" placeholder="Enter your message here..." required></textarea>
+            <div class="input-field">
+              <label for="animation-question">Do you require animation or interactive elements?</label>
+              <input type="radio" id="animationQuestion" name="animation-question" placeholder="Ex: 555-555-5555" required>
+            </div>
+             <div class="input-field">
+              <label for="animation-question">Do you have existing copy (text) and images ready to be used?</label>
+              <input type="number" id="animationQuestion" name="animation-question" placeholder="Ex: 555-555-5555" required>
+            </div>
+            <label for="user-message">Please provide your brand colors (hex codes or descriptions)</label>
+            <textarea name="user-message" id="user-message" cols="10" rows="10" placeholder="Blue, green, (Hex code: #92ba8f), the color of the sky at sunset." required></textarea>
           </div>
           <input type="hidden" name="access_key" value="caf63cdd-55e1-4c62-a86f-99bbb7c07fd2">
           <input type="hidden" name="subject" value="New Submission from Web3Forms">
