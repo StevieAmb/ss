@@ -98,7 +98,7 @@ h2 {
   text-align: center;
   padding: 3.5rem 12rem;
   letter-spacing: .05rem;
-  background-color: rgb(235, 201, 113);
+  background-color: rgb(234, 211, 153);
 }
 
 .page-title h1 {
@@ -197,7 +197,7 @@ hr {
   position: absolute;
   top:0; 
   left:0; 
-  color: #000;
+  color: #7b7b7b;
   transition:0.5s;
   clip-path: polygon(0 0, 100% 0, 100% 50%, 0 50%);
   overflow:hidden;
@@ -211,7 +211,7 @@ hr {
   position:absolute;
   top:0; 
   left:0; 
-  color: #000;
+  color: #7b7b7b;;
   transition:0.5s;
   clip-path: polygon(0 50%, 100% 50%, 100% 100%, 0 100%);
   overflow:hidden;
@@ -226,7 +226,7 @@ hr {
   top:50%; left: 0;
   transform:translateY(-50%) scaleY(0);
   width: 91%; 
-  color: #000;
+  color: black;
   background: rgb(239, 187, 57);
   font-size: 0.5em; 
   font-weight: 500;
@@ -245,7 +245,7 @@ hr {
   padding-top: 6rem;
   display: flex;
   gap: 3rem;
-  background-color: #92ba8f;
+  background-color: #749471;
 }
 
 .user-entry h2 {
@@ -406,7 +406,7 @@ hr {
   line-height: 4rem;
   font-weight: 700;
   font-size: 2rem;
-  opacity: .75;
+  opacity: .5rem;
 }
 
 .book-button {
@@ -751,7 +751,7 @@ footer {
   justify-content: center;
   align-items: center;
   color: #802000;
-  background-color: rgb(235, 201, 113);
+  background-color: rgb(234, 211, 153);
 }
 
 .footer-heading {
