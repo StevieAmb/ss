@@ -62,10 +62,10 @@ a {
 }
 
 a:active, a:visited, a:link {
-   color: #802000
+   color: #5c5111;
 }
 
-h1, h2 {
+h2 {
   font-family: "Quicksand", sans-serif;
   font-optical-sizing: auto;
   font-weight: 500;
@@ -79,7 +79,7 @@ h3, h4 {
   font-style: normal;
 }
 
-p, li {
+h1, p, li {
    font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
   font-weight: 300;
