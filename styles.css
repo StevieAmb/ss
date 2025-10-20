@@ -715,10 +715,6 @@ textarea {
   font-weight: 700;
 }
 
-.price-scale-section div a {
-
-}
-
 .to-learn-list {
   display: flex;
   gap: 25rem;
@@ -762,13 +758,20 @@ footer {
   background-color: rgb(235, 201, 113);
 }
 
+.footer-heading {
+  padding-top: 3rem;
+  z-index: 1;
+  position: relative;
+  margin: 0;
+  letter-spacing: .75rem;
+  font-size: 3rem;
+  font-weight: 500;
+  font-style: normal;
+}
+
 footer img {
   width: 2%;
   padding-bottom: 1.5rem;
-}
-
-footer a {
-  color: black  !important;
 }
 
 .top-footer-content {
