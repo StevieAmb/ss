@@ -648,7 +648,6 @@ textarea {
 }
 
 .plans-price-section {
-  /* background: url('images/background_image_gradient.png') fixed; */
   background-size: cover;
   padding: 8rem 2rem;
   display: block;
@@ -683,10 +682,6 @@ textarea {
   height: 50vh;
   box-shadow: -3px 3px 3px #a9a9a9;
 }
-
-/* .tierOne, .skillshare, .updates {
-  box-shadow: -3px 3px 3px #FF9F80;
-} */
 
 .price-scale-section div {
   width: 100%;
@@ -755,11 +750,12 @@ footer {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  color: #802000;
   background-color: rgb(235, 201, 113);
 }
 
 .footer-heading {
-  padding-top: 3rem;
+  padding-top: 4rem;
   z-index: 1;
   position: relative;
   margin: 0;
@@ -775,7 +771,7 @@ footer img {
 }
 
 .top-footer-content {
-  padding: 5rem;
+  padding: 3rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
