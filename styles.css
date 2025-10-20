@@ -158,7 +158,7 @@ h2 {
 
 .nav-bar-tabs {
   display: flex;
-  gap: 2rem;
+  gap: 1rem;
 }
 
 .nav-tab {
@@ -391,7 +391,7 @@ hr {
   filter: sepia(23%);
   height: 60vh;
   opacity: .75;
-  padding: 5rem;
+  padding: 8rem 5rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -425,7 +425,7 @@ hr {
 }
 
 .meet-the-founder {
-  padding: 4rem 0rem 10rem 0;
+  padding: 1.5rem 0rem 10rem 0;
 }
 
 .meet-the-founder article {
