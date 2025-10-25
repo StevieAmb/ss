@@ -582,16 +582,21 @@ hr {
 
  }
 
- .booking-submit-button {
-  background-color: #802000;
+.booking-submit-button {
   font-weight: bolder;
   height: 2.5rem;
   width: 17.5rem;
   margin: 1rem 0 0 0;
   border: none;
   font-size: larger;
-  color: white;
-  border-radius: 7px;
+  border: 2px solid #000;
+  letter-spacing: .25rem;
+}
+
+.booking-submit-button:hover {
+  background-color: #749471;
+  color: #fff;
+  box-shadow: 3px 3px 3px #000;
 }
 
 details {
