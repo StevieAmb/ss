@@ -75,16 +75,20 @@
               </div>
             </section>
             <section class="website-info">
-              <label for="siteType">What type of website do you need?</label>
-              <input type="text" id="siteType" name="siteType" placeholder="Ex: marketing, portfolio, blog..." required>
-              <label for="number-of-pages">Projected number of pages:</label>
-              <input type="number" id="numberOfPages" name="number-of-pages" placeholder="Ex: 5" required>
+              <div>
+                <label for="siteType">What type of website do you need?</label>
+                <input type="text" id="siteType" name="siteType" placeholder="Ex: marketing, portfolio, blog..." required>
+              </div>
+              <div>
+                <label for="number-of-pages">Projected number of pages:</label>
+                <input type="number" id="numberOfPages" name="number-of-pages" placeholder="Ex: 5" required>
+              </div>
               <fieldset>
                 <legend>Do you have existing copy (text) and images ready to be used?</legend>
-                <input type="radio" id="noCopy" name="existing-copy" value="no" checked />
-                <label for="noCopy">No</label>
                 <input type="radio" id="copy" name="existing-copy" value="yes" />
                 <label for="yesCopy">Yes</label>
+                <input type="radio" id="noCopy" name="existing-copy" value="no" checked />
+                <label for="noCopy">No</label>
               </fieldset>
               <label for="user-message">Please provide your brand colors (hex codes or descriptions)</label>
               <textarea name="user-message" id="user-message" cols="10" rows="10" placeholder="Blue, green, (Hex code: #92ba8f), the color of the sky at sunset." required></textarea>

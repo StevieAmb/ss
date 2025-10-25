@@ -564,17 +564,17 @@ hr {
   grid-template-columns: 2fr 2fr;
 }
 
-.user-pi div {
+.user-pi div, .website-info div {
   display: flex;
   flex-direction: column;
+  width: 85%;
 }
 
-.user-pi input {
+.user-pi input, .website-info input {
   line-height:140%;
   padding: .35rem .15rem;
   border: 2.5px solid #000;
   margin-bottom: 2rem;
-  width: 85%;
 }
 
 details {
