@@ -511,8 +511,10 @@ hr {
 
 .booking-page-fixed-image {
   background: url('images/black_women_coder.jpg') fixed;
-  min-height: 30vh;
+  min-height: 35vh;
+  box-shadow: 2px 2px 5px 2px #000;
 }
+
 
 .booking-section {
   display: flex;
@@ -548,6 +550,11 @@ hr {
 .get-started {
   padding-top: 1.5rem;
   text-align: center;
+}
+
+.user-pi input {
+  font-size: 30px;
+  padding: .35rem .25rem;
 }
 
 details {
