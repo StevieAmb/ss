@@ -509,6 +509,11 @@ hr {
   line-height: 2rem;
 }
 
+.booking-page-fixed-image {
+  background: url('images/black_women_coder.jpg') fixed;
+  min-height: 30vh;
+}
+
 .booking-section {
   display: flex;
   gap: 4rem;
