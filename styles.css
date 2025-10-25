@@ -534,6 +534,7 @@ hr {
   width: 50%;
   font-size: 1.2rem;
   line-height: 1.5rem;
+  text-align: center;
 }
 
 .booking-section h2 {
@@ -554,7 +555,7 @@ hr {
 
 .user-pi input {
   font-size: 30px;
-  padding: .35rem .25rem;
+  padding: .35rem .15rem;
 }
 
 details {
