@@ -600,8 +600,7 @@ hr {
 }
 
 .booking-submit-button:hover {
-  background-color: #749471;
-  color: #fff;
+  background-color: #FF9F80;
   box-shadow: 3px 3px 3px #000;
 }
 
@@ -644,7 +643,7 @@ details {
   border-bottom: none;
 }
 
-label {
+label, legend {
     font-size: 1.25rem;
 }
 
