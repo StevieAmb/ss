@@ -570,7 +570,7 @@ hr {
   width: 85%;
 }
 
-.user-pi input, .website-info input {
+.user-pi input, .website-info input, .website-info textarea {
   line-height:140%;
   padding: .35rem .15rem;
   border: 2.5px solid #000;
