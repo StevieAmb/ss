@@ -582,6 +582,18 @@ hr {
 
  }
 
+ .booking-submit-button {
+  background-color: #802000;
+  font-weight: bolder;
+  height: 2.5rem;
+  width: 17.5rem;
+  margin: 1rem 0 0 0;
+  border: none;
+  font-size: larger;
+  color: white;
+  border-radius: 7px;
+}
+
 details {
   background-color: #FAF0EB;
   text-align: center;
