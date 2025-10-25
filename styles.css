@@ -517,8 +517,10 @@ hr {
 .booking-section {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
   gap: 4rem;
-  padding: 0 4rem;
+  padding: 2rem 4rem 5rem 4rem;
 }
 
 .booking-section article {
