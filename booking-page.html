@@ -46,24 +46,69 @@
         <li class="nav-tab"><a href="contact-softsolves.html">contact me</a></li>
       </ul>
     </nav>
-    <main>
+    <main class="booking-page-main">
+      <div class="booking-page-fixed-image">
+      </div>
       <section class="booking-section">
-        <img src="images/black_women_coder.jpg"/>
         <article>
-          <h2>A lot goes into making a website...</h2>
-          <p>And I want to make sure I am giving you exactly what you want,
-            presenting the exact message and vibe you want to share with your 
-            overall audience. Before we even talk, please share 
-            with me your initial desires for your website, so that I can be prepared
-            to <strong>deliver for you and your customers</strong> to the best of my ability.
+          <h2>Need A Shorter Consultation?</h2>
+          <p>
+            Before we even talk, share with me your <span class="emphasis-color-green">initial desires for your website</span>, so that I can be prepared
+            to deliver for you and your customers to the best of my ability.
           </p>
-          <p class="get-started">Ready to get started? <br> <button formsappId="67f16ae0cf251a000253e40f"></button>
-            and fill out the form!<br> Then book your consultation at the end!
-          </p>
+          <p class="get-started">Ready? Fill out the form below!</p>
         </article>
+        <div>
+          <form action="https://api.web3forms.com/submit" class="consultation-form" method="POST">
+            <section class="user-pi">
+              <div>
+                <label for="fname">First name:</label>
+                <input type="text" id="fname" name="fname"required>
+              </div>
+              <div>
+                <label for="lname">Last name:</label>
+                <input type="text" id="lname" name="lname" required>
+              </div>
+              <div>
+                <label for="email">Email:</label>
+                <input type="text" id="email" name="email" required>
+              </div>
+            </section>
+            <section class="website-info">
+              <div>
+                <label for="siteType">What type of website do you need?</label>
+                <input type="text" id="siteType" name="siteType" placeholder="Ex: marketing, portfolio, blog..." required>
+              </div>
+              <div>
+                <label for="number-of-pages">Projected number of pages:</label>
+                <input type="number" id="numberOfPages" name="number-of-pages" placeholder="Ex: 5" required>
+              </div>
+              <fieldset>
+                <legend>Do you have existing copy (text) and images ready to be used?</legend>
+                <input type="radio" id="copy" name="existing-copy" value="yes" checked/>
+                <label for="yesCopy">Yes</label>
+                <input type="radio" id="noCopy" name="existing-copy" value="no" />
+                <label for="noCopy">No</label>
+              </fieldset>
+              <div>
+                <label for="number-of-pages">What is the desired completion date?</label>
+                <input type="date" id="numberOfPages" name="Ex: marketing, portfolio, blog..." placeholder="Ex: 555-555-5555" required>
+              </div>
+              <label for="user-message">Please provide your brand colors (hex codes or descriptions)</label>
+              <textarea name="user-message" id="user-message" cols="10" rows="10" placeholder="Blue, green, (Hex code: #92ba8f), the color of the sky at sunset." required></textarea>
+            </section>
+            <input type="hidden" name="access_key" value="caf63cdd-55e1-4c62-a86f-99bbb7c07fd2">
+            <input type="hidden" name="subject" value="New Submission from Web3Forms">
+            <input type="hidden" name="from_name" value="SoftSolves">
+            <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+            <input type="hidden" name="redirect" value="https://softsolves.com/thanks.html">
+            <button type="submit" class="booking-submit-button">Let's Book It!</button>
+          </form>
+        </div>
       </section>
     </main>
     <footer>
+      <a class="footer-heading" href="index.html"><h1>SoftSolves, LLC</h1></a>
       <div class="top-footer-content">
         <ul class="footer-nav">
           <li><a href="about-the-founder.html">About</a></li>
@@ -71,12 +116,13 @@
           <li><a href="contact-softsolves.html">Contact Me</a></li>
         </ul>
         <section class="icon-acknowledgment">
-          <p><a href="https://www.flaticon.com/free-icons/cellphone" title="cellphone icons">Cellphone icons created by Pop Vectors - Flaticon</a></p><br>
-          <p><a href="https://www.flaticon.com/free-icons/psychology" title="psychology icons">Psychology icons created by Freepik - Flaticon</a></p>
+          <p><a href="https://www.flaticon.com/free-icons/clock" title="clock icons">Clock icons created by Ilham Fitrotul Hayat - Flaticon</a></p><br>
         </section>
       </div>
-      <a href="https://www.instagram.com/softsolvesllc/" aria-role="link to instagram"><img src="images/instagram-logo-svgrepo-com_black.svg" alt="logo for instagram"/></a>
-      <p>© 2025 SoftSolves, LLC. All rights reserved.</p>
+      <div class="bottom-of-footer-content">
+        <a href="https://www.instagram.com/softsolvesllc/" aria-role="link"><img src="images/instagram-logo-svgrepo-com_black.svg" alt="logo for instagram"/></a>
+        <p>© 2025 SoftSolves, LLC. All rights reserved.</p>
+      </div>
     </footer>
     <script src="https://forms.app/cdn/embed.js" type="text/javascript" async defer onload="new formsapp('67f16ae0cf251a000253e40f', 'popup', {'overlay':'rgba(45,45,45,0.5)','button':{'color':'#ff9e24','text':'Click here!'},'width':'800px','height':'600px','openingAnimation':{'entrance':'animate__fadeIn','exit':'animate__fadeOut'}}, 'https://ejqeyss4.forms.app');"></script>    
     </html>
