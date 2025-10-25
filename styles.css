@@ -523,6 +523,10 @@ hr {
   padding: 2rem 4rem 5rem 4rem;
 }
 
+.booking-section h2 {
+  text-shadow: none;
+}
+
 .booking-section article {
   padding-top: 1rem;
   width: 50%;
