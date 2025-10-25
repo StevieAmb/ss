@@ -525,8 +525,8 @@ hr {
   padding: 2rem 4rem 5rem 4rem;
 }
 
-.booking-section h2 {
-  text-shadow: none;
+.booking-section div {
+  width: 51.65%;
 }
 
 .booking-section article {
@@ -548,6 +548,7 @@ hr {
   line-height: 2rem;
   margin: 2rem 0;
   font-size: 2rem;
+  text-shadow: none;
 }
 
 .booking-section img {
@@ -576,6 +577,10 @@ hr {
   border: 2.5px solid #000;
   margin-bottom: 2rem;
 }
+
+ .website-info fieldset {
+
+ }
 
 details {
   background-color: #FAF0EB;
