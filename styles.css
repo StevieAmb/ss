@@ -534,7 +534,14 @@ hr {
   width: 50%;
   font-size: 1.2rem;
   line-height: 1.5rem;
-  text-align: center;
+  text-align: start;
+  padding-right: -10rem;
+  width: 100%;
+}
+
+.booking-section p {
+  width: 51.5%;
+  margin: auto;
 }
 
 .booking-section h2 {
@@ -550,7 +557,6 @@ hr {
 
 .get-started {
   padding-top: 1.5rem;
-  text-align: center;
 }
 
 .user-pi {
@@ -564,10 +570,11 @@ hr {
 }
 
 .user-pi input {
-  font-size: 30px;
+  line-height:140%;
   padding: .35rem .15rem;
   border: 2.5px solid #000;
   margin-bottom: 2rem;
+  width: 85%;
 }
 
 details {

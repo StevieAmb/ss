@@ -52,42 +52,43 @@
       <section class="booking-section">
         <article>
           <h2>Need A Shorter Consultation?</h2>
-          <p>I want to both save you time and give you exactly what you want.
-            Before we even talk, share with me your initial desires for your website, so that I can be prepared
+          <p>
+            Before we even talk, share with me your <span class="emphasis-color-yellow">initial desires for your website</span>, so that I can be prepared
             to deliver for you and your customers to the best of my ability.
           </p>
-          <p class="get-started">Ready to get started? Fill out the form below!</p>
+          <p class="get-started">Ready? Fill out the form below!</p>
         </article>
         <div>
           <form action="https://api.web3forms.com/submit" class="consultation-form" method="POST">
             <section class="user-pi">
               <div>
                 <label for="fname">First name:</label>
-                <input type="text" id="fname" name="fname" placeholder="Ex: Tonia" required>
+                <input type="text" id="fname" name="fname"required>
               </div>
               <div>
                 <label for="lname">Last name:</label>
-                <input type="text" id="lname" name="lname" placeholder="Ex: Smith" required>
+                <input type="text" id="lname" name="lname" required>
               </div>
               <div>
                 <label for="email">Email:</label>
-                <input type="text" id="email" name="email" placeholder="Ex: t.smith@urmail.com" required>
+                <input type="text" id="email" name="email" required>
               </div>
             </section>
-            
-            <label for="siteType">What type of website do you need?</label>
-            <input type="text" id="siteType" name="siteType" placeholder="Ex: marketing, portfolio, blog..." required>
-            <label for="number-of-pages">Projected number of pages:</label>
-            <input type="number" id="numberOfPages" name="number-of-pages" placeholder="Ex: 5" required>
-            <fieldset>
-              <legend>Do you have existing copy (text) and images ready to be used?</legend>
-              <input type="radio" id="noCopy" name="existing-copy" value="no" checked />
-              <label for="noCopy">No</label>
-              <input type="radio" id="copy" name="existing-copy" value="yes" />
-              <label for="yesCopy">Yes</label>
-            </fieldset>
-            <label for="user-message">Please provide your brand colors (hex codes or descriptions)</label>
-            <textarea name="user-message" id="user-message" cols="10" rows="10" placeholder="Blue, green, (Hex code: #92ba8f), the color of the sky at sunset." required></textarea>
+            <section class="website-info">
+              <label for="siteType">What type of website do you need?</label>
+              <input type="text" id="siteType" name="siteType" placeholder="Ex: marketing, portfolio, blog..." required>
+              <label for="number-of-pages">Projected number of pages:</label>
+              <input type="number" id="numberOfPages" name="number-of-pages" placeholder="Ex: 5" required>
+              <fieldset>
+                <legend>Do you have existing copy (text) and images ready to be used?</legend>
+                <input type="radio" id="noCopy" name="existing-copy" value="no" checked />
+                <label for="noCopy">No</label>
+                <input type="radio" id="copy" name="existing-copy" value="yes" />
+                <label for="yesCopy">Yes</label>
+              </fieldset>
+              <label for="user-message">Please provide your brand colors (hex codes or descriptions)</label>
+              <textarea name="user-message" id="user-message" cols="10" rows="10" placeholder="Blue, green, (Hex code: #92ba8f), the color of the sky at sunset." required></textarea>
+            </section>
             <label for="number-of-pages">What is the desired completion date?</label>
             <input type="date" id="numberOfPages" name="Ex: marketing, portfolio, blog..." placeholder="Ex: 555-555-5555" required>
             <input type="hidden" name="access_key" value="caf63cdd-55e1-4c62-a86f-99bbb7c07fd2">
