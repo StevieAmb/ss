@@ -556,6 +556,7 @@ hr {
 .user-pi input {
   font-size: 30px;
   padding: .35rem .15rem;
+  border: 2.5px solid #000;
 }
 
 details {
