@@ -553,10 +553,21 @@ hr {
   text-align: center;
 }
 
+.user-pi {
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+}
+
+.user-pi div {
+  display: flex;
+  flex-direction: column;
+}
+
 .user-pi input {
   font-size: 30px;
   padding: .35rem .15rem;
   border: 2.5px solid #000;
+  margin-bottom: 2rem;
 }
 
 details {
