@@ -100,6 +100,11 @@ h2 {
   font-weight: 700;
 }
 
+.emphasis-color-pink {
+  color: #FF9F80;
+  font-weight: 700;
+}
+
 .page-title {
   text-align: center;
   padding: 2.95rem 12rem;
@@ -489,7 +494,7 @@ hr {
 }
 
 .image-of-self {
-  padding: 10rem 8.7rem;
+  padding: 10rem 10.7rem;
 }
 
 .about-left {
@@ -499,7 +504,7 @@ hr {
 
 .about-founder {
   margin-top: 2.6rem;
-  width: 45%;
+  width: 40%;
   margin-bottom: 4.7rem;
 }
 
