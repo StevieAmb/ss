@@ -876,8 +876,8 @@ footer img {
     cursor: pointer;
     /* position absolute position the icons relative to the body because they have no position relative parents*/
     position: absolute;
-    top: -2.5rem;
-    right: 2rem;
+    top: -8.5rem;
+    right: 0.15rem;
     width: 36px;
     height: 36px;
   }
@@ -887,7 +887,7 @@ footer img {
   }
   
   .close {
-    left: 10rem;
+    left: 9.25rem;
     margin-left: 9rem;
     padding-top: 4rem;
     padding-left: 1rem;
@@ -988,7 +988,7 @@ footer img {
     margin: 0;
     font-family: "Merriweather", sans-serif;
     letter-spacing: .1rem;
-    font-size: .65rem;
+    font-size: .75rem;
     font-style: italic;
     font-weight: 300;
     padding-left: .9rem;
