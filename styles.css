@@ -871,27 +871,25 @@ footer img {
 
 @media screen and (max-width: 767px) {
 
-
-
    .hamburger, .close {
     border: none;
     cursor: pointer;
     /* position absolute position the icons relative to the body because they have no position relative parents*/
     position: absolute;
-    top: -7.5rem;
-    right: 13.5rem;
-    width: 36px;
-    height: 36px;
+    top: -8.5rem;
+    right: 21.15rem;
+    width: 32px;
+    height: 32px;
   }
   
   .hamburger {
-    background: #e8f0bf;
+    background: #fff;
   }
   
   .close {
-    left: 13rem;
+    left: -9.75rem;
     margin-left: 9rem;
-    padding-top: 9rem;
+    padding-top: 9.5rem;
     padding-left: 1rem;
     background: #FF9F80;
   }
@@ -911,7 +909,7 @@ footer img {
     z-index: 1000;
     top: 0;
     left: 0;
-    width: 87%;
+    width: 85.5%;
     height: 85vh;
     overflow: hidden;
     /* basic menu styling*/
@@ -955,11 +953,6 @@ footer img {
     width: 100%;
   }
 
-  .navigation-bar .hamburger {
-    padding-top: .61rem;
-    padding-left: 5rem;
-  }
-
   .disclaimer {
     display: flex;
     justify-content: center;
@@ -973,10 +966,8 @@ footer img {
   }
   
   .page-title {
-    letter-spacing: .1rem;
     text-align: center;
     padding: 3.1rem 0rem;
-    color: #802000;
   }
   
   .page-title h1 {
@@ -988,7 +979,6 @@ footer img {
     font-size: 1.5rem;
     font-weight: 700;
     padding-left: 1.3rem;
-    color: #802000;
   }
 
 .page-title p {
@@ -998,23 +988,11 @@ footer img {
     margin: 0;
     font-family: "Merriweather", sans-serif;
     letter-spacing: .1rem;
-    font-size: .65rem;
+    font-size: .75rem;
     font-style: italic;
     font-weight: 300;
     padding-left: .9rem;
     margin-left: 2rem;
-  }
-
-  .logo img {
-    width: 4.5rem;
-    height: 4.5rem;
-    margin-left: .005rem;
-    margin-bottom: 0.1rem;
-    padding-bottom: 2rem;
-    position: absolute;
-    left: 9rem;
-    top: 2.7rem;
-    z-index: auto;
   }
 
   .nav-bar-tabs {
@@ -1050,10 +1028,78 @@ footer img {
     color: black
   }
 
+  .opening-comment {
+    height: 40vh;
+    width: 100%;
+    padding-bottom: 2.5rem;
+  }
+
+  .opening-comment h2 {
+    margin: 0; 
+    padding: 0;
+    position: absolute;
+    top:  53rem; 
+    left: 12rem;
+    transform:translate(-50%,-50%);
+    font-size: 2.25em; 
+    text-transform:uppercase;
+    width: 90%;
+  }
+
+  .opening-comment h2 span:nth-child(1){
+    position: absolute;
+    top:0; 
+    left:0; 
+    color: #000;
+    transition:0.5s;
+    clip-path: polygon(0 0, 100% 0, 100% 50%, 0 50%);
+    overflow:hidden;
+  }
+
+  .opening-comment h2:hover span:nth-of-type(1){
+    transform:translateY(-18px); 
+  }
+
+  .opening-comment h2 span:nth-of-type(2){
+    position:absolute;
+    top:0; 
+    left:0; 
+    color: #000;;
+    transition:0.5s;
+    clip-path: polygon(0 50%, 100% 50%, 100% 100%, 0 100%);
+    overflow:hidden;
+  }
+
+  .opening-comment h2:hover span:nth-of-type(2){
+    transform:translateY(18px); 
+  }
+
+  .opening-comment h2 span:nth-of-type(3){
+    position:absolute;
+    top:50%; left: 0;
+    transform:translateY(-50%) scaleY(0);
+    width: 93%; 
+    color: black;
+    background: rgb(239, 187, 57);
+    font-size: 0.5em; 
+    font-weight: 500;
+    line-height: 1.15;
+    letter-spacing:0.7em;
+    text-align: center;
+    padding: 0px 10px; 
+    margin-left: 5px;
+    transition: 0.5s;
+  }
+
+  .opening-comment h2:hover span:nth-of-type(3){
+    transform:translateY(-50%) scaleY(1);
+  }
+
   .user-entry {
     padding-top: 1rem;
     display: flex;
     flex-direction: column;
+    margin: 1.25rem;
   }
 
   .user-entry h2 {
@@ -1070,22 +1116,22 @@ footer img {
   }
 
   .list-of-services article {
-  gap: 1.7rem;
-  margin-bottom: 1.5rem;
-  padding: 1.1rem 2rem;
-  font-weight: 500;
-  font-size: 1.1rem;
-  list-style-type: none;
-  border-radius: 7px;
-  box-shadow: -.15rem -.15rem .15rem #b27966;
-  position: relative;
-  animation: mymove 5s forwards;
-}
+    gap: 1.7rem;
+    margin-bottom: 1.5rem;
+    padding: 1.1rem 2rem;
+    font-weight: 500;
+    font-size: 1.1rem;
+    list-style-type: none;
+    border-radius: 7px;
+    box-shadow: -.15rem -.15rem .15rem #b27966;
+    position: relative;
+    animation: mymove 5s forwards;
+  }
 
-@keyframes mymove {
-  from {left: 2000px;}
-  to {left: 0px;}
-}
+  @keyframes mymove {
+    from {left: 2000px;}
+    to {left: 0px;}
+  }
 
   .list-of-services section .more-content {
     margin-bottom: 1.5rem;
@@ -1111,7 +1157,7 @@ footer img {
   }
   
   article h3 {
-    font-weight: bold;
+    font-weight: 500;
     padding: .8rem 0 .5rem .1rem;
     font-size: 1.7rem;
     width: 60%;
@@ -1128,16 +1174,22 @@ footer img {
     background-color: #f4e4de;
   }
 
+  .provide-list {
+    margin: 1.25rem;
+    padding-bottom: 1rem;
+  }
+
   .provide-list-content {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     margin-bottom: 2.5rem;
   }
 
   .provide-list article {
     display: block;
-    width: 100%;
+    width: 80%;
     padding-bottom: 4rem;
   }
 
@@ -1151,7 +1203,7 @@ footer img {
   .provide-list .middle-benefit h3 { 
     text-align: center;
     width: 95%;
-    padding: 4.25rem 0rem .5rem .8rem;
+    padding: 3rem 0rem .5rem .8rem;
   }
 
   .provide-list .end-benefits p,
@@ -1163,8 +1215,10 @@ footer img {
 
   .provide-list .end-benefits img,
   .provide-list .middle-benefit img {
-    width: 100vw;
+    width: 70vw;
     display: block;
+    padding-bottom: 0rem;
+    border-radius: 0rem;
   }
 
   .submit-button {
@@ -1179,6 +1233,7 @@ footer img {
   }
 
   .call-to-action {
+    margin: 1.25rem;
     padding: 6.5rem 1rem;
     color: #fae9e4;
   }
@@ -1199,11 +1254,13 @@ footer img {
   .call-to-action p {
     font-size: 1.3rem;
     width: 100%;
+    color: black;
+    padding: 1rem;
   }
   
   .meet-the-founder {
     height: 90vh;
-    padding: 1rem;
+    padding: 1rem 1rem 40rem 1rem;
   }
   
   .meet-the-founder h4 {
@@ -1212,14 +1269,6 @@ footer img {
     font-weight: 500;
   }
   
-  .meet-the-founder p {
-    text-align: center;
-    position: static;
-    font-size: 1.5rem;
-    margin-left: .75rem;
-    width: 95%;
-    padding-bottom: 5rem;
-  }
 
   .meet-the-founder article {
     display: flex;
@@ -1229,27 +1278,25 @@ footer img {
   }
   
   .meet-the-founder article img {
-    z-index: 1;
-    position: absolute;
-    top: 252rem;
-    left: 11rem;
-  }
-  
-  
-  .meet-the-founder article img {
-    margin: 0 0 1.2rem 4.4rem;
+    margin: 25rem 0 1.2rem 4.4rem;
     position: static;
     width: 60%;
-    height: 40%;
+  }
+
+   .meet-the-founder p {
+    text-align: center;
+    position: static;
+    font-size: 1.25rem;
+    width: 95%;
+    padding: .5rem;
   }
   
   .learn-more {
-    margin-left: 7rem;
     margin-top: 7.5rem;
     padding: 1rem;
     margin-bottom: 7rem;
     width: 10rem;
-    font-size: larger;
+    font-size: large;
     position: static;
     border-radius: 7px;
   }
@@ -1394,6 +1441,10 @@ footer img {
     padding: 2rem 1rem;
     font-size: 1.2rem;
     font-weight: 500;
+  }
+
+  .footer-heading {
+    font-size: 2.75rem;
   }
 
   footer img {
