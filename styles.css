@@ -1031,6 +1031,7 @@ footer img {
   .opening-comment {
     height: 40vh;
     width: 100%;
+    padding-bottom: 2.5rem;
   }
 
   .opening-comment h2 {
