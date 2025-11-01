@@ -1221,7 +1221,7 @@ footer img {
   .provide-list .middle-benefit h3 { 
     text-align: center;
     width: 95%;
-    padding: 4.25rem 0rem .5rem .8rem;
+    padding: 3rem 0rem .5rem .8rem;
   }
 
   .provide-list .end-benefits p,
@@ -1235,6 +1235,8 @@ footer img {
   .provide-list .middle-benefit img {
     width: 70vw;
     display: block;
+    padding-bottom: 0rem;
+    border-radius: 0rem;
   }
 
   .submit-button {
