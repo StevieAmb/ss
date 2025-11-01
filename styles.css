@@ -1201,12 +1201,13 @@ footer img {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     margin-bottom: 2.5rem;
   }
 
   .provide-list article {
     display: block;
-    width: 100%;
+    width: 80%;
     padding-bottom: 4rem;
   }
 
