@@ -1176,6 +1176,7 @@ footer img {
 
   .provide-list {
     margin: 1.25rem;
+    padding-bottom: 1rem;
   }
 
   .provide-list-content {
@@ -1232,6 +1233,7 @@ footer img {
   }
 
   .call-to-action {
+    margin: 1.25rem;
     padding: 6.5rem 1rem;
     color: #fae9e4;
   }
@@ -1252,6 +1254,7 @@ footer img {
   .call-to-action p {
     font-size: 1.3rem;
     width: 100%;
+    color: black;
   }
   
   .meet-the-founder {
