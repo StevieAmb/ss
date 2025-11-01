@@ -1288,7 +1288,7 @@ footer img {
     position: static;
     font-size: 1.25rem;
     width: 95%;
-    padding-bottom: 5rem;
+    padding: .5rem;
   }
   
   .learn-more {
