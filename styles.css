@@ -1034,13 +1034,15 @@ footer img {
   }
 
   .opening-comment h2 {
-    margin: 0; padding: 0;
-    position:absolute;
+    margin: 0; 
+    padding: 0;
+    position: absolute;
     top:  53rem; 
     left: 12rem;
     transform:translate(-50%,-50%);
     font-size: 2.25em; 
     text-transform:uppercase;
+    width: 90%;
   }
 
   .opening-comment h2 span:nth-child(1){
