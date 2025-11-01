@@ -877,9 +877,9 @@ footer img {
     /* position absolute position the icons relative to the body because they have no position relative parents*/
     position: absolute;
     top: -8.5rem;
-    right: 0.15rem;
-    width: 36px;
-    height: 36px;
+    right: 21.15rem;
+    width: 32px;
+    height: 32px;
   }
   
   .hamburger {
@@ -887,9 +887,9 @@ footer img {
   }
   
   .close {
-    left: 9.25rem;
+    left: -9.75rem;
     margin-left: 9rem;
-    padding-top: 4rem;
+    padding-top: 9.5rem;
     padding-left: 1rem;
     background: #FF9F80;
   }
