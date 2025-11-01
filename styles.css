@@ -871,27 +871,25 @@ footer img {
 
 @media screen and (max-width: 767px) {
 
-
-
    .hamburger, .close {
     border: none;
     cursor: pointer;
     /* position absolute position the icons relative to the body because they have no position relative parents*/
     position: absolute;
-    top: -7.5rem;
-    right: 13.5rem;
+    top: -2.5rem;
+    right: 2rem;
     width: 36px;
     height: 36px;
   }
   
   .hamburger {
-    background: #e8f0bf;
+    background: #fff;
   }
   
   .close {
-    left: 13rem;
+    left: 10rem;
     margin-left: 9rem;
-    padding-top: 9rem;
+    padding-top: 4rem;
     padding-left: 1rem;
     background: #FF9F80;
   }
@@ -955,11 +953,6 @@ footer img {
     width: 100%;
   }
 
-  .navigation-bar .hamburger {
-    padding-top: .61rem;
-    padding-left: 5rem;
-  }
-
   .disclaimer {
     display: flex;
     justify-content: center;
@@ -973,10 +966,8 @@ footer img {
   }
   
   .page-title {
-    letter-spacing: .1rem;
     text-align: center;
     padding: 3.1rem 0rem;
-    color: #802000;
   }
   
   .page-title h1 {
@@ -988,7 +979,6 @@ footer img {
     font-size: 1.5rem;
     font-weight: 700;
     padding-left: 1.3rem;
-    color: #802000;
   }
 
 .page-title p {
@@ -1003,18 +993,6 @@ footer img {
     font-weight: 300;
     padding-left: .9rem;
     margin-left: 2rem;
-  }
-
-  .logo img {
-    width: 4.5rem;
-    height: 4.5rem;
-    margin-left: .005rem;
-    margin-bottom: 0.1rem;
-    padding-bottom: 2rem;
-    position: absolute;
-    left: 9rem;
-    top: 2.7rem;
-    z-index: auto;
   }
 
   .nav-bar-tabs {
