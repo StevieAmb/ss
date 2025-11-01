@@ -1097,15 +1097,17 @@ footer img {
     position:absolute;
     top:50%; left: 0;
     transform:translateY(-50%) scaleY(0);
-    width: 91%; 
+    width: 93%; 
     color: black;
     background: rgb(239, 187, 57);
     font-size: 0.5em; 
     font-weight: 500;
+    line-height: 1.15;
     letter-spacing:0.7em;
-    text-align:center;
-    padding-left: 20px; margin-left: 5px;
-    transition:0.5s;
+    text-align: center;
+    padding: 0px 10px; 
+    margin-left: 5px;
+    transition: 0.5s;
   }
 
   .opening-comment h2:hover span:nth-of-type(3){
