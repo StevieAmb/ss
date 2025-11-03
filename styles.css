@@ -1512,10 +1512,10 @@ footer img {
     cursor: pointer;
     /* position absolute position the icons relative to the body because they have no position relative parents*/
     position: absolute;
-    top: -8.5rem;
-    right: 21.15rem;
-    width: 32px;
-    height: 32px;
+    top: -11.5rem;
+    right: 44.15rem;
+    width: 48px;
+    height: 48px;
   }
   
   .hamburger {
@@ -1523,7 +1523,7 @@ footer img {
   }
   
   .close {
-    left: -9.75rem;
+    left: -1.75rem;
     margin-left: 9rem;
     padding-top: 9.5rem;
     padding-left: 1rem;
