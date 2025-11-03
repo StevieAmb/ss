@@ -1513,7 +1513,7 @@ footer img {
   }
   
   .page-title h1 {
-    width: 100%;
+    width: 90%;
     z-index: 1;
     position: relative;
     margin: 0;
@@ -1524,7 +1524,7 @@ footer img {
     color: #802000
   }
 
-.page-title p {
+  .page-title p {
     z-index: 1;
     position: relative;
     bottom: 1px;
@@ -1665,13 +1665,6 @@ footer img {
     padding: 1rem;
     margin-bottom: 0;
   }
-
-  /* .black-background {
-    margin: 8% 4%;
-    background-color: black;
-    padding: 2rem 0;
-    width: 90%;
-  } */
   
   .meet-the-founder h4 {
     text-align: center;
@@ -1705,6 +1698,11 @@ footer img {
   .booking-section {
     padding: 0;
     gap: .95rem;
+  }
+
+  .booking-section div {
+    padding: 2rem 0rem;
+    width: 81.65%;
   }
 
   .booking-section img {
@@ -1785,10 +1783,8 @@ footer img {
 
   input {
     margin-top: .4rem;
-    width: 92%;
     height: 5.5vh;
     border: none;
-    border-radius: .8rem;
     border-right: 3px solid #757F86;
   }
   
