@@ -1308,7 +1308,7 @@ footer img {
   }
 
   .booking-section div {
-    width: 99%;
+    width: 100%;
   }
 
   .booking-section img {
@@ -1325,6 +1325,10 @@ footer img {
     font-weight: 500;
     padding-bottom: 7%;
     width: 85%;
+  }
+
+  .booking-section form {
+    margin: 3rem .5rem;
   }
 
   .plans-price-section {
@@ -1370,8 +1374,6 @@ footer img {
     width: 92%;
     height: 5.5vh;
     border: none;
-    border-radius: .8rem;
-    border-right: 3px solid #757F86;
   }
   
 
