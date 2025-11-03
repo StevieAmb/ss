@@ -1307,6 +1307,10 @@ footer img {
     margin: 0;
   }
 
+  .booking-section div {
+    width: 99%;
+  }
+
   .booking-section img {
     padding: 0;
     width: 100vw;
