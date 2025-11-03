@@ -1357,10 +1357,16 @@ footer img {
     font-size: .1rem;
   }
   
-  label {
+  label, legend {
     font-size: 1rem;
     font-weight: bold;
   }
+
+  .user-pi {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    gap: .5rem;
+}
 
   .contact-me-form {
     width: 100%;
@@ -1371,8 +1377,6 @@ footer img {
 
   input {
     margin-top: .4rem;
-    width: 92%;
-    height: 5.5vh;
     border: none;
   }
   
