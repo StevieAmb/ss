@@ -1701,7 +1701,7 @@ footer img {
   }
 
   .booking-section div {
-    padding: 1rem 0rem;
+    padding: 2rem 0rem;
     width: 81.65%;
   }
 
@@ -1718,12 +1718,13 @@ footer img {
   }
 
   label, legend {
+    padding-bottom: .25rem;
     font-size: 1.25rem;
     font-weight: 800;
   }
 
   .user-pi input, .website-info input, .website-info textarea {
-    line-height: 140%;
+    line-height: 240%;
     padding: .35rem .15rem;
     border: 2.5px solid #000;
     margin-bottom: 2rem;
