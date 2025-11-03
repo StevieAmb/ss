@@ -1413,6 +1413,17 @@ footer img {
     margin-top: .4rem;
   }
 
+  .booking-submit-button {
+    font-weight: bolder;
+    height: 2.5rem;
+    width: 13.5rem;
+    margin: 1rem 0 0 0;
+    border: none;
+    font-size: larger;
+    border: 2px solid #000;
+    letter-spacing: .25rem;
+}
+
   .articles-container {
     display: flex;
     gap: 2rem;
