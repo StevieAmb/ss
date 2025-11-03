@@ -1307,6 +1307,10 @@ footer img {
     margin: 0;
   }
 
+  .booking-section div {
+    width: 100%;
+  }
+
   .booking-section img {
     padding: 0;
     width: 100vw;
@@ -1320,6 +1324,11 @@ footer img {
   .booking-section article p {
     font-weight: 500;
     padding-bottom: 7%;
+    width: 85%;
+  }
+
+  .booking-section form {
+    margin: 3rem .5rem;
   }
 
   .plans-price-section {
@@ -1347,11 +1356,41 @@ footer img {
   .price-scale-section article ul {
     font-size: .1rem;
   }
+
+  .pricing-layer h2 {
+    height: 60%;
+    text-align: center;
+    padding: 0 .25rem;
+    writing-mode: vertical-rl;
+    text-orientation: sideways;
+    position: fixed;
+    left: 20.5rem;
+    top: 5rem;
+    font-size: 2rem;
+    background-color: #92ba8f;
+    z-index: 2;
+  }
+
+  .price-scale-section h3 {
+    margin: 0;
+    text-align: center;
+    font-size: 1.7rem;
+    font-weight: 300;
+    color: #749471;
+    width: 100%;
+    padding-bottom: .75rem;
+}
   
-  label {
+  label, legend {
     font-size: 1rem;
     font-weight: bold;
   }
+
+  .user-pi {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    gap: .5rem;
+}
 
   .contact-me-form {
     width: 100%;
@@ -1362,11 +1401,7 @@ footer img {
 
   input {
     margin-top: .4rem;
-    width: 92%;
-    height: 5.5vh;
     border: none;
-    border-radius: .8rem;
-    border-right: 3px solid #757F86;
   }
   
 
@@ -1393,7 +1428,6 @@ footer img {
     border: none;
     width: 96%;
     height: 20vh;
-    border-radius: .9rem;
     margin-bottom: 2rem;
     border-right: 3px solid #757F86;
   }
@@ -1402,6 +1436,17 @@ footer img {
   .user-identifier, .user-contact {
     margin-top: .4rem;
   }
+
+  .booking-submit-button {
+    font-weight: bolder;
+    height: 2.5rem;
+    width: 13.5rem;
+    margin: 1rem 0 0 0;
+    border: none;
+    font-size: larger;
+    border: 2px solid #000;
+    letter-spacing: .25rem;
+}
 
   .articles-container {
     display: flex;
@@ -1486,24 +1531,104 @@ footer img {
 }
 
 @media (min-width: 768px) and (max-width: 1023px) {
+  .hamburger, .close {
+    border: none;
+    cursor: pointer;
+    /* position absolute position the icons relative to the body because they have no position relative parents*/
+    position: absolute;
+    top: -11.5rem;
+    right: 44.15rem;
+    width: 48px;
+    height: 48px;
+  }
+  
+  .hamburger {
+    background: #fff;
+  }
+  
+  .close {
+    left: 33.75rem;
+    margin-left: 9rem;
+    padding-top: 13.5rem;
+    padding-left: 1rem;
+    background: #FF9F80;
+  }
+
+  .hamburger img { 
+    width: 90%;
+  }
+
+  .close img {
+    width: 95%;
+  }
+  
+  .navbar {
+    padding-left: 3.5rem;
+    position: absolute;
+    /* a higher z-index put navbar above hamburger */
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    width: 92.75%;
+    height: 85vh;
+    overflow: hidden;
+    /* basic menu styling*/
+    list-style: none;
+    background: #FF9F80;
+    background-size: cover;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-evenly;
+    align-items: start;
+    /* animate slide up/down */
+    transform: translateY(-150%);
+    transition: transform 1.3s ease;
+  }
+  
+  /* :target is called when its anchor id #navbar is called by clicking on the hamburger which has href="#navbar" */
+  
+  .navbar:target {
+    /* show navbar */
+    transform: translateY(0);
+  }
+  
+  li .menu-links {
+    display: block;
+    color: #714c4c;
+    font-weight: bold;
+    font-size: 1.95rem;
+    /* remove default underline and add our own with padding and border bottom */
+    text-decoration: none;
+    border-bottom: 1px solid black;
+    padding-bottom: 0.25rem;
+  }
+  
+  li a:hover, li a:focus {
+    /* show border bottom */
+    border-bottom: 1px solid white;
+  }
+
+  .hamburger-menu .menu-links {
+    width: 100%;
+  }
+
   .page-title {
     letter-spacing: .1rem;
     padding: 4rem 0rem;
   }
   
   .page-title h1 {
-    width: 100%;
+    width: 90%;
     z-index: 1;
     position: relative;
     margin: 0;
     letter-spacing: .5rem;
-    font-size: 3.5rem;
+    font-size: 3rem;
     font-weight: 700;
     padding-left: 1.3rem;
-    color: #802000
   }
 
-.page-title p {
+  .page-title p {
     z-index: 1;
     position: relative;
     bottom: 1px;
@@ -1644,13 +1769,6 @@ footer img {
     padding: 1rem;
     margin-bottom: 0;
   }
-
-  /* .black-background {
-    margin: 8% 4%;
-    background-color: black;
-    padding: 2rem 0;
-    width: 90%;
-  } */
   
   .meet-the-founder h4 {
     text-align: center;
@@ -1686,6 +1804,11 @@ footer img {
     gap: .95rem;
   }
 
+  .booking-section div {
+    padding: 1rem 0rem;
+    width: 81.65%;
+  }
+
   .booking-section img {
     padding: 2.5rem 0;
     width: 45vw;
@@ -1693,31 +1816,96 @@ footer img {
   }
 
   .booking-section article p {
+    font-size: x-large;
+    line-height: 1.15;
     font-weight: 500;
     padding-bottom: 2rem;
+    text-align: center;
+    width: 80%;
   }
 
+  label, legend {
+    padding-bottom: .25rem;
+    font-size: 1.5rem;
+    font-weight: 800;
+  }
+
+  .user-pi input, .website-info input, .website-info textarea {
+    line-height: 240%;
+    padding: .35rem .15rem;
+    border: 2.5px solid #000;
+    margin-bottom: 2rem;
+  }
+
+  .booking-submit-button {
+    font-weight: bolder;
+    height: 3rem;
+    width: 17.5rem;
+    margin: 1rem 0 3rem 0;
+    border: none;
+    font-size: x-large;
+    border: 2px solid #000;
+    letter-spacing: .25rem;
+}
+
   .plans-price-section {
-    padding: 0 2rem;
-    display: grid;
-    gap: 1.7rem;
-    grid-template-columns: 1fr 2fr;
-    padding-bottom: 4rem;
+    padding: 0 .7rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 1rem;
+  }
+
+  .pricing-layer {
+    padding: 1rem;
+    flex-direction: column;
   }
 
   .price-scale-section {
-    width: 42vw;
-    padding: .5rem;
+    width: 65vw;
+    padding: 1rem;
+    font-size: x-large;
   }
 
   .price-scale-section div {
     width: 100%;
   }
 
-  .price-scale-section article ul {
-    font-size: .1rem;
+  .price-scale-section p {
+    font-style: italic;
+    font-size: 1.75rem;
+    padding-bottom: .9rem;
+    font-weight: 700;
+}
+
+  .price-scale-section ul li {
+    font-size: 1.75rem;
   }
 
+  .pricing-layer h2 {
+    height: 60%;
+    text-align: center;
+    padding: 0 .5rem;
+    writing-mode: vertical-rl;
+    text-orientation: sideways;
+    position: fixed;
+    left: 43.5rem;
+    top: 12rem;
+    font-size: 2.5rem;
+    background-color: #92ba8f;
+    z-index: 2;
+  }
+
+  .price-scale-section h3 {
+    margin: 0;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 500;
+    color: #749471;
+    width: 100%;
+    padding-bottom: .75rem;
+}
+  
   .articles-container {
     display: flex;
     gap: 2rem;
@@ -1761,26 +1949,12 @@ footer img {
     padding: 4rem 0 7rem 1rem;
     border-radius: 40px 30px 250px;
   }
-
-  input {
-    margin-top: .4rem;
-    width: 92%;
-    height: 5.5vh;
-    border: none;
-    border-radius: .8rem;
-    border-right: 3px solid #757F86;
-  }
   
-
   input::placeholder {
     color: #c1c0c0;
     padding-left: .5rem;
     font-style: italic;
   } 
-
-  input[type="text"] {
-      font-size: 1rem;
-  }
 
   textarea::placeholder {
     color: #c1c0c0;
@@ -1795,7 +1969,6 @@ footer img {
     border: none;
     width: 96%;
     height: 20vh;
-    border-radius: .9rem;
     margin-bottom: 2rem;
     border-right: 3px solid #757F86;
   }
@@ -1814,6 +1987,14 @@ footer img {
   }
 
   #mobile-tablet-hidden {
+    display: none;
+  }
+
+  .desktop-hidden {
+    display: block;
+  }
+
+  .hidden {
     display: none;
   }
 }
