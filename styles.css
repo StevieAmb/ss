@@ -1793,24 +1793,12 @@ footer img {
     padding: 4rem 0 7rem 1rem;
     border-radius: 40px 30px 250px;
   }
-
-  input {
-    line-height: 140%;
-    margin-top: .4rem;
-    border: none;
-    border-right: 3px solid #757F86;
-  }
   
-
   input::placeholder {
     color: #c1c0c0;
     padding-left: .5rem;
     font-style: italic;
   } 
-
-  input[type="text"] {
-      font-size: 1rem;
-  }
 
   textarea::placeholder {
     color: #c1c0c0;
