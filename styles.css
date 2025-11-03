@@ -1356,6 +1356,20 @@ footer img {
   .price-scale-section article ul {
     font-size: .1rem;
   }
+
+  .pricing-layer h2 {
+    height: 60%;
+    text-align: center;
+    padding: 0 .5rem;
+    writing-mode: vertical-rl;
+    text-orientation: sideways;
+    position: fixed;
+    left: 20rem;
+    top: 5rem;
+    font-size: 2rem;
+    background-color: #92ba8f;
+    z-index: 2;
+  }
   
   label, legend {
     font-size: 1rem;
