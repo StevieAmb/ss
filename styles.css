@@ -1360,16 +1360,26 @@ footer img {
   .pricing-layer h2 {
     height: 60%;
     text-align: center;
-    padding: 0 .5rem;
+    padding: 0 .25rem;
     writing-mode: vertical-rl;
     text-orientation: sideways;
     position: fixed;
-    left: 20rem;
+    left: 20.5rem;
     top: 5rem;
     font-size: 2rem;
     background-color: #92ba8f;
     z-index: 2;
   }
+
+  .price-scale-section h3 {
+    margin: 0;
+    text-align: center;
+    font-size: 1.7rem;
+    font-weight: 300;
+    color: #749471;
+    width: 100%;
+    padding-bottom: .75rem;
+}
   
   label, legend {
     font-size: 1rem;
