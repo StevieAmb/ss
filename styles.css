@@ -1523,7 +1523,7 @@ footer img {
   }
   
   .close {
-    left: 25.75rem;
+    left: 33.75rem;
     margin-left: 9rem;
     padding-top: 13.5rem;
     padding-left: 1rem;
@@ -1601,10 +1601,9 @@ footer img {
     position: relative;
     margin: 0;
     letter-spacing: .5rem;
-    font-size: 3.5rem;
+    font-size: 3rem;
     font-weight: 700;
     padding-left: 1.3rem;
-    color: #802000
   }
 
   .page-title p {
