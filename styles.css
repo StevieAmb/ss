@@ -1701,7 +1701,7 @@ footer img {
   }
 
   .booking-section div {
-    padding: 2rem 0rem;
+    padding: 1rem 0rem;
     width: 81.65%;
   }
 
@@ -1712,14 +1712,17 @@ footer img {
   }
 
   .booking-section article p {
+    font-size: x-large;
+    line-height: 1.15;
     font-weight: 500;
     padding-bottom: 2rem;
+    text-align: center;
     width: 80%;
   }
 
   label, legend {
     padding-bottom: .25rem;
-    font-size: 1.25rem;
+    font-size: 1.5rem;
     font-weight: 800;
   }
 
@@ -1729,6 +1732,17 @@ footer img {
     border: 2.5px solid #000;
     margin-bottom: 2rem;
   }
+
+  .booking-submit-button {
+    font-weight: bolder;
+    height: 3rem;
+    width: 17.5rem;
+    margin: 1rem 0 3rem 0;
+    border: none;
+    font-size: x-large;
+    border: 2px solid #000;
+    letter-spacing: .25rem;
+}
 
   .plans-price-section {
     padding: 0 2rem;
