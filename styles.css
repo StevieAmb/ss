@@ -1701,7 +1701,7 @@ footer img {
   }
 
   .booking-section div {
-    padding: 2rem 0rem;
+    padding: 1rem 0rem;
     width: 81.65%;
   }
 
@@ -1714,6 +1714,19 @@ footer img {
   .booking-section article p {
     font-weight: 500;
     padding-bottom: 2rem;
+    width: 80%;
+  }
+
+  label, legend {
+    font-size: 1.25rem;
+    font-weight: 800;
+  }
+
+  .user-pi input, .website-info input, .website-info textarea {
+    line-height: 140%;
+    padding: .35rem .15rem;
+    border: 2.5px solid #000;
+    margin-bottom: 2rem;
   }
 
   .plans-price-section {
@@ -1782,8 +1795,8 @@ footer img {
   }
 
   input {
+    line-height: 140%;
     margin-top: .4rem;
-    height: 5.5vh;
     border: none;
     border-right: 3px solid #757F86;
   }
@@ -1812,7 +1825,6 @@ footer img {
     border: none;
     width: 96%;
     height: 20vh;
-    border-radius: .9rem;
     margin-bottom: 2rem;
     border-right: 3px solid #757F86;
   }
