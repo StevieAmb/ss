@@ -1608,11 +1608,9 @@ footer img {
     border-bottom: 1px solid white;
   }
 
-
   .hamburger-menu .menu-links {
     width: 100%;
   }
-
 
   .page-title {
     letter-spacing: .1rem;
@@ -1851,26 +1849,63 @@ footer img {
 }
 
   .plans-price-section {
-    padding: 0 2rem;
-    display: grid;
-    gap: 1.7rem;
-    grid-template-columns: 1fr 2fr;
-    padding-bottom: 4rem;
+    padding: 0 .7rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 1rem;
+  }
+
+  .pricing-layer {
+    padding: 1rem;
+    flex-direction: column;
   }
 
   .price-scale-section {
-    width: 42vw;
-    padding: .5rem;
+    width: 65vw;
+    padding: 1rem;
+    font-size: x-large;
   }
 
   .price-scale-section div {
     width: 100%;
   }
 
-  .price-scale-section article ul {
-    font-size: .1rem;
+  .price-scale-section p {
+    font-style: italic;
+    font-size: 1.75rem;
+    padding-bottom: .9rem;
+    font-weight: 700;
+}
+
+  .price-scale-section ul li {
+    font-size: 1.75rem;
   }
 
+  .pricing-layer h2 {
+    height: 60%;
+    text-align: center;
+    padding: 0 .5rem;
+    writing-mode: vertical-rl;
+    text-orientation: sideways;
+    position: fixed;
+    left: 43.5rem;
+    top: 12rem;
+    font-size: 2.5rem;
+    background-color: #92ba8f;
+    z-index: 2;
+  }
+
+  .price-scale-section h3 {
+    margin: 0;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 500;
+    color: #749471;
+    width: 100%;
+    padding-bottom: .75rem;
+}
+  
   .articles-container {
     display: flex;
     gap: 2rem;
