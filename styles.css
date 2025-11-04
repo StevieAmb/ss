@@ -485,38 +485,53 @@ hr {
   color: #000;
 }
 
-.articles-container {
+.about-founder-container {
   display: flex;
   font-size: 1.7rem;
-  background-color: white;
   padding-bottom: 3rem;
   height: 80%;
 }
 
 .image-of-self {
-  padding: 10rem 10.7rem;
+  border: 2px solid #a9a9a9;
+  width: 30%;
+  margin: auto;
+  margin-top: 10rem ;
 }
 
 .about-left {
   display: flex;
-  gap: 2rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-.about-founder {
-  margin-top: 2.6rem;
+.about-founder-text {
   width: 40%;
   margin-bottom: 4.7rem;
+  position: relative;
+  padding: 2rem;
+  border: 2px solid #a9a9a9;
 }
 
-.about-founder h2 {
+.about-founder-text h2 {
   text-align: start;
-  margin: 2rem 0;
+  position: absolute;
+  padding: 1rem 1.5rem;
+  writing-mode: vertical-rl;
+  text-orientation: sideways;
+  position: fixed;
+  right: .75rem;
+  top: 3.25rem;
+  font-size: 2.15rem;
+  background-color: #FF9F80;
+  z-index: 2;
 }
 
-.about-founder p {
+.about-founder-text p {
   margin-top: 3%;
   margin-bottom: 1.5rem;
-  font-size: 1.1rem;
+  font-size: 1.25rem;
   line-height: 1.75rem;
 }
 
@@ -588,10 +603,6 @@ hr {
   border: 2.5px solid #000;
   margin-bottom: 2rem;
 }
-
- .website-info fieldset {
-
- }
 
 .booking-submit-button {
   font-weight: bolder;
@@ -1269,7 +1280,6 @@ footer img {
     font-weight: 500;
   }
   
-
   .meet-the-founder article {
     display: flex;
     flex-direction: column;
@@ -1404,7 +1414,6 @@ footer img {
     border: none;
   }
   
-
   input::placeholder {
     color: #c1c0c0;
     padding-left: .5rem;
@@ -1448,7 +1457,7 @@ footer img {
     letter-spacing: .25rem;
 }
 
-  .articles-container {
+  .about-founder-container {
     display: flex;
     gap: 2rem;
     padding: 1rem;
@@ -1460,25 +1469,39 @@ footer img {
   }
 
   .image-of-self {
+    width: 80%;
     margin-top: 2rem;
-    width: 75%;
   }
 
-  .about-founder {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    width: 100%;
-    margin-top: 0;
+  .about-founder-text {
+    width: 88%;
+    margin-bottom: 4.7rem;
+    position: relative;
+    padding: .75rem;
+    border: 2px solid #a9a9a9;
   }
 
-  .about-founder h2 {
-    padding: 0;
-    margin: 0;
-    text-align: center;
-  }
+.about-founder-text h2 {
+  text-align: start;
+  position: absolute;
+  padding: .5rem .75rem;
+  writing-mode: vertical-rl;
+  text-orientation: sideways;
+  position: fixed;
+  right: .25rem;
+  top: 8.25rem;
+  font-size: 1.75rem;
+  background-color: #FF9F80;
+  z-index: 2;
+  opacity: .6;
+}
+
+.about-founder-text p {
+  margin-top: 3%;
+  margin-bottom: 1.5rem;
+  font-size: 1.1rem;
+  line-height: 1.75rem;
+}
 
   footer {
     margin-top: auto;
@@ -1906,7 +1929,7 @@ footer img {
     padding-bottom: .75rem;
 }
   
-  .articles-container {
+  .about-founder-container {
     display: flex;
     gap: 2rem;
     padding: 1rem;
@@ -1919,28 +1942,37 @@ footer img {
 
   .image-of-self {
     margin-top: 2rem;
-    padding: 0 3rem;
-    width: 70%;
+    width: 75%;
   }
 
-  .about-founder {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    width: 100%;
-    margin-top: 0;
+  .about-founder-text {
+    width: 85%;
+    margin-bottom: 4.7rem;
+    position: relative;
+    padding: 2rem;
+    border: 2px solid #a9a9a9;
   }
 
-  .about-founder h3 {
-    padding: 0;
-    margin: 0;
-    text-align: center;
+  .about-founder-text h2 {
+    text-align: start;
+    position: absolute;
+    padding: 1.25rem 1.75rem;
+    writing-mode: vertical-rl;
+    text-orientation: sideways;
+    position: fixed;
+    right: .75rem;
+    top: 12.25rem;
+    font-size: 2.75rem;
+    background-color: #FF9F80;
+    z-index: 2;
+    opacity: ;
   }
 
-  .about-founder p {
-    font-size: 2rem;
+  .about-founder-text p {
+    margin-top: 3%;
+    margin-bottom: 1.5rem;
+    font-size: 1.75rem;
+    line-height: 2.5rem;
   }
 
   .contact-me-form {
@@ -2066,7 +2098,7 @@ footer img {
     width: 75%;
   }
 
-  .about-founder {
+  .about-founder-text {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -2081,14 +2113,14 @@ footer img {
     gap: 1rem;
   }
 
-  .about-founder h3 {
+  .about-founder-text h3 {
     padding: 0;
     margin: 0;
     text-align: center;
   }
 
-  .about-founder p {
-    font-size: 1.2rem;
+  .about-founder-text p {
+    font-size: 1rem;
   }
 
   .meet-the-founder article img {
