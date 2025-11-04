@@ -1414,7 +1414,6 @@ footer img {
     border: none;
   }
   
-
   input::placeholder {
     color: #c1c0c0;
     padding-left: .5rem;
@@ -1485,13 +1484,13 @@ footer img {
 .about-founder-text h2 {
   text-align: start;
   position: absolute;
-  padding: .25rem .5rem;
+  padding: .5rem .75rem;
   writing-mode: vertical-rl;
   text-orientation: sideways;
   position: fixed;
   right: .25rem;
-  top: 3.25rem;
-  font-size: 2.15rem;
+  top: 8.25rem;
+  font-size: 1.75rem;
   background-color: #FF9F80;
   z-index: 2;
   opacity: .6;
@@ -1966,7 +1965,7 @@ footer img {
     font-size: 2.75rem;
     background-color: #FF9F80;
     z-index: 2;
-    opacity: .6;
+    opacity: ;
   }
 
   .about-founder-text p {
