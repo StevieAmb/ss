@@ -258,13 +258,11 @@ hr {
   padding-top: 6rem;
   display: flex;
   gap: 3rem;
-  background-color: #749471;
+  background-image: linear-gradient(to bottom, #fff, #fff, #749471 );
   
 }
 
 .user-entry h2 {
-  padding-top: 4.45rem;
-  width: 41%;
   animation: fade-in 7s forwards;
 }
 
