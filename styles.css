@@ -258,12 +258,19 @@ hr {
   padding-top: 6rem;
   display: flex;
   gap: 3rem;
-  background-image: linear-gradient(to bottom, #fff, #fff, #749471 );
+  background-image: linear-gradient(to left, #fff, #fff, #749471 );
   
 }
 
 .user-entry h2 {
+  width: 55%;
   animation: fade-in 7s forwards;
+}
+
+.client-serving {
+  padding: 1rem;
+  border: 1px solid #b2b2b2;
+  box-shadow: -2px 2px 5px #749471;
 }
 
 @keyframes fade-in {
