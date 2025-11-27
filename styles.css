@@ -296,6 +296,21 @@ hr {
   box-shadow: -2px 2px 5px #749471;
 }
 
+.client-serving h3 {
+  font-weight: 700;
+  text-align: center;
+  height: 8vh;
+}
+
+.client-serving ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 1rem;
+}
+
 .hide {
   display: none;
 }
