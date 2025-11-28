@@ -311,6 +311,18 @@ hr {
   gap: 1rem;
 }
 
+.pain-point-solutions {
+
+}
+
+.pain-point-solution h2 {
+  color: #749471
+}
+
+.pain-point-solution div {
+  text-align: center;
+}
+
 .hide {
   display: none;
 }
