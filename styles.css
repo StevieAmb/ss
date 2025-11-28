@@ -89,7 +89,7 @@ p, li {
 
 h2 {
   margin: 4.2rem 0;
-  font-size: 2.5rem;
+  font-size: 2rem;
   text-align: center;
   padding: 1rem 0;
 }
@@ -101,9 +101,9 @@ h2 {
 
 .pop-text-on-green {
   background-color: #fff;
-  color: #749471;
+  color: #FF9F80;
   padding: .5rem;
-  font-size: 2.25rem;
+  font-size: 1.75rem;
   border: 1px solid #749471;
   box-shadow: 2px 2px 7px #5c5111;
   /* border-radius: 37% 53% 75% 78%; */
@@ -274,7 +274,7 @@ hr {
   padding-top: 4rem;
   display: flex;
   gap: 3rem;
-  background-image: linear-gradient(to left, #fff, #fff, #749471 );
+  background-image: linear-gradient(to left, #fff,  #FF9F80, #fff, mint);
 }
 
 .user-entry h2 {
@@ -294,6 +294,7 @@ hr {
   padding: 1rem;
   border: 1px solid #b2b2b2;
   box-shadow: -2px 2px 5px #749471;
+  background-color: #fff
 }
 
 .client-serving h3 {
@@ -2002,7 +2003,6 @@ footer img {
     font-size: 2.75rem;
     background-color: #FF9F80;
     z-index: 2;
-    opacity: ;
   }
 
   .about-founder-text p {
