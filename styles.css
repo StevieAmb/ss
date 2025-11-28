@@ -113,7 +113,7 @@ h2 {
   border: 1px solid black;
   border-radius: 1rem;
   padding: .5rem;
-  color: #802000;
+  color: black;
 }
 
 .emphasis-color-pink {
@@ -276,6 +276,7 @@ hr {
   gap: 3rem;
   background-image: linear-gradient(to left, #fff,  #FF9F80, #fff, mint);
   border-bottom: 7px solid black;
+  border-radius: 0% 0% 10% 48%;
 }
 
 .user-entry h2 {
@@ -314,8 +315,13 @@ hr {
   gap: 1rem;
 }
 
-.pain-point-solution {
+.pain-point-solution article {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   text-align: center;
+  flex-wrap: wrap;
 }
 
 .pain-point-solution h2 {
@@ -325,6 +331,12 @@ hr {
 
 .pain-point-solution div {
   text-align: center;
+}
+
+.paint-point-text-bubble {
+  padding: 1rem;
+  border: 1px solid black;
+  width: 70%;
 }
 
 .hide {
