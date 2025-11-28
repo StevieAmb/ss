@@ -101,11 +101,11 @@ h2 {
 
 .pop-text-on-green {
   background-color: #fff;
-  color: #FF9F80;
+  color: black;
   padding: .5rem;
   font-size: 1.75rem;
-  border: 1px solid #749471;
-  box-shadow: 2px 2px 7px #5c5111;
+  border: 1px solid black;
+  box-shadow: 2px 2px 7px black;
   border-radius: 37% 73% 75% 78%;
 }
 
@@ -294,7 +294,7 @@ hr {
 .client-serving {
   padding: 1rem;
   border: 1px solid #b2b2b2;
-  box-shadow: -2px 2px 5px #749471;
+  box-shadow: -2px 2px 5px black;
   background-color: #fff;
   border-radius: 15px
 }
@@ -314,8 +314,8 @@ hr {
   gap: 1rem;
 }
 
-.pain-point-solutions {
-
+.pain-point-solution {
+  text-align: center;
 }
 
 .pain-point-solution h2 {
