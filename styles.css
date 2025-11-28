@@ -106,7 +106,7 @@ h2 {
   font-size: 1.75rem;
   border: 1px solid #749471;
   box-shadow: 2px 2px 7px #5c5111;
-  /* border-radius: 37% 53% 75% 78%; */
+  border-radius: 37% 73% 75% 78%;
 }
 
 .leading-headers {
@@ -208,7 +208,7 @@ hr {
 }
 
 .opening-comment {
-  height: 40vh;
+  height: 30vh;
   width: 100%;
 }
 
@@ -271,10 +271,11 @@ hr {
 
 .user-entry {
   margin: 3rem;
-  padding-top: 4rem;
+  padding: 4rem 0;
   display: flex;
   gap: 3rem;
   background-image: linear-gradient(to left, #fff,  #FF9F80, #fff, mint);
+  border-bottom: 7px solid black;
 }
 
 .user-entry h2 {
@@ -294,7 +295,8 @@ hr {
   padding: 1rem;
   border: 1px solid #b2b2b2;
   box-shadow: -2px 2px 5px #749471;
-  background-color: #fff
+  background-color: #fff;
+  border-radius: 15px
 }
 
 .client-serving h3 {
@@ -317,6 +319,7 @@ hr {
 }
 
 .pain-point-solution h2 {
+  margin: 2.1rem 0;
   color: #749471
 }
 
