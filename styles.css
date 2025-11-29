@@ -360,11 +360,16 @@ hr {
 }
 
 .services-offered {
+  padding-top: 6rem;
   display: flex;
   flex-direction: column; 
   justify-content: center;
   align-content: center;
   flex-wrap: wrap;
+}
+
+.services-offered h2 {
+  margin: 1.75rem 0;
 }
 
 .services-offered article {
