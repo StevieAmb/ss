@@ -786,36 +786,41 @@ details {
 
 .contact-me {
   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
   background-color: white;
+  background-image: radial-gradient( #f3fbf3, #ebc971 );
 }
 
 .contact-me h2 {
   margin: .5rem 0;
-  text-align: start;
+  text-align: center;
 }
 
 .contact-me-message {
-  width: 50%;
+  text-align: center;
+  width: 75%;
   line-height: 1.8rem;
   font-size: 1.25rem;
   padding: 6rem 0 0 5rem;
 }
 
-.contact-me-message p {
-  width: 80%;
-}
-
 .contact-me-form {
-  width: 50%;
+  width: 75%;
   padding: 6.5rem 0 6rem 5rem;
-  border: .5px solid #802000;
-  background-color: #d7b9af;
-  border-radius: 40px 30px 150px;
-  border-bottom: none;
 }
 
 label, legend {
     font-size: 1.25rem;
+}
+
+input {
+  border: none;
+  border-bottom: 4px solid black;
+  background-color: transparent;
+  border-radius: 5px;
 }
 
 input::placeholder {
@@ -856,6 +861,7 @@ textarea {
 
 .user-identifier, .user-contact {
   display: flex;
+  gap: 5rem;
 }
 
 .submit-button {
