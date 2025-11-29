@@ -461,7 +461,6 @@ hr {
   padding: 6px 12px;
   border: 1px solid #ccc;
   border-top: none;
-  height: 30vh;
   line-height: 1.75;
   text-align: center;
   background-color: #fff;
@@ -1284,6 +1283,7 @@ footer img {
   }
 
   .user-entry h2 {
+    width: 100%;
     text-align: center;
   }
 
@@ -1392,9 +1392,11 @@ footer img {
     flex-wrap: wrap;
     width: 95%;
     margin: 0rem 1rem;
+    background-image: linear-gradient(to bottom, #fff, #fff)
   }
 
   .services-offered h2 {
+    width: 100%;
     line-height: 2.75rem;
     margin-bottom: 3.5rem;
   }
@@ -1417,6 +1419,7 @@ footer img {
 
   .tabcontent {
     width: 65vw;
+    height: none;
   }
 
 
