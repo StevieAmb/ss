@@ -1279,14 +1279,113 @@ footer img {
   .user-entry {
     padding-top: 1rem;
     display: flex;
-    flex-direction: column;
-    margin: 1.25rem;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    margin-right: 3.25rem;
+    border-bottom: none;
   }
 
   .user-entry h2 {
     width: 50%;
     text-align: center;
   }
+
+  .user-entry div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .client-serving {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    padding: 1rem;
+    border: 1px solid #b2b2b2;
+    box-shadow: -1px 1px 5px #714d41;
+    border-radius: 15px;
+    font-size: 16px;
+    background-color: #e5f6e4;
+  }
+
+  .client-serving h3 {
+    padding-top: .5rem;
+    font-weight: 700;
+    text-align: center;
+    font-size: 1.25rem;
+    height: 8vh;
+  }
+
+  .client-serving ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 1rem;
+  }
+
+  .pain-point-solution article {
+    display: flex;
+    gap: 3rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+  }
+
+  .pain-point-solution h2 {
+    margin: 1.5rem 0;
+    color: black
+  }
+
+  .pain-point-solution div {
+    text-align: center;
+  }
+
+  .paint-point-text-bubble {
+    padding: 1rem;
+    border: .5px solid black;
+    width: 40%;
+    border-radius: 2rem;
+  }
+
+  .pain-point-solution {
+    margin: 9rem 0 10rem 0;
+  }
+
+  .pain-point-client-provide-list {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+  }
+
+  .pain-point-client-provide-list p {
+    border: 2px solid black;
+    width: 10%;
+    text-align: center;
+    padding: 2rem;
+    border-radius: 10%;
+    box-shadow: 2px 2px 7px grey;
+  }
+
+  .paint-point-text-bubble.yellow {
+    background-color: #f9de99;
+    border: 1px solid #ebc971;
+    font-size: large;
+    line-height: 1.5;
+  }
+
+  .paint-point-text-bubble.green {
+    width: 35%;
+  }
+
 
   .list-of-services {
     display: flex;
