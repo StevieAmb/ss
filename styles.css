@@ -1284,7 +1284,6 @@ footer img {
   }
 
   .user-entry h2 {
-    width: 50%;
     text-align: center;
   }
 
@@ -1296,7 +1295,6 @@ footer img {
   }
 
   .client-serving {
-    width: 50%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -1349,12 +1347,12 @@ footer img {
   .paint-point-text-bubble {
     padding: 1rem;
     border: .5px solid black;
-    width: 50%;
+    width: 75%;
     border-radius: 2rem;
   }
 
   .pain-point-solution {
-    margin: 9rem 0 10rem 0;
+    margin: 0rem 0 10rem 0;
   }
 
   .pain-point-client-provide-list {
@@ -1367,8 +1365,8 @@ footer img {
 
   .pain-point-client-provide-list p {
     border: 2px solid black;
-    width: 70%;
     text-align: center;
+    width: 50%;
     padding: .5rem;
     font-size: small;
     border-radius: 5%;
@@ -1383,7 +1381,7 @@ footer img {
   }
 
   .paint-point-text-bubble.green {
-    width: 50%;
+    width: 80%;
   }
 
   .services-offered {
@@ -1392,11 +1390,17 @@ footer img {
     justify-content: center;
     align-content: center;
     flex-wrap: wrap;
-    width: 60%;
+    width: 95%;
+    margin: 0rem 1rem;
+  }
+
+  .services-offered h2 {
+    line-height: 2.75rem;
+    margin-bottom: 3.5rem;
   }
 
   .services-offered .section-heading {
-    width: 60%;
+    width: 70%;
     text-align: center;
   }
 
@@ -1408,7 +1412,7 @@ footer img {
   .tab-section {
     display: flex;
     height: 65vh;
-    width: 75%;
+    width: 97%;
   }
 
   .tabcontent {
