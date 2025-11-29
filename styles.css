@@ -312,7 +312,7 @@ hr {
   background-color: #fff;
   border-radius: 15px;
   font-size: 16px;
-  background-color: #dcf4da;
+  background-color: #e5f6e4;
 }
 
 .client-serving h3 {
@@ -402,8 +402,9 @@ hr {
   justify-content: center;
   align-content: center;
   flex-wrap: wrap;
-  background-image: linear-gradient(to bottom, #fff, #fff, #FF9F80, #fff);
-  margin: 5rem;
+  background-image: linear-gradient(to bottom, #fff, #9fd199, #fff);
+  margin: 2rem 5rem 8rem 5rem;
+
 }
 
 .services-offered h2 {
@@ -419,7 +420,7 @@ hr {
 }
 
 .tab-section {
-  box-shadow: -2px 2px 7px #749471;
+  box-shadow: -1px 1px 7px #714c4c;
 }
 
 /* Style the tab */
@@ -463,29 +464,13 @@ hr {
   height: 30vh;
   line-height: 1.75;
   text-align: center;
-  /* background-image: linear-gradient(to bottom, #fff, #ccc); */
+  background-color: #fff;
 }
 
 .services-offered .tabcontent h3 {
   font-weight: 600;
   font-size: 1.5rem;
-}
-
-.services-offered .tabcontent.web {
-
-}
-
-.services-offered .tabcontent:nth-child(2) {
-
-}
-
-.services-offered .tabcontent:nth-child(3) {
-
-}
-
-.services-offered .tabcontent:nth-child(4) {
-
-}
+} 
 
 .tab-section article {
   width: 96.5%;
