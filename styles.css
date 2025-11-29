@@ -111,10 +111,9 @@ h2 {
   border-radius: 37% 73% 75% 78%;
 }
 
-
 .pop-text-many-colors {
   background-color: #FFf;
-  color: #749471;
+  color: #FF9F80;
   padding: .5rem;
   font-size: 1.75rem;
   border: 1px solid black;
@@ -288,7 +287,7 @@ hr {
   display: flex;
   margin-bottom: 6rem ;
   gap: 3rem;
-  background-image: linear-gradient(to left, #fff,  #FF9F80, #fff, mint);
+  background-image: linear-gradient(to left, #fff,  #FF9F80, #fff, #ebc971, #fff);
   border-bottom: 7px solid #ebc971;
   border-radius: 0% 0% 10% 38%;
 }
@@ -311,12 +310,14 @@ hr {
   border: 1px solid #b2b2b2;
   box-shadow: -2px 2px 5px black;
   background-color: #fff;
-  border-radius: 15px
+  border-radius: 15px;
+  font-size: 16px;
 }
 
 .client-serving h3 {
   font-weight: 700;
   text-align: center;
+  font-size: 1.25rem;
   height: 8vh;
 }
 
