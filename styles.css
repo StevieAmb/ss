@@ -46,10 +46,7 @@ table {
 }
 
 body {
-  display: flex;
-  flex-direction: column;
   align-content: center;
-  flex-wrap: wrap;
   margin: 0;
   padding: 0;
   font-family: "Lato", sans-serif;
@@ -1395,6 +1392,12 @@ footer img {
     justify-content: center;
     align-content: center;
     flex-wrap: wrap;
+    width: 60%;
+  }
+
+  .services-offered .section-heading {
+    width: 60%;
+    text-align: center;
   }
 
   .tab {
@@ -1405,7 +1408,7 @@ footer img {
   .tab-section {
     display: flex;
     height: 65vh;
-    width: 85%;
+    width: 75%;
   }
 
   .tabcontent {
