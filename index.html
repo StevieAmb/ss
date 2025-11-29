@@ -123,7 +123,7 @@
         </div>
         <article>
           <div class="tab">
-            <button class="tablinks" onclick="openCity(event, 'Website/Software')">Website/Software</button>
+            <button class="tablinks" onclick="openCity(event, 'Website/Software')" id="defaultOpen">Website/Software</button>
             <button class="tablinks" onclick="openCity(event, 'Branding')">Branding</button>
             <button class="tablinks" onclick="openCity(event, 'Responsive Web Design')">Responsive Web Design</button>
             <button class="tablinks" onclick="openCity(event, 'Web Accessibility')">Web Accessibility</button>
@@ -244,6 +244,7 @@
     </footer>
   </body>
   <script>
+    document.getElementById("defaultOpen").click();
     function openCity(evt, cityName) {
       // Declare all variables
       var i, tabcontent, tablinks;
