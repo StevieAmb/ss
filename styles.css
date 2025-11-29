@@ -420,6 +420,10 @@ hr {
   border-top: none;
 }
 
+.tab-section article {
+  width: 96.5%;
+}
+
 .list-of-services {
   align-items: center;
   padding: 1.5rem 0 4rem 3rem;
