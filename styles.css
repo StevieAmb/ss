@@ -1352,7 +1352,7 @@ footer img {
   .paint-point-text-bubble {
     padding: 1rem;
     border: .5px solid black;
-    width: 40%;
+    width: 50%;
     border-radius: 2rem;
   }
 
@@ -1362,16 +1362,19 @@ footer img {
 
   .pain-point-client-provide-list {
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    gap: 2rem;
+    align-content: center;
+    flex-wrap: wrap;
   }
 
   .pain-point-client-provide-list p {
     border: 2px solid black;
-    width: 10%;
+    width: 70%;
     text-align: center;
-    padding: 2rem;
-    border-radius: 10%;
+    padding: .5rem;
+    font-size: small;
+    border-radius: 5%;
     box-shadow: 2px 2px 7px grey;
   }
 
@@ -1383,9 +1386,8 @@ footer img {
   }
 
   .paint-point-text-bubble.green {
-    width: 35%;
+    width: 50%;
   }
-
 
   .list-of-services {
     display: flex;
