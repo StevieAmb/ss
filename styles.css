@@ -273,6 +273,7 @@ hr {
   margin: 3rem;
   padding: 4rem 0;
   display: flex;
+  margin-bottom: 6rem ;
   gap: 3rem;
   background-image: linear-gradient(to left, #fff,  #FF9F80, #fff, mint);
   border-bottom: 7px solid black;
