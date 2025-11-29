@@ -698,7 +698,6 @@ hr {
   box-shadow: 2px 2px 5px 2px #000;
 }
 
-
 .booking-section {
   display: flex;
   flex-direction: column;
@@ -787,8 +786,8 @@ details {
 }
 
 .contact-me {
- display: flex;
- background-color: white;
+  display: flex;
+  background-color: white;
 }
 
 .contact-me h2 {
@@ -976,6 +975,7 @@ textarea {
 }
 
 footer {
+  /* margin-top: 8rem; */
   display: flex;
   flex-direction: column;
   justify-content: center;
