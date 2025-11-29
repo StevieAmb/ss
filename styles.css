@@ -276,7 +276,7 @@ hr {
   gap: 3rem;
   background-image: linear-gradient(to left, #fff,  #FF9F80, #fff, mint);
   border-bottom: 7px solid black;
-  border-radius: 0% 0% 10% 48%;
+  border-radius: 0% 0% 10% 38%;
 }
 
 .user-entry h2 {
@@ -317,6 +317,7 @@ hr {
 
 .pain-point-solution article {
   display: flex;
+  gap: 3rem;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -335,12 +336,27 @@ hr {
 
 .paint-point-text-bubble {
   padding: 1rem;
-  border: 1px solid black;
+  border: .5px solid black;
   width: 70%;
+  border-radius: 2rem;
 }
 
 .hide {
   display: none;
+}
+
+.pain-point-client-provide-list {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.pain-point-client-provide-list p {
+  border: 2px solid black;
+  width: 10%;
+  text-align: center;
+  padding: 2rem;
+  border-radius: 10%;
 }
 
 .list-of-services {
@@ -452,7 +468,7 @@ hr {
   padding-bottom: 1.5rem;
 }
 
-.call-to-action {
+/* .call-to-action {
   background: url('images/background_image_gradient.png') fixed;
   background-size: cover;
   filter: sepia(23%);
@@ -489,7 +505,7 @@ hr {
 .book-button:hover {
   background-color: #FF9F80;
   color: #802000;
-}
+} */
 
 .meet-the-founder {
   padding: 1.5rem 0rem 10rem 0;
@@ -1296,7 +1312,7 @@ footer img {
     margin-left: 5rem;
   }
 
-  .call-to-action {
+  /* .call-to-action {
     margin: 1.25rem;
     padding: 6.5rem 1rem;
     color: #fae9e4;
@@ -1320,7 +1336,7 @@ footer img {
     width: 100%;
     color: black;
     padding: 1rem;
-  }
+  } */
   
   .meet-the-founder {
     height: 90vh;
@@ -1830,7 +1846,7 @@ footer img {
   .provide-list .middle-benefit img {
     width: 100vw;
   }
-
+/* 
   .call-to-action {
     padding: 7rem 1rem;
   }
@@ -1838,7 +1854,7 @@ footer img {
   .call-to-action p {
     font-size: 1.8rem;
     width: 100%;
-  }
+  } */
 
   .meet-the-founder {
     height: 90vh;
@@ -2187,7 +2203,7 @@ footer img {
     margin-top: -29rem;
   }
 
-  .call-to-action {
+  /* .call-to-action {
     padding: 5rem 10rem;
     background: #E7F1F2;
     border-top:2px solid #688bc1;
@@ -2200,6 +2216,6 @@ footer img {
 
   .call-to-action a {
     margin-left: 18rem;
-  }
+  } */
 }
 
