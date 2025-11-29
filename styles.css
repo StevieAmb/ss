@@ -1389,6 +1389,14 @@ footer img {
     width: 50%;
   }
 
+  .services-offered {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+  }
+
   .tab {
     display: flex;
     flex-direction: column;
@@ -1397,6 +1405,11 @@ footer img {
   .tab-section {
     display: flex;
     height: 65vh;
+    width: 85%;
+  }
+
+  .tabcontent {
+    width: 65vw;
   }
 
 
