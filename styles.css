@@ -50,6 +50,8 @@ table {
 body {
   display: flex;
   flex-direction: column;
+  align-content: center;
+  flex-wrap: wrap;
   margin: 0;
   padding: 0;
   font-family: "Lato", sans-serif;
@@ -367,6 +369,7 @@ hr {
   justify-content: center;
   align-content: center;
   flex-wrap: wrap;
+  width: 80%;
 }
 
 .services-offered h2 {
@@ -526,16 +529,6 @@ hr {
   font-size: 1.26rem;
   color: #802000;
   padding-bottom: 1.5rem;
-}
-
-.call-to-action p {
-  background-color: #fff;
-  padding: 4rem;
-  text-align: center;
-  line-height: 4rem;
-  font-weight: 700;
-  font-size: 2rem;
-  opacity: .75rem;
 }
 
 .book-button {
