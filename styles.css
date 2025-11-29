@@ -305,10 +305,14 @@ hr {
 }
 
 .client-serving {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
   padding: 1rem;
   border: 1px solid #b2b2b2;
   box-shadow: -1px 1px 5px #714d41;
-  background-color: #fff;
   border-radius: 15px;
   font-size: 16px;
   background-color: #e5f6e4;
@@ -1280,7 +1284,7 @@ footer img {
   }
 
   .user-entry h2 {
-    width: 100%;
+    width: 50%;
     text-align: center;
   }
 
