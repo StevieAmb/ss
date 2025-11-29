@@ -1389,6 +1389,17 @@ footer img {
     width: 50%;
   }
 
+  .tab {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .tab-section {
+    display: flex;
+    height: 65vh;
+  }
+
+
   .list-of-services {
     display: flex;
     flex-direction: column;
