@@ -1278,8 +1278,8 @@ footer img {
     justify-content: center;
     align-content: center;
     flex-wrap: wrap;
-    margin-right: 3.25rem;
     border-bottom: none;
+    margin-top: 0rem;
   }
 
   .user-entry h2 {
@@ -1292,6 +1292,7 @@ footer img {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding-bottom: 1.5rem;
   }
 
   .client-serving {
