@@ -2195,9 +2195,11 @@ footer img {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-content: center;
+    align-items: center;
     flex-wrap: wrap;
-    width: 95%;
+    font-size: 1.7rem;
+    width: 100%;
+    align-self: center;
     margin: 0rem 1rem;
     background-image: linear-gradient(to bottom, #fff, #fff)
   }
@@ -2221,7 +2223,7 @@ footer img {
   .tab-section {
     display: flex;
     height: 65vh;
-    width: 97%;
+    width: 85%;
   }
 
   .tabcontent {
