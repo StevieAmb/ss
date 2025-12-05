@@ -2170,6 +2170,10 @@ footer img {
     box-shadow: .15rem .15rem .15rem #5c5111;
   }
 
+  .provide-list {
+    margin: 3rem 1rem;
+  }
+
   .provide-list, .provide-list-content {
     width: 100%;
     display: flex;
