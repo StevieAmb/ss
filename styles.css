@@ -2231,37 +2231,6 @@ footer img {
     height: none;
   }
 
-
-  .list-of-services {
-    gap: 2.3rem;
-    padding-bottom: 4rem;
-  }
-
-  .list-of-services section .less-wording {
-    gap: 1rem;
-    margin-bottom: 1.5rem;
-    text-align: center;
-    padding: 1.2rem 1rem;
-    font-weight: 500;
-    font-size: 1.1rem;
-    width: 17.5rem;
-    border-radius: 7px;
-    box-shadow: .15rem .15rem .15rem #5c5111;
-  }
-
-  .list-of-services section .more-content {
-    gap: 1rem;
-    margin-bottom: 1.5rem;
-    text-align: center;
-    padding: 0;
-    padding: 1.2rem 1rem;
-    font-weight: 500;
-    font-size: 1.1rem;
-    width: 17.5rem;
-    border-radius: 7px;
-    box-shadow: .15rem .15rem .15rem #5c5111;
-  }
-
   .provide-list {
     margin: 3rem 1rem;
   }
