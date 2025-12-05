@@ -2215,11 +2215,15 @@ footer img {
   }
 
   .meet-the-founder {
-    display: flex;
-    flex-direction: column;
+    display: block;
     height: 90vh;
     padding: 1rem;
     margin-bottom: 0;
+  }
+  
+  .meet-the-founder {
+    height: 90vh;
+    padding: 1rem 1rem 40rem 1rem;
   }
   
   .meet-the-founder h4 {
@@ -2228,18 +2232,25 @@ footer img {
     font-weight: 500;
   }
   
-  .meet-the-founder p {
-    padding-top: 1.5rem;
-    text-align: center;
-    position: static;
-    font-size: 2.5rem;
-    margin-left: 2rem;
-    width: 90%;
+  .meet-the-founder article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
   }
   
   .meet-the-founder article img {
-    margin: 0 11rem;
+    margin: 25rem 0 1.2rem 4.4rem;
     position: static;
+    width: 60%;
+  }
+
+   .meet-the-founder p {
+    text-align: center;
+    position: static;
+    font-size: 1.25rem;
+    width: 95%;
+    padding: .5rem;
   }
   
   .learn-more {
