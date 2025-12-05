@@ -1834,6 +1834,16 @@ footer img {
 }
 
 @media (min-width: 768px) and (max-width: 1023px) {
+  .pop-text, .pop-text-many-colors {
+    margin-top: 1.5rem;
+    font-size: 3rem;
+  }
+
+  .leading-headers {
+    font-size: 1.5rem;
+    margin-bottom: 7rem;
+  }
+
   .hamburger, .close {
     border: none;
     cursor: pointer;
@@ -1988,7 +1998,7 @@ footer img {
     color: black
   }
 
-   .opening-comment {
+  .opening-comment {
     height: 25vh;
     width: 100%;
     padding-bottom: 2.5rem;
@@ -2071,6 +2081,7 @@ footer img {
 
   .user-entry h2 {
     width: 100%;
+    font-size: 3rem;
     text-align: center;
   }
 
@@ -2111,7 +2122,11 @@ footer img {
     justify-content: center;
     align-items: center;
     text-align: center;
-    gap: 1rem;
+    gap: 1.85rem;
+  }
+
+  .pain-point-solution h2 {
+    font-size: 3rem;
   }
 
   .pain-point-solution article {
@@ -2125,7 +2140,7 @@ footer img {
   }
 
   .pain-point-solution h2 {
-    margin: 1.5rem 0;
+    margin: 2.75rem 0;
     color: black
   }
 
@@ -2136,8 +2151,9 @@ footer img {
   .paint-point-text-bubble {
     padding: 1rem;
     border: .5px solid black;
-    width: 75%;
+    width: 90%;
     border-radius: 2rem;
+    margin-bottom: 2rem;
   }
 
   .pain-point-solution {
@@ -2145,32 +2161,34 @@ footer img {
   }
 
   .pain-point-client-provide-list {
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: 2fr 2fr;
     justify-content: center;
-    align-content: center;
-    flex-wrap: wrap;
+    align-items: center;
+    justify-items: center;
   }
 
   .pain-point-client-provide-list p {
     border: 2px solid black;
-    text-align: center;
-    width: 50%;
-    padding: .5rem;
-    font-size: small;
+    align-self: center;
+    width: 55%;
+    height: 87%;
+    padding: .75rem;
+    font-size: 1.7rem;
     border-radius: 5%;
-    box-shadow: 2px 2px 7px grey;
   }
 
   .paint-point-text-bubble.yellow {
     background-color: #f9de99;
     border: 1px solid #ebc971;
-    font-size: large;
+    font-size: 1.7rem;
     line-height: 1.5;
   }
 
   .paint-point-text-bubble.green {
-    width: 80%;
+    margin-top: 1.5rem;
+    width: 90%;
+    font-size: 1.7rem;
   }
 
   .services-offered {
