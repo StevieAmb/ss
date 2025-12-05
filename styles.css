@@ -2014,6 +2014,158 @@ footer img {
     color: black
   }
 
+  .user-entry {
+    padding-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    border-bottom: none;
+    margin-top: 0rem;
+  }
+
+  .user-entry h2 {
+    width: 100%;
+    text-align: center;
+  }
+
+  .user-entry div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 1.5rem;
+  }
+
+  .client-serving {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    padding: 1rem;
+    border: 1px solid #b2b2b2;
+    box-shadow: -1px 1px 5px #714d41;
+    border-radius: 15px;
+    font-size: 16px;
+    background-color: #e5f6e4;
+  }
+
+  .client-serving h3 {
+    padding-top: .5rem;
+    font-weight: 700;
+    text-align: center;
+    font-size: 1.25rem;
+    height: 8vh;
+  }
+
+  .client-serving ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 1rem;
+  }
+
+  .pain-point-solution article {
+    display: flex;
+    gap: 3rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+  }
+
+  .pain-point-solution h2 {
+    margin: 1.5rem 0;
+    color: black
+  }
+
+  .pain-point-solution div {
+    text-align: center;
+  }
+
+  .paint-point-text-bubble {
+    padding: 1rem;
+    border: .5px solid black;
+    width: 75%;
+    border-radius: 2rem;
+  }
+
+  .pain-point-solution {
+    margin: 0rem 0 5rem 0;
+  }
+
+  .pain-point-client-provide-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+  }
+
+  .pain-point-client-provide-list p {
+    border: 2px solid black;
+    text-align: center;
+    width: 50%;
+    padding: .5rem;
+    font-size: small;
+    border-radius: 5%;
+    box-shadow: 2px 2px 7px grey;
+  }
+
+  .paint-point-text-bubble.yellow {
+    background-color: #f9de99;
+    border: 1px solid #ebc971;
+    font-size: large;
+    line-height: 1.5;
+  }
+
+  .paint-point-text-bubble.green {
+    width: 80%;
+  }
+
+  .services-offered {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    width: 95%;
+    margin: 0rem 1rem;
+    background-image: linear-gradient(to bottom, #fff, #fff)
+  }
+
+  .services-offered h2 {
+    width: 100%;
+    line-height: 2.75rem;
+    margin-bottom: 3.5rem;
+  }
+
+  .services-offered .section-heading {
+    width: 100%;
+    text-align: center;
+  }
+
+  .tab {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .tab-section {
+    display: flex;
+    height: 65vh;
+    width: 97%;
+  }
+
+  .tabcontent {
+    width: 65vw;
+    height: none;
+  }
+
+
   .list-of-services {
     gap: 2.3rem;
     padding-bottom: 4rem;
@@ -2083,15 +2235,6 @@ footer img {
   .provide-list .middle-benefit img {
     width: 100vw;
   }
-/* 
-  .call-to-action {
-    padding: 7rem 1rem;
-  }
-  
-  .call-to-action p {
-    font-size: 1.8rem;
-    width: 100%;
-  } */
 
   .meet-the-founder {
     height: 90vh;
