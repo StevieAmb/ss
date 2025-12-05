@@ -1988,6 +1988,73 @@ footer img {
     color: black
   }
 
+   .opening-comment {
+    height: 40vh;
+    width: 100%;
+    padding-bottom: 2.5rem;
+  }
+
+  .opening-comment h2 {
+    margin: 0; 
+    padding: 0;
+    position: absolute;
+    top:  53rem; 
+    left: 27rem;
+    transform:translate(-50%,-50%);
+    font-size: 2.25em; 
+    text-transform:uppercase;
+    width: 90%;
+  }
+
+  .opening-comment h2 span:nth-child(1){
+    position: absolute;
+    top:0; 
+    left:0; 
+    color: #000;
+    transition:0.5s;
+    clip-path: polygon(0 0, 100% 0, 100% 50%, 0 50%);
+    overflow:hidden;
+  }
+
+  .opening-comment h2:hover span:nth-of-type(1){
+    transform:translateY(-18px); 
+  }
+
+  .opening-comment h2 span:nth-of-type(2){
+    position:absolute;
+    top:0; 
+    left:0; 
+    color: #000;;
+    transition:0.5s;
+    clip-path: polygon(0 50%, 100% 50%, 100% 100%, 0 100%);
+    overflow:hidden;
+  }
+
+  .opening-comment h2:hover span:nth-of-type(2){
+    transform:translateY(18px); 
+  }
+
+  .opening-comment h2 span:nth-of-type(3){
+    position:absolute;
+    top:50%; left: 0;
+    transform:translateY(-50%) scaleY(0);
+    width: 93%; 
+    color: black;
+    background: rgb(239, 187, 57);
+    font-size: 0.5em; 
+    font-weight: 500;
+    line-height: 1.15;
+    letter-spacing:0.7em;
+    text-align: center;
+    padding: 0px 10px; 
+    margin-left: 5px;
+    transition: 0.5s;
+  }
+
+  .opening-comment h2:hover span:nth-of-type(3){
+    transform:translateY(-50%) scaleY(1);
+  }
+
   .user-entry {
     padding-top: 1rem;
     display: flex;
