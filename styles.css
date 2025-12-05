@@ -1989,9 +1989,13 @@ footer img {
   }
 
    .opening-comment {
-    height: 40vh;
+    height: 25vh;
     width: 100%;
     padding-bottom: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 
   .opening-comment h2 {
@@ -1999,7 +2003,7 @@ footer img {
     padding: 0;
     position: absolute;
     top:  53rem; 
-    left: 27rem;
+    left: 25rem;
     transform:translate(-50%,-50%);
     font-size: 2.25em; 
     text-transform:uppercase;
@@ -2009,7 +2013,7 @@ footer img {
   .opening-comment h2 span:nth-child(1){
     position: absolute;
     top:0; 
-    left:0; 
+    left:8.85rem; 
     color: #000;
     transition:0.5s;
     clip-path: polygon(0 0, 100% 0, 100% 50%, 0 50%);
@@ -2023,7 +2027,7 @@ footer img {
   .opening-comment h2 span:nth-of-type(2){
     position:absolute;
     top:0; 
-    left:0; 
+    left:8.85rem; 
     color: #000;;
     transition:0.5s;
     clip-path: polygon(0 50%, 100% 50%, 100% 100%, 0 100%);
@@ -2084,11 +2088,12 @@ footer img {
     justify-content: center;
     align-content: center;
     flex-wrap: wrap;
-    padding: 1rem;
+    padding: 2rem;
+    width: 36.25%;
     border: 1px solid #b2b2b2;
     box-shadow: -1px 1px 5px #714d41;
     border-radius: 15px;
-    font-size: 16px;
+    font-size: 1.7rem;
     background-color: #e5f6e4;
   }
 
@@ -2096,8 +2101,8 @@ footer img {
     padding-top: .5rem;
     font-weight: 700;
     text-align: center;
-    font-size: 1.25rem;
-    height: 8vh;
+    font-size: 2rem;
+    height: 8.25vh;
   }
 
   .client-serving ul {
