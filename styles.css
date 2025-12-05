@@ -2170,7 +2170,7 @@ footer img {
     box-shadow: .15rem .15rem .15rem #5c5111;
   }
 
-  .provide-list {
+  .provide-list, .provide-list-content {
     width: 100%;
     display: flex;
     flex-direction: column;
