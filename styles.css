@@ -2265,7 +2265,6 @@ footer img {
   }
 
   .provide-list, .provide-list-content {
-    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -2301,7 +2300,7 @@ footer img {
 
   .provide-list .end-benefits img,
   .provide-list .middle-benefit img {
-    width: 80.25vw;
+    width: 75.25vw;
   }
 
   .meet-the-founder {
