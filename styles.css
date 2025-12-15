@@ -278,11 +278,15 @@ hr {
 }
 
 .lead-magnet-section p {
-
+  width: 75%;
+  margin: 0 auto;
+  font-size: larger;
+  text-align: center;
+  line-height: 150%;
 }
 
 .lead-magnet-form {
-  padding: 2rem;
+  padding: 4rem 13rem;
   display: flex;
   gap: 2rem;
 }
