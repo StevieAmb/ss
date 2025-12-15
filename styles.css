@@ -277,6 +277,10 @@ hr {
   transform:translateY(-50%) scaleY(1);
 }
 
+.lead-magnet-section p {
+
+}
+
 .lead-magnet-form {
   padding: 2rem;
   display: flex;
