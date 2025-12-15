@@ -283,9 +283,6 @@ hr {
   display: flex;
   margin-bottom: 6rem ;
   gap: 3rem;
-  border-bottom: 7px solid #ebc971;
-  border-radius: 0% 0% 10% 38%;
-  /* background-image: linear-gradient(to bottom, #fff, #fff, #ebc971); */
 }
 
 .user-entry h2 {
@@ -301,17 +298,19 @@ hr {
   align-items: center;
 }
 
+.client-serving-container {
+}
+
 .client-serving {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-content: center;
+  gap: 1..5rem;
   flex-wrap: wrap;
   padding: 1rem;
   border: 1px solid #b2b2b2;
-  box-shadow: -1px 1px 5px #714d41;
+  /* box-shadow: -1px 1px 5px #714d41; */
   border-radius: 15px;
   font-size: 16px;
+  margin-top: 1.5rem;
   background-color: #e5f6e4;
 }
 
