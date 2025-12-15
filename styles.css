@@ -279,8 +279,6 @@ hr {
 
 .user-entry {
   margin: 5rem;
-  padding: 4rem 0;
-  /* display: flex; */
   margin-bottom: 6rem ;
   gap: 3rem;
 }
@@ -310,12 +308,9 @@ hr {
   gap: 1.5rem;
   flex-wrap: wrap;
   padding: 1rem;
-  /* border: 1px solid #b2b2b2; */
-  /* box-shadow: -1px 1px 5px #714d41; */
   border-radius: 15px;
   font-size: 16px;
   margin-top: 1.5rem;
-  /* background-color: #e5f6e4; */
 }
 
 .client-serving h3 {
