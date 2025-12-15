@@ -277,6 +277,12 @@ hr {
   transform:translateY(-50%) scaleY(1);
 }
 
+.lead-magnet-form {
+  padding: 2rem;
+  display: flex;
+  gap: 2rem;
+}
+
 .user-entry {
   margin: 5rem;
   margin-bottom: 6rem ;
