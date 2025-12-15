@@ -428,8 +428,7 @@ hr {
   display: flex;
   justify-content: space-between;
   overflow: hidden;
-  /* background-color: #fff; */
-  border-radius: 10%;
+  padding: 0rem 3rem 0rem 0rem;
 }
 
 /* Style the buttons that are used to open the tab content */
@@ -450,8 +449,8 @@ hr {
 
 /* Create an active/current tablink class */
 .services-offered .tab button.active {
-  background-color: #FF9F80;
-  border: 1px solid #FF9F80;
+  background-color: #FFf;
+  border-top: 3px solid #FF9F80;
   border-radius: 10%;
 }
 
@@ -459,7 +458,7 @@ hr {
 .services-offered .tabcontent {
   display: none;
   padding: 6px 12px;
-  border: 1px solid #ccc;
+  border: 1px solid #c9e7c7;
   border-top: none;
   line-height: 1.75;
   text-align: center;
@@ -472,7 +471,7 @@ hr {
 } 
 
 .tab-section article {
-  width: 96.5%;
+  width: 89%;
 }
 
 .list-of-services {
