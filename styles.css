@@ -117,6 +117,10 @@ h2 {
   border-radius: 37% 73% 75% 78%;
 }
 
+.bold {
+  font-weight: 700;
+}
+
 .leading-headers {
   border: 1px solid black;
   border-radius: 1rem;
