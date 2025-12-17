@@ -356,7 +356,7 @@ hr {
 
 .pain-point-solution article {
   display: flex;
-  gap: 3rem;
+  gap: 5rem;
   flex-direction: column;
   justify-content: center;
   align-items: center;
