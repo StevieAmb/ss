@@ -420,13 +420,15 @@ hr {
 .services-offered {
   padding: 4rem 0;
   display: flex;
-  gap: 9rem;
+  gap: 2rem;
   flex-wrap: wrap;
   margin: 2rem 5rem 8rem 5rem;
 
 }
 
 .services-offered h2 {
+  width: 70%;
+  line-height: 160%;
   margin: 1.75rem 0;
 }
 
