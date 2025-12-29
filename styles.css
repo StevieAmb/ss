@@ -422,6 +422,7 @@ hr {
 .services-offered {
   padding: 4rem 0;
   display: flex;
+  flex-direction: column;
   gap: 2rem;
   flex-wrap: wrap;
   margin: 2rem 5rem 8rem 5rem;
@@ -439,10 +440,17 @@ hr {
 }
 
 .services-offered .section-heading {
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 4rem 0rem;
+  background-color: #c9e7c7;
+  background-image: linear-gradient(top to bottom, white, #c9e7c7);
 }
 
 .tab-section {
+  margin: -6rem auto;
   width: 50%;
 }
 
@@ -473,8 +481,7 @@ hr {
 /* Create an active/current tablink class */
 .services-offered .tab button.active {
   background-color: #FFf;
-  border-top: 3px solid #FF9F80;
-  border-radius: 10%;
+  border-top: 3px solid black;
 }
 
 /* Style the tab content */
