@@ -426,7 +426,7 @@ hr {
   gap: 2rem;
   flex-wrap: wrap;
   margin: 2rem 5rem 8rem 5rem;
-
+  height: 85vh;
 }
 
 .services-offered h2 {
@@ -444,9 +444,9 @@ hr {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 4rem 0rem;
+  padding: 4rem 0rem 6rem 0rem;
   background-color: #c9e7c7;
-  background-image: linear-gradient(top to bottom, white, #c9e7c7);
+  border-radius: 2.5rem;
 }
 
 .tab-section {
@@ -469,13 +469,13 @@ hr {
   border: none;
   outline: none;
   cursor: pointer;
-  padding: 14px 16px;
+  padding: .5rem 4rem;
   transition: 0.3s;
 }
 
 /* Change background color of buttons on hover */
 .services-offered .tab button:hover {
-  background-color: #ccc;
+  border-top: 3px solid black;
 }
 
 /* Create an active/current tablink class */
@@ -492,6 +492,7 @@ hr {
   border-top: none;
   line-height: 1.75;
   text-align: center;
+  box-shadow: 2px 2px 5px black inset;
   background-color: #fff;
 }
 
