@@ -179,11 +179,12 @@ h2 {
 }
 
 .hero-images {
-  margin: 5rem;
+  margin: 2rem 5rem;
   background-image: url('images/black_woman_engineer_3.jpg');
   background-position: -110% 55%;
   background-size: cover;
   height: 40.5rem;
+  border-radius: 2rem;
 }
 
 .nav-bar {
@@ -193,9 +194,9 @@ h2 {
   position: sticky;
   z-index: 2;
   background-color: #f3fbf3;;
-  margin: 0rem 5rem;
+  margin: 0;
   padding: 0 5rem;
-  border: .1px solid #749471;
+  border-bottom: .1px solid #749471;
 }
 
 .nav-bar-tabs {
