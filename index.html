@@ -13,6 +13,14 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Quicksand:wght@300..700&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
+    <script>
+      !function(t,e){var o,n,p,r;e.__SV||(window.posthog && window.posthog.__loaded)||(window.posthog=e,e._i=[],e.init=function(i,s,a){function g(t,e){var o=e.split(".");2==o.length&&(t=t[o[0]],e=o[1]),t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}}(p=t.createElement("script")).type="text/javascript",p.crossOrigin="anonymous",p.async=!0,p.src=s.api_host.replace(".i.posthog.com","-assets.i.posthog.com")+"/static/array.js",(r=t.getElementsByTagName("script")[0]).parentNode.insertBefore(p,r);var u=e;for(void 0!==a?u=e[a]=[]:a="posthog",u.people=u.people||[],u.toString=function(t){var e="posthog";return"posthog"!==a&&(e+="."+a),t||(e+=" (stub)"),e},u.people.toString=function(){return u.toString(1)+".people (stub)"},o="init zr Wr fi Br Gr ci Nr Hr capture Ui calculateEventProperties Kr register register_once register_for_session unregister unregister_for_session Zr getFeatureFlag getFeatureFlagPayload isFeatureEnabled reloadFeatureFlags updateEarlyAccessFeatureEnrollment getEarlyAccessFeatures on onFeatureFlags onSurveysLoaded onSessionId getSurveys getActiveMatchingSurveys renderSurvey displaySurvey cancelPendingSurvey canRenderSurvey canRenderSurveyAsync identify setPersonProperties group resetGroups setPersonPropertiesForFlags resetPersonPropertiesForFlags setGroupPropertiesForFlags resetGroupPropertiesForFlags reset get_distinct_id getGroups get_session_id get_session_replay_url alias set_config startSessionRecording stopSessionRecording sessionRecordingStarted captureException loadToolbar get_property getSessionProperty Xr Jr createPersonProfile Qr jr ts opt_in_capturing opt_out_capturing has_opted_in_capturing has_opted_out_capturing get_explicit_consent_status is_capturing clear_opt_in_out_capturing Vr debug O Yr getPageViewId captureTraceFeedback captureTraceMetric Or".split(" "),n=0;n<o.length;n++)g(u,o[n]);e._i.push([i,s,a])},e.__SV=1)}(document,window.posthog||[]);
+      posthog.init('phc_THG5XkmqU4eCG0DmKhbEaDo4w9dklOHnMmtJGS8r859', {
+          api_host: 'https://us.i.posthog.com',
+          defaults: '2025-11-30',
+          person_profiles: 'identified_only', // or 'always' to create profiles for anonymous users as well
+      })
+    </script>
   </head>
   <body>
     <header>
@@ -30,7 +38,7 @@
       <section class="hamburger-menu desktop-hidden">
         <ul class="navbar" id="navbar">
           <li><a class="menu-links" href="about-the-founder.html">about the founder</a></li>
-          <li><a class="menu-links" href="contact-softsolves.html">contact us</a></li>
+          <li><a class="menu-links" href="contact-softsolves.html">connect with us</a></li>
           <li><a class="menu-links" href="booking-page.html">book a consultation</a></li>
           <li><a class="menu-links" href="plans-and-pricing.html">plans & prices</a></li>
           <a class="close" href="#">
@@ -45,7 +53,7 @@
         <li class="nav-tab"><a href="about-the-founder.html">about the founder</a></li>
         <li class="nav-tab"><a href="booking-page.html">book a consultation</a></li>
         <li class="nav-tab"><a href="plans-and-pricing.html">plans & prices</a></li>
-        <li class="nav-tab"><a href="contact-softsolves.html">contact me</a></li>
+        <li class="nav-tab"><a href="contact-softsolves.html">connect with us</a></li>
       </ul>
     </nav>
     <section class="hero-images">
@@ -59,8 +67,8 @@
         </h2>
       </section>
       <section class="lead-magnet-section">
-        <p>Want to <span class="emphasis-color-green">avoid your customers/clients getting lost</span> while navigating your business website? Sign-up here, 
-          and I'll help you help <span class="emphasis-color-pink">your customers find their way to you</span> with a <span class="leading-headers">free 30-minute website audit</span>. 
+        <p>Want to <span class="emphasis-color-green">avoid your customers/clients getting lost</span> while navigating your business website? Sign-up below, 
+          and I'll help you help <span class="emphasis-color-pink">your customers find their way to you</span> with a <span class="leading-headers">free 20-minute website audit</span>. 
           I will also let you know of a free open-source analytics resource you can use for your business!</p>
         <form action="https://api.web3forms.com/submit" class="lead-magnet-form" method="POST">
           <div class="input-field">
@@ -137,7 +145,7 @@
         <article>
           <div class="paint-point-text-bubble yellow">
             <p>Because as a former non-profit worker, as a forever artist, I know how much you give of yourself in service to a cause greater than self.</p>
-            <p><span class="emphasis-color-green">Everyday, you pour of yourself to provide:</span></p>
+            <p><span class="bold">Everyday, you pour of yourself to provide:</span></p>
           </div>
           <div class="pain-point-client-provide-list">
             <p>Life-changing and Life-Giving Support</p>
@@ -146,8 +154,8 @@
             <p>Pure Joy</p>
           </div>
           <div class="paint-point-text-bubble green">
-            <p>You give so much of yourself and your time, and I know sometimes it can be exhausting. However, I know your clients and customers still need a safe digital place to land. So do you.</p>
-            <p>SoftSolves is here to take some work off your plate, and save you some time (and energy)!</p>
+            <p>I know, sometimes, it can be exhausting. And your clients and customers still need a safe digital place to land.</p>
+            <p>SoftSolves is here to take some work off your plate.</p>
           </div>
         </article>
       </section>
@@ -158,26 +166,16 @@
         </div>
         <section class="tab-section">
           <div class="tab">
-            <button class="tablinks" onclick="openCity(event, 'Website/Software')" id="defaultOpen">Website/Software</button>
-            <button class="tablinks" onclick="openCity(event, 'Branding')">Branding</button>
+            <button class="tablinks" onclick="openCity(event, 'Website')" id="defaultOpen">Website</button>
             <button class="tablinks" onclick="openCity(event, 'Responsive Web Design')">Responsive Web Design</button>
             <button class="tablinks" onclick="openCity(event, 'Web Accessibility')">Accessibility</button>
           </div>
-          <article id="Website/Software" class="tabcontent web">
-            <h3>Website/Software</h3>
+          <article id="Website" class="tabcontent web">
+            <h3>Website</h3>
             <ul>
               <li>Content/Copywriting needed for your customer/clients to understand what you offer.</li>
               <li>Cohesive and comprehensive layout for your customer/clients to easily follow your web content.</li>
               <li>Fun-centered design, ultimately based on your want and needs.</li>
-            </ul>
-          </article>
-
-          <article id="Branding" class="tabcontent">
-            <h3>Branding</h3>
-            <ul>
-              <li>Custom-designed websites tailored to your brand and vision.</li>
-              <li>Custom solutions for showcasing your unique offerings</li>
-              <li>Cohesive Visual Identity</li>
             </ul>
           </article>
 
@@ -198,44 +196,6 @@
           </article>
         </section>
       </section>
-      <div class="provide-list-background-image">
-        <section class="provide-list">
-          <h2>The Client Care Process</h2>
-          <section class="provide-list-content">
-            <article class="end-benefits">
-              <img src="images/christina-wocintechchat-com-glRqyWJgUeY-unsplash.jpg" alt="a black woman holding a laptop leaning against a clear wall with servers to the left of it"/>
-              <div>
-                <h3>CLIENT-CENTERED CONSULTATION</h4>
-                <p>In this space, you come first, which means your customers come first. Here, you get to feel like anything is possible, from the vibe you want your customers to experience on your website, to the services to which they have access. You are supported, and in turn, your customers are supported.</p>
-              </div>
-            </article>
-            <article class="middle-benefit">
-              <img src="images/pexels-mikhail-nilov-6894013.jpg" alt="a picture of a bee on a yellow pistil, surrounded by other yellow pistils"/>
-              <div>
-                <h3>HOLISTIC APPROACH</h4>
-                <p>We prioritize your well-being, providing a supportive and connected 
-                  experience throughout our collaboration. From project kickoff to post-launch,
-                  we are dedicated to your success and satisfaction. Our mantra is wellness and 
-                  joy, and trauma-informed approaches is at the heart of SoftSolves website 
-                  development.
-                </p>
-              </div>
-            </article>
-            <article class="end-benefits">
-              <img src="images/black_woman_engineer.jpg" alt="a computer screen with colorful code typed on the right side of it"/>
-              <div>
-                <h3>ONGOING TECHNOLOGICAL SUPPORT</h4>
-                <p>Technology is meant to be empowering, not intimidating. That's why 
-                  SoftSolves is committed to making sure you feel seen and heard, regardless 
-                  of your level of technical expertise. From beginner to advanced, we're right there 
-                  with you through the launch of your website in a way
-                  that's fun and engaging.
-                </p>
-              </div>
-            </article>
-          </section>
-        </section>
-      </div>
       <section class="meet-the-founder">
         <h2><span class="pop-text">MEET THE FOUNDER</span></h2>
         <article>
@@ -259,7 +219,7 @@
       <ul class="footer-nav">
         <li><a href="about-the-founder.html">About</a></li>
         <li><a href="plans-and-pricing.html">Plans & Pricing</a></li>
-        <li><a href="contact-softsolves.html">Contact Me</a></li>
+        <li><a href="contact-softsolves.html">Connect With Us</a></li>
       </ul>
     </div>
     <div class="bottom-of-footer-content">
