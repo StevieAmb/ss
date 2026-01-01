@@ -193,7 +193,7 @@ h2 {
   top: 0;
   position: sticky;
   z-index: 2;
-  background-color: #c6cdff;
+  background-color: #d1f0fd;
   margin: 0;
   padding: 0 5rem;
   border-bottom: .1px solid #749471;
@@ -295,7 +295,7 @@ hr {
 
 .lead-magnet-section .green-bar {
   width: 50%;
-  background-color: #d8b04b;
+  background-color: #161E54;
   border-radius: 3rem 0% 0% 3rem;
 }
 
