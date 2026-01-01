@@ -343,6 +343,7 @@ hr {
 
 .client-serving {
   display: flex;
+  width: 33%;
   justify-content: center;
   gap: 1.5rem;
   flex-wrap: wrap;
