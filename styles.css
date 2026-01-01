@@ -375,6 +375,10 @@ hr {
   gap: 1rem;
 }
 
+.client-serving .text-content {
+  height: 12rem;
+}
+
 .client-serving img {
   width: 100%;
   border-radius: 1rem;
