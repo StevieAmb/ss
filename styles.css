@@ -338,6 +338,7 @@ hr {
   display: flex;
   justify-content: center;
   align-items: center;
+  gap: 2rem
 }
 
 .client-serving {
@@ -345,10 +346,10 @@ hr {
   justify-content: center;
   gap: 1.5rem;
   flex-wrap: wrap;
-  padding: 1rem;
   border-radius: 15px;
   font-size: 16px;
   margin-top: 1.5rem;
+  border: 1px solid #c9e7c7;
 }
 
 .client-serving h3 {
@@ -369,6 +370,7 @@ hr {
 }
 
 .client-serving img {
+  width: 85%;
   border-radius: 2rem;
 }
 
