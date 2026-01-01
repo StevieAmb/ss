@@ -598,17 +598,19 @@ hr {
 .book-button:hover {
   background-color: #FF9F80;
   color: #802000;
-} */
+} 
 
 .meet-the-founder {
-  background: #F5F1DC;;
+  margin: 0rem 5rem;
+  background-color: #f5bba8; 
   padding: 1.5rem 0rem 10rem 0;
+  border-radius: 2rem;
 }
 
 .meet-the-founder article {
   display: flex;
-  position: relative;
-  height: 80vh;
+  justify-content: center;
+  gap: 3rem;
 }
 
 .meet-the-founder h4 {
@@ -618,20 +620,10 @@ hr {
 }
 
 .meet-the-founder p {
-  top: 4rem;
-  left: 40rem;
   padding: 1rem;
-  font-size: 1.4rem;
-  line-height: 170%;
+  font-size: 1.2rem;
+  line-height: 180%;
   width: 30%;
-  position: absolute;
-  background-color: #fff;
-  border: 1.5px solid #757F86;
-}
-
-.meet-the-founder article img {
-  position: absolute;
-  left: 18rem;
 }
 
 .learn-more {
@@ -997,7 +989,7 @@ footer {
   justify-content: center;
   align-items: center;
   color: #802000;
-  background-color: rgb(235, 201, 113);
+  background-color: #161E54;
 }
 
 footer a {
