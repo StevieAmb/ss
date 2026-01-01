@@ -311,7 +311,12 @@ hr {
   padding: 4rem 5rem;
   display: flex;
   gap: 2rem;
-  margin-bottom: 4rem;
+}
+
+.lead-submit-button {
+  background-color: rgb(239, 187, 57);
+  padding: 1rem 2rem;
+  border-radius: 1rem;
 }
 
 .user-entry {
@@ -376,67 +381,8 @@ hr {
   height: 20rem;
 }
 
-.pain-point-solution article {
-  display: flex;
-  gap: 5rem;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  flex-wrap: wrap;
-}
-
-.pain-point-solution h2 {
-  margin: 1.5rem 0;
-  color: black
-}
-
-.pain-point-solution div {
-  text-align: center;
-}
-
-.paint-point-text-bubble {
-  padding: 1rem;
-  border: .5px solid black;
-  width: 70%;
-  border-radius: 2rem;
-}
-
 .hide {
   display: none;
-}
-
-.pain-point-solution {
-  margin: 9rem 0 10rem 0;
-}
-
-.pain-point-client-provide-list {
-  display: flex;
-  justify-content: center;
-  gap: 2rem;
-}
-
-.pain-point-client-provide-list p {
-  border: 2px solid black;
-  width: 10%;
-  text-align: center;
-  padding: 2rem;
-  border-radius: 10%;
-  box-shadow: 2px 2px 7px grey;
-}
-
-.paint-point-text-bubble.yellow {
-  background-color: #f9de99;
-  border: 1px solid #ebc971;
-  font-size: large;
-  line-height: 1.5;
-}
-
-.paint-point-text-bubble.green {
-  background-color: #c9e7c7;
-  border: 1px solid #749471;
-  font-size: large;
-  line-height: 1.5;
 }
 
 .services-offered {
