@@ -285,9 +285,11 @@ hr {
 
 .lead-magnet-section {
   display: flex;
+  padding: 0rem 0rem 5rem 0rem;
 }
 
 .form-section {
+  padding: 4rem 0rem 1rem 0;
   width: 50%;
 }
 
@@ -300,7 +302,7 @@ hr {
 .lead-magnet-section p {
   width: 75%;
   margin: 0 auto;
-  font-size: medium;
+  font-size: 1.12rem;
   text-align: center;
   line-height: 170%;
 }
