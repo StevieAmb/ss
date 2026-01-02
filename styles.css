@@ -102,7 +102,7 @@ h2 {
   color: black;
   padding: .5rem;
   font-size: 1.75rem;
-  border: 1px solid black;
+  border-bottom: 1px solid black;
   box-shadow: 2px 2px 7px black;
   border-radius: 37% 73% 75% 78%;
 }
@@ -603,7 +603,7 @@ hr {
 .meet-the-founder {
   margin: 0rem 5rem;
   background-color: #f5bba8; 
-  padding: 1.5rem 0rem 10rem 0;
+  padding: 1rem 0rem 7rem 0;
   border-radius: 2rem;
 }
 
@@ -617,6 +617,10 @@ hr {
   text-align: center;
   font-size: 2rem;
   font-weight: 500;
+}
+
+.meet-the-founder img {
+  border-radius: 2rem;
 }
 
 .meet-the-founder p {
@@ -988,13 +992,18 @@ footer {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  color: #802000;
+  color: #fff;
   background-color: #161E54;
 }
 
 footer a {
   display: flex;
   justify-content: center;
+  color: #ccc
+}
+
+footer a:active,  footer a:visited, footer a:link {
+    color: #ccc;
 }
 
 .footer-heading {
