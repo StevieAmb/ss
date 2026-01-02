@@ -1001,7 +1001,7 @@ footer {
 footer a {
   display: flex;
   justify-content: center;
-  color: #ccc
+  color: #ccc;
 }
 
 footer a:active,  footer a:visited, footer a:link {
@@ -1035,7 +1035,6 @@ footer img {
 
 .footer-nav {
   line-height: 2rem;
-  text-decoration: underline;
 }
 
 .icon-acknowledgment {
