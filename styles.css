@@ -53,6 +53,7 @@ body {
   font-weight: 300;
   font-style: normal;
   line-height: 1;
+  background-color: #fffdf7;
 }
 
 a {
@@ -81,7 +82,7 @@ h3, h4 {
 p, li, label, legend {
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 300;
+  font-weight: 400;
   font-style: normal;
 }
 
@@ -137,7 +138,7 @@ h2 {
   text-align: center;
   padding: 2.95rem 12rem;
   letter-spacing: .05rem;
-  background-color: #fff;
+  background-color: #fffdf7;
 }
 
 .page-title h1 {
@@ -474,14 +475,15 @@ hr {
   border: 1px solid #c9e7c7;
   border-top: none;
   line-height: 1.75;
-  text-align: center;
+  border-radius: 2rem;
   box-shadow: 2px 2px 5px black inset;
-  background-color: #fff;
+  background-color: #fffdf7;
 }
 
 .services-offered .tabcontent h3 {
   font-weight: 600;
   font-size: 1.5rem;
+  text-align: center;
 } 
 
 .tab-section article {
