@@ -193,10 +193,10 @@ h2 {
   top: 0;
   position: sticky;
   z-index: 2;
-  background-color: #d1f0fd;
+  background-color: #c2f4ff;
   margin: 0;
   padding: 0 5rem;
-  border-bottom: .1px solid #749471;
+  border-bottom: .1px solid #161E54;
 }
 
 .nav-bar-tabs {
