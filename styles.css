@@ -909,9 +909,10 @@ textarea {
   writing-mode: vertical-rl;
   text-orientation: sideways;
   position: fixed;
-  left: 1rem;
+  left: 1.5rem;
+  color: #ccc;
   top: 1rem;
-  background-color: #92ba8f;
+  background-color: #161E54;
   z-index: 2;
 }
 
@@ -919,6 +920,7 @@ textarea {
   padding: 1rem;
   display: flex;
   flex-wrap: wrap;
+  border-radius: 1rem;
   width: 16vw;
   height: 50vh;
   box-shadow: -3px 3px 3px #a9a9a9;
@@ -940,7 +942,7 @@ textarea {
   text-align: center;
   font-size: 1.7rem;
   font-weight: 300;
-  color: #749471;
+  color: #161E54;
   padding-bottom: .75rem;
 }
 
