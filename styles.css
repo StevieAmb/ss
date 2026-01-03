@@ -284,6 +284,22 @@ hr {
   transform:translateY(-50%) scaleY(1);
 }
 
+.softsolves-mission {
+  margin: auto;
+  text-align: center;
+  width: 70%;
+  padding-bottom: 5rem;
+}
+
+.softsolves-mission p {
+  font-family: "Urbanist", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+  font-size: xx-large;
+   line-height: 180%
+}
+
 .lead-magnet-section {
   display: flex;
   padding: 0rem 0rem 5rem 0rem;
