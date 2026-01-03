@@ -665,6 +665,7 @@ hr {
 
 .meet-the-founder img {
   border-radius: 2rem;
+  box-shadow: -2px -2px 9px #b27966;
 }
 
 .meet-the-founder p {
