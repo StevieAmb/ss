@@ -464,7 +464,7 @@ hr {
   justify-content: center;
   align-items: center;
   padding: 4rem 0rem 6rem 0rem;
-  border-radius: 2.5rem;
+  border-radius: 2rem;
 }
 
 .tab-section {
@@ -477,7 +477,6 @@ hr {
   display: flex;
   justify-content: space-between;
   overflow: hidden;
-  padding: 0rem 3rem 0rem 0rem;
 }
 
 /* Style the buttons that are used to open the tab content */
@@ -489,7 +488,8 @@ hr {
   cursor: pointer;
   padding: .5rem 4rem;
   transition: 0.3s;
-  color: #fff;
+  background-color: #b5b6b8;
+  opacity: .9;
 }
 
 /* Change background color of buttons on hover */
@@ -499,7 +499,7 @@ hr {
 
 /* Create an active/current tablink class */
 .services-offered .tab button.active {
-  background-color: #252424;
+  background-color: #8b8a8a;
   border-top: 3px solid black;
 }
 
@@ -510,8 +510,8 @@ hr {
   border: 1px solid #c9e7c7;
   border-top: none;
   line-height: 1.75;
-  border-radius: 2rem;
-  box-shadow: 2px 2px 5px black inset;
+  border-radius: 1rem;
+  box-shadow: 2px 2px 5px black;
   background-color: #fffdf7;
 }
 
@@ -522,7 +522,7 @@ hr {
 } 
 
 .tab-section article {
-  width: 89%;
+  width: 100%;
 }
 
 .list-of-services {
