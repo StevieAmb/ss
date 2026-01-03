@@ -301,10 +301,18 @@ hr {
   align-items: center;
 } */
 
+.lead-magnet-section .pink-bar {
+   width: 50%;
+  background-color: #FF986A
+}
+
+.lead-magnet-section .lead-background-img {
+  
+}
+
 .lead-magnet-section .blue-bar {
   width: 50%;
   background-color: #161E54;
-  border-radius: 3rem 0% 0% 3rem;
 }
 
 .lead-magnet-section p {
