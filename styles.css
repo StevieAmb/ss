@@ -306,8 +306,12 @@ hr {
 }
 
 .form-section {
-  padding: 3rem 0rem 1rem 0;
+  padding: 3rem 0rem 0rem 0;
   width: 35%;
+}
+
+.form-section .input-field {
+  width: 100%;
 }
 
 .lead-magnet-section .pink-bar {
@@ -330,14 +334,15 @@ hr {
 .lead-magnet-section p {
   width: 75%;
   margin: 0 auto;
-  font-size: .88rem;
+  font-size: .85rem;
   text-align: center;
   line-height: 185%;
 }
 
 .lead-magnet-form {
-  padding: 2rem 8rem;
+  padding: 2rem 3.5rem;
   display: flex;
+  flex-direction: column;
   gap: .5rem;
 }
 
