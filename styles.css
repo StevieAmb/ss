@@ -291,23 +291,17 @@ hr {
 
 .form-section {
   padding: 4rem 0rem 1rem 0;
-  width: 50%;
+  width: 35%;
 }
 
-/* .form-section form {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-} */
-
 .lead-magnet-section .pink-bar {
-   width: 50%;
+   width: 20%;
   background-color: #FF986A
 }
 
 .lead-magnet-section .lead-background-img {
-  
+  background: url('images/black_woman_engineer.jpg');
+  width: 50%;
 }
 
 .lead-magnet-section .blue-bar {
