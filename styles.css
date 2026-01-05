@@ -1402,6 +1402,7 @@ footer img {
     flex-wrap: wrap;
     border-bottom: none;
     margin-top: 0rem;
+    padding-bottom: 0rem;
   }
 
   .user-entry .client-serving-container {
@@ -1509,27 +1510,10 @@ footer img {
   .services-heading {
     display: flex;
   }
-/*   
-  .services-offered .tabcontent h3 {
-    font-weight: 500;
-    padding: .8rem 0 .5rem .1rem;
-    font-size: 1.3rem;
-    width: 60%;
-  } */
-
-  .submit-button {
-    display: block;
-    padding: 1.5rem;
-    height: 3rem;
-    width: 9rem;
-    font-size: 1.3rem;
-    border-radius: 14px;
-    text-align: center;
-    margin-left: 5rem;
-  }
 
   .meet-the-founder {
-    height: 90vh;
+    margin: 0 1rem;
+    height: 20vh;
     padding: 1rem 1rem 40rem 1rem;
   }
   
@@ -1547,14 +1531,11 @@ footer img {
   }
   
   .meet-the-founder article img {
-    margin: 25rem 0 1.2rem 4.4rem;
-    position: static;
-    width: 60%;
+    margin: 0 auto;
   }
 
    .meet-the-founder p {
     text-align: center;
-    position: static;
     font-size: 1.25rem;
     width: 95%;
     padding: .5rem;
@@ -1566,7 +1547,6 @@ footer img {
     margin-bottom: 7rem;
     width: 10rem;
     font-size: large;
-    position: static;
     border-radius: 7px;
   }
 
