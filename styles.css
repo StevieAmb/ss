@@ -1112,7 +1112,7 @@ footer img {
   }
   
   .hamburger {
-    background: ##fffdf7;
+    background: #fffdf7;
   }
   
   .close {
@@ -1237,7 +1237,9 @@ footer img {
   }
 
   .hero-images {
-    background-position: -155% 55%;
+    margin: 1rem;
+    border-radius: 1rem;
+    /* background-position: -145% 55%; */
     background-size: cover;
     height: 40.5rem;
     height: 30rem;
