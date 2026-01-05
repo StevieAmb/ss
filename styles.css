@@ -1409,6 +1409,11 @@ footer img {
     margin-top: 0rem;
   }
 
+  .user-entry .client-serving-container {
+    display: flex;
+      flex-direction: column;
+  }
+
   .user-entry h2 {
     width: 100%;
     text-align: center;
@@ -1423,17 +1428,10 @@ footer img {
   }
 
   .client-serving {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-content: center;
+    width: 100%;
     flex-wrap: wrap;
-    padding: 1rem;
-    border: 1px solid #b2b2b2;
-    box-shadow: -1px 1px 5px #714d41;
     border-radius: 15px;
-    font-size: 16px;
-    background-color: #e5f6e4;
+    font-size: 1rem;
   }
 
   .client-serving h3 {
