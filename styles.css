@@ -1339,6 +1339,9 @@ footer img {
 
   .lead-magnet-section {
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     padding: 0rem 0rem 5rem 0rem;
   }
 
@@ -1352,15 +1355,17 @@ footer img {
   }
 
   .lead-magnet-section .pink-bar {
-    width: 15%;
-    background-color: #FF986A
+    width: 100%;
+    background-color: #FF986A;
+    height: 10vh;
   }
 
   .lead-magnet-section .lead-background-img {
     background: url('images/pexels-cut-in-a-moment-130171700-10107709.jpg');
     background-size: cover;
     background-position: 70% 90%;
-    width: 40%;
+    width: 100%;
+    height: 40vh;
   }
 
   .lead-magnet-section .blue-bar {
