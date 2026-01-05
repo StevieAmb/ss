@@ -1260,7 +1260,7 @@ footer img {
   }
 
   .opening-comment {
-    height: 40vh;
+    height: 30vh;
     width: 100%;
     padding-bottom: 2.5rem;
   }
@@ -1324,6 +1324,79 @@ footer img {
 
   .opening-comment h2:hover span:nth-of-type(3){
     transform:translateY(-50%) scaleY(1);
+  }
+
+  .softsolves-mission {
+    margin: 0rem 2rem;
+    text-align: center;
+    width: 85%;
+    padding-bottom: 7rem
+  }
+
+  .softsolves-mission p {
+    font-size: large;
+  }
+
+  .lead-magnet-section {
+    display: flex;
+    padding: 0rem 0rem 5rem 0rem;
+  }
+
+  .form-section {
+    padding: 3rem 0rem 0rem 0;
+    width: 35%;
+  }
+
+  .form-section .input-field {
+    width: 100%;
+  }
+
+  .lead-magnet-section .pink-bar {
+    width: 15%;
+    background-color: #FF986A
+  }
+
+  .lead-magnet-section .lead-background-img {
+    background: url('images/pexels-cut-in-a-moment-130171700-10107709.jpg');
+    background-size: cover;
+    background-position: 70% 90%;
+    width: 40%;
+  }
+
+  .lead-magnet-section .blue-bar {
+    width: 40%;
+    background-color: #161E54;
+  }
+
+  .lead-magnet-section p {
+    width: 75%;
+    margin: 0 auto;
+    font-size: .85rem;
+    text-align: center;
+    line-height: 185%;
+  }
+
+  .lead-magnet-form {
+    padding: 2rem 3.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+  }
+
+  .lead-submit-button {
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+  }
+
+  .lead-submit-button:hover {
+    background-color: rgb(239, 187, 57);
+    box-shadow: 2px 2px 2px #161E54;
+    transform: translateY(-1px);
+  }
+
+  .lead-submit-button:active {
+    transform: translateY(0px);
+    box-shadow: 1px 1px 1px #161E54;
   }
 
   .user-entry {
