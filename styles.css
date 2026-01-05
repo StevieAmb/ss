@@ -1369,8 +1369,9 @@ footer img {
   }
 
   .lead-magnet-section .blue-bar {
-    width: 40%;
+    width: 100%;
     background-color: #161E54;
+    height: 20vh;
   }
 
   .lead-magnet-section p {
