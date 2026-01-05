@@ -1342,11 +1342,11 @@ footer img {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 0rem 0rem 5rem 0rem;
+    padding: 0rem 0rem 2.5rem 0rem;
   }
 
   .form-section {
-    padding: 3rem 0rem 0rem 0;
+    padding: 3rem 0rem 2.5rem 0;
     width: 95%;
   }
 
@@ -1357,7 +1357,7 @@ footer img {
   .lead-magnet-section .pink-bar {
     width: 100%;
     background-color: #FF986A;
-    height: 12vh;
+    height: 15vh;
   }
 
   .lead-magnet-section .lead-background-img {
@@ -1371,7 +1371,7 @@ footer img {
   .lead-magnet-section .blue-bar {
     width: 100%;
     background-color: #161E54;
-    height: 20vh;
+    height: 25vh;
   }
 
   .lead-magnet-section p {
