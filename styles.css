@@ -1357,7 +1357,7 @@ footer img {
   .lead-magnet-section .pink-bar {
     width: 100%;
     background-color: #FF986A;
-    height: 10vh;
+    height: 12vh;
   }
 
   .lead-magnet-section .lead-background-img {
@@ -1376,9 +1376,9 @@ footer img {
   .lead-magnet-section p {
     width: 100%;
     margin: 0 auto;
-    font-size: .85rem;
+    font-size: 1rem;
     text-align: center;
-    line-height: 185%;
+    line-height: 195%;
   }
 
   .lead-magnet-form {
