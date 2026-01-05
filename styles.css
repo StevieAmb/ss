@@ -1415,7 +1415,7 @@ footer img {
     text-align: center;
   }
 
-  .user-entry div {
+  .user-entry .text-content {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -1424,7 +1424,8 @@ footer img {
   }
 
   .client-serving {
-    width: 110%;
+    width: 120%;
+    gap: 0rem;
     flex-wrap: wrap;
     border-radius: 15px;
     font-size: 1rem;
