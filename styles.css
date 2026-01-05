@@ -1441,6 +1441,7 @@ footer img {
     text-align: center;
     font-size: 1.25rem;
     height: 8vh;
+    width: 90%;
   }
 
   .client-serving ul {
@@ -1474,14 +1475,13 @@ footer img {
   }
 
   .tab-section {
-    display: flex;
     height: 65vh;
     width: 97%;
   }
 
-  .tabcontent {
-    width: 65vw;
-    height: none;
+  .services-offered .tabcontent {
+    width: 87.5vw;
+    padding: 6px 8px;
   }
 
 
@@ -1504,30 +1504,6 @@ footer img {
     box-shadow: -.15rem -.15rem .15rem #b27966;
     position: relative;
     animation: mymove 5s forwards;
-  }
-
-  @keyframes mymove {
-    from {left: 2000px;}
-    to {left: 0px;}
-  }
-
-  .list-of-services section .more-content {
-    margin-bottom: 1.5rem;
-    text-align: center;
-    padding: 1.3rem 1rem;
-    font-weight: 300;
-    font-size: 1.3rem;
-    width: 15.5rem;
-    border-radius: 7px;
-    box-shadow: .15rem .15rem .15rem #5c5111;
-  }
-
-  .list-of-services {
-    display: flex;
-    justify-content: center;
-    gap: 1.5rem;
-    align-items: center;
-    padding: 1.5rem 0 4rem 0;
   }
   
   .services-heading {
