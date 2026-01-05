@@ -1509,71 +1509,13 @@ footer img {
   .services-heading {
     display: flex;
   }
-  
-  article h3 {
+/*   
+  .services-offered .tabcontent h3 {
     font-weight: 500;
     padding: .8rem 0 .5rem .1rem;
-    font-size: 1.7rem;
+    font-size: 1.3rem;
     width: 60%;
-  }
-
-  .list-of-services section .less-wording {
-    margin-bottom: 1.5rem;
-    text-align: center;
-    padding: 1rem .95rem;
-    font-weight: 300;
-    width: 15.5rem;
-    border-radius: 7px;
-    box-shadow: .15rem .15rem .15rem #5c5111;
-    background-color: #f4e4de;
-  }
-
-  .provide-list {
-    margin: 1.25rem;
-    padding-bottom: 1rem;
-  }
-
-  .provide-list-content {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 2.5rem;
-  }
-
-  .provide-list article {
-    display: block;
-    width: 80%;
-    padding-bottom: 4rem;
-  }
-
-  .provide-list .end-benefits div,
-  .provide-list .middle-benefit div {
-    width: 100%;
-    padding: 0;
-  }
-
-  .provide-list .end-benefits h3,
-  .provide-list .middle-benefit h3 { 
-    text-align: center;
-    width: 95%;
-    padding: 3rem 0rem .5rem .8rem;
-  }
-
-  .provide-list .end-benefits p,
-  .provide-list .middle-benefit p {
-    font-size: 1.2rem;
-    width: 95%;
-    padding: 1rem 0rem 1rem .5rem;
-  }
-
-  .provide-list .end-benefits img,
-  .provide-list .middle-benefit img {
-    width: 70vw;
-    display: block;
-    padding-bottom: 0rem;
-    border-radius: 0rem;
-  }
+  } */
 
   .submit-button {
     display: block;
