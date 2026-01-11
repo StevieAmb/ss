@@ -905,6 +905,12 @@ textarea {
   background-color: transparent;
 }
 
+.contact-me-form input {
+  background-color: #fffdf7;
+  border: 1px solid #fff4d2;
+  line-height: 2rem;
+}
+
 .input-field {
   display: flex;
   font-size: 1.25rem;
