@@ -854,12 +854,12 @@ details {
 .contact-me-form {
   width: 45%;
   padding: 6.5rem 6rem 5rem;
-  border: 1px solid #fff4d2;
+  border: 1px solid #bdb49a;
   margin-top: 4rem;
   margin-left: 4rem;
-  background-color: #fff;
+  background-color: #FF986A;
   border-radius: 3rem;
-  box-shadow: .5px .5px 11px #714c4c;
+  box-shadow: .5px .5px 5px #714c4c;
 }
 
 label, legend {
@@ -938,7 +938,7 @@ textarea {
 
 .contact-me-form label, legend {
   font-size: 1rem;
-  color: #714c4c;
+  color: rgb(88, 88, 88);
   padding-bottom: .35rem;
 }
 
