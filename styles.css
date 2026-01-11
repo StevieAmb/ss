@@ -854,7 +854,9 @@ details {
 
 .contact-me-form {
   width: 75%;
-  padding: 6.5rem 0 6rem 5rem;
+  padding: 6.5rem 6rem 5rem;
+  border: 1px solid #fff4d2;
+  margin-top: 4rem;
 }
 
 label, legend {
