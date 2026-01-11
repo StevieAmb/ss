@@ -938,7 +938,7 @@ textarea {
 
 .contact-me-form label, legend {
   font-size: 1rem;
-  color: rgb(88, 88, 88);
+  color: rgb(60, 60, 60);
   padding-bottom: .35rem;
 }
 
@@ -956,13 +956,13 @@ textarea {
 }
 
 .submit-button {
-  background-color: rgb(239, 187, 57);
+  background-color: #161E54;
   font-weight: bolder;
-  height: 2.5rem;
-  width: 17.5rem;
-  margin: 1rem 0 0 0;
-  border: 2px solid black;
+  padding: 1rem 2rem;
+  margin: 1.5rem 0 0 0;
+  border: 1px solid #FF986A;
   font-size: larger;
+  color: #fff;
   border-radius: 7px;
 }
 
