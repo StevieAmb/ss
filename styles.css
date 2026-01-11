@@ -841,19 +841,19 @@ details {
 }
 
 .contact-me h2 {
-  margin: .5rem 0;
+  margin: 1.75rem 0;
 }
 
 .contact-me-message {
   width: 45%;
   line-height: 1.8rem;
   font-size: 1.1rem;
-  padding: 6rem 2rem;
+  padding: 8rem 2rem;
 }
 
 .contact-me-form {
   width: 45%;
-  padding: 6.5rem 6rem 5rem;
+  padding: 3.5rem 6rem 5rem;
   border: 1px solid #bdb49a;
   margin-top: 4rem;
   margin-left: 4rem;
