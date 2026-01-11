@@ -971,6 +971,7 @@ textarea {
   box-shadow: 2px 2px 1px #161E54;
   color: black;
   transform: translateY(i1px);
+  border: 1px solid black;
 }
 
 .submit-button:active {
