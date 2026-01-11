@@ -858,7 +858,7 @@ details {
   border: 1px solid #fff4d2;
   margin-top: 4rem;
   margin-left: 4rem;
-  background-color: #fffcfc;
+  background-color: #fff;
   border-radius: 3rem;
   box-shadow: .5px .5px 11px #714c4c;
 }
@@ -911,10 +911,11 @@ textarea {
   border: 1px solid #fff4d2;
   line-height: 2rem;
   border-radius: .5rem;
+  box-shadow: 1px 1px 5px inset #714c4c;
 }
 
 .contact-me-form input::placeholder {
-  color: #d2b5b5;
+  color: #b59c9c;
   padding-left: .5rem;
   font-style: italic;
 } 
