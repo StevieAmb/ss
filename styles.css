@@ -857,6 +857,9 @@ details {
   padding: 6.5rem 6rem 5rem;
   border: 1px solid #fff4d2;
   margin-top: 4rem;
+  margin-left: 4rem;
+  background-color: #fff;
+  border-radius: 3rem;
 }
 
 label, legend {
