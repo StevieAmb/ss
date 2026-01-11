@@ -967,8 +967,19 @@ textarea {
 }
 
 .submit-button:hover {
-  background-color: #a9a9a9;
+  background-color: rgb(239, 187, 57);
+  box-shadow: 2px 2px 1px #161E54;
   color: black;
+  transform: translateY(i1px);
+}
+
+.submit-button:active {
+  transform: translateY(0px);
+  box-shadow: 1px 1px 1px #161E54;
+}
+
+.submit-button:hover {
+
 }
 
 .plans-price-section {
