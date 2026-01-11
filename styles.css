@@ -858,12 +858,13 @@ details {
   border: 1px solid #fff4d2;
   margin-top: 4rem;
   margin-left: 4rem;
-  background-color: #fff;
+  background-color: #fffcfc;
   border-radius: 3rem;
+  box-shadow: .5px .5px 11px #714c4c;
 }
 
 label, legend {
-    font-size: 1.25rem;
+  font-size: 1.25rem;
 }
 
 input {
@@ -909,6 +910,25 @@ textarea {
   background-color: #fffdf7;
   border: 1px solid #fff4d2;
   line-height: 2rem;
+  border-radius: .5rem;
+}
+
+.contact-me-form input::placeholder {
+  color: #d2b5b5;
+  padding-left: .5rem;
+  font-style: italic;
+} 
+
+.contact-me-form textarea {
+  background-color: #fffdf7;
+  border: 1px solid #fff4d2;
+  border-radius: .5rem;
+}
+
+.contact-me-form label, legend {
+  font-size: 1rem;
+  color: #714c4c;
+  padding-bottom: .35rem;
 }
 
 .input-field {
