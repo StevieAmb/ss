@@ -2169,6 +2169,16 @@ footer img {
     border-radius: 1rem;
   }
 
+  .user-entry {
+    padding-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    border-bottom: none;
+    margin-top: 0rem;
+  }
+
   .client-serving {
     width: 120%;
     gap: 0rem;
@@ -2214,7 +2224,6 @@ footer img {
     width: 100%;
     text-align: center;
   }
-
 
   .services-offered {
     display: flex;
