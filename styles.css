@@ -2188,11 +2188,15 @@ footer img {
   }
 
   .client-serving {
-    width: 100%;
+    width: 96%;
     gap: 0rem;
     flex-wrap: wrap;
-    border-radius: 15px;
+    border-radius: 1.75rem;
     font-size: 1rem;
+  }
+
+  .client-serving img {
+    width: 100%;
   }
 
   .client-serving h3 {
