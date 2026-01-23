@@ -1999,6 +1999,7 @@ footer img {
 
   .hero-images {
     height: 30rem;
+    background-position: 100% 35%;
     color: white;
     font-family: "Lato", sans-serif;
   }
