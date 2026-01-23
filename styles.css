@@ -1537,28 +1537,6 @@ footer img {
     width: 87.5vw;
     padding: 6px 8px;
   }
-
-
-  .list-of-services {
-    display: flex;
-    flex-direction: column;
-    gap: .5rem;
-    padding-top: 0;
-    padding-bottom: 2.7rem;
-  }
-
-  .list-of-services article {
-    gap: 1.7rem;
-    margin-bottom: 1.5rem;
-    padding: 1.1rem 2rem;
-    font-weight: 500;
-    font-size: 1.1rem;
-    list-style-type: none;
-    border-radius: 7px;
-    box-shadow: -.15rem -.15rem .15rem #b27966;
-    position: relative;
-    animation: mymove 5s forwards;
-  }
   
   .services-heading {
     display: flex;
@@ -2220,7 +2198,7 @@ footer img {
     gap: 1rem;
   }
 
-  .services-offered {
+  /* .services-offered {
     gap: 0rem;
     display: flex;
     flex-direction: column;
@@ -2280,6 +2258,45 @@ footer img {
   .tabcontent {
     width: 65vw;
     height: none;
+  }
+
+    .services-offered {
+    gap: 0rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    width: 95%;
+    margin: 0rem 1rem 5rem 1rem;
+  }
+
+  .services-offered .section-heading {
+    width: 100%;
+    text-align: center;
+  }
+
+  .tab {
+    display: flex;
+    flex-direction: column;
+  }
+    */
+
+  .tab {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow: hidden;
+  }
+
+  .tab-section {
+    height: 65vh;
+    width: 87%;
+  } 
+
+  .services-offered .tabcontent {
+    width: 66.5vw;
+    padding: 6px 8px;
   }
 
   .provide-list {
