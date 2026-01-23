@@ -1720,7 +1720,7 @@ footer img {
   } 
 
   input[type="text"] {
-      font-size: 1rem;
+    font-size: 1rem;
   }
 
   .contact-me-form textarea::placeholder {
@@ -1739,7 +1739,6 @@ footer img {
     margin-bottom: 2rem;
   }
 
-
   .user-identifier, .user-contact {
     margin-top: .4rem;
     gap: 1rem;
@@ -1753,7 +1752,7 @@ footer img {
     font-size: larger;
     border: 2px solid #000;
     letter-spacing: .25rem;
-}
+  }
 
   .about-founder-container {
     display: flex;
