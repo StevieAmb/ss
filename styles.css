@@ -2170,26 +2170,24 @@ footer img {
   }
 
   .client-serving {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-content: center;
+    width: 120%;
+    gap: 0rem;
     flex-wrap: wrap;
-    padding: 2rem;
-    width: 36.25%;
-    border: 1px solid #b2b2b2;
-    box-shadow: -1px 1px 5px #714d41;
     border-radius: 15px;
-    font-size: 1.7rem;
-    background-color: #e5f6e4;
+    font-size: 1rem;
+  }
+
+  .client-serving img {
+    height: 30vh;
   }
 
   .client-serving h3 {
     padding-top: .5rem;
     font-weight: 700;
     text-align: center;
-    font-size: 2rem;
-    height: 8.25vh;
+    font-size: 1.25rem;
+    height: 8vh;
+    width: 90%;
   }
 
   .client-serving ul {
@@ -2198,74 +2196,25 @@ footer img {
     justify-content: center;
     align-items: center;
     text-align: center;
-    gap: 1.85rem;
+    gap: 1rem;
   }
 
-  .pain-point-solution h2 {
-    font-size: 3rem;
-  }
-
-  .pain-point-solution article {
+  .services-offered {
+    gap: 0rem;
     display: flex;
-    gap: 3rem;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    text-align: center;
+    align-content: center;
     flex-wrap: wrap;
+    width: 95%;
+    margin: 0rem 1rem 5rem 1rem;
   }
 
-  .pain-point-solution h2 {
-    margin: 2.75rem 0;
-    color: black
-  }
-
-  .pain-point-solution div {
+  .services-offered .section-heading {
+    width: 100%;
     text-align: center;
   }
 
-  .paint-point-text-bubble {
-    padding: 1rem;
-    border: .5px solid black;
-    width: 90%;
-    border-radius: 2rem;
-    margin-bottom: 2rem;
-  }
-
-  .pain-point-solution {
-    margin: 0rem 0 5rem 0;
-  }
-
-  .pain-point-client-provide-list {
-    display: grid;
-    grid-template-columns: 2fr 2fr;
-    justify-content: center;
-    align-items: center;
-    justify-items: center;
-  }
-
-  .pain-point-client-provide-list p {
-    border: 2px solid black;
-    align-self: center;
-    width: 55%;
-    height: 87%;
-    padding: .75rem;
-    font-size: 1.7rem;
-    border-radius: 5%;
-  }
-
-  .paint-point-text-bubble.yellow {
-    background-color: #f9de99;
-    border: 1px solid #ebc971;
-    font-size: 1.7rem;
-    line-height: 1.5;
-  }
-
-  .paint-point-text-bubble.green {
-    margin-top: 1.5rem;
-    width: 90%;
-    font-size: 1.7rem;
-  }
 
   .services-offered {
     display: flex;
