@@ -2041,7 +2041,7 @@ footer img {
   .opening-comment h2 span:nth-child(1){
     position: absolute;
     top:0; 
-    left:8.85rem; 
+    left: 7.4rem; 
     color: #000;
     transition:0.5s;
     clip-path: polygon(0 0, 100% 0, 100% 50%, 0 50%);
@@ -2055,7 +2055,7 @@ footer img {
   .opening-comment h2 span:nth-of-type(2){
     position:absolute;
     top:0; 
-    left:8.85rem; 
+    left: 7.4rem; 
     color: #000;;
     transition:0.5s;
     clip-path: polygon(0 50%, 100% 50%, 100% 100%, 0 100%);
