@@ -2179,16 +2179,20 @@ footer img {
     margin-top: 0rem;
   }
 
+  .client-serving-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+  }
+
   .client-serving {
-    width: 120%;
+    width: 100%;
     gap: 0rem;
     flex-wrap: wrap;
     border-radius: 15px;
     font-size: 1rem;
-  }
-
-  .client-serving img {
-    height: 30vh;
   }
 
   .client-serving h3 {
