@@ -2170,13 +2170,17 @@ footer img {
   }
 
   .user-entry {
-    padding-top: 1rem;
+    padding-top: 7rem;
     display: flex;
     justify-content: center;
     align-content: center;
     flex-wrap: wrap;
     border-bottom: none;
     margin-top: 0rem;
+  }
+
+  .user-entry div h2 {
+    padding: 2.5rem 0;
   }
 
   .client-serving-container {
