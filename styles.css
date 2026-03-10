@@ -185,6 +185,17 @@ h2 {
   background-position: -110% 55%;
   background-size: cover;
   height: 40.5rem;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+.hero-images article {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 40%;
+  margin-bottom: 10rem;
 }
 
 .nav-bar {
