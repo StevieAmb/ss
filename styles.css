@@ -53,7 +53,6 @@ body {
   font-weight: 300;
   font-style: normal;
   line-height: 1;
-  background-color: #fffdf7;
 }
 
 a {
@@ -91,42 +90,14 @@ h2 {
   padding: 1rem 0;
 }
 
-.emphasis-color-green {
-  color: #749471;
-  font-weight: 700;
-}
-
-.pop-text {
-  background-color: #FF9F80;
-  color: black;
-  padding: .5rem;
-  font-size: 1.75rem;
-  border-bottom: 1px solid black;
-  box-shadow: 2px 2px 7px black;
-  border-radius: 37% 73% 75% 78%;
-}
-
 .pink-pop-text {
-  background-color: #FF9F80;
+  background-color: #ff986a;
   color: #FFF;
   padding: .5rem;
-  font-size: 1.75rem;
 }
 
 .bold {
   font-weight: 600;
-}
-
-.leading-headers {
-  border: 1px solid black;
-  border-radius: 1rem;
-  padding: .5rem;
-  color: black;
-}
-
-.emphasis-color-pink {
-  color: #FF9F80;
-  font-weight: 700;
 }
 
 .page-title {
@@ -181,7 +152,6 @@ h2 {
   background-size: cover;
   height: 40.5rem;
   display: flex;
-  filter: grayscale(.2);
   align-items: flex-end;
   justify-content: flex-end;
 }
@@ -191,13 +161,32 @@ h2 {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  width: 36%;
-  margin-bottom: 18rem;
+  width: 39.5%;
+  margin-bottom: 8rem;
   color: #fff;
+}
+
+.hero-images article h2 {
+  font-size: 3.5rem;
+  padding-bottom: 2.25rem;
 }
 
 .hero-images article p {
   font-weight: 600;
+  font-size: 1.25rem;
+  line-height: 1.5;
+  color: #fff;
+  padding-bottom: 2rem;
+  text-shadow: 1px 1px 1px black;
+}
+
+.hero-images article button {
+  border: 1px solid #fff;
+  width: 60%;
+  padding: 1.5rem 3rem;
+  color: #fff;
+  font-size: medium;
+  background-image: linear-gradient(to right, #fff, #161e54, #161e54)
 }
 
 .nav-bar {
@@ -229,68 +218,6 @@ h2 {
 
 hr {
   margin: 0;
-}
-
-.opening-comment {
-  height: 30vh;
-  width: 100%;
-}
-
-.opening-comment h2 {
-  margin: 0; padding: 0;
-  position:absolute;
-  top:  65rem; 
-  left: 45rem;
-  transform:translate(-50%,-50%);
-  font-size: 3em; 
-  text-transform:uppercase;
-}
-
-.opening-comment h2 span:nth-child(1){
-  position: absolute;
-  top:0; 
-  left:0; 
-  color: #000;
-  transition:0.5s;
-  clip-path: polygon(0 0, 100% 0, 100% 50%, 0 50%);
-  overflow:hidden;
-}
-
-.opening-comment h2:hover span:nth-of-type(1){
-  transform:translateY(-18px); 
-}
-
-.opening-comment h2 span:nth-of-type(2){
-  position:absolute;
-  top:0; 
-  left:0; 
-  color: #000;;
-  transition:0.5s;
-  clip-path: polygon(0 50%, 100% 50%, 100% 100%, 0 100%);
-  overflow:hidden;
-}
-
-.opening-comment h2:hover span:nth-of-type(2){
-  transform:translateY(18px); 
-}
-
-.opening-comment h2 span:nth-of-type(3){
-  position:absolute;
-  top:50%; left: 0;
-  transform:translateY(-50%) scaleY(0);
-  width: 91%; 
-  color: black;
-  background: rgb(239, 187, 57);
-  font-size: 0.5em; 
-  font-weight: 500;
-  letter-spacing:0.7em;
-  text-align:center;
-  padding-left: 20px; margin-left: 5px;
-  transition:0.5s;
-}
-
-.opening-comment h2:hover span:nth-of-type(3){
-  transform:translateY(-50%) scaleY(1);
 }
 
 .softsolves-mission {
