@@ -104,7 +104,6 @@ h2 {
   text-align: center;
   padding: 2.95rem 12rem;
   letter-spacing: .05rem;
-  background-color: #fffdf7;
 }
 
 .page-title h1 {
@@ -237,7 +236,7 @@ hr {
   font-weight: 700;
   width: 80%;
   font-style: normal;
-  font-size: xx-large;
+  font-size: 1.95rem;
   line-height: 180%;
   padding-bottom: 2.5rem;
 }
