@@ -253,15 +253,20 @@ hr {
   padding-bottom: 2rem;
 }
 
+.dotted-line {
+  border: 1.5px dotted;
+  border-image-slice: 1;
+  border-width: 5px;
+}
+
 .softsolves-services .content-container .dotted-line {
   padding: 1rem;
   border-width: 1.5px;
-  border-style: dashed;
-  border-image: 
+  border-image-source: 
     linear-gradient(
       to top, 
       black, 
-      #ebc971
+      red
     ) 1 100%;
 }
 
