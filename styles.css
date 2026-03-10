@@ -250,6 +250,19 @@ hr {
 .softsolves-services .content-container .dotted-line,
 .softsolves-services .content-container .text-content {
   width: 80%;
+  padding-bottom: 2rem;
+}
+
+.softsolves-services .content-container .dotted-line {
+  padding: 1rem;
+  border-width: 1.5px;
+  border-style: dashed;
+  border-image: 
+    linear-gradient(
+      to top, 
+      black, 
+      #ebc971
+    ) 1 100%;
 }
 
 .lead-magnet-section {
