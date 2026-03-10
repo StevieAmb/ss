@@ -220,20 +220,26 @@ hr {
   margin: 0;
 }
 
-.softsolves-mission {
-  margin: auto;
+.softsolves-intro {
   text-align: center;
-  width: 70%;
-  padding-bottom: 7rem;
+  padding: 5rem;
+  color: white;
+  font-weight: 700;
+  font-size: xx-large;
+  margin-top: 7rem;
+  background-image: linear-gradient(to bottom, #fff, #ff986a, #ff986a);
 }
 
-.softsolves-mission p {
+.softsolves-intro p {
+  margin: auto;
   font-family: "Urbanist", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 200;
+  font-weight: 700;
+  width: 80%;
   font-style: normal;
   font-size: xx-large;
-   line-height: 180%
+  line-height: 180%;
+  padding-bottom: 2.5rem;
 }
 
 .lead-magnet-section {
