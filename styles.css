@@ -241,6 +241,17 @@ hr {
   padding-bottom: 2.5rem;
 }
 
+.softsolves-services .content-container {
+  width: 30%;
+  display: flex;
+  flex-direction: row;
+}
+
+.softsolves-services .content-container .dotted-line,
+.softsolves-services .content-container .text-content {
+  width: 80%;
+}
+
 .lead-magnet-section {
   display: flex;
   padding: 0rem 0rem 5rem 0rem;
