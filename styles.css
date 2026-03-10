@@ -194,10 +194,8 @@ h2 {
   top: 0;
   position: sticky;
   z-index: 2;
-  background-color: #c2f4ff;
   margin: 0;
   padding: 0 5rem;
-  border-bottom: .1px solid #161E54;
 }
 
 .nav-bar-tabs {
@@ -206,7 +204,7 @@ h2 {
 }
 
 .nav-tab {
-  width: 12.5rem;
+  width: 11.5rem;
   margin: .3rem 0;
   font-size: 1rem;
   letter-spacing: 2px;
