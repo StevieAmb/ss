@@ -312,7 +312,7 @@ hr {
 
 .service-process .process-content {
   display: flex;
-  gap: 8rem;
+  gap: 2rem;
   justify-content: center;
   align-items: center;
   color: #fff;
@@ -323,9 +323,21 @@ hr {
 .service-process .cta-section {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+}
+
+.service-process .cta-section img {
+  border-radius: .6rem;
+  width: 75%;
 }
 
 .service-process .process-section {
+    display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  flex-direction: row-reverse;
   width: 40%;
 }
 
