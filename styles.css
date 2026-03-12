@@ -310,6 +310,17 @@ hr {
   line-height: 1.25;
 }
 
+.service-process .process-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.service-process .cta-section {
+  display: flex;
+  flex-direction: column;
+}
+
 .hide {
   display: none;
 }
