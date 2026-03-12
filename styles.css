@@ -339,6 +339,9 @@ hr {
   background-image: linear-gradient(to right, rgb(177, 178, 181), rgb(177, 178, 181, 0));
   border: 2px solid #fff;
   opacity: 70%;
+  color: #fff;
+  font-weight: 700;
+  margin-bottom: .5rem;
 }
 
 .service-process .process-section {
