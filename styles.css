@@ -243,19 +243,23 @@ hr {
   padding-bottom: 2.5rem;
 }
 
-.services-cards-container {
-  padding-left: 5rem;
-  display: grid;
-  grid-template-columns: auto auto;
-  grid-auto-columns: 2px;
-}
-
 .softsolves-services .content-container {
-  width: 30%;
+  width: 20vw;
   display: flex;
   flex-direction: row;
   position: relative;
   margin-bottom: 5rem;
+  padding: 5rem;
+}
+
+.services-cards-container-row-one,
+.services-cards-container-row-two,
+.services-cards-container-row-three {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-self: flex-start;
+  justify-self: flex-start;
 }
 
 .softsolves-services .content-container .dotted-line,
@@ -285,14 +289,24 @@ hr {
 }
 
 .softsolves-services .content-container .text-content {
+  width: 20vw;
   background-image: linear-gradient(to bottom, rgb(255, 255, 255), rgb(235, 201, 113, 1));
   border-radius: .5rem;
-  padding: 1.5rem 1rem;
+  padding: 1.5rem .5rem;
   right: 18rem;
-  top: 1rem;
+  top: 5.6rem;
   position: absolute;
-  left: 25%;
-  transform: translateX(-20%);
+  bottom: calc(15% + 10px);
+  left: 23%;
+}
+
+.softsolves-services .content-container .text-content h3 {
+  padding-top: 1.5rem;
+}
+
+.softsolves-services .content-container .text-content p {
+  padding-top: 1.25rem;
+  line-height: 1.25;
 }
 
 .lead-magnet-section {
