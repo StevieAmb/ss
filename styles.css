@@ -244,8 +244,10 @@ hr {
 }
 
 .services-cards-container {
+  padding-left: 5rem;
   display: grid;
   grid-template-columns: auto auto;
+  grid-auto-columns: 2px;
 }
 
 .softsolves-services .content-container {
@@ -283,7 +285,7 @@ hr {
 }
 
 .softsolves-services .content-container .text-content {
-  background-image: linear-gradient(to bottom, rgb(255, 255, 255), rgb(235, 201, 113, .7));
+  background-image: linear-gradient(to bottom, rgb(255, 255, 255), rgb(235, 201, 113, 1));
   border-radius: .5rem;
   padding: 1.5rem 1rem;
   right: 18rem;
