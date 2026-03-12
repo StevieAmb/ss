@@ -331,6 +331,14 @@ hr {
 .service-process .cta-section img {
   border-radius: .6rem;
   width: 75%;
+  margin-bottom: 2rem;
+}
+
+.service-process .cta-section button {
+  padding: 1rem 4rem;
+  background-image: linear-gradient(to right, rgb(177, 178, 181), rgb(177, 178, 181, 0));
+  border: 2px solid #fff;
+  opacity: 70%;
 }
 
 .service-process .process-section {
