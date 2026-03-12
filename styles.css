@@ -351,13 +351,16 @@ hr {
 }
 
 .process-section .text-content h3 {
+  display: flex;
+  justify-content: flex-end;
+
   background-color: #ff986a;
-  width: 120%;
+  width: 110%;
   color: #fff;
   font-weight: 600;
-  padding: .25rem 0;
+  padding: .25rem 1.5rem .2rem 0;
   box-shadow: 2px 2px 2px  rgb(0, 0, 0, .2);
-  margin-left: -2.5rem;
+  margin-left: -2rem;
   margin-bottom: .75rem;
 }
 
