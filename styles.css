@@ -161,13 +161,13 @@ h2 {
   flex-direction: column;
   justify-content: flex-start;
   width: 39.5%;
-  margin-bottom: 8rem;
+  margin-bottom: 7.5rem;
   color: #fff;
 }
 
 .hero-images article h2 {
-  font-size: 3.5rem;
-  padding-bottom: 2.25rem;
+  font-size: 3.25rem;
+  padding-bottom: 2rem;
 }
 
 .hero-images article p {
@@ -175,17 +175,19 @@ h2 {
   font-size: 1.25rem;
   line-height: 1.5;
   color: #fff;
-  padding-bottom: 2rem;
+  padding-bottom: 2.75rem;
   text-shadow: 1px 1px 1px black;
 }
 
 .hero-images article button {
   border: 1px solid #fff;
   width: 60%;
-  padding: 1.5rem 3rem;
+  padding: 1.5rem 2.1rem;
   color: #fff;
-  font-size: medium;
-  background-image: linear-gradient(to right, #fff, #161e54, #161e54)
+  font-size: 1.25rem;
+  background-image: linear-gradient(to right, rgb(22, 30, 84, .3), rgb(22, 30, 84, 1));
+  opacity: .85;
+  letter-spacing: .1rem;
 }
 
 .nav-bar {
@@ -226,7 +228,7 @@ hr {
   font-weight: 700;
   font-size: xx-large;
   margin-top: 7rem;
-  background-image: linear-gradient(to bottom, #fff, #ff986a, #ff986a);
+  background-image: linear-gradient(to bottom, rgb(255, 152, 106, .5), rgb(255, 152, 106));
 }
 
 .softsolves-intro p {
@@ -268,6 +270,12 @@ hr {
       black, 
       red
     ) 1 100%;
+}
+
+.softsolves-services .content-container .text-content {
+  background-image: linear-gradient(to bottom, rgb(255 255 255), rgb(235, 201, 113, .7));
+  border-radius: .5rem;
+  padding: 1.5rem 1rem;
 }
 
 .lead-magnet-section {
