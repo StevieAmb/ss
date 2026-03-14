@@ -336,11 +336,12 @@ hr {
 
 .service-process .cta-section button {
   padding: 1rem 4rem;
-  background-image: linear-gradient(to right, rgb(177, 178, 181), rgb(177, 178, 181, 0));
+  background-image: linear-gradient(to right, rgb(177, 178, 181, .7), rgb(21, 29, 84));
   border: 2px solid #fff;
-  opacity: 70%;
+  opacity: 75%;
   color: #fff;
   font-weight: 700;
+  font-size: larger;
   margin-bottom: .5rem;
 }
 
