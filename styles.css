@@ -377,13 +377,25 @@ hr {
 
 .softsolves-mission-statement .content-container {
   display: flex;
+  padding-top: 5rem;
 }
 
 .softsolves-mission-statement .content-container .text-content {
   width: 40%;
   padding-left: 5rem;
+  line-height: 1.35;
   text-align: justify;
 }
+
+.softsolves-mission-statement .content-container .text-content p {
+  padding-bottom: 2rem;
+}
+
+.softsolves-mission-statement .content-container .text-content h2 {
+  text-align: center;
+}
+
+
 
 .hide {
   display: none;
