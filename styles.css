@@ -365,7 +365,6 @@ hr {
 .process-section .text-content h3 {
   display: flex;
   justify-content: flex-end;
-
   background-color: #ff986a;
   width: 110%;
   color: #fff;
@@ -374,6 +373,16 @@ hr {
   box-shadow: 2px 2px 2px  rgb(0, 0, 0, .2);
   margin-left: -2rem;
   margin-bottom: .75rem;
+}
+
+.softsolves-mission-statement .content-container {
+  display: flex;
+}
+
+.softsolves-mission-statement .content-container .text-content {
+  width: 40%;
+  padding-left: 5rem;
+  text-align: justify;
 }
 
 .hide {
