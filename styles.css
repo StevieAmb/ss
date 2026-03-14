@@ -423,42 +423,7 @@ hr {
 .hide {
   display: none;
 }
-
-.services-offered {
-  padding: 4rem 0;
-  display: flex;
-  flex-direction: column;
-  gap: 2rem;
-  flex-wrap: wrap;
-  margin: 2rem 5rem 8rem 5rem;
-  height: 85vh;
-}
-
-.services-offered h2 {
-  color: #fff;
-  text-shadow: 1px 1px 1px black;
-  width: 70%;
-  line-height: 160%;
-  margin: 1.75rem 0;
-  transform: rotate3d(1, 2, 1, 2deg);
-}
-
-.services-offered article {
-  width: 60%;
-}
-
-.services-offered .section-heading {
-  background-image: url('images/pexels-mikhail-nilov-6894013.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: 50% 70%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 4rem 0rem 6rem 0rem;
-  border-radius: 2rem;
-}
+/* 
 
 .tab-section {
   margin: -6rem auto;
@@ -466,14 +431,14 @@ hr {
 }
 
 /* Style the tab */
-.tab {
+/* .tab {
   display: flex;
   justify-content: space-between;
   overflow: hidden;
-}
+} */
 
 /* Style the buttons that are used to open the tab content */
-.services-offered .tab button {
+/* .services-offered .tab button {
   background-color: inherit;
   float: left;
   border: none;
@@ -482,21 +447,21 @@ hr {
   padding: .5rem 4rem;
   transition: 0.3s;
   background-color: #c2f4ff;
-}
+} */
 
 /* Change background color of buttons on hover */
-.services-offered .tab button:hover {
+/* .services-offered .tab button:hover {
   border-top: 3px solid black;
-}
+} */
 
 /* Create an active/current tablink class */
-.services-offered .tab button.active {
+/* .services-offered .tab button.active {
   background-color: #b7eefb;
   border-top: 3px solid black;
-}
+} */
 
 /* Style the tab content */
-.services-offered .tabcontent {
+/* .services-offered .tabcontent {
   display: none;
   padding: 6px 12px;
   border: 1px solid #c9e7c7;
@@ -505,80 +470,13 @@ hr {
   border-radius: .2rem;
   box-shadow: 2px 2px 5px black;
   background-color: #fffdf7;
-}
+} */
 
-.services-offered .tabcontent h3 {
-  font-weight: 600;
-  font-size: 1.5rem;
-  text-align: center;
-} 
-
-.tab-section article {
-  width: 96%;
-}
-
-.list-of-services {
-  align-items: center;
-  padding: 1.5rem 0 4rem 3rem;
-  border-radius: 10rem 280rem 100rem;
-  background-color: #ffdccf;
-}
-
-.list-of-services article {
-  gap: 1.7rem;
-  margin-bottom: 1.5rem;
-  padding: 1.1rem 2rem;
-  font-weight: 500;
-  font-size: 1.1rem;
-  list-style-type: none;
-  border-radius: 7px;
-  box-shadow: -.15rem -.15rem .15rem #b27966;
-  position: relative;
-  width: 65%;
-  animation: mymove 5s forwards;
-}
-
-.services-heading {
-  display: flex;
-}
-
-.services-heading:hover + .services-expanded {
+/* .services-heading:hover + .services-expanded {
   display: flex;
   flex-direction: column;
-}
+} */
 
-.list-of-services article h3 {
-  padding: .8rem 0 .5rem .5rem;
-  font-size: 1.7rem;
-  color: #802000;
-}
-
-.services-heading img {
-  margin-left: .75rem;
-  padding-top: .55rem;
-  filter: sepia(80%);
-}
-
-.provide-list {
-  display: block;
-  margin: 5rem;
-  padding: 2rem 0 7rem 0;
-  animation: change-color-on-scroll 7s forwards;
-  animation-timeline: view();
-  animation-range-end: 700px;
-}
-
-@keyframes change-color-on-scroll {
-  from {
-    background-color: #fff;
-    color: #b27966;
-  }
-
-  to {
-    background-color: #ffdccf;
-    color: #802000;
-  }
-}
 
 .provide-list-content {
   display: flex;
