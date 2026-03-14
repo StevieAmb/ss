@@ -478,62 +478,6 @@ hr {
 } */
 
 
-.provide-list-content {
-  display: flex;
-  gap: 5rem;
-  justify-content: center;
-}
-
-.provide-list-content article {
-  width: 20%;
-  height: 80%;
-  display: flex;
-  text-align: center;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 1.25rem;
-  background-color: white;
-  box-shadow: 10px 19px 14px #d7b9af;
-}
-
-
-.provide-list-content p {
-  font-size: 1.1rem;
-  letter-spacing: .07rem;
-  font-weight: 300;
-  line-height: 125%;
-}
-
-.provide-list-content img {
-  width: 75%;
-  border-radius: 10px;
-  filter: sepia(30%);
-  padding-bottom: 2rem;
-}
-
-.provide-list-content h3 {
-  text-align: center;
-  font-size: 1.26rem;
-  color: #802000;
-  padding-bottom: 1.5rem;
-}
-
-.book-button {
-  width: 16rem;
-  margin: auto;
-  padding: 2rem 0 2rem 2rem;
-  font-weight: 900;
-  text-decoration: none;
-  font-size: larger;
-  border-radius: 7px;
-}
-
-.book-button:hover {
-  background-color: #FF9F80;
-  color: #802000;
-} 
-
 .meet-the-founder {
   margin: 0rem 5rem;
   background-color: #ffdccf; 
