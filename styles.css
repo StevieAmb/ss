@@ -395,6 +395,20 @@ hr {
   text-align: center;
 }
 
+.softsolves-mission-statement .fun-decor .orange-circle {
+  width: 8rem;
+  height: 8rem;
+  border-radius: 50%;
+  background-color: #ff986a;
+}
+
+.softsolves-mission-statement .fun-decor .purple-circle {
+  width: 12rem;
+  height: 12rem;
+  border-radius: 50%;
+  background-color: #bdc4f4;
+}
+
 
 
 .hide {
