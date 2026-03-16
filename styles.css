@@ -801,15 +801,18 @@ textarea {
 }
 
 /*Style the tab */
-.tab-section {
+.tabs {
   display: flex;
   justify-content: space-between;
   overflow: hidden;
+  color: #fff;
 }
 
-.tabs {
-    background-color: #151d54;
+.tabs .tablinks {
+  background-color: #161E54;
   color: #fff;
+  padding: .75rem;
+  border-radius: 2rem;
 }
 
 /* Style the buttons that are used to open the tab content */
