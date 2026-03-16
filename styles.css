@@ -377,8 +377,12 @@ hr {
 
 .softsolves-mission-statement .content-container {
   display: flex;
-  padding: 5rem 0 8rem 0;
+  padding: 5rem 0 10rem 0;
   gap: 18rem;
+}
+
+hr {
+  border: .7px dashed black;
 }
 
 .softsolves-mission-statement .content-container .text-content {
@@ -482,6 +486,13 @@ hr {
   gap: 12rem;
   padding-top: 8rem;
   display: flex;
+}
+
+.featured-squad .nav-link {
+  padding-top: 4rem;
+  display: flex;
+  justify-content: center;
+  width: 100%; 
 }
 
 .featured-squad .content-container h2 {
