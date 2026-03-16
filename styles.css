@@ -427,8 +427,6 @@ hr {
   bottom: 2rem;
 }
 
-
-
 .hide {
   display: none;
 }
@@ -498,7 +496,6 @@ hr {
   gap: 2rem;
   padding-bottom: .75rem;
 }
-
 
 .about-founder-container {
   display: flex;
@@ -811,7 +808,7 @@ textarea {
 }
 
 /* Style the buttons that are used to open the tab content */
-.services-offered .tab button {
+.service .tab button {
   background-color: inherit;
   float: left;
   border: none;
@@ -823,18 +820,18 @@ textarea {
 }
 
 /* Change background color of buttons on hover */
-.services-offered .tab button:hover {
+.service .tab button:hover {
   border-top: 3px solid black;
 }
 
 /* Create an active/current tablink class */
-.services-offered .tab button.active {
+.service .tab button.active {
   background-color: #b7eefb;
   border-top: 3px solid black;
 }
 
 /* Style the tab content */
-.services-offered .tabcontent {
+.service .tabcontent {
   display: none;
   padding: 6px 12px;
   border: 1px solid #c9e7c7;
@@ -848,6 +845,10 @@ textarea {
 .services-heading:hover + .services-expanded {
   display: flex;
   flex-direction: column;
+}
+
+.hide {
+  display: none;
 }
 
 
