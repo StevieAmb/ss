@@ -961,10 +961,6 @@ footer a:active,  footer a:visited, footer a:link {
 
 .footer-heading {
   padding-top: 4rem;
-  z-index: 1;
-  position: relative;
-  margin: 0;
-  letter-spacing: .75rem;
   font-size: 3rem;
   font-weight: 500;
   font-style: normal;
