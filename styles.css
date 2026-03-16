@@ -477,7 +477,9 @@ hr {
   flex-direction: column;
 } */
 
-
+.featured-squad .content-container {
+  display: flex;
+}
 
 
 .about-founder-container {
