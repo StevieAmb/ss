@@ -490,9 +490,10 @@ hr {
   flex-direction: column;
 }
 
-.featured-squad .content-container .featured-content a img,
+.featured-squad .content-container .featured-content a img, 
 .featured-squad .content-container .featured-content a {
   width: 100%;
+  padding-bottom: 1rem;
 }
 
 
