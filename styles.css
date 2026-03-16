@@ -801,14 +801,19 @@ textarea {
 }
 
 /*Style the tab */
-.tab {
+.tab-section {
   display: flex;
   justify-content: space-between;
   overflow: hidden;
 }
 
+.tabs {
+    background-color: #151d54;
+  color: #fff;
+}
+
 /* Style the buttons that are used to open the tab content */
-.service .tab button {
+.service .tabs button {
   background-color: inherit;
   float: left;
   border: none;
@@ -820,12 +825,12 @@ textarea {
 }
 
 /* Change background color of buttons on hover */
-.service .tab button:hover {
+.service .tabs button:hover {
   border-top: 3px solid black;
 }
 
 /* Create an active/current tablink class */
-.service .tab button.active {
+.service .tabs button.active {
   background-color: #b7eefb;
   border-top: 3px solid black;
 }
