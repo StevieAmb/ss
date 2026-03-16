@@ -811,8 +811,9 @@ textarea {
 .tabs .tablinks {
   background-color: #161E54;
   color: #fff;
-  padding: .75rem;
+  padding: .75rem 1.5rem;
   border-radius: 2rem;
+  border: none;
 }
 
 /* Style the buttons that are used to open the tab content */
