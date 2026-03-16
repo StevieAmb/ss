@@ -945,18 +945,18 @@ footer {
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
-  color: #fff;
+  color: black;
   background-color: rgb(255, 152, 106);
 }
 
 footer a {
   display: flex;
-  justify-content: flex-end;
-  color: #ccc;
+  justify-content: flex-start;
+  color: #000;
 }
 
 footer a:active,  footer a:visited, footer a:link {
-    color: #ccc;
+    color: #000;
 }
 
 .footer-heading {
