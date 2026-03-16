@@ -505,6 +505,10 @@ hr {
   flex-direction: column;
 }
 
+.featured-squad .content-container .featured-content a img {
+  border-radius: .5rem;
+}
+
 .featured-squad .content-container .featured-content a img, 
 .featured-squad .content-container .featured-content a {
   width: 100%;
