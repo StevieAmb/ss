@@ -803,7 +803,8 @@ textarea {
 /*Style the tab */
 .tabs {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  gap: 7rem;
   overflow: hidden;
   color: #fff;
 }
@@ -811,7 +812,8 @@ textarea {
 .tabs .tablinks {
   background-color: #161E54;
   color: #fff;
-  padding: .75rem 1.5rem;
+  font-size: medium;
+  padding: .75rem 2rem;
   border-radius: 2rem;
   border: none;
 }
@@ -840,16 +842,26 @@ textarea {
 }
 
 /* Style the tab content */
-.service .tabcontent {
+.tabcontent {
   display: none;
-  display: flex;
   padding: 6px 12px;
-  border: 1px solid #c9e7c7;
   border-top: none;
   line-height: 1.75;
   border-radius: .2rem;
-  box-shadow: 2px 2px 5px black;
-  background-color: #fffdf7;
+}
+
+.tabcontent .content-container {
+  padding-top: 4rem;
+  display: flex;
+  gap: 4rem;
+  justify-content: center;
+}
+
+.tabcontent article {
+  padding: 1rem;
+  border: 3px solid #ebc971;
+  width: 20%;
+  border-radius: .5rem;
 }
 
 .services-heading:hover + .services-expanded {
