@@ -484,6 +484,17 @@ hr {
   display: flex;
 }
 
+.featured-squad .content-container .featured-content {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+}
+
+.featured-squad .content-container .featured-content a img,
+.featured-squad .content-container .featured-content a {
+  width: 100%;
+}
+
 
 .about-founder-container {
   display: flex;
