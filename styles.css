@@ -879,9 +879,21 @@ textarea {
   padding-bottom: 3rem;
 }
 
+.tabcontent article h3, .tabcontent article h4 {
+  font-weight: 700;
+}
+
 .services-heading:hover + .services-expanded {
   display: flex;
   flex-direction: column;
+}
+
+.tabcontent article h3 {
+  font-size: larger;
+}
+
+.tabcontent article h4 {
+  font-size: large;
 }
 
 .hide {
