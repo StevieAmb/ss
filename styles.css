@@ -522,6 +522,31 @@ hr {
   padding-bottom: 1rem;
 }
 
+.testimonial-section {
+  padding: 10rem 12rem;
+}
+
+.testimonial-section h2 {
+  text-align: center;
+  color: #6f77ad;
+}
+
+.testimonial-section .gradient-container {
+  background-image: linear-gradient(to bottom, rgb(21, 29, 84), rgb(255, 152, 106, .5) );
+  padding: .3rem;
+}
+
+.testimonial-section article {
+  background-color: #fff;
+  padding: 1.5rem
+}
+
+.testimonial-section .testimonial {
+  display: flex;
+  gap: 2rem;
+  padding-bottom: .75rem;
+}
+
 
 .about-founder-container {
   display: flex;
@@ -814,10 +839,6 @@ textarea {
   box-shadow: 1px 1px 1px #161E54;
 }
 
-.submit-button:hover {
-
-}
-
 .plans-price-section {
   background-size: cover;
   padding: 8rem 2rem;
@@ -922,15 +943,15 @@ footer {
   margin-top: 6rem;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  justify-content: flex-start;
+  align-items: flex-start;
   color: #fff;
-  background-color: #161E54;
+  background-color: rgb(255, 152, 106);
 }
 
 footer a {
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
   color: #ccc;
 }
 
