@@ -252,6 +252,11 @@ hr {
   padding: 5rem;
 }
 
+.services-heading, .processes-heading {
+  text-align: center;
+  padding: 4rem 0rem;
+}
+
 .services-cards-container-row-one,
 .services-cards-container-row-two,
 .services-cards-container-row-three {
@@ -940,7 +945,7 @@ textarea {
 }
 
 footer {
-  margin-top: 6rem;
+  margin-top: 2rem;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
