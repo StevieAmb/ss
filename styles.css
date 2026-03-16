@@ -815,7 +815,7 @@ textarea {
 }
 
 /* Style the buttons that are used to open the tab content */
-.service .tabs button {
+.tabs .tablinks {
   background-color: inherit;
   float: left;
   border: none;
@@ -823,18 +823,18 @@ textarea {
   cursor: pointer;
   padding: .5rem 4rem;
   transition: 0.3s;
-  background-color: #c2f4ff;
+  background-color: #161E54;
 }
 
 /* Change background color of buttons on hover */
-.service .tabs button:hover {
-  border-top: 3px solid black;
+.tabs .tablinks:hover {
+  border-top: 3px solid #ebc971;
 }
 
 /* Create an active/current tablink class */
-.service .tabs button.active {
-  background-color: #b7eefb;
-  border-top: 3px solid black;
+.tabs .tablinks.active {
+  background-color: rgb(255, 152, 106);
+  border-top: 3px solid #161E54;
 }
 
 /* Style the tab content */
@@ -866,9 +866,10 @@ textarea {
 }
 
 .tabcontent .middle-card .added-info-tag {
+  padding-top: 2rem;
+  height: .5rem;
   background-color: #f1e6cc;
   border-radius: 2rem 2rem 0 0;
-  width: 100%;
 }
 
 .tabcontent article div {
