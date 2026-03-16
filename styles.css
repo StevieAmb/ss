@@ -852,24 +852,16 @@ textarea {
 }
 
 .plans-price-section .pricing-layer {
-  display: flex;
-  justify-content: center;
-  gap: 1rem;
   padding-bottom: 2rem;
 }
 
 .pricing-layer h2 {
-  height: 80%;
+  height: 10%;
   text-align: center;
   padding: 0 1.5rem;
-  writing-mode: vertical-rl;
-  text-orientation: sideways;
-  position: fixed;
-  left: 1.5rem;
   color: #ccc;
   top: 1rem;
   background-color: #161E54;
-  z-index: 2;
 }
 
 .price-scale-section {
