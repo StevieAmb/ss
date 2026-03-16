@@ -864,6 +864,16 @@ textarea {
   border-radius: .5rem;
 }
 
+.tabcontent .middle-card {
+  background-color: #ebc971;
+  border-radius: 2rem 2rem 0 0;
+}
+
+.tabcontent .middle-card .added-info-tag {
+  background-color: #f1e6cc;
+  border-radius: 1.7rem 1.7rem 0 0;
+}
+
 .tabcontent article div {
   text-align: center;
   padding-bottom: 3rem;
