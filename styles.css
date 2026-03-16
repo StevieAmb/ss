@@ -484,6 +484,10 @@ hr {
   display: flex;
 }
 
+.featured-squad .content-container h2 {
+  padding-top: 8rem;
+}
+
 .featured-squad .content-container .featured-content {
   width: 30%;
   display: flex;
