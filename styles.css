@@ -798,22 +798,20 @@ textarea {
   padding-bottom: 4rem;
 }
 
-/* 
-
 .tab-section {
   margin: -6rem auto;
   width: 50%;
 }
 
-/* Style the tab */
-/* .tab {
+/*Style the tab */
+.tab {
   display: flex;
   justify-content: space-between;
   overflow: hidden;
-} */
+}
 
 /* Style the buttons that are used to open the tab content */
-/* .services-offered .tab button {
+.services-offered .tab button {
   background-color: inherit;
   float: left;
   border: none;
@@ -822,21 +820,21 @@ textarea {
   padding: .5rem 4rem;
   transition: 0.3s;
   background-color: #c2f4ff;
-} */
+}
 
 /* Change background color of buttons on hover */
-/* .services-offered .tab button:hover {
+.services-offered .tab button:hover {
   border-top: 3px solid black;
-} */
+}
 
 /* Create an active/current tablink class */
-/* .services-offered .tab button.active {
+.services-offered .tab button.active {
   background-color: #b7eefb;
   border-top: 3px solid black;
-} */
+}
 
 /* Style the tab content */
-/* .services-offered .tabcontent {
+.services-offered .tabcontent {
   display: none;
   padding: 6px 12px;
   border: 1px solid #c9e7c7;
@@ -845,12 +843,12 @@ textarea {
   border-radius: .2rem;
   box-shadow: 2px 2px 5px black;
   background-color: #fffdf7;
-} */
+}
 
-/* .services-heading:hover + .services-expanded {
+.services-heading:hover + .services-expanded {
   display: flex;
   flex-direction: column;
-} */
+}
 
 
 .plans-price-section .pricing-layer {
