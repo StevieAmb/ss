@@ -427,64 +427,9 @@ hr {
   bottom: 2rem;
 }
 
-
-
 .hide {
   display: none;
 }
-/* 
-
-.tab-section {
-  margin: -6rem auto;
-  width: 50%;
-}
-
-/* Style the tab */
-/* .tab {
-  display: flex;
-  justify-content: space-between;
-  overflow: hidden;
-} */
-
-/* Style the buttons that are used to open the tab content */
-/* .services-offered .tab button {
-  background-color: inherit;
-  float: left;
-  border: none;
-  outline: none;
-  cursor: pointer;
-  padding: .5rem 4rem;
-  transition: 0.3s;
-  background-color: #c2f4ff;
-} */
-
-/* Change background color of buttons on hover */
-/* .services-offered .tab button:hover {
-  border-top: 3px solid black;
-} */
-
-/* Create an active/current tablink class */
-/* .services-offered .tab button.active {
-  background-color: #b7eefb;
-  border-top: 3px solid black;
-} */
-
-/* Style the tab content */
-/* .services-offered .tabcontent {
-  display: none;
-  padding: 6px 12px;
-  border: 1px solid #c9e7c7;
-  border-top: none;
-  line-height: 1.75;
-  border-radius: .2rem;
-  box-shadow: 2px 2px 5px black;
-  background-color: #fffdf7;
-} */
-
-/* .services-heading:hover + .services-expanded {
-  display: flex;
-  flex-direction: column;
-} */
 
 .featured-squad .content-container {
   justify-content: center;
@@ -551,7 +496,6 @@ hr {
   gap: 2rem;
   padding-bottom: .75rem;
 }
-
 
 .about-founder-container {
   display: flex;
@@ -851,6 +795,121 @@ textarea {
   padding-bottom: 4rem;
 }
 
+
+/*Style the tab */
+.tabs {
+  display: flex;
+  justify-content: center;
+  gap: 7rem;
+  overflow: hidden;
+  color: #fff;
+}
+
+.tabs .tablinks {
+  background-color: #161E54;
+  color: #fff;
+  font-size: medium;
+  padding: .75rem 2rem;
+  border-radius: 2rem;
+  border: none;
+}
+
+/* Style the buttons that are used to open the tab content */
+.tabs .tablinks {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: .5rem 4rem;
+  transition: 0.3s;
+  background-color: #161E54;
+}
+
+/* Change background color of buttons on hover */
+.tabs .tablinks:hover {
+  border-top: 3px solid #ebc971;
+}
+
+/* Create an active/current tablink class */
+.tabs .tablinks.active {
+  background-color: rgb(255, 152, 106);
+  border-top: 3px solid teal;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border-top: none;
+  line-height: 1.75;
+  border-radius: .2rem;
+}
+
+.tabcontent .content-container {
+  padding-top: 6.5rem;
+  display: flex;
+  gap: 4rem;
+  justify-content: center;
+}
+
+.tabcontent article {
+  border: 3px solid #ebc971;
+  width: 20%;
+  border-radius: .5rem;
+}
+
+.tabcontent article ul,
+.tabcontent article .service-tier-heading {
+  padding: 1rem;
+}
+
+.tabcontent .middle-card {
+  background-color: #ebc971;
+  border-radius: 2rem 2rem 0 0;
+}
+
+.tabcontent .middle-card .added-info-tag {
+  padding-top: 1rem 0;
+  margin-bottom: 1rem;
+  height: .5rem;
+  background-color: #f1e6cc;
+  border-radius: 2rem 2rem 0 0;
+}
+
+.tabcontent article div {
+  text-align: center;
+  padding-bottom: 1.25rem;
+}
+
+.tabcontent article h3, .tabcontent article h4 {
+  font-weight: 700;
+  color: #161E54;
+}
+
+.tabcontent article p {
+  font-style: italic;
+  font-size: small;
+}
+
+.services-heading:hover + .services-expanded {
+  display: flex;
+  flex-direction: column;
+}
+
+.tabcontent article h3 {
+  font-size: larger;
+}
+
+.tabcontent article h4 {
+  font-size: large;
+}
+
+.hide {
+  display: none;
+}
+
+
 .plans-price-section .pricing-layer {
   padding-bottom: 2rem;
 }
@@ -859,9 +918,7 @@ textarea {
   height: 10%;
   text-align: center;
   padding: 0 1.5rem;
-  color: #ccc;
-  top: 1rem;
-  background-color: #161E54;
+  color: #161E54;
 }
 
 .price-scale-section {
