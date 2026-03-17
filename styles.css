@@ -859,13 +859,18 @@ textarea {
   border-radius: .5rem;
 }
 
+.tabcontent article ul {
+  padding: 1rem;
+}
+
 .tabcontent .middle-card {
   background-color: #ebc971;
   border-radius: 2rem 2rem 0 0;
 }
 
 .tabcontent .middle-card .added-info-tag {
-  padding-top: 2rem;
+  padding-top: 1rem 0;
+  margin-bottom: 1rem;
   height: .5rem;
   background-color: #f1e6cc;
   border-radius: 2rem 2rem 0 0;
@@ -873,11 +878,16 @@ textarea {
 
 .tabcontent article div {
   text-align: center;
-  padding-bottom: 3rem;
+  padding-bottom: 1.25rem;
 }
 
 .tabcontent article h3, .tabcontent article h4 {
   font-weight: 700;
+}
+
+.tabcontent article p {
+  font-style: italic;
+  font-size: small;
 }
 
 .services-heading:hover + .services-expanded {
