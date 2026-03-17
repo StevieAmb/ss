@@ -859,7 +859,8 @@ textarea {
   border-radius: .5rem;
 }
 
-.tabcontent article ul {
+.tabcontent article ul,
+.tabcontent article .service-tier-heading {
   padding: 1rem;
 }
 
