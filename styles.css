@@ -810,15 +810,6 @@ textarea {
   color: #fff;
 }
 
-/* .tabs .tablinks {
-  background-color: #161E54;
-  color: #fff;
-  font-size: medium;
-  padding: .75rem 1rem;
-  border-radius: 2rem;
-  border: none;
-} */
-
 /* Style the buttons that are used to open the tab content */
 .tabs .tablinks {
   background-color: inherit;
@@ -915,6 +906,54 @@ textarea {
   display: none;
 }
 
+/*Style the tab */
+.tabs {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  overflow: hidden;
+  color: #fff;
+}
+
+/* Style the buttons that are used to open the tab content */
+.tabs .tablinks {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: .5rem 4rem;
+  border-radius: 2rem;
+  transition: 0.3s;
+  background-color: #161E54;
+}
+
+/* Change background color of buttons on hover */
+.tabs .tablinks:hover {
+  border-top: 3px solid #ebc971;
+}
+
+/* Create an active/current tablink class */
+.tabs .tablinks.active {
+  background-color: rgb(255, 152, 106);
+  border-top: 3px solid teal;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border-top: none;
+  line-height: 1.75;
+  border-radius: .2rem;
+}
+
+.tabcontent .content-container {
+  padding-top: 6.5rem;
+  display: flex;
+  gap: 4rem;
+  justify-content: center;
+}
 
 .plans-price-section .pricing-layer {
   padding-bottom: 2rem;
