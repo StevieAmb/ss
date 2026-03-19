@@ -932,10 +932,13 @@ textarea {
   float: left;
   outline: none;
   cursor: pointer;
+  font-size: larger;
   padding: .5rem 2rem;
-  box-shadow: -5px 5px 5px #161E54;
+  box-shadow: -4px 4px 4px 3px rgb(103, 78, 14);
   transition: 0.3s;
   writing-mode: sideways-lr;
+  background-image: linear-gradient(to bottom, rgb(255, 255, 255), rgb(235, 201, 113, .5));
+
 }
 
 /* Change background color of buttons on hover */
@@ -946,9 +949,9 @@ textarea {
 
 /* Create an active/current tablink class */
 .case-study-tabs .caseStudyTablinks.active {
-  border: 1px solid #161E54;
   left: 1rem;
   z-index: 1;
+  background-image: linear-gradient(to bottom, rgb(255, 255, 255), rgb(235, 201, 113, .5));
 }
 
 /* Style the tab content */
