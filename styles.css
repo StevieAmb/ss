@@ -906,8 +906,12 @@ textarea {
   display: none;
 }
 
+.tab-section-case-studies {
+  display: flex;
+}
+
 /*Style the tab */
-.tabs {
+.case-study-tabs {
   display: flex;
   justify-content: center;
   gap: 2rem;
