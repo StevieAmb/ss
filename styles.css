@@ -914,13 +914,14 @@ textarea {
 .case-study-tabs {
   display: flex;
   justify-content: center;
+  flex-direction: column;
   gap: 2rem;
   overflow: hidden;
   color: #fff;
 }
 
 /* Style the buttons that are used to open the tab content */
-.tabs .tablinks {
+.case-study-tabs .case-study-tablinks {
   background-color: inherit;
   float: left;
   border: none;
@@ -929,11 +930,10 @@ textarea {
   padding: .5rem 4rem;
   border-radius: 2rem;
   transition: 0.3s;
-  background-color: #161E54;
 }
 
 /* Change background color of buttons on hover */
-.tabs .tablinks:hover {
+.case-study-tabs .case-study-tablinks:hover {
   border-top: 3px solid #ebc971;
 }
 
