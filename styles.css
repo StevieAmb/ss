@@ -913,12 +913,15 @@ textarea {
   padding: 5rem;
 }
 
+.tab-section-case-studies .content-section {
+  width: 75%;
+}
+
 /*Style the tab */
 .case-study-tabs {
   display: flex;
   justify-content: center;
-  flex-direction: column;
-  gap: 2rem;
+  flex-direction: row;
   overflow: hidden;
   color: #fff;
 }
@@ -929,9 +932,10 @@ textarea {
   float: left;
   outline: none;
   cursor: pointer;
-  padding: .5rem 4rem;
+  padding: .5rem 2rem;
+  box-shadow: -5px 5px 5px #161E54;
   transition: 0.3s;
-  border: 2px solid #fff;
+  writing-mode: sideways-lr;
 }
 
 /* Change background color of buttons on hover */
@@ -943,19 +947,36 @@ textarea {
 /* Create an active/current tablink class */
 .case-study-tabs .caseStudyTablinks.active {
   border: 1px solid #161E54;
-  border-right: none;
+  left: 1rem;
+  z-index: 1;
 }
 
 /* Style the tab content */
-.case-study-tabcontent {
+.caseStudyTabcontent {
   display: none;
   padding: 6px 12px;
   border-top: none;
   line-height: 1.75;
   border-radius: .2rem;
+  width: 70%;
+  border: 2px solid #161E54;
 }
 
-.tabcontent .content-container {
+.caseStudyTabcontent .top-of-card img:nth-of-type(1) {
+  width: 40%;
+}
+
+.caseStudyTabcontent .top-of-card img:nth-of-type(2) {
+  width: 50%;
+}
+
+.tab-section-case-studies .content-section .bottom-of-card,
+.tab-section-case-studies .content-section .bottom-of-card .card-headings{
+  display: flex;
+  gap: 3rem;
+}
+
+.caseStudyTabcontent .content-container {
   padding-top: 6.5rem;
   display: flex;
   gap: 4rem;
