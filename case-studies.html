@@ -58,25 +58,36 @@
     <main>
       <section class="tab-section-case-studies">
         <div class="case-study-tabs">
-          <button class="case-study-tablinks" onclick="openCity(event, 'StrangeTerrariums')" id="defaultOpen">Strange Terrariums</button>
-          <button class="case-study-tablinks" onclick="openCity(event, 'ComingSoon')">Coming Soon</button>
-          <button class="case-study-tablinks" onclick="openCity(event, 'ComingSoon')">Coming Soon</button>
+          <button class="caseStudyTablinks" onclick="openCity(event, 'StrangeTerrariums')" id="defaultOpen">Strange Terrariums</button>
+          <button class="caseStudyTablinks" onclick="openCity(event, 'ComingSoon')">Coming Soon</button>
+          <button class="caseStudyTablinks" onclick="openCity(event, 'ComingSoon')">Coming Soon</button>
         </div>
-        <div>
-          <section id="StrangeTerrariums" class="case-study-tabcontent web">
+        <div class="content-section">
+          <section id="StrangeTerrariums" class="tabcontent caseStudyTabcontent web">
+            <div>
+              <img src="images/black_women_coder.jpg"/>
+              <img src="images/black_women_coder.jpg"/>
+            </div>
+            <div>
+              <img src="images/black_women_coder.jpg" width="40" height="40"/>
+              <article>
+                <div>
+                  <p></p>
+                  <p></p>
+                  <p></p>
+                </div>
+                <section>
+                  <p></p>
+                </section>
+              </article>
+            </div>
             <span>UX Design | Web Development (HTML, CSS, JavaScript) | Form Services*</span>
-            <h3>Strange Terrariums</h3>
             <article>
-              <img src="images/ST_Screenshot_Featured.png" width="200" height="200"/>
-              <a href="">Go On Tour</a>
-              <p>Explore beautiful terrariums and ease your soul with a local Philly terrarium business.
-                Are you in Philly? Do you want to care for beautiful plants? Have an event want some 
-                gorgeous natural decor? Check out Strange Terrariums.
-              </p>
+              <a href="">Go On A Tour Of The Site</a>
             </article>
           </section>
   
-          <section id="ComingSoon" class="case-study-tabcontent">
+          <section id="ComingSoon" class="tabcontent caseStudyTabcontent">
             <h3>David Bee</h3>
             <article>
               <img src="images/black_woman_engineer_3.jpg" width="200" height="200"/>
@@ -84,7 +95,7 @@
             </article>
           </section>
   
-          <article id="ComingSoon" class="case-study-tabcontent">
+          <article id="ComingSoon" class="tabcontent caseStudyTabcontent">
             <h3>Web Accessibility</h3>
             <ul>
               <li>Semantic HTML for your clients/customers who use Screen Readers</li>
@@ -112,24 +123,24 @@
   </body>
     <script>
     document.getElementById("defaultOpen").click();
-    function openCity(evt, cityName) {
+    function openCity(evt, caseName) {
       // Declare all variables
-      var i, tabcontent, tablinks;
+      var i, caseStudyTabcontent, caseStudyTablinks;
 
       // Get all elements with class="tabcontent" and hide them
-      tabcontent = document.getElementsByClassName("tabcontent");
-      for (i = 0; i < tabcontent.length; i++) {
-        tabcontent[i].style.display = "none";
+      caseStudyTabcontent = document.getElementsByClassName("caseStudyTabcontent");
+      for (i = 0; i < caseStudyTabcontent.length; i++) {
+        caseStudyTabcontent[i].style.display = "none";
       }
 
       // Get all elements with class="tablinks" and remove the class "active"
-      tablinks = document.getElementsByClassName("tablinks");
-      for (i = 0; i < tablinks.length; i++) {
-        tablinks[i].className = tablinks[i].className.replace(" active", "");
+      caseStudyTablinks = document.getElementsByClassName("caseStudyTablinks");
+      for (i = 0; i < caseStudyTablinks.length; i++) {
+        caseStudyTablinks[i].className = caseStudyTablinks[i].className.replace(" active", "");
       }
 
       // Show the current tab, and add an "active" class to the button that opened the tab
-      document.getElementById(cityName).style.display = "block";
+      document.getElementById(caseName).style.display = "block";
       evt.currentTarget.className += " active";
     }
     </script>

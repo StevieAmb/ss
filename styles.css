@@ -817,6 +817,7 @@ textarea {
   border: none;
   outline: none;
   cursor: pointer;
+  color: #ccc;
   padding: .5rem 4rem;
   border-radius: 2rem;
   transition: 0.3s;
@@ -830,8 +831,9 @@ textarea {
 
 /* Create an active/current tablink class */
 .tabs .tablinks.active {
-  background-color: rgb(255, 152, 106);
+  background-color: #ebc971;
   border-top: 3px solid teal;
+  color: #000;
 }
 
 /* Style the tab content */
@@ -908,6 +910,7 @@ textarea {
 
 .tab-section-case-studies {
   display: flex;
+  padding: 5rem;
 }
 
 /*Style the tab */
@@ -921,26 +924,26 @@ textarea {
 }
 
 /* Style the buttons that are used to open the tab content */
-.case-study-tabs .case-study-tablinks {
+.case-study-tabs .caseStudyTablinks {
   background-color: inherit;
   float: left;
-  border: none;
   outline: none;
   cursor: pointer;
   padding: .5rem 4rem;
-  border-radius: 2rem;
   transition: 0.3s;
+  border: 2px solid #fff;
 }
 
 /* Change background color of buttons on hover */
-.case-study-tabs .case-study-tablinks:hover {
-  border-top: 3px solid #ebc971;
+.case-study-tabs .caseStudyTablinks:hover {
+  color: #fff;
+  background-color: #000
 }
 
 /* Create an active/current tablink class */
-.tabs .tablinks.active {
-  background-color: rgb(255, 152, 106);
-  border-top: 3px solid teal;
+.case-study-tabs .caseStudyTablinks.active {
+  border: 1px solid #161E54;
+  border-right: none;
 }
 
 /* Style the tab content */
