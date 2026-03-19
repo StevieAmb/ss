@@ -937,8 +937,6 @@ textarea {
   box-shadow: -4px 4px 4px 3px rgb(103, 78, 14);
   transition: 0.3s;
   writing-mode: sideways-lr;
-  background-image: linear-gradient(to bottom, rgb(255, 255, 255), rgb(235, 201, 113, .5));
-
 }
 
 /* Change background color of buttons on hover */
@@ -961,8 +959,9 @@ textarea {
   border-top: none;
   line-height: 1.75;
   border-radius: .2rem;
-  width: 70%;
-  border: 2px solid #161E54;
+  width: 80%;
+  /* border: 2px solid #161E54; */
+  box-shadow: -5px -5px -5px #5c5111;
 }
 
 .caseStudyTabcontent .top-of-card img:nth-of-type(1) {
@@ -975,6 +974,7 @@ textarea {
 
 .tab-section-case-studies .content-section .bottom-of-card,
 .tab-section-case-studies .content-section .bottom-of-card .card-headings{
+  padding-bottom: 1rem;
   display: flex;
   gap: 3rem;
 }
