@@ -1149,6 +1149,7 @@ footer a:active,  footer a:visited, footer a:link {
 
 .footer-heading {
   padding-top: 4rem;
+  padding-left: 3rem;
   font-size: 3rem;
   font-weight: 500;
   font-style: normal;
