@@ -458,9 +458,11 @@ hr {
 }
 
 .featured-content {
-  padding: 4rem 4rem;
+  padding: 0rem 4rem;
   display: flex;
   flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
 }
 
 .featured-content .website-content-container {
@@ -468,6 +470,7 @@ hr {
   display: flex;
   flex-direction: column;
   width: 90%;
+  padding-top: 28rem;
 }
 
 .featured-content .nav-link {
@@ -505,7 +508,7 @@ hr {
 }
 
 .testimonial-section {
-  padding: 10rem 2rem;
+  padding: 0rem 2rem;
 }
 
 .testimonial-section h2 {
