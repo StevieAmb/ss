@@ -61,10 +61,10 @@
         <div class="pricing-layer">
             <section class="tab-section-portfolio">
             <div class="tabs">
-              <button class="tablinks tabs tablinks-service-pricing service" onclick="openCity(event, 'WebDevelopment')" id="defaultOpen">Web Development</button>
-              <button class="tablinks tabs tablinks-service-pricing service" onclick="openCity(event, 'WebRedesign')">Web Redesign</button>
-              <button class="tablinks tabs tablinks-service-pricing service" onclick="openCity(event, 'WebsiteMaintenance')">Website Maintenance</button>
-              <button class="tablinks tabs tablinks-service-pricing service" onclick="openCity(event, 'ComboPrices')">Combo Prices</button>
+              <button class="tablinks tablinks-service-pricing service" onclick="openCity(event, 'WebDevelopment')" id="defaultOpen">Web Development</button>
+              <button class="tablinks tablinks-service-pricing service" onclick="openCity(event, 'WebRedesign')">Web Redesign</button>
+              <button class="tablinks tablinks-service-pricing service" onclick="openCity(event, 'WebsiteMaintenance')">Website Maintenance</button>
+              <button class="tablinks tablinks-service-pricing service" onclick="openCity(event, 'ComboPrices')">Combo Prices</button>
             </div>
             <section id="WebDevelopment" class="tabcontent web">
               <div class="content-container">
@@ -311,7 +311,7 @@
   </body>
    <script>
     document.getElementById("defaultOpen").click();
-    function openCity(evt, cityName) {
+    function openCity(evt, caseName) {
       // Declare all variables
       var i, tabcontent, tablinks;
 
@@ -328,7 +328,7 @@
       }
 
       // Show the current tab, and add an "active" class to the button that opened the tab
-      document.getElementById(cityName).style.display = "block";
+      document.getElementById(caseName).style.display = "block";
       evt.currentTarget.className += " active";
     }
   </script>
