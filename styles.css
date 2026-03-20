@@ -106,7 +106,7 @@ h2 {
 }
 
 .blue-pop-text {
-  background-color: #161E54;
+  background-color: #6f77ad;
   color: #FFF;
   padding: .5rem;
 }
@@ -501,10 +501,6 @@ hr {
   width: 100%;
   display: flex;
   flex-direction: column;
-}
-
-.featured-content .website-content-container .featured-website a img {
-  border-radius: .5rem;
 }
 
 .featured-content .website-content-container .featured-website a img, 
