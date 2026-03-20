@@ -105,6 +105,12 @@ h2 {
   padding: .5rem;
 }
 
+.blue-pop-text {
+  background-color: #161E54;
+  color: #FFF;
+  padding: .5rem;
+}
+
 .blue-pop {
   color: #161E54;
 }
@@ -377,7 +383,7 @@ hr {
 }
 
 .service-process .process-section {
-    display: flex;
+  display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   flex-direction: row-reverse;
@@ -460,7 +466,7 @@ hr {
 .featured-content {
   padding: 0rem 4rem;
   display: flex;
-  flex-direction: row-reverse;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
 }
@@ -488,7 +494,7 @@ hr {
 }
 
 .featured-content .website-content-container h2 {
-  padding-top: 8rem;
+  text-align: center;
 }
 
 .featured-content .website-content-container .featured-website {
