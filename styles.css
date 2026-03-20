@@ -962,7 +962,7 @@ textarea {
   border-top: none;
   line-height: 1.75;
   border-radius: .2rem;
-  border: .5px solid #161E54;
+  /* border: .5px solid #161E54; */
 }
 
 .caseStudyTabcontent .top-of-card {
