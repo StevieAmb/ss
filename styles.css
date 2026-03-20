@@ -242,9 +242,12 @@ hr {
 
 .softsolves-intro p {
   margin: auto;
-  font-family: "Urbanist", sans-serif;
+  font-family: "Saira", sans-serif;
   font-optical-sizing: auto;
   font-weight: 700;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
   width: 80%;
   font-style: normal;
   font-size: 1.95rem;
