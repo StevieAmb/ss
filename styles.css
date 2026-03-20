@@ -243,28 +243,40 @@ hr {
   padding-bottom: 2.5rem;
 }
 
+.softsolves-services {
+  height: 160vh;
+}
+
 .softsolves-services .content-container {
   width: 20vw;
   display: flex;
   flex-direction: row;
   position: relative;
-  margin-bottom: 5rem;
   padding: 5rem;
+}
+
+.softsolves-services .cards-container-row-one,
+.softsolves-services .cards-container-row-two,
+.softsolves-services .cards-container-row-three {
+  display: flex;
+  width: 60%;
+}
+
+.softsolves-services .cards-container-row-two {
+  justify-content: center;
+  position: relative;
+  bottom: 10rem;
+  z-index: 1;
+}
+
+.softsolves-services .cards-container-row-three {
+   position: relative;
+  bottom: 20rem;
 }
 
 .services-heading, .processes-heading {
   text-align: center;
   padding: 4rem 0rem;
-}
-
-.services-cards-container-row-one,
-.services-cards-container-row-two,
-.services-cards-container-row-three {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  align-self: flex-start;
-  justify-self: flex-start;
 }
 
 .softsolves-services .content-container .dotted-line,
@@ -275,6 +287,7 @@ hr {
 
 .dotted-line {
   border: 1.5px dotted;
+  width: 90%;
   border-image-slice: 1;
   border-width: 5px;
   height: 10rem;
