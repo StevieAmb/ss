@@ -482,7 +482,7 @@ hr {
 }
 
 .featured-content .website-content-container {
-  gap: 2rem;
+  gap: 1rem;
   display: flex;
   flex-direction: column;
   width: 90%;
