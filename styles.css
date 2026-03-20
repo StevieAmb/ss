@@ -206,9 +206,27 @@ h2 {
   justify-content: center;
   top: 0;
   position: sticky;
-  z-index: 2;
+  z-index: 10;
   margin: 0;
   padding: 0 5rem;
+  animation-range-start: 500px;
+  animation: 3s color-add linear forwards;
+}
+
+.nav-bar a:active, .nav-bar a:visited, .nav-bar a:link {
+   color: #ccc;
+}
+
+@keyframes color-add {
+  0% {
+    background-color: #c2bebe;
+  }
+  50% {
+    background-color: #323b74;
+  }
+  100% {
+    background-color: #161E54;
+  }
 }
 
 .nav-bar-tabs {
