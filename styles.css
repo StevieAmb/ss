@@ -332,12 +332,6 @@ hr {
   border-width: 1.5px;
   height: 12rem;
   max-height: 15rem;
-  border-image-source: 
-    linear-gradient(
-      to top, 
-      black, 
-      red
-    ) 1 100%;
 }
 
 .softsolves-services .content-container .text-content {
@@ -496,7 +490,7 @@ hr {
 }
 
 .featured-content .nav-link {
-  padding-top: 7rem;
+  padding-top: 19rem;
   display: flex;
   justify-content: center;
   width: 100%; 
