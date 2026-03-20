@@ -49,9 +49,12 @@ body {
   align-content: center;
   margin: 0;
   padding: 0;
-  font-family: "Lato", sans-serif;
-  font-weight: 300;
+  font-family: "Saira", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
   font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
   line-height: 1;
 }
 
@@ -64,24 +67,30 @@ a:active, a:visited, a:link {
 }
 
 h1, h2 {
-  font-family: "Quicksand", sans-serif;
+  font-family: "Saira", sans-serif;
   font-optical-sizing: auto;
   font-weight: 500;
   font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
 }
 
 h3, h4 {
-  font-family: "Urbanist", sans-serif;
+  font-family: "Saira", sans-serif;
   font-optical-sizing: auto;
   font-weight: 200;
   font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
 }
 
 p, li, label, legend {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Saira", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
 }
 
 h2 {
@@ -94,6 +103,16 @@ h2 {
   background-color: #ff986a;
   color: #FFF;
   padding: .5rem;
+}
+
+.blue-pop-text {
+  background-color: #6f77ad;
+  color: #FFF;
+  padding: .5rem;
+}
+
+.blue-pop {
+  color: #161E54;
 }
 
 .bold {
@@ -114,15 +133,6 @@ h2 {
   font-size: 2.25rem;
   font-weight: 600;
   font-style: normal;
-}
-
-.page-title p {
-  letter-spacing: .1rem;
-  font-size: 1rem;
-  font-weight: 300;
-  padding-top: .5rem;
-  margin-left: 12rem;
-  color: #2d0b00
 }
 
 .disclaimer {
@@ -179,12 +189,13 @@ h2 {
   text-shadow: 1px 1px 1px black;
 }
 
-.hero-images article button {
+.hero-images article a {
   border: 1px solid #fff;
+  text-align: center;
   width: 60%;
   padding: 1.5rem 2.1rem;
   color: #fff;
-  font-size: 1.25rem;
+  font-size: 1.65rem;
   background-image: linear-gradient(to right, rgb(22, 30, 84, .3), rgb(22, 30, 84, 1));
   opacity: .85;
   letter-spacing: .1rem;
@@ -195,9 +206,25 @@ h2 {
   justify-content: center;
   top: 0;
   position: sticky;
-  z-index: 2;
+  z-index: 10;
   margin: 0;
   padding: 0 5rem;
+  animation-timeline: view();
+  animation-range-start: 1000px;
+  animation: color-add 3s ease-in forwards;
+}
+
+.nav-bar a:active, .nav-bar a:visited, .nav-bar a:link {
+   color: #ccc;
+}
+
+@keyframes color-add {
+ from {
+    background-color: transparent;
+  }
+  to {
+    background-color: #161E54;
+  }
 }
 
 .nav-bar-tabs {
@@ -233,9 +260,12 @@ hr {
 
 .softsolves-intro p {
   margin: auto;
-  font-family: "Urbanist", sans-serif;
+  font-family: "Saira", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 700;
+  font-weight: 600;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
   width: 80%;
   font-style: normal;
   font-size: 1.95rem;
@@ -260,6 +290,10 @@ hr {
 .softsolves-services .cards-container-row-three {
   display: flex;
   width: 60%;
+}
+
+.softsolves-services .cards-container-row-one .text-content{
+  z-index: 9;
 }
 
 .softsolves-services .cards-container-row-two {
@@ -298,12 +332,6 @@ hr {
   border-width: 1.5px;
   height: 12rem;
   max-height: 15rem;
-  border-image-source: 
-    linear-gradient(
-      to top, 
-      black, 
-      red
-    ) 1 100%;
 }
 
 .softsolves-services .content-container .text-content {
@@ -352,19 +380,20 @@ hr {
   margin-bottom: 2rem;
 }
 
-.service-process .cta-section button {
+.service-process .cta-section a {
   padding: 1rem 4rem;
   background-image: linear-gradient(to right, rgb(177, 178, 181, .7), rgb(21, 29, 84));
   border: 2px solid #fff;
   opacity: 75%;
   color: #fff;
   font-weight: 700;
+  text-align: center;
   font-size: larger;
   margin-bottom: .5rem;
 }
 
 .service-process .process-section {
-    display: flex;
+  display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   flex-direction: row-reverse;
@@ -444,49 +473,54 @@ hr {
   display: none;
 }
 
-.featured-squad .content-container {
-  justify-content: center;
-  gap: 12rem;
-  padding-top: 8rem;
+.featured-content {
+  padding: 0rem 4rem;
   display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 
-.featured-squad .nav-link {
-  padding-top: 7rem;
+.featured-content .website-content-container {
+  gap: 2rem;
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  padding-top: 28rem;
+}
+
+.featured-content .nav-link {
+  padding-top: 19rem;
   display: flex;
   justify-content: center;
   width: 100%; 
 }
 
-.featured-squad .nav-link a {
+.featured-content .nav-link a {
   padding: 1rem;
   box-shadow: 2.5px 2.5px 2.5px #000;
   background-color: #000;
   color: #fff;
 }
 
-.featured-squad .content-container h2 {
-  padding-top: 8rem;
+.featured-content .website-content-container h2 {
+  text-align: center;
 }
 
-.featured-squad .content-container .featured-content {
-  width: 30%;
+.featured-content .website-content-container .featured-website {
+  width: 100%;
   display: flex;
   flex-direction: column;
 }
 
-.featured-squad .content-container .featured-content a img {
-  border-radius: .5rem;
-}
-
-.featured-squad .content-container .featured-content a img, 
-.featured-squad .content-container .featured-content a {
+.featured-content .website-content-container .featured-website a img, 
+.featured-content .website-content-container .featured-website a {
   width: 100%;
   padding-bottom: 1rem;
 }
 
 .testimonial-section {
-  padding: 10rem 12rem;
+  padding: 0rem 2rem;
 }
 
 .testimonial-section h2 {
@@ -599,6 +633,7 @@ hr {
   margin: 2rem 0;
   font-size: 2rem;
   text-shadow: none;
+  text-align: center;
 }
 
 .booking-section img {
@@ -663,6 +698,7 @@ details {
 
 .contact-me h2 {
   margin: 1.75rem 0;
+  color: #161E54
 }
 
 .contact-me-message {
@@ -1113,6 +1149,7 @@ footer a:active,  footer a:visited, footer a:link {
 
 .footer-heading {
   padding-top: 4rem;
+  padding-left: 3rem;
   font-size: 3rem;
   font-weight: 500;
   font-style: normal;
