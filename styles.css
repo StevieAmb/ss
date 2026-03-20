@@ -252,19 +252,16 @@ hr {
   padding: 5rem;
 }
 
+.softsolves-services .cards-container {
+  display: inline-grid;
+  grid-template-columns: 2fr 2fr;
+  grid-column: 1rem;
+  align-content: center;
+}
+
 .services-heading, .processes-heading {
   text-align: center;
   padding: 4rem 0rem;
-}
-
-.services-cards-container-row-one,
-.services-cards-container-row-two,
-.services-cards-container-row-three {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  align-self: flex-start;
-  justify-self: flex-start;
 }
 
 .softsolves-services .content-container .dotted-line,
