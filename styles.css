@@ -935,7 +935,7 @@ textarea {
   cursor: pointer;
   font-size: larger;
   padding: .5rem 2rem;
-  box-shadow: -4px 4px 4px 3px rgb(103, 78, 14);
+  box-shadow: 4px 4px 4px 3px rgb(103, 78, 14);
   transition: 0.3s;
   writing-mode: sideways-lr;
   background-image: linear-gradient(to bottom, rgb(255, 255, 255), rgb(235, 201, 113, .5));
