@@ -519,6 +519,11 @@ hr {
   padding-bottom: 1rem;
 }
 
+.featured-content .website-content-container .featured-website a img {
+  border: 2px solid #151d54;
+  box-shadow: 3px 3px 3px #5c5111;
+}
+
 .testimonial-section {
   padding: 0rem 2rem;
 }
@@ -848,7 +853,6 @@ textarea {
   text-align: center;
   padding-bottom: 3.5rem;
 }
-
 
 /*Style the tab */
 .tabs {
