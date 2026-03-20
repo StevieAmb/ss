@@ -910,6 +910,7 @@ textarea {
 
 .tab-section-case-studies {
   display: flex;
+  flex-direction: row-reverse;
   padding: 5rem;
 }
 
@@ -937,6 +938,8 @@ textarea {
   box-shadow: -4px 4px 4px 3px rgb(103, 78, 14);
   transition: 0.3s;
   writing-mode: sideways-lr;
+  background-image: linear-gradient(to bottom, rgb(255, 255, 255), rgb(235, 201, 113, .5));
+
 }
 
 /* Change background color of buttons on hover */
@@ -947,36 +950,41 @@ textarea {
 
 /* Create an active/current tablink class */
 .case-study-tabs .caseStudyTablinks.active {
-  left: 1rem;
-  z-index: 1;
+  background-color: #000;
   background-image: linear-gradient(to bottom, rgb(255, 255, 255), rgb(235, 201, 113, .5));
 }
 
 /* Style the tab content */
 .caseStudyTabcontent {
   display: none;
-  padding: 6px 12px;
+  padding: 1.5rem 2.5rem;
   border-top: none;
   line-height: 1.75;
   border-radius: .2rem;
-  width: 80%;
-  /* border: 2px solid #161E54; */
-  box-shadow: -5px -5px -5px #5c5111;
+  border: 1px solid #161E54;
 }
 
-.caseStudyTabcontent .top-of-card img:nth-of-type(1) {
-  width: 40%;
+.caseStudyTabcontent .top-of-card {
+  display: flex;
+  gap: 1.25rem;
+  padding-bottom: 1.25rem;
 }
 
+.caseStudyTabcontent .top-of-card img:nth-of-type(1),
 .caseStudyTabcontent .top-of-card img:nth-of-type(2) {
-  width: 50%;
+  width: 48%;
 }
 
 .tab-section-case-studies .content-section .bottom-of-card,
 .tab-section-case-studies .content-section .bottom-of-card .card-headings{
-  padding-bottom: 1rem;
+  padding-bottom: 1.5rem;
   display: flex;
   gap: 3rem;
+  font-size: small;
+}
+
+.tab-section-case-studies .content-section .bottom-of-card img {
+  width: 35%;
 }
 
 .caseStudyTabcontent .content-container {
