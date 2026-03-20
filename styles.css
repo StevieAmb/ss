@@ -932,6 +932,7 @@ textarea {
   background-color: inherit;
   float: left;
   outline: none;
+  border: none;
   cursor: pointer;
   font-size: larger;
   padding: .5rem 2rem;
@@ -961,7 +962,7 @@ textarea {
   border-top: none;
   line-height: 1.75;
   border-radius: .2rem;
-  border: 1px solid #161E54;
+  border: .5px solid #161E54;
 }
 
 .caseStudyTabcontent .top-of-card {
