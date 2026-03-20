@@ -458,15 +458,16 @@ hr {
 }
 
 .featured-content {
-  padding: 4rem 5rem;
+  padding: 4rem 4rem;
+  display: flex;
+  flex-direction: row-reverse;
 }
 
 .featured-content .website-content-container {
   gap: 2rem;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  width: 90%;
 }
 
 .featured-content .nav-link {
@@ -488,7 +489,7 @@ hr {
 }
 
 .featured-content .website-content-container .featured-website {
-  width: 30%;
+  width: 100%;
   display: flex;
   flex-direction: column;
 }
@@ -504,7 +505,7 @@ hr {
 }
 
 .testimonial-section {
-  padding: 10rem 12rem;
+  padding: 10rem 2rem;
 }
 
 .testimonial-section h2 {
