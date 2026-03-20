@@ -248,13 +248,18 @@ hr {
   display: flex;
   flex-direction: row;
   position: relative;
-  margin-bottom: 5rem;
   padding: 5rem;
 }
 
-.softsolves-services .cards-container {
-  display: inline-grid;
-  grid-template-columns: 2fr 2fr;
+.softsolves-services .cards-container-row-one,
+.softsolves-services .cards-container-row-two,
+.softsolves-services .cards-container-row-three {
+  display: flex;
+  width: 60%;
+}
+
+.softsolves-services .cards-container-row-two {
+  justify-content: center;
 }
 
 .services-heading, .processes-heading {
@@ -270,6 +275,7 @@ hr {
 
 .dotted-line {
   border: 1.5px dotted;
+  width: 90%;
   border-image-slice: 1;
   border-width: 5px;
   height: 10rem;
