@@ -266,6 +266,10 @@ hr {
   width: 60%;
 }
 
+.softsolves-services .cards-container-row-one .text-content{
+  z-index: 9;
+}
+
 .softsolves-services .cards-container-row-two {
   justify-content: center;
   position: relative;
