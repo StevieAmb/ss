@@ -209,8 +209,9 @@ h2 {
   z-index: 10;
   margin: 0;
   padding: 0 5rem;
-  animation-range-start: 500px;
-  animation: 3s color-add linear forwards;
+  animation-timeline: view();
+  animation-range-start: 1000px;
+  animation: color-add 3s ease-in forwards;
 }
 
 .nav-bar a:active, .nav-bar a:visited, .nav-bar a:link {
@@ -218,13 +219,10 @@ h2 {
 }
 
 @keyframes color-add {
-  0% {
-    background-color: #c2bebe;
+ from {
+    background-color: transparent;
   }
-  50% {
-    background-color: #323b74;
-  }
-  100% {
+  to {
     background-color: #161E54;
   }
 }
