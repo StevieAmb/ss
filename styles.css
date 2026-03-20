@@ -105,6 +105,10 @@ h2 {
   padding: .5rem;
 }
 
+.blue-pop {
+  color: #161E54;
+}
+
 .bold {
   font-weight: 600;
 }
@@ -236,7 +240,7 @@ hr {
   margin: auto;
   font-family: "Saira", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 700;
+  font-weight: 600;
   font-style: normal;
   font-variation-settings:
     "wdth" 100;
