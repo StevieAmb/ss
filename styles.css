@@ -255,8 +255,6 @@ hr {
 .softsolves-services .cards-container {
   display: inline-grid;
   grid-template-columns: 2fr 2fr;
-  grid-column: 1rem;
-  align-content: center;
 }
 
 .services-heading, .processes-heading {
