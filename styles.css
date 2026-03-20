@@ -461,7 +461,7 @@ hr {
   padding: 4rem 5rem;
 }
 
-.featured-content .content-container {
+.featured-content .website-content-container {
   gap: 2rem;
   display: flex;
   flex-direction: column;
@@ -483,22 +483,22 @@ hr {
   color: #fff;
 }
 
-.featured-content .content-container h2 {
+.featured-content .website-content-container h2 {
   padding-top: 8rem;
 }
 
-.featured-content .content-container .featured-website {
+.featured-content .website-content-container .featured-website {
   width: 30%;
   display: flex;
   flex-direction: column;
 }
 
-.featured-content .content-container .featured-website a img {
+.featured-content .website-content-container .featured-website a img {
   border-radius: .5rem;
 }
 
-.featured-content .content-container .featured-website a img, 
-.featured-content .content-container .featured-website a {
+.featured-content .website-content-container .featured-website a img, 
+.featured-content .website-content-container .featured-website a {
   width: 100%;
   padding-bottom: 1rem;
 }
