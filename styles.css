@@ -1380,34 +1380,6 @@ footer img {
     line-height: 180%;
     padding-bottom: 2.5rem;
   }
-  
-  .meet-the-founder article {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-content: center;
-  }
-  
-  .meet-the-founder article img {
-    margin: 0 auto;
-    width: 100%;
-  }
-
-   .meet-the-founder p {
-    text-align: center;
-    font-size: 1.25rem;
-    width: 95%;
-    padding: .5rem;
-  }
-  
-  .learn-more {
-    margin-top: 7.5rem;
-    padding: 1rem;
-    margin-bottom: 7rem;
-    width: 10rem;
-    font-size: large;
-    border-radius: 7px;
-  }
 
   .booking-section {
     display: block;
