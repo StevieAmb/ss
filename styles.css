@@ -1353,17 +1353,17 @@ footer img {
   padding-bottom: 2rem;
 }
 
-.hero-images article a {
-  border: 1px solid #fff;
-  text-align: center;
-  width: 60%;
-  padding: 1rem 1.75rem;
-  color: #fff;
-  font-size: 1.1rem;
-  background-image: linear-gradient(to right, rgb(22, 30, 84, .3), rgb(22, 30, 84, 1));
-  opacity: .85;
-  letter-spacing: .1rem;
-}
+  .hero-images article a {
+    border: 1px solid #fff;
+    text-align: center;
+    width: 60%;
+    padding: 1rem 1.75rem;
+    color: #fff;
+    font-size: 1.1rem;
+    background-image: linear-gradient(to right, rgb(22, 30, 84, .3), rgb(22, 30, 84, 1));
+    opacity: .85;
+    letter-spacing: .1rem;
+  }
 
 
   .softsolves-mission {
