@@ -1352,22 +1352,13 @@ footer img {
   padding-bottom: 2rem;
 }
 
-.hero-images article p {
-  font-weight: 600;
-  font-size: 1.25rem;
-  line-height: 1.5;
-  color: #fff;
-  padding-bottom: 2.75rem;
-  text-shadow: 1px 1px 1px black;
-}
-
 .hero-images article a {
   border: 1px solid #fff;
   text-align: center;
   width: 60%;
-  padding: 1.5rem 2.1rem;
+  padding: 1rem 1.75rem;
   color: #fff;
-  font-size: 1.65rem;
+  font-size: 1.1rem;
   background-image: linear-gradient(to right, rgb(22, 30, 84, .3), rgb(22, 30, 84, 1));
   opacity: .85;
   letter-spacing: .1rem;
