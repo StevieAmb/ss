@@ -1376,15 +1376,6 @@ footer img {
   }
 
   .softsolves-intro p {
-    margin: auto;
-    font-family: "Saira", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 600;
-    font-style: normal;
-    font-variation-settings:
-      "wdth" 100;
-    width: 90%;
-    font-style: normal;
     font-size: 1.25rem;
     line-height: 180%;
     padding-bottom: 2.5rem;
