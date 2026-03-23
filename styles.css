@@ -1365,76 +1365,29 @@ footer img {
     letter-spacing: .1rem;
   }
 
-
-  .softsolves-mission {
-    margin: 0rem 2rem;
+  .softsolves-intro {
     text-align: center;
-    width: 85%;
-    padding-bottom: 7rem
-  }
-
-  .softsolves-mission p {
-    font-size: large;
-  }
-
-  .user-entry {
-    padding-top: 1rem;
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    flex-wrap: wrap;
-    border-bottom: none;
-    margin-top: 0rem;
-    padding-bottom: 0rem;
-  }
-
-  .user-entry .client-serving-container {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .user-entry h2 {
-    width: 100%;
-    font-size: 1.25rem;
-    text-align: center;
-  }
-
-  .user-entry .text-content {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding-bottom: 1.5rem;
-  }
-
-  .client-serving {
-    width: 120%;
-    gap: 0rem;
-    flex-wrap: wrap;
-    border-radius: 15px;
-    font-size: 1rem;
-  }
-
-  .client-serving img {
-    height: 30vh;
-  }
-
-  .client-serving h3 {
-    padding-top: .5rem;
+    padding: 3.5rem 1rem;
+    color: white;
     font-weight: 700;
-    text-align: center;
-    font-size: 1.25rem;
-    height: 8vh;
-    width: 90%;
+    font-size: large;
+    margin-top: 5rem;
+    background-image: linear-gradient(to bottom, rgb(255, 152, 106, .5), rgb(255, 152, 106));
   }
 
-  .client-serving ul {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    gap: 1rem;
+  .softsolves-intro p {
+    margin: auto;
+    font-family: "Saira", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+    width: 90%;
+    font-style: normal;
+    font-size: 1.25rem;
+    line-height: 180%;
+    padding-bottom: 2.5rem;
   }
 
   .services-offered {
