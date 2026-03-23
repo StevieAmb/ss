@@ -1333,95 +1333,46 @@ footer img {
     padding: .5rem;
   }
 
-  .hero-images {
-    margin: 1rem;
-    border-radius: 1rem;
-    /* background-position: -145% 55%; */
-    background-size: cover;
-    height: 40.5rem;
-    height: 30rem;
-    color: white;
-    font-family: "Lato", sans-serif;
-  }
 
-  .hero-images p {
-    font-weight: 400;
-    margin: 0;
-    padding: 0;
-    padding: 5rem 0 0 1rem;
-    font-size: .78rem;
-    font-style: italic;
-    letter-spacing: .05rem;
-    line-height: 1.7rem;
-    color: black
-  }
+.hero-images {
+  margin: 2rem 1.5rem;
+  background-image: url('images/colorful_black_women_engineers.jpg');
+  background-position: -110% 55%;
+}
 
-  .opening-comment {
-    height: 30vh;
-    width: 100%;
-    padding-bottom: 2.5rem;
-  }
+.hero-images article {
+  padding-left: 0rem;
+  width: 97.5%;
+  margin-bottom: 7.5rem;
+  color: #fff;
+}
 
-  .opening-comment h2 {
-    margin: 0; 
-    padding: 0;
-    position: absolute;
-    top:  53rem; 
-    left: 12rem;
-    transform:translate(-50%,-50%);
-    font-size: 2.25em; 
-    text-transform:uppercase;
-    width: 90%;
-  }
+.hero-images article h2 {
+  font-size: 3.25rem;
+  padding-bottom: 2rem;
+}
 
-  .opening-comment h2 span:nth-child(1){
-    position: absolute;
-    top:0; 
-    left:0; 
-    color: #000;
-    transition:0.5s;
-    clip-path: polygon(0 0, 100% 0, 100% 50%, 0 50%);
-    overflow:hidden;
-  }
+.hero-images article p {
+  font-weight: 600;
+  font-size: 1.25rem;
+  line-height: 1.5;
+  color: #fff;
+  padding-bottom: 2.75rem;
+  text-shadow: 1px 1px 1px black;
+}
 
-  .opening-comment h2:hover span:nth-of-type(1){
-    transform:translateY(-18px); 
-  }
+.hero-images article a {
+  border: 1px solid #fff;
+  text-align: center;
+  width: 60%;
+  padding: 1.5rem 2.1rem;
+  color: #fff;
+  font-size: 1.65rem;
+  background-image: linear-gradient(to right, rgb(22, 30, 84, .3), rgb(22, 30, 84, 1));
+  opacity: .85;
+  letter-spacing: .1rem;
+}
 
-  .opening-comment h2 span:nth-of-type(2){
-    position:absolute;
-    top:0; 
-    left:0; 
-    color: #000;;
-    transition:0.5s;
-    clip-path: polygon(0 50%, 100% 50%, 100% 100%, 0 100%);
-    overflow:hidden;
-  }
-
-  .opening-comment h2:hover span:nth-of-type(2){
-    transform:translateY(18px); 
-  }
-
-  .opening-comment h2 span:nth-of-type(3){
-    position:absolute;
-    top:50%; left: 0;
-    transform:translateY(-50%) scaleY(0);
-    width: 93%; 
-    color: black;
-    background: rgb(239, 187, 57);
-    font-size: 0.5em; 
-    font-weight: 500;
-    line-height: 1.15;
-    letter-spacing:0.7em;
-    text-align: center;
-    padding: 0px 10px; 
-    margin-left: 5px;
-    transition: 0.5s;
-  }
-
-  .opening-comment h2:hover span:nth-of-type(3){
-    transform:translateY(-50%) scaleY(1);
-  }
 
   .softsolves-mission {
     margin: 0rem 2rem;
