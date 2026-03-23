@@ -1202,8 +1202,8 @@ footer img {
     cursor: pointer;
     /* position absolute position the icons relative to the body because they have no position relative parents*/
     position: absolute;
-    top: -8.5rem;
-    right: 21.15rem;
+    top: -4.8rem;
+    right: 23rem;
     width: 32px;
     height: 32px;
   }
