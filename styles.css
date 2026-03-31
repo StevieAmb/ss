@@ -229,11 +229,10 @@ h2 {
 
 .nav-bar-tabs {
   display: flex;
-  gap: 1rem;
+  gap: 3rem;
 }
 
-.nav-tab {
-  width: 12.5rem;
+.nav-bar-tabs .nav-tab {
   margin: .3rem 0;
   font-size: 1rem;
   letter-spacing: 2px;
