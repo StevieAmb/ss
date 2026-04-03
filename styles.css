@@ -1451,6 +1451,17 @@ footer img {
     width: 100%;
   }
 
+  .service-process .process-section .text-content {
+    width: 65%;
+    padding-top: 2rem;
+  }
+
+  .process-section .text-content h3 {
+    width: 125%;
+    padding: .5rem 1.25rem .35rem 0;
+    margin-left: -1.5rem;
+  }
+
 
   .booking-section {
     display: block;
