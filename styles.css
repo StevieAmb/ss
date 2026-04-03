@@ -1444,6 +1444,12 @@ footer img {
     width: 100%;
   }
 
+  .service-process .process-section {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    width: 100%;
+  }
+
 
   .booking-section {
     display: block;
