@@ -1438,6 +1438,7 @@ footer img {
 
   .service-process .process-content {
     flex-direction: column;
+    padding: 1.25rem;
   }
 
   .service-process .cta-section { 
