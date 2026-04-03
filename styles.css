@@ -1437,7 +1437,7 @@ footer img {
   }
 
   .service-process .process-content {
-    flex-direction: column;
+    flex-direction: column-reverse;
     padding: 1.25rem;
   }
 
