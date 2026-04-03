@@ -1470,10 +1470,13 @@ footer img {
 
   .softsolves-mission-statement .content-container {
     flex-direction: column-reverse;
+    padding: 5rem 1rem 10rem 1rem;
   }
 
+  
+
   .softsolves-mission-statement .content-container .text-content {
-    width: 75%;
+    width: 85%;
     padding-left: 2rem;
   }
 
