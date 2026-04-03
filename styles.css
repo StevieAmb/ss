@@ -1445,10 +1445,16 @@ footer img {
     width: 100%;
   }
 
+  .service-process .cta-section img {
+    width: 85%;
+  }
+
   .service-process .process-section {
     display: grid;
     grid-template-columns: 2fr 2fr;
+    grid-gap: 1rem;
     width: 100%;
+    justify-items: center;
   }
 
   .service-process .process-section .text-content {
