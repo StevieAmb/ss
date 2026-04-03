@@ -1436,6 +1436,14 @@ footer img {
     bottom: calc(.5% + 10px);
   }
 
+  .service-process .process-content {
+    flex-direction: column;
+  }
+
+  .service-process .cta-section { 
+    width: 100%;
+  }
+
 
   .booking-section {
     display: block;
