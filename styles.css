@@ -1462,6 +1462,15 @@ footer img {
     margin-left: -1.5rem;
   }
 
+  .softsolves-mission-statement .content-container {
+    flex-direction: column-reverse;
+  }
+
+  .softsolves-mission-statement .content-container .text-content {
+    width: 75%;
+    padding-left: 2rem;
+  }
+
 
   .booking-section {
     display: block;
