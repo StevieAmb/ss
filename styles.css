@@ -111,6 +111,11 @@ h2 {
   padding: .5rem;
 }
 
+.sub-heading-one {
+  color: #151d54;
+  font-style: italic;
+}
+
 .sub-heading-two, .testifier {
   font-style: italic;
   color: #a54b23;
@@ -473,12 +478,26 @@ hr {
   display: none;
 }
 
+.softsolves-tagline-banner {
+  padding: 5em 10em;
+  background: url('images/pexels-cottonbro-6863076.jpg');
+  background-size: 100% 137%;
+}
+
+.softsolves-tagline-banner .banner-text-container {
+  text-align: center;
+  background-color: #fff;
+  padding: 2.5em 3.5rem;
+  font-weight: 400;
+  border-radius: .75em;
+}
+
 .client-testimonials {
   background-color: #eaccbf;
   color: #fff;
-  padding: 1.5em;
+  padding: 2em;
   display: flex;
-  justify-content: space-around;
+  gap: 2em;
 }
 
 .client-testimonials .testimonial {
@@ -493,6 +512,7 @@ hr {
 .client-testimonials .featured-client-website img {
   width: 100%;
   border-radius: 1em;
+  padding-bottom: 1em;
 }
 
 .about-founder-container {
@@ -1078,7 +1098,6 @@ textarea {
 }
 
 footer {
-  margin-top: 2rem;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
