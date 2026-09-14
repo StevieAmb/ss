@@ -111,8 +111,13 @@ h2 {
   padding: .5rem;
 }
 
+.sub-heading-two, .testifier {
+  font-style: italic;
+  color: #a54b23;
+}
+
 .blue-pop {
-  color: #161E54;
+  color: #151d54;
 }
 
 .bold {
@@ -542,6 +547,28 @@ hr {
   display: flex;
   gap: 2rem;
   padding-bottom: .75rem;
+}
+
+.client-testimonials {
+  background-color: #eaccbf;
+  color: #fff;
+  padding: 1.5em;
+  display: flex;
+  justify-content: space-around;
+}
+
+.client-testimonials .testimonial {
+  line-height: 1.5em;
+}
+
+.client-testimonials .featured-client-website {
+  display: flex;
+  flex-direction: column;
+}
+
+.client-testimonials .featured-client-website img {
+  width: 100%;
+  border-radius: 1em;
 }
 
 .about-founder-container {
