@@ -103,18 +103,6 @@ h2 {
   background-color: #f2eeec;
 }
 
-.pink-pop-text {
-  background-color: #ff986a;
-  color: #FFF;
-  padding: .5rem;
-}
-
-.blue-pop-text {
-  background-color: #6f77ad;
-  color: #FFF;
-  padding: .5rem;
-}
-
 .sub-heading-one {
   color: #151d54;
   font-style: italic;
@@ -133,18 +121,6 @@ h2 {
   font-weight: 600;
 }
 
-.page-title {
-  text-align: center;
-  padding: 2.95rem 12rem;
-  letter-spacing: .05rem;
-}
-
-.page-title h1 {
-  letter-spacing: .75rem;
-  font-size: 3.25rem;
-  font-weight: 700;
-}
-
 .disclaimer {
   text-align: center;
   background: black;
@@ -156,105 +132,34 @@ h2 {
   letter-spacing: .1rem;
 }
 
-.disclaimer a {
-  color: rgb(239, 187, 57);
-}
-
-.skillshares-left {
-  font-weight: 900;
-}
-
-.hero-images {
-  margin: 4rem 7rem 2rem 7rem;
-  background-image: url('images/pexels-picha-stock-2210122-3894378.jpg');
-  background-position: -110% 55%;
-  background-size: cover;
-  height: 40.5rem;
-  display: flex;
-  align-items: flex-end;
-  justify-content: flex-end;
-}
-
-.hero-images article {
-  padding-left: 4rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  width: 39.5%;
-  margin-bottom: 7.5rem;
-  color: #fff;
-}
-
-.hero-images article h2 {
-  font-size: 3.25rem;
-  padding-bottom: 2rem;
-}
-
-.hero-images article p {
-  font-weight: 600;
-  font-size: 1.25rem;
-  line-height: 1.5;
-  color: #fff;
-  padding-bottom: 2.75rem;
-  text-shadow: 1px 1px 1px black;
-}
-
-.hero-images article a {
-  border: 1px solid #fff;
-  text-align: center;
-  width: 60%;
-  padding: 1.5rem 2.1rem;
-  color: #fff;
-  font-size: 1.65rem;
-  background-image: linear-gradient(to right, rgb(22, 30, 84, .3), rgb(22, 30, 84, 1));
-  opacity: .85;
-  letter-spacing: .1rem;
-}
-
 .nav-bar {
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
   top: 0;
   position: sticky;
   z-index: 10;
   margin: 0;
-  padding: 0 5rem;
-  animation-timeline: view();
-  animation-range-start: 1000px;
-  animation: color-add 3s ease-in forwards;
+  padding: 0 2rem;
 }
 
 .nav-bar a:active, .nav-bar a:visited, .nav-bar a:link {
-   color: #ccc;
-}
-
-@keyframes color-add {
- from {
-    background-color: transparent;
-  }
-  to {
-    background-color: #161E54;
-  }
+   color: #a54b23;
 }
 
 .nav-bar-tabs {
   display: flex;
-  gap: 3rem;
+  gap: 1.75em;
 }
 
 .nav-bar-tabs .nav-tab {
   margin: .3rem 0;
   font-size: 1rem;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
   text-align: center;
 }
 
 .nav-bar-tabs .nav-tab:hover {
   text-decoration: underline;
-}
-
-hr {
-  margin: 0;
 }
 
 .hide {
@@ -298,7 +203,7 @@ hr {
 }
 
 .divider {
-  border-top: 1px solid #ff986a; /* Create the border, i.e. Divider */
+  border-top: 3px solid #ff986a; /* Create the border, i.e. Divider */
   width: 80%;
   margin: 3rem auto; /* Add a Margin and Center the divider */
 }
