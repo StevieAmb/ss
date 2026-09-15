@@ -405,10 +405,10 @@ hr {
   box-shadow: 4px 4px 4px #2c0b00 inset;
 }
 
-hr {
-  font-weight: 900;
-  width: 70%;
-  margin: auto;
+.divider {
+  border-top: 1px solid #ff986a; /* Create the border, i.e. Divider */
+  width: 80%;
+  margin: 3rem auto; /* Add a Margin and Center the divider */
 }
 
 .client-issues {
