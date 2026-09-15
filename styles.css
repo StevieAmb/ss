@@ -198,8 +198,8 @@ h2 {
 .hero-image-circle {
   background: url('images/colorful_black_women_engineers.jpg');
   background-size: cover;
-  width: 20vw;
-  height: 40vh;
+  width: 20em;
+  height: 20em;
   border-radius: 50%;
   box-shadow: 4px 4px 4px #2c0b00 inset;
 }
