@@ -99,36 +99,26 @@ h2 {
   padding: 1rem 0;
 }
 
-.pink-pop-text {
-  background-color: #ff986a;
-  color: #FFF;
-  padding: .5rem;
+.landing-page-body {
+  background-color: #f2eeec;
 }
 
-.blue-pop-text {
-  background-color: #6f77ad;
-  color: #FFF;
-  padding: .5rem;
+.sub-heading-one {
+  color: #151d54;
+  font-style: italic;
+}
+
+.sub-heading-two, .testifier {
+  font-style: italic;
+  color: #a54b23;
 }
 
 .blue-pop {
-  color: #161E54;
+  color: #151d54;
 }
 
 .bold {
   font-weight: 600;
-}
-
-.page-title {
-  text-align: center;
-  padding: 2.95rem 12rem;
-  letter-spacing: .05rem;
-}
-
-.page-title h1 {
-  letter-spacing: .75rem;
-  font-size: 3.25rem;
-  font-weight: 700;
 }
 
 .disclaimer {
@@ -142,96 +132,29 @@ h2 {
   letter-spacing: .1rem;
 }
 
-.disclaimer a {
-  color: rgb(239, 187, 57);
-}
-
-.skillshares-left {
-  font-weight: 900;
-}
-
-.hero-images {
-  margin: 4rem 7rem 2rem 7rem;
-  background-image: url('images/pexels-picha-stock-2210122-3894378.jpg');
-  background-position: -110% 55%;
-  background-size: cover;
-  height: 40.5rem;
-  display: flex;
-  align-items: flex-end;
-  justify-content: flex-end;
-}
-
-.hero-images article {
-  padding-left: 4rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  width: 39.5%;
-  margin-bottom: 7.5rem;
-  color: #fff;
-}
-
-.hero-images article h2 {
-  font-size: 3.25rem;
-  padding-bottom: 2rem;
-}
-
-.hero-images article p {
-  font-weight: 600;
-  font-size: 1.25rem;
-  line-height: 1.5;
-  color: #fff;
-  padding-bottom: 2.75rem;
-  text-shadow: 1px 1px 1px black;
-}
-
-.hero-images article a {
-  border: 1px solid #fff;
-  text-align: center;
-  width: 60%;
-  padding: 1.5rem 2.1rem;
-  color: #fff;
-  font-size: 1.65rem;
-  background-image: linear-gradient(to right, rgb(22, 30, 84, .3), rgb(22, 30, 84, 1));
-  opacity: .85;
-  letter-spacing: .1rem;
-}
-
 .nav-bar {
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
   top: 0;
   position: sticky;
   z-index: 10;
   margin: 0;
-  padding: 0 5rem;
-  animation-timeline: view();
-  animation-range-start: 1000px;
-  animation: color-add 3s ease-in forwards;
+  padding: 0 2rem;
 }
 
 .nav-bar a:active, .nav-bar a:visited, .nav-bar a:link {
-   color: #ccc;
-}
-
-@keyframes color-add {
- from {
-    background-color: transparent;
-  }
-  to {
-    background-color: #161E54;
-  }
+   color: #a54b23;
 }
 
 .nav-bar-tabs {
   display: flex;
-  gap: 3rem;
+  gap: 1.75em;
 }
 
 .nav-bar-tabs .nav-tab {
   margin: .3rem 0;
   font-size: 1rem;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
   text-align: center;
 }
 
@@ -239,309 +162,130 @@ h2 {
   text-decoration: underline;
 }
 
-hr {
-  margin: 0;
-}
-
-.softsolves-intro {
-  text-align: center;
-  padding: 5rem;
-  color: white;
-  font-weight: 700;
-  font-size: xx-large;
-  margin-top: 7rem;
-  background-image: linear-gradient(to bottom, rgb(255, 152, 106, .5), rgb(255, 152, 106));
-}
-
-.softsolves-intro p {
-  margin: auto;
-  font-family: "Saira", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 600;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
-  width: 80%;
-  font-style: normal;
-  font-size: 1.95rem;
-  line-height: 180%;
-  padding-bottom: 2.5rem;
-}
-
-.softsolves-services {
-  height: 160vh;
-}
-
-.softsolves-services .content-container {
-  width: 20vw;
-  display: flex;
-  flex-direction: row;
-  position: relative;
-  padding: 5rem;
-}
-
-.softsolves-services .cards-container-row-one,
-.softsolves-services .cards-container-row-two,
-.softsolves-services .cards-container-row-three {
-  display: flex;
-  width: 60%;
-}
-
-.softsolves-services .cards-container-row-one .text-content{
-  z-index: 9;
-}
-
-.softsolves-services .cards-container-row-two {
-  justify-content: center;
-  position: relative;
-  bottom: 10rem;
-  z-index: 1;
-}
-
-.softsolves-services .cards-container-row-three {
-   position: relative;
-  bottom: 20rem;
-}
-
-.services-heading, .processes-heading {
-  text-align: center;
-  padding: 4rem 0rem;
-}
-
-.softsolves-services .content-container .dotted-line,
-.softsolves-services .content-container .text-content {
-  width: 80%;
-  padding-bottom: 2rem;
-}
-
-.dotted-line {
-  border: 1.5px dotted;
-  width: 90%;
-  border-image-slice: 1;
-  border-width: 5px;
-  height: 10rem;
-}
-
-.softsolves-services .content-container .dotted-line {
-  padding: 1rem;
-  border-width: 1.5px;
-  height: 12rem;
-  max-height: 15rem;
-}
-
-.softsolves-services .content-container .text-content {
-  width: 20vw;
-  background-image: linear-gradient(to bottom, rgb(255, 255, 255), rgb(235, 201, 113, 1));
-  border-radius: .5rem;
-  padding: 1.5rem .5rem;
-  right: 18rem;
-  top: 5.6rem;
-  position: absolute;
-  bottom: calc(13% + 10px);
-  left: 23%;
-}
-
-.softsolves-services .content-container .text-content h3 {
-  padding-top: 1.5rem;
-  font-weight: 700;
-}
-
-.softsolves-services .content-container .text-content p {
-  padding-top: 1.25rem;
-  line-height: 1.25;
-}
-
-.service-process .process-content {
-  display: flex;
-  gap: 2rem;
-  justify-content: center;
-  align-items: center;
-  color: #fff;
-  background-color: #151d54;
-  padding: 5.5rem 0 6rem 0;
-}
-
-.service-process .cta-section {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 40%;
-}
-
-.service-process .cta-section img {
-  border-radius: .6rem;
-  width: 75%;
-  margin-bottom: 2rem;
-}
-
-.service-process .cta-section a {
-  padding: 1rem 4rem;
-  background-image: linear-gradient(to right, rgb(177, 178, 181, .7), rgb(21, 29, 84));
-  border: 2px solid #fff;
-  opacity: 75%;
-  color: #fff;
-  font-weight: 700;
-  text-align: center;
-  font-size: larger;
-  margin-bottom: .5rem;
-}
-
-.service-process .process-section {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  flex-direction: row-reverse;
-  width: 40%;
-}
-
-.service-process .process-section .text-content {
-  background-image: linear-gradient(to right, rgb(255, 255, 255), rgb(235, 201, 113, .5));
-  color: black;
-  margin-bottom: 2rem;
-  padding: 4rem 1rem 1.5rem 1rem;
-  border-radius: .75rem;
-  width: 60%;
-}
-
-.process-section .text-content h3 {
-  display: flex;
-  justify-content: flex-end;
-  background-color: #ff986a;
-  width: 110%;
-  color: #fff;
-  font-weight: 600;
-  padding: .25rem 1.5rem .2rem 0;
-  box-shadow: 2px 2px 2px  rgb(0, 0, 0, .2);
-  margin-left: -2rem;
-  margin-bottom: .75rem;
-}
-
-.softsolves-mission-statement .content-container {
-  display: flex;
-  padding: 5rem 0 10rem 0;
-  gap: 18rem;
-}
-
-hr {
-  border: .7px dashed black;
-}
-
-.softsolves-mission-statement .content-container .text-content {
-  width: 40%;
-  padding-left: 5rem;
-  line-height: 1.35;
-  text-align: justify;
-}
-
-.softsolves-mission-statement .content-container .text-content p {
-  padding-bottom: 2rem;
-}
-
-.softsolves-mission-statement .content-container .text-content h2 {
-  text-align: center;
-}
-
-.softsolves-mission-statement .fun-decor {
-  position: relative;
-}
-
-.softsolves-mission-statement .fun-decor .orange-circle {
-  width: 16rem;
-  height: 16rem;
-  border-radius: 50%;
-  background-color: #ff986a;
-}
-
-.softsolves-mission-statement .fun-decor .purple-circle {
-  width: 24rem;
-  height: 24rem;
-  border-radius: 50%;
-  background-color: #bdc4f4;
-  position: absolute;
-  opacity: .7;
-  top: 7rem;
-  bottom: 2rem;
-}
-
 .hide {
   display: none;
 }
 
-.featured-content {
-  padding: 0rem 4rem;
+.hero-section-landing {
+  padding: 0em 2em;
+}
+
+.hero-section-landing .gradient-section {
+  background: linear-gradient(to bottom,  #eaccbf, #f2eeec);
+  border-radius: 1.5em;
   display: flex;
-  flex-direction: row;
+  height: 80vh;
+}
+
+.gradient-section .half-hero-image {
+  background: url('images/colorful_black_women_engineers.jpg');
+  background-size: cover;
+  width: 45vw;
+  height: 80vh;
+  position: relative;
+  top: -.9em;
+}
+
+.hero-section-landing-left {
+  display: flex;
+  gap: 1.75em;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 55vw;
+}
+
+.hero-image-circle {
+  background: url('images/colorful_black_women_engineers.jpg');
+  background-size: cover;
+  width: 20em;
+  height: 20em;
+  border-radius: 50%;
+  box-shadow: 4px 4px 4px #2c0b00 inset;
+}
+
+.divider {
+  border-top: 3px solid #ff986a; /* Create the border, i.e. Divider */
+  width: 80%;
+  margin: 3rem auto; /* Add a Margin and Center the divider */
+}
+
+.client-issues {
+  padding: 3em 4em;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-.featured-content .website-content-container {
-  gap: 1rem;
-  display: flex;
-  flex-direction: column;
-  width: 90%;
-  padding-top: 28rem;
+.client-issues h2 {
+  width: 45%;
+  text-align: center;
 }
 
-.featured-content .nav-link {
-  padding-top: 19rem;
+.client-issues .issues-container {
+  padding: 2em 3em;
+  flex-wrap: wrap;
+  display: flex;
+  gap: 2em;
+}
+
+.client-issues .issue {
+  padding: 1.25em;
+  text-align: center;
   display: flex;
   justify-content: center;
-  width: 100%; 
+  align-items: center;
+  background-color: #fff;
+  width: 14em;
+  height: 7.5em;
+  border-radius: 1em;
+  border: 1px solid #a54b23;
+  box-shadow: 1.75px 1.75px 1.75px #eaccbf;
 }
 
-.featured-content .nav-link a {
-  padding: 1rem;
-  box-shadow: 2.5px 2.5px 2.5px #000;
-  background-color: #000;
-  color: #fff;
-}
-
-.featured-content .website-content-container h2 {
+.client-issues p {
   text-align: center;
+  line-height: 1.35;
+  width: 30%;
 }
 
-.featured-content .website-content-container .featured-website {
-  width: 100%;
+.softsolves-tagline-banner {
+  padding: 4em 8em;
+  background: url('images/pexels-cottonbro-6863076.jpg');
+  background-size: cover;
+  background-position: 100% 175%;
+}
+
+.softsolves-tagline-banner .banner-text-container {
+  text-align: center;
+  background-color: #fff;
+  padding: 2.5em 3.5rem;
+  font-weight: 400;
+  border-radius: .75em;
+}
+
+.client-testimonials {
+  background-color: #eaccbf;
+  color: #fff;
+  padding: 3.5em 2.5em;
+  display: flex;
+  gap: 2em;
+}
+
+.client-testimonials .testimonial {
+  line-height: 1.5em;
+}
+
+.client-testimonials .featured-client-website {
   display: flex;
   flex-direction: column;
 }
 
-.featured-content .website-content-container .featured-website a img, 
-.featured-content .website-content-container .featured-website a {
+.client-testimonials .featured-client-website img {
   width: 100%;
-  padding-bottom: 1rem;
-}
-
-.featured-content .website-content-container .featured-website a img {
-  border: 2px solid #151d54;
-  box-shadow: 3px 3px 3px #5c5111;
-}
-
-.testimonial-section {
-  padding: 0rem 2rem;
-}
-
-.testimonial-section h2 {
-  text-align: center;
-  color: #6f77ad;
-}
-
-.testimonial-section .gradient-container {
-  background-image: linear-gradient(to bottom, rgb(21, 29, 84), rgb(255, 152, 106, .5) );
-  padding: .3rem;
-}
-
-.testimonial-section article {
-  background-color: #fff;
-  padding: 1.5rem
-}
-
-.testimonial-section .testimonial {
-  display: flex;
-  gap: 2rem;
-  padding-bottom: .75rem;
+  border-radius: 1em;
+  padding-bottom: 1em;
 }
 
 .about-founder-container {
@@ -1127,7 +871,6 @@ textarea {
 }
 
 footer {
-  margin-top: 2rem;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -1374,113 +1117,6 @@ footer img {
     font-size: 1.25rem;
     line-height: 180%;
     padding-bottom: 2.5rem;
-  }
-
-.softsolves-services {
-  height: 250vh;
-}
-
-  .softsolves-services .content-container {
-    width: 55vw;
-    padding: 4.99rem;
-  }
-
-  .softsolves-services .cards-container-row-one,
-  .softsolves-services .cards-container-row-two,
-  .softsolves-services .cards-container-row-three {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .softsolves-services .cards-container-row-two {
-    justify-content: center;
-    position: static;
-  } 
-
-  .softsolves-services .cards-container-row-three {
-    position: static;
-  }
-
-  .services-heading, .processes-heading {
-    text-align: center;
-    padding: 4rem 0rem;
-  }
-
-  .softsolves-services .content-container .dotted-line,
-  .softsolves-services .content-container .text-content {
-    width: 80%;
-    padding-bottom: 2rem;
-  }
-
-  .dotted-line {
-    border: 1.5px dotted;
-    width: 100%;
-    border-image-slice: 1;
-    border-width: 5px;
-    height: 10rem;
-  }
-
-  .softsolves-services .content-container .dotted-line {
-    padding: 1rem;
-    border-width: 1.5px;
-    height: 12rem;
-    width: 80%;
-    max-height: 15rem;
-  }
-
-  .softsolves-services .content-container .text-content {
-    width: 50vw;
-    right: 18rem;
-    top: 5.6rem;
-    position: absolute;
-    bottom: calc(.5% + 10px);
-  }
-
-  .service-process .process-content {
-    flex-direction: column-reverse;
-    padding: 3rem 1.25rem;
-  }
-
-  .service-process .cta-section { 
-    width: 100%;
-  }
-
-  .service-process .cta-section img {
-    width: 85%;
-  }
-
-  .service-process .process-section {
-    display: grid;
-    grid-template-columns: 2fr 2fr;
-    grid-gap: 1rem;
-    width: 100%;
-    justify-items: center;
-  }
-
-  .service-process .process-section .text-content {
-    width: 65%;
-    padding-top: 2rem;
-  }
-
-  .process-section .text-content h3 {
-    width: 125%;
-    padding: .5rem 1.25rem .35rem 0;
-    margin-left: -1.5rem;
-  }
-
-  .softsolves-mission-statement .content-container {
-    flex-direction: column-reverse;
-    padding: 5rem 1rem 10rem 1rem;
-  }
-
-  .softsolves-mission-statement .content-container .text-content {
-    width: 85%;
-    padding-left: 2rem;
-  }
-
-  .softsolves-mission-statement .fun-decor .purple-circle {
-    width: 20rem;
-    height: 20rem;
   }
 
   .booking-section {
