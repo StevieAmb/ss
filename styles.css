@@ -99,6 +99,10 @@ h2 {
   padding: 1rem 0;
 }
 
+.landing-page-body {
+  background-color: #f2eeec;
+}
+
 .pink-pop-text {
   background-color: #ff986a;
   color: #FFF;
@@ -427,55 +431,53 @@ hr {
   margin-bottom: .75rem;
 }
 
-.softsolves-mission-statement .content-container {
-  display: flex;
-  padding: 5rem 0 10rem 0;
-  gap: 18rem;
-}
-
 hr {
   border: .7px dashed black;
 }
 
-.softsolves-mission-statement .content-container .text-content {
-  width: 40%;
-  padding-left: 5rem;
-  line-height: 1.35;
-  text-align: justify;
-}
-
-.softsolves-mission-statement .content-container .text-content p {
-  padding-bottom: 2rem;
-}
-
-.softsolves-mission-statement .content-container .text-content h2 {
-  text-align: center;
-}
-
-.softsolves-mission-statement .fun-decor {
-  position: relative;
-}
-
-.softsolves-mission-statement .fun-decor .orange-circle {
-  width: 16rem;
-  height: 16rem;
-  border-radius: 50%;
-  background-color: #ff986a;
-}
-
-.softsolves-mission-statement .fun-decor .purple-circle {
-  width: 24rem;
-  height: 24rem;
-  border-radius: 50%;
-  background-color: #bdc4f4;
-  position: absolute;
-  opacity: .7;
-  top: 7rem;
-  bottom: 2rem;
-}
 
 .hide {
   display: none;
+}
+
+.client-issues {
+  padding: 3em 4em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.client-issues h2 {
+  width: 45%;
+  text-align: center;
+}
+
+.client-issues .issues-container {
+  padding: 2em 3em;
+  flex-wrap: wrap;
+  display: flex;
+  gap: 2em;
+}
+
+.client-issues .issue {
+  padding: 1.25em;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  width: 14em;
+  height: 7.5em;
+  border-radius: 1em;
+  border: 1px solid #a54b23;
+  box-shadow: 1.75px 1.75px 1.75px #eaccbf;
+}
+
+.client-issues p {
+  text-align: center;
+  line-height: 1.35;
+  width: 30%;
 }
 
 .softsolves-tagline-banner {
