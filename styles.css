@@ -365,79 +365,50 @@ hr {
   line-height: 1.25;
 }
 
-.service-process .process-content {
-  display: flex;
-  gap: 2rem;
-  justify-content: center;
-  align-items: center;
-  color: #fff;
-  background-color: #151d54;
-  padding: 5.5rem 0 6rem 0;
+.hide {
+  display: none;
 }
 
-.service-process .cta-section {
+.hero-section-landing {
+  padding: 0em 2em;
+}
+
+.hero-section-landing .gradient-section {
+  background: linear-gradient(to bottom,  #eaccbf, #f2eeec);
+  border-radius: 1.5em;
   display: flex;
+  height: 80vh;
+}
+
+.gradient-section .half-hero-image {
+  background: url('images/colorful_black_women_engineers.jpg');
+  background-size: cover;
+  width: 45vw;
+  height: 80vh;
+}
+
+.hero-section-landing-left {
+  display: flex;
+  gap: 1.75em;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 40%;
+  width: 55vw;
 }
 
-.service-process .cta-section img {
-  border-radius: .6rem;
-  width: 75%;
-  margin-bottom: 2rem;
-}
-
-.service-process .cta-section a {
-  padding: 1rem 4rem;
-  background-image: linear-gradient(to right, rgb(177, 178, 181, .7), rgb(21, 29, 84));
-  border: 2px solid #fff;
-  opacity: 75%;
-  color: #fff;
-  font-weight: 700;
-  text-align: center;
-  font-size: larger;
-  margin-bottom: .5rem;
-}
-
-.service-process .process-section {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  flex-direction: row-reverse;
-  width: 40%;
-}
-
-.service-process .process-section .text-content {
-  background-image: linear-gradient(to right, rgb(255, 255, 255), rgb(235, 201, 113, .5));
-  color: black;
-  margin-bottom: 2rem;
-  padding: 4rem 1rem 1.5rem 1rem;
-  border-radius: .75rem;
-  width: 60%;
-}
-
-.process-section .text-content h3 {
-  display: flex;
-  justify-content: flex-end;
-  background-color: #ff986a;
-  width: 110%;
-  color: #fff;
-  font-weight: 600;
-  padding: .25rem 1.5rem .2rem 0;
-  box-shadow: 2px 2px 2px  rgb(0, 0, 0, .2);
-  margin-left: -2rem;
-  margin-bottom: .75rem;
+.hero-image-circle {
+  background: url('images/colorful_black_women_engineers.jpg');
+  background-size: cover;
+  width: 20vw;
+  height: 40vh;
+  border-radius: 50%;
+  box-shadow: 4px 4px 4px #2c0b00 inset;
 }
 
 hr {
-  border: .7px dashed black;
-}
-
-
-.hide {
-  display: none;
+  font-weight: 900;
+  width: 70%;
+  margin: auto;
 }
 
 .client-issues {
@@ -1374,10 +1345,6 @@ footer img {
     position: static;
   }
 
-  .services-heading, .processes-heading {
-    text-align: center;
-    padding: 4rem 0rem;
-  }
 
   .softsolves-services .content-container .dotted-line,
   .softsolves-services .content-container .text-content {
@@ -1439,21 +1406,6 @@ footer img {
     width: 125%;
     padding: .5rem 1.25rem .35rem 0;
     margin-left: -1.5rem;
-  }
-
-  .softsolves-mission-statement .content-container {
-    flex-direction: column-reverse;
-    padding: 5rem 1rem 10rem 1rem;
-  }
-
-  .softsolves-mission-statement .content-container .text-content {
-    width: 85%;
-    padding-left: 2rem;
-  }
-
-  .softsolves-mission-statement .fun-decor .purple-circle {
-    width: 20rem;
-    height: 20rem;
   }
 
   .booking-section {
