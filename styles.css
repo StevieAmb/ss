@@ -182,6 +182,8 @@ h2 {
   background-size: cover;
   width: 45vw;
   height: 80vh;
+  position: relative;
+  top: -.9em;
 }
 
 .hero-section-landing-left {
