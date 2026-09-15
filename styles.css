@@ -75,6 +75,11 @@ h1, h2 {
     "wdth" 100;
 }
 
+h1 {
+  font-size: 3em;
+  color: #fff;
+}
+
 h3, h4 {
   font-family: "Saira", sans-serif;
   font-optical-sizing: auto;
@@ -181,18 +186,26 @@ h2 {
   background: url('images/colorful_black_women_engineers.jpg');
   background-size: cover;
   width: 45vw;
-  height: 80vh;
+  height: 85vh;
   position: relative;
-  top: -.9em;
-}
+  top: calc(100vh - 102.5vh);
+  border: 1.9px solid #a54b23;}
 
 .hero-section-landing-left {
+  padding-top: 3em;
   display: flex;
   gap: 1.75em;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   width: 55vw;
+}
+
+.hero-section-landing-left p {
+  width: 30%;
+  margin: auto;
+  line-height: 1.5;
+  text-align: center;
 }
 
 .hero-image-circle {
@@ -207,7 +220,7 @@ h2 {
 .divider {
   border-top: 3px solid #ff986a; /* Create the border, i.e. Divider */
   width: 80%;
-  margin: 3rem auto; /* Add a Margin and Center the divider */
+  margin: 4rem auto; /* Add a Margin and Center the divider */
 }
 
 .client-issues {
@@ -286,6 +299,14 @@ h2 {
   width: 100%;
   border-radius: 1em;
   padding-bottom: 1em;
+}
+
+.featured-button {
+  background: linear-gradient(to right, #a54b23, #de7445);
+  margin-top: 2em;
+  padding: 1em 2em;
+  color: #fff;
+  border: 1px solid #eaccbf;
 }
 
 .about-founder-container {
