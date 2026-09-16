@@ -679,18 +679,18 @@ textarea {
   padding: .5rem 4rem;
   border-radius: 2rem;
   transition: 0.3s;
-  background-color: #161E54;
+  background: linear-gradient(to bottom, #6570bd, #656fbd2a);
+  border: 1px solid #6570bd
 }
 
 /* Change background color of buttons on hover */
 .tabs .tablinks:hover {
-  border-top: 3px solid #ebc971;
+  transform: translateX(-2px);
 }
 
 /* Create an active/current tablink class */
 .tabs .tablinks.active {
-  background-color: #ebc971;
-  border-top: 3px solid teal;
+  border-top: 3px solid #eaccbf;
   color: #000;
 }
 
