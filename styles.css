@@ -207,10 +207,23 @@ h2 {
 }
 
   .pricing-gradient-section .half-hero-image {
-    background: url('images/folks_whiteboarding.jpg');
+    background: url('images/pexels-divinetechygirl-1181427.jpg');
     background-size: cover;
     background-position: 100% 40%;
-    border: 1.9px solid #fff;
+    border: 1.9px solid #eaccbf;
+  }
+
+  .pricing-gradient-section h2 {
+    font-size: 3em;
+    font-weight: 800;
+    color: #151d54;
+  }
+
+   .pricing-gradient-section h3 {
+    font-size: 1.5em;
+    font-weight: 800;
+    color: #151d54;
+    width: 50%;
   }
 
 .hero-section-landing-left {
@@ -641,6 +654,7 @@ textarea {
 }
 
 .plans-price-section h2 {
+  color: #fff;
   text-align: center;
   padding-bottom: 3.5rem;
 }
