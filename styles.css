@@ -192,7 +192,7 @@ h2 {
 }
 
 .pricing-gradient-section {
-   background: linear-gradient(to bottom,  rgb(101, 112, 189), rgb(234, 204, 191, .3), rgb(101, 112, 189, 0));
+   background: linear-gradient(to bottom, rgb(234, 204, 191, .3), rgb(101, 112, 189), rgb(101, 112, 189, 0));
 }
 
 .gradient-section .half-hero-image,
@@ -207,7 +207,10 @@ h2 {
 }
 
   .pricing-gradient-section .half-hero-image {
-     border: 1.9px solid #fff;
+    background: url('images/pexels-divinetechygirl-1181583.jpg');
+    background-size: cover;
+    background-position: 100% 40%;
+    border: 1.9px solid #fff;
   }
 
 .hero-section-landing-left {
@@ -740,6 +743,7 @@ textarea {
 
 .tabcontent article h3 {
   font-size: xxx-large;
+  line-height: 1;
 }
 
 .tabcontent article h4 {
