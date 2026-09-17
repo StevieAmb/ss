@@ -688,13 +688,19 @@ textarea {
   padding: 2em 0rem 3em 0rem;
 }
 
+.tabs-container {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch; 
+  width: 100%; 
+}
+
 /*Style the tab */
 .tabs {
+  width: 100%;
   display: flex;
   justify-content: center;
-  gap: 2rem;
-  overflow: hidden;
-  color: #fff;
+  flex-wrap: nowrap;
+  gap: 2em;
 }
 
 /* Style the buttons that are used to open the tab content */
@@ -705,11 +711,13 @@ textarea {
   outline: none;
   cursor: pointer;
   color: #ccc;
-  padding: .5rem 4rem;
+  padding: .5em 3.5em;
   border-radius: 2rem;
   transition: 0.3s;
   background: linear-gradient(to bottom, rgb(52, 71, 202), #656fbd2a);
-  border: 1px solid #6570bd
+  border: 1px solid #6570bd;
+  flex: 0 0 auto;
+  white-space: nowrap;
 }
 
 /* Change background color of buttons on hover */
@@ -1033,6 +1041,10 @@ footer img {
 
 @media screen and (max-width: 767px) {
 
+  .pricing-page-body {
+    background: linear-gradient(#ffffff, #151d54,#151d54, #151d54, #151d54, #151d54, #151d54, #151d54);
+  }
+
    .hamburger, .close {
     border: none;
     cursor: pointer;
@@ -1110,7 +1122,6 @@ footer img {
     border-bottom: 1px solid white;
   }
 
-
   .hamburger-menu .menu-links {
     width: 100%;
   }
@@ -1127,36 +1138,6 @@ footer img {
     width: 95%;
   }
   
-  .page-title {
-    text-align: center;
-    padding: 3.1rem 0rem;
-  }
-  
-  .page-title h1 {
-    width: 90%;
-    z-index: 1;
-    position: relative;
-    margin: 0;
-    letter-spacing: .5rem;
-    font-size: 1.5rem;
-    font-weight: 700;
-    padding-left: 1.3rem;
-  }
-
-.page-title p {
-    z-index: 1;
-    position: relative;
-    bottom: 1px;
-    margin: 0;
-    font-family: "Merriweather", sans-serif;
-    letter-spacing: .1rem;
-    font-size: .75rem;
-    font-style: italic;
-    font-weight: 300;
-    padding-left: .9rem;
-    margin-left: 2rem;
-  }
-
   .nav-bar-tabs {
     gap: .3rem;
     height: 2.5rem;
@@ -1169,13 +1150,41 @@ footer img {
     padding: .5rem;
   }
 
-
-.hero-images {
+/* .hero-images {
   margin: 2rem 1.5rem;
   background-image: url('images/colorful_black_women_engineers.jpg');
   background-position: -110% 55%;
   border-radius: .5rem;
-}
+} */
+
+  .hero-section-landing {
+    padding: 0em 1em;
+  }
+
+  .pricing-layer {
+    width: 100%;
+  }
+
+  .pricing-gradient-section {
+    background: linear-gradient(to bottom left, rgb(101, 112, 189), rgb(101, 112, 189, 0));
+    flex-direction: column;
+    height: 94vh;
+  }
+
+  .pricing-gradient-section .half-hero-image {
+    top: 2em;
+    left: 2em;
+    width: 80%;
+  }
+
+  .pricing-hero-section-landing-left {
+    padding-left: 2em;
+    width: 80%;
+  }
+
+  .pricing-gradient-section h3 {
+    width: 100%;
+  }
 
   .booking-section {
     display: block;
@@ -1266,7 +1275,7 @@ footer img {
 
   .tabcontent article {
     padding: 3em 2em;
-    width: 25%;
+    width: 85%;
     border-radius: .5rem;
     color: #fff;
     background: linear-gradient(to bottom, rgb(52, 71, 202), rgb(52, 71, 202, .2)); 
@@ -1810,7 +1819,6 @@ footer img {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    overflow: hidden;
   }
 
   .tab-section {
