@@ -207,10 +207,10 @@ h2 {
 }
 
   .pricing-gradient-section .half-hero-image {
-    background: url('images/pexels-divinetechygirl-1181427.jpg');
+    background: url('images/christina-wocintechchat-com-glRqyWJgUeY-unsplash.jpg');
     background-size: cover;
-    background-position: 100% 40%;
-    border: none;
+    background-position: 100% 60%;
+    border: 1px solid #161E54;
   }
 
   .pricing-gradient-section h2 {
@@ -224,6 +224,18 @@ h2 {
     font-weight: 800;
     color: #151d54;
     width: 50%;
+  }
+
+  .pricing-layer .bookingForm-cta {
+    padding: 4em 0rem 1em 0em;
+    flex-direction: column;
+    color: #fff;
+    font-size: x-large;
+    width: 40%;
+    margin: auto;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
   }
 
 .hero-section-landing-left {
@@ -686,11 +698,13 @@ textarea {
 /* Change background color of buttons on hover */
 .tabs .tablinks:hover {
   transform: translateX(-2px);
+  background-color: #6570bd;
+  box-shadow: 2px 2px 2px inset #161E54;
 }
 
 /* Create an active/current tablink class */
 .tabs .tablinks.active {
-  border-top: 3px solid #eaccbf;
+  box-shadow: 3px 3px 3px inset #161E54;
   color: #000;
 }
 
@@ -854,10 +868,6 @@ textarea {
   display: flex;
   gap: 4rem;
   justify-content: center;
-}
-
-.plans-price-section .pricing-layer {
-  padding-bottom: 2rem;
 }
 
 .pricing-layer h2 {
