@@ -238,6 +238,12 @@ h2 {
     text-align: center;
   }
 
+  .pricing-layer .bookingForm-cta a,
+  .pricing-layer .bookingForm-cta a:visited {
+    color: #fff;
+    text-decoration: underline;
+  }
+
 .hero-section-landing-left {
   padding-top: 3em;
   display: flex;
