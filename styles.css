@@ -738,13 +738,14 @@ textarea {
 .tabcontent .content-container {
   padding-top: 6.5rem;
   display: flex;
+  flex-wrap: wrap;
   gap: 4rem;
   justify-content: center;
 }
 
 .tabcontent article {
   padding: 3em 2em;
-  width: 30%;
+  width: 25%;
   border-radius: .5rem;
   color: #fff;
   background: linear-gradient(to bottom, rgb(52, 71, 202), rgb(52, 71, 202, .2)); 
@@ -1176,46 +1177,6 @@ footer img {
   border-radius: .5rem;
 }
 
-.hero-images article {
-  padding-left: 0rem;
-  width: 96%;
-  margin-bottom: 7.5rem;
-  color: #fff;
-}
-
-.hero-images article h2 {
-  font-size: 2.5rem;
-  padding-bottom: 2rem;
-}
-
-  .hero-images article a {
-    border: 1px solid #fff;
-    text-align: center;
-    width: 60%;
-    padding: 1rem 1.75rem;
-    color: #fff;
-    font-size: 1.1rem;
-    background-image: linear-gradient(to right, rgb(22, 30, 84, .3), rgb(22, 30, 84, 1));
-    opacity: .85;
-    letter-spacing: .1rem;
-  }
-
-  .softsolves-intro {
-    text-align: center;
-    padding: 3.5rem 1rem;
-    color: white;
-    font-weight: 700;
-    font-size: large;
-    margin-top: 5rem;
-    background-image: linear-gradient(to bottom, rgb(255, 152, 106, .5), rgb(255, 152, 106));
-  }
-
-  .softsolves-intro p {
-    font-size: 1.25rem;
-    line-height: 180%;
-    padding-bottom: 2.5rem;
-  }
-
   .booking-section {
     display: block;
     padding: 0;
@@ -1295,6 +1256,21 @@ footer img {
     width: 100%;
     padding-bottom: .75rem;
 }
+
+  .tabcontent .content-container {
+    flex-wrap: nowrap;
+    flex-direction: column;
+    gap: 4rem;
+    align-items: center;
+  }
+
+  .tabcontent article {
+    padding: 3em 2em;
+    width: 25%;
+    border-radius: .5rem;
+    color: #fff;
+    background: linear-gradient(to bottom, rgb(52, 71, 202), rgb(52, 71, 202, .2)); 
+  }
   
   .contact-me-form label, legend {
     font-size: 1rem;
