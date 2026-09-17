@@ -130,6 +130,10 @@ h2 {
   color: #ff986a;
 }
 
+.white-bold {
+  color: #fff
+}
+
 .bold {
   font-weight: 600;
 }
@@ -192,7 +196,7 @@ h2 {
 }
 
 .pricing-gradient-section {
-   background: linear-gradient(to bottom, rgba(234, 204, 191, 0.183), rgb(101, 112, 189), rgb(101, 112, 189, 0));
+   background: linear-gradient(to left, rgba(234, 204, 191, 0.183), rgb(101, 112, 189), rgb(101, 112, 189, 0));
 }
 
 .gradient-section .half-hero-image,
@@ -211,6 +215,8 @@ h2 {
     background-size: cover;
     background-position: 100% 60%;
     border: 1px solid #161E54;
+    left: 3em;
+
   }
 
   .pricing-gradient-section h2 {
@@ -244,7 +250,8 @@ h2 {
     text-decoration: underline;
   }
 
-.hero-section-landing-left {
+.hero-section-landing-left,
+.pricing-hero-section-landing-left {
   padding-top: 3em;
   display: flex;
   gap: 1.75em;
@@ -254,11 +261,15 @@ h2 {
   width: 55vw;
 }
 
+.pricing-hero-section-landing-left {
+  padding-left: 8em;
+  align-items: flex-start;
+}
+
 .hero-section-landing-left p {
   width: 30%;
   margin: auto;
   line-height: 1.5;
-  text-align: center;
 }
 
 .hero-image-circle {
@@ -697,7 +708,7 @@ textarea {
   padding: .5rem 4rem;
   border-radius: 2rem;
   transition: 0.3s;
-  background: linear-gradient(to bottom, #6570bd, #656fbd2a);
+  background: linear-gradient(to bottom, rgb(52, 71, 202), #656fbd2a);
   border: 1px solid #6570bd
 }
 
@@ -712,7 +723,7 @@ textarea {
 .tabs .tablinks.active {
   background-color: #161E54;
   box-shadow: 6px 6px 6px inset #161E54;
-  color: #fff;
+  color: #ccc;
 }
 
 /* Style the tab content */
