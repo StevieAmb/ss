@@ -710,8 +710,9 @@ textarea {
 
 /* Create an active/current tablink class */
 .tabs .tablinks.active {
-  box-shadow: 3px 3px 3px inset #161E54;
-  color: #000;
+  background-color: #161E54;
+  box-shadow: 6px 6px 6px inset #161E54;
+  color: #fff;
 }
 
 /* Style the tab content */
