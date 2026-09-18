@@ -226,11 +226,6 @@ h2 {
   left: 3em;
 }
 
-.about-gradient-section {
-  background: linear-gradient(to top,  #fbd3c1, #f2eeec);
-  height: 40vh;
-}
-
 .about-gradient-section .half-hero-image {
   background: url('images/pexels-pavel-danilyuk-7658285.jpg');
   background-size: cover;
