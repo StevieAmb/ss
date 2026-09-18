@@ -12,14 +12,14 @@
     <link href="https://fonts.googleapis.com/css2?family=Saira:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
   </head>
-  <body>
+  <body class="about-page-body">
     <header>
       <div class="disclaimer">
         <p>NOW ACCEPTING NEW CLIENTS!</p>
       </div>
     </header>
     <nav class="nav-bar">
-        <section class="hamburger-menu desktop-hidden">
+      <section class="hamburger-menu desktop-hidden">
         <ul class="navbar" id="navbar">
           <li><a class="menu-links" href="about-the-founder.html">about</a></li>
           <li><a class="menu-links" href="connect-with-softsolves.html">connect with us</a></li>
@@ -35,7 +35,7 @@
       </section>
       <section class="nav-bar-tabs" id="mobile-tablet-hidden">
         <a href="index.html" class="nav-tab">home</a>
-        <a href="about-the-founder.html" class="nav-tab">about the founder</a>
+        <a href="about-the-founder.html" class="nav-tab">about</a>
         <a href="booking-page.html" class="nav-tab">book a consultation</a>
         <a href="case-studies.html" class="nav-tab">case studies</a>
         <a href="plans-and-pricing.html" class="nav-tab">plans & prices</a>
@@ -43,11 +43,28 @@
       </section>
     </nav>
     <main>
+    <section class="hero-section-landing about-hero-section-landing">
+      <article class="about-gradient-section">
+        <article class="half-hero-image">
+        </article>
+        <article class="hero-section-landing-left">
+          <h2>SoftSolves is a website design, development, and maintenance business for other 
+            businesses who want their customers invested in their success.</h2>
+        </article>
+      </article>
+    </section>
+    <section class="about-tabs-container">
+      <div class="about-tabs">
+        <button class="tablinks tablinks-service-pricing service" onclick="openCity(event, 'WebDevelopment')" id="defaultOpen">Web Development</button>
+        <button class="tablinks tablinks-service-pricing service" onclick="openCity(event, 'WebRedesign')">Web Redesign</button>
+        <button class="tablinks tablinks-service-pricing service" onclick="openCity(event, 'WebsiteMaintenance')">Website Maintenance</button>
+        <button class="tablinks tablinks-service-pricing service" onclick="openCity(event, 'ComboPrices')">Combo Prices</button>
+      </div>
+    </section>
       <div class="about-founder-container">
         <section class="about-left">
           <img class="image-of-self" src="images/IMG_4181.JPG" alt="a picture of founder Stevie Ambroise smiling">
           <article class="about-founder-text">
-            <h2>About The Founder</h2>
             <p>After 10 years of working in the non-profit space, Stevie (she/her) realized that she wants to utilize all her skills to help community organizers, 
               activists, joy bringers, and wellness providers be able to take a breath and rest. From running an after school program that gave four young people their 
               first jobs, a huge help to their family members, to fundraising for a friend who needed help while dealing with parental illnesses, Stevie’s
