@@ -1560,8 +1560,13 @@ footer img {
     padding: .2rem;
   }
 
+  .half-hero-image {
+    display: none;
+  }
+
   .hero-section-landing {
     padding: 0em 1em;
+    height: 60vh;
   }
 
   .hero-section-landing-left {
@@ -1569,17 +1574,18 @@ footer img {
   }
 
   .hero-section-landing-left p {
+    margin-top: 1em;
     width: 60%;
     text-align: center;
   }
 
   .line-section {
-    padding-right: 0em;
+    padding-right: 1em;
   }
 
   .divider {
     border-top: 3px solid hsl(19, 100%, 71%);
-    width: clamp(10vw, 40%, 80vw);
+    width: 70%;
     margin: 4rem auto;
   }
 
@@ -1587,6 +1593,10 @@ footer img {
   .client-issues p {
     width: 100%;
   } 
+
+  .client-issues .issue {
+    width: 17em;
+  }
 
   .softsolves-tagline-banner {
     padding: 4em 1em;
