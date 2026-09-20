@@ -1188,6 +1188,10 @@ footer img {
     padding: 2.5em 1.5rem;
   }
 
+  .client-testimonials {
+    flex-direction: column;
+  }
+
   .pricing-layer {
     width: 100%;
   }
