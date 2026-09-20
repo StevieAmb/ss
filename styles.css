@@ -1206,6 +1206,7 @@ footer img {
     top: 2em;
     left: 2em;
     width: 80%;
+    display: block;
   }
 
   .pricing-hero-section-landing-left {
@@ -1564,6 +1565,25 @@ footer img {
     display: none;
   }
 
+  .pricing-gradient-section {
+    flex-direction: column;
+    height: 90vh;
+  }
+
+  .hero-section-landing-left, .pricing-hero-section-landing-left {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding-left: 0em;
+  }
+
+  .pricing-gradient-section .half-hero-image {
+    display: block;
+    top: 1em;
+    width: 90%;
+    height: 50%;
+  }
+
   .hero-section-landing {
     padding: 0em 1em;
     height: 70vh;
@@ -1785,6 +1805,10 @@ footer img {
     color: #749471;
     width: 100%;
     padding-bottom: .75rem;
+  }
+
+  .tabcontent article {
+    width: 35%;
   }
 
   .image-of-self {
