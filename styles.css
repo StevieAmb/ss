@@ -1200,6 +1200,7 @@ footer img {
     background: linear-gradient(to bottom right, rgb(101, 112, 189), rgb(101, 112, 189, 0));
     flex-direction: column;
     height: 94vh;
+    padding-bottom: 2em;
   }
 
   .pricing-gradient-section .half-hero-image {
@@ -1262,7 +1263,7 @@ footer img {
   }
 
   .plans-price-section {
-    padding: 0 .7rem;
+    padding: 9em .7rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -1568,6 +1569,8 @@ footer img {
   .pricing-gradient-section {
     flex-direction: column;
     height: 90vh;
+    padding-bottom: 2em;
+    background: linear-gradient(to bottom, rgba(234, 204, 191, 0.183), rgb(101, 112, 189), rgb(101, 112, 189, 0));
   }
 
   .hero-section-landing-left, .pricing-hero-section-landing-left {
@@ -1750,7 +1753,7 @@ footer img {
 }
 
   .plans-price-section {
-    padding: 0 .7rem;
+    padding: 12em 1em;
     display: flex;
     flex-direction: column;
     align-items: center;
