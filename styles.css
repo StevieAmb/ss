@@ -199,7 +199,6 @@ h2 {
   background: linear-gradient(to bottom,  #fbd3c1, #f2eeec);
   border-radius: 1.5em;
   display: flex;
-  flex-wrap: wrap;
   height: 80vh;
 }
 
@@ -1160,6 +1159,34 @@ footer img {
     width: 100vw;
   }
 
+  .hero-section-landing-left p {
+    width: 60%;
+    text-align: center;
+  }
+
+  .line-section {
+    padding-right: 0em;
+  }
+
+  .divider {
+    border-top: 3px solid hsl(19, 100%, 71%);
+    width: clamp(10vw, 40%, 80vw);
+    margin: 4rem auto;
+  }
+
+  .client-issues h2,
+  .client-issues p {
+    width: 100%;
+  } 
+
+  .softsolves-tagline-banner {
+    padding: 4em 1em;
+    background-position: 100% 60%;
+  }
+
+  .softsolves-tagline-banner .banner-text-container {
+    padding: 2.5em 1.5rem;
+  }
 
   .pricing-layer {
     width: 100%;
