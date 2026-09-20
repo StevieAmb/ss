@@ -35,6 +35,7 @@ ol, ul {
 blockquote, q {
 	quotes: none;
 }
+
 blockquote:before, blockquote:after,
 q:before, q:after {
 	content: '';
@@ -58,7 +59,7 @@ body {
   line-height: 1;
 }
 
-.landing-page-body {
+.landing-page-body, .about-page-body {
   background-color: #f2eeec;
 }
 
@@ -185,10 +186,16 @@ h2 {
 
 .hero-section-landing {
   padding: 0em 2em;
+  height: 80vh;
+}
+
+.about-hero-section-landing {
+  height: 82.5vh;
 }
 
 .hero-section-landing .gradient-section,
-.pricing-gradient-section {
+.pricing-gradient-section,
+.about-gradient-section {
   background: linear-gradient(to bottom,  #fbd3c1, #f2eeec);
   border-radius: 1.5em;
   display: flex;
@@ -200,9 +207,11 @@ h2 {
 }
 
 .gradient-section .half-hero-image,
-.pricing-gradient-section .half-hero-image {
+.pricing-gradient-section .half-hero-image,
+.about-gradient-section .half-hero-image {
   background: url('images/colorful_black_women_engineers.jpg');
   background-size: cover;
+  min-width: 0vw;
   width: 45vw;
   height: 85vh;
   position: relative;
@@ -210,45 +219,58 @@ h2 {
   border: 1.9px solid #a54b23;
 }
 
-  .pricing-gradient-section .half-hero-image {
-    background: url('images/christina-wocintechchat-com-glRqyWJgUeY-unsplash.jpg');
-    background-size: cover;
-    background-position: 100% 60%;
-    border: 1px solid #161E54;
-    left: 3em;
+.pricing-gradient-section .half-hero-image {
+  background: url('images/christina-wocintechchat-com-glRqyWJgUeY-unsplash.jpg');
+  background-size: cover;
+  background-position: 100% 60%;
+  border: 1px solid #161E54;
+  left: 3em;
+}
 
-  }
+.about-gradient-section .half-hero-image {
+  background: url('images/pexels-pavel-danilyuk-7658285.jpg');
+  background-size: cover;
+  background-position: 60% 80%;
+  border: none;
+}
 
-  .pricing-gradient-section h2 {
-    font-size: 3em;
-    font-weight: 800;
-    color: #151d54;
-  }
+.about-gradient-section .hero-section-landing-left {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-   .pricing-gradient-section h3 {
-    font-size: 1.5em;
-    font-weight: 800;
-    color: #151d54;
-    width: 50%;
-  }
+.pricing-gradient-section h2 {
+  font-size: 3em;
+  font-weight: 800;
+  color: #151d54;
+}
 
-  .pricing-layer .bookingForm-cta {
-    padding: 4em 0rem 1em 0em;
-    flex-direction: column;
-    color: #fff;
-    font-size: x-large;
-    width: 40%;
-    margin: auto;
-    justify-content: center;
-    align-content: center;
-    text-align: center;
-  }
+.pricing-gradient-section h3 {
+  font-size: 1.5em;
+  font-weight: 800;
+  color: #151d54;
+  width: 50%;
+}
 
-  .pricing-layer .bookingForm-cta a,
-  .pricing-layer .bookingForm-cta a:visited {
-    color: #fff;
-    text-decoration: underline;
-  }
+.pricing-layer .bookingForm-cta {
+  padding: 4em 0rem 1em 0em;
+  flex-direction: column;
+  color: #fff;
+  font-size: x-large;
+  width: 40%;
+  margin: auto;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+}
+
+.pricing-layer .bookingForm-cta a,
+.pricing-layer .bookingForm-cta a:visited {
+  color: #fff;
+  text-decoration: underline;
+}
 
 .hero-section-landing-left,
 .pricing-hero-section-landing-left {
@@ -313,6 +335,7 @@ h2 {
   padding: 2em 3em;
   flex-wrap: wrap;
   display: flex;
+  justify-content: center;
   gap: 2em;
 }
 
@@ -382,13 +405,6 @@ h2 {
   border: 1px solid #eaccbf;
 }
 
-.about-founder-container {
-  display: flex;
-  font-size: 1.7rem;
-  padding-bottom: 3rem;
-  height: 80%;
-}
-
 .image-of-self {
   border: 2px solid #a9a9a9;
   width: 30%;
@@ -401,35 +417,6 @@ h2 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
-
-.about-founder-text {
-  width: 40%;
-  margin-bottom: 4.7rem;
-  position: relative;
-  padding: 2rem;
-  border: 2px solid #a9a9a9;
-}
-
-.about-founder-text h2 {
-  text-align: start;
-  position: absolute;
-  padding: 1rem 1.5rem;
-  writing-mode: vertical-rl;
-  text-orientation: sideways;
-  position: fixed;
-  right: .75rem;
-  top: 3.25rem;
-  font-size: 2.15rem;
-  background-color: #FF9F80;
-  z-index: 2;
-}
-
-.about-founder-text p {
-  margin-top: 3%;
-  margin-bottom: 1.5rem;
-  font-size: 1.25rem;
-  line-height: 1.75rem;
 }
 
 .booking-page-fixed-image {
@@ -688,14 +675,21 @@ textarea {
   padding: 2em 0rem 3em 0rem;
 }
 
-.tabs-container {
+.tabs-container, .about-tabs-container {
   overflow-x: auto;
   -webkit-overflow-scrolling: touch; 
   width: 100%; 
 }
 
+.about-tabs-container {
+  padding: 2em;
+  width: 91.1%;
+  background-color: #a54b23;
+  margin: auto;
+}
+
 /*Style the tab */
-.tabs {
+.tabs, .about-tabs {
   width: 100%;
   display: flex;
   justify-content: center;
@@ -1161,6 +1155,43 @@ footer img {
     padding: 0em 1em;
   }
 
+  .hero-section-landing-left {
+    width: 100vw;
+  }
+
+  .hero-section-landing-left p {
+    width: 60%;
+    text-align: center;
+  }
+
+  .line-section {
+    padding-right: 0em;
+  }
+
+  .divider {
+    border-top: 3px solid hsl(19, 100%, 71%);
+    width: clamp(10vw, 40%, 80vw);
+    margin: 4rem auto;
+  }
+
+  .client-issues h2,
+  .client-issues p {
+    width: 100%;
+  } 
+
+  .softsolves-tagline-banner {
+    padding: 4em 1em;
+    background-position: 100% 60%;
+  }
+
+  .softsolves-tagline-banner .banner-text-container {
+    padding: 2.5em 1.5rem;
+  }
+
+  .client-testimonials {
+    flex-direction: column;
+  }
+
   .pricing-layer {
     width: 100%;
   }
@@ -1169,12 +1200,14 @@ footer img {
     background: linear-gradient(to bottom right, rgb(101, 112, 189), rgb(101, 112, 189, 0));
     flex-direction: column;
     height: 94vh;
+    padding-bottom: 2em;
   }
 
   .pricing-gradient-section .half-hero-image {
     top: 2em;
     left: 2em;
     width: 80%;
+    display: block;
   }
 
   .pricing-hero-section-landing-left {
@@ -1188,6 +1221,15 @@ footer img {
 
   .pricing-layer .bookingForm-cta {
     width: 90%;
+  }
+
+  .half-hero-image {
+    display: none;
+  }
+
+  .hero-image-circle {
+    width: 19em;
+    height: 19em;
   }
 
   .booking-section {
@@ -1221,7 +1263,7 @@ footer img {
   }
 
   .plans-price-section {
-    padding: 0 .7rem;
+    padding: 9em .7rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -1353,17 +1395,6 @@ footer img {
     letter-spacing: .25rem;
   }
 
-  .about-founder-container {
-    display: flex;
-    gap: 2rem;
-    padding: 1rem;
-  }
-
-  .about-left {
-    display: block;
-    gap: 3rem;
-  }
-
   .image-of-self {
     width: 80%;
     margin-top: 2rem;
@@ -1376,28 +1407,6 @@ footer img {
     padding: .75rem;
     border: 2px solid #a9a9a9;
   }
-
-.about-founder-text h2 {
-  text-align: start;
-  position: absolute;
-  padding: .5rem .75rem;
-  writing-mode: vertical-rl;
-  text-orientation: sideways;
-  position: fixed;
-  right: .25rem;
-  top: 8.25rem;
-  font-size: 1.75rem;
-  background-color: #FF9F80;
-  z-index: 2;
-  opacity: .6;
-}
-
-.about-founder-text p {
-  margin-top: 3%;
-  margin-bottom: 1.5rem;
-  font-size: 1.1rem;
-  line-height: 1.75rem;
-}
 
   footer {
     margin-top: auto;
@@ -1541,48 +1550,6 @@ footer img {
     width: 100%;
   }
 
-  .page-title {
-    letter-spacing: .1rem;
-    padding: 4rem 0rem;
-  }
-  
-  .page-title h1 {
-    width: 90%;
-    z-index: 1;
-    position: relative;
-    margin: 0;
-    letter-spacing: .5rem;
-    font-size: 3rem;
-    font-weight: 700;
-    padding-left: 1.3rem;
-  }
-
-  .page-title p {
-    z-index: 1;
-    position: relative;
-    bottom: 1px;
-    margin: 0;
-    font-family: "Merriweather", sans-serif;
-    letter-spacing: .1rem;
-    font-size: 1.2rem;
-    font-style: italic;
-    font-weight: 300;
-    padding-left: .9rem;
-    margin-left: 2rem;
-  }
-
-  .logo img {
-    width: 6.7rem;
-    height: 6.7rem;
-    margin-left: .005rem;
-    margin-bottom: 0.1rem;
-    padding-bottom: 2rem;
-    position: absolute;
-    left: 2rem;
-    top: 2rem;
-    z-index: auto;
-  }
-
   .nav-bar-tabs {
     gap: .5rem;
     height: 2.5rem;
@@ -1595,228 +1562,76 @@ footer img {
     padding: .2rem;
   }
 
-  .hero-images {
-    height: 30rem;
-    background-position: 100% 35%;
-    color: white;
-    font-family: "Lato", sans-serif;
+  .half-hero-image {
+    display: none;
   }
 
-  .hero-images p {
-    width: 65%;
-    font-weight: 400;
-    margin: 0;
-    padding: 0;
-    padding: 4.5rem 0 0 0;
-    font-size: 1rem;
-    font-style: italic;
-    letter-spacing: .05rem;
-    line-height: 3rem;
-    color: black
-  }
-
-  .opening-comment {
-    height: 15vh;
-    width: 100%;
-    padding-bottom: 2.5rem;
-    display: flex;
+  .pricing-gradient-section {
     flex-direction: column;
+    height: 90vh;
+    padding-bottom: 2em;
+    background: linear-gradient(to bottom, rgba(234, 204, 191, 0.183), rgb(101, 112, 189), rgb(101, 112, 189, 0));
+  }
+
+  .hero-section-landing-left, .pricing-hero-section-landing-left {
+    width: 100%;
     justify-content: center;
     align-items: center;
+    padding-left: 0em;
   }
 
-  .opening-comment h2 {
-    margin: 0; 
-    padding: 0;
-    position: absolute;
-    top:  53rem; 
-    left: 23.8rem;
-    transform:translate(-50%,-50%);
-    font-size: 2.25em; 
-    text-transform:uppercase;
+  .pricing-gradient-section .half-hero-image {
+    display: block;
+    top: 1em;
     width: 90%;
+    height: 50%;
   }
 
-  .opening-comment h2 span:nth-child(1){
-    position: absolute;
-    top:0; 
-    left: 7.4rem; 
-    color: #000;
-    transition:0.5s;
-    clip-path: polygon(0 0, 100% 0, 100% 50%, 0 50%);
-    overflow:hidden;
+  .hero-section-landing {
+    padding: 0em 1em;
+    height: 70vh;
   }
 
-  .opening-comment h2:hover span:nth-of-type(1){
-    transform:translateY(-18px); 
+  .hero-section-landing-left {
+    width: 100vw;
   }
 
-  .opening-comment h2 span:nth-of-type(2){
-    position:absolute;
-    top:0; 
-    left: 7.4rem; 
-    color: #000;;
-    transition:0.5s;
-    clip-path: polygon(0 50%, 100% 50%, 100% 100%, 0 100%);
-    overflow:hidden;
-  }
-
-  .opening-comment h2:hover span:nth-of-type(2){
-    transform:translateY(18px); 
-  }
-
-  .opening-comment h2 span:nth-of-type(3){
-    position:absolute;
-    top:50%; left: 0;
-    transform:translateY(-50%) scaleY(0);
-    width: 93%; 
-    color: black;
-    background: rgb(239, 187, 57);
-    font-size: 0.5em; 
-    font-weight: 500;
-    line-height: 1.15;
-    letter-spacing:0.7em;
-    text-align: center;
-    padding: 0px 10px; 
-    margin-left: 5px;
-    transition: 0.5s;
-  }
-
-  .opening-comment h2:hover span:nth-of-type(3){
-    transform:translateY(-50%) scaleY(1);
-  }
-
-  .user-entry {
-    padding-top: 1rem;
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    flex-wrap: wrap;
-    border-bottom: none;
-    margin-top: 0rem;
-  }
-
-  .user-entry h2 {
-    width: 100%;
-    font-size: 3rem;
+  .hero-section-landing-left p {
+    margin-top: 1em;
+    width: 60%;
     text-align: center;
   }
 
-  .user-entry div {
-    display: flex;
+  .line-section {
+    padding-right: 1em;
+  }
+
+  .divider {
+    border-top: 3px solid hsl(19, 100%, 71%);
+    width: 70%;
+    margin: 4rem auto;
+  }
+
+  .client-issues h2,
+  .client-issues p {
+    width: 100%;
+  } 
+
+  .client-issues .issue {
+    width: 17em;
+  }
+
+  .softsolves-tagline-banner {
+    padding: 4em 1em;
+    background-position: 100% 60%;
+  }
+
+  .softsolves-tagline-banner .banner-text-container {
+    padding: 2.5em 1.5rem;
+  }
+
+  .client-testimonials {
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding-bottom: 1.5rem;
-  }
-
-.lead-magnet-section {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 0rem 0rem 0rem 0rem;
-  }
-
-  .form-section {
-    padding: 3rem 0rem 1.75rem 0;
-    width: 95%;
-  }
-
-  .form-section .input-field {
-    width: 100%;
-  }
-
-  .lead-magnet-section .pink-bar {
-    width: 100%;
-    background-color: #FF986A;
-    height: 28vh;
-  }
-
-  .lead-magnet-section .lead-background-img {
-    background: url('images/pexels-cut-in-a-moment-130171700-10107709.jpg');
-    background-size: cover;
-    background-position: 70% 90%;
-    width: 100%;
-    height: 42vh;
-  }
-
-  .lead-magnet-section .blue-bar {
-    width: 100%;
-    background-color: #161E54;
-    height: 55vh;
-  }
-
-  .lead-magnet-section p {
-    width: 100%;
-    margin: 0 auto;
-    font-size: 1.25rem;
-    text-align: center;
-    line-height: 195%;
-  }
-
-  .lead-magnet-form {
-    padding: 2rem 3.5rem;
-    display: flex;
-    flex-direction: column;
-    gap: .5rem;
-  }
-
-  .lead-submit-button {
-    padding: 1rem 2rem;
-    border-radius: 1rem;
-  }
-
-  .user-entry {
-    padding-top: 7rem;
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    flex-wrap: wrap;
-    border-bottom: none;
-    margin-top: 0rem;
-  }
-
-  .user-entry div h2 {
-    padding: 2.5rem 0;
-  }
-
-  .client-serving-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 2rem;
-  }
-
-  .client-serving {
-    width: 96%;
-    gap: 0rem;
-    flex-wrap: wrap;
-    border-radius: 1.75rem;
-    font-size: 1rem;
-  }
-
-  .client-serving img {
-    width: 100%;
-  }
-
-  .client-serving h3 {
-    padding-top: .5rem;
-    font-weight: 700;
-    text-align: center;
-    font-size: 1.25rem;
-    height: 8vh;
-    width: 90%;
-  }
-
-  .client-serving ul {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    gap: 1rem;
   }
 
   .tab {
@@ -1938,7 +1753,7 @@ footer img {
 }
 
   .plans-price-section {
-    padding: 0 .7rem;
+    padding: 12em 1em;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -1965,7 +1780,7 @@ footer img {
     font-size: 1.75rem;
     padding-bottom: .9rem;
     font-weight: 700;
-}
+  }
 
   .price-scale-section ul li {
     font-size: 1.75rem;
@@ -1993,51 +1808,15 @@ footer img {
     color: #749471;
     width: 100%;
     padding-bottom: .75rem;
-}
-  
-  .about-founder-container {
-    display: flex;
-    gap: 2rem;
-    padding: 1rem;
   }
 
-  .about-left {
-    display: block;
-    gap: 3rem;
+  .tabcontent article {
+    width: 35%;
   }
 
   .image-of-self {
     margin-top: 2rem;
     width: 75%;
-  }
-
-  .about-founder-text {
-    width: 85%;
-    margin-bottom: 4.7rem;
-    position: relative;
-    padding: 2rem;
-    border: 2px solid #a9a9a9;
-  }
-
-  .about-founder-text h2 {
-    text-align: start;
-    position: absolute;
-    padding: 1.25rem 1.75rem;
-    writing-mode: vertical-rl;
-    text-orientation: sideways;
-    position: fixed;
-    right: .75rem;
-    top: 12.25rem;
-    font-size: 2.75rem;
-    background-color: #FF9F80;
-    z-index: 2;
-  }
-
-  .about-founder-text p {
-    margin-top: 3%;
-    margin-bottom: 1.5rem;
-    font-size: 1.75rem;
-    line-height: 2.5rem;
   }
 
   .contact-me-form {
@@ -2163,29 +1942,9 @@ footer img {
     width: 75%;
   }
 
-  .about-founder-text {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    width: 50%;
-    margin-top: 4rem;
-  }
-
   .about-left {
     display: flex;
     gap: 1rem;
-  }
-
-  .about-founder-text h3 {
-    padding: 0;
-    margin: 0;
-    text-align: center;
-  }
-
-  .about-founder-text p {
-    font-size: 1rem;
   }
 
   .meet-the-founder article img {
