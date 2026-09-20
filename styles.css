@@ -199,6 +199,7 @@ h2 {
   background: linear-gradient(to bottom,  #fbd3c1, #f2eeec);
   border-radius: 1.5em;
   display: flex;
+  flex-wrap: wrap;
   height: 80vh;
 }
 
@@ -211,6 +212,7 @@ h2 {
 .about-gradient-section .half-hero-image {
   background: url('images/colorful_black_women_engineers.jpg');
   background-size: cover;
+  min-width: 0vw;
   width: 45vw;
   height: 85vh;
   position: relative;
@@ -334,6 +336,7 @@ h2 {
   padding: 2em 3em;
   flex-wrap: wrap;
   display: flex;
+  justify-content: center;
   gap: 2em;
 }
 
@@ -1153,6 +1156,11 @@ footer img {
     padding: 0em 1em;
   }
 
+  .hero-section-landing-left {
+    width: 100vw;
+  }
+
+
   .pricing-layer {
     width: 100%;
   }
@@ -1180,6 +1188,15 @@ footer img {
 
   .pricing-layer .bookingForm-cta {
     width: 90%;
+  }
+
+  .half-hero-image {
+    display: none;
+  }
+
+  .hero-image-circle {
+    width: 20em;
+    height: 20em;
   }
 
   .booking-section {
