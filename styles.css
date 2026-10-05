@@ -431,8 +431,30 @@ details {
 
 summary {
   display: block;
-  border-bottom: 2px solid #de7445;
+  /* border-bottom: 2px solid #de7445; */
   width: 80%;
+}
+
+summary:before {
+  /* background: red; */
+  /* border-radius: 5px; */
+  content: "+";
+  color: #de7445;
+  float: right;
+  font-size: 1.5em;
+  font-weight: bold;
+  /* margin: -5px 1px 0 0; */
+  padding: 0;
+  text-align: center;
+  width: 20px;
+}
+
+details>summary::before {
+  content: '+ ';
+}
+
+details[open]>summary::before {
+  content: '- ';
 }
 
 .featured-button {
