@@ -910,7 +910,7 @@ textarea {
 /* Style the tab content */
 .caseStudyTabcontent {
   display: none;
-  padding: 1.5rem 2.5rem;
+  padding: 1.5rem 0em;
   border-top: none;
   line-height: 1.75;
   border-radius: .2rem;
@@ -932,6 +932,7 @@ textarea {
 .tab-section-case-studies .content-section .bottom-of-card .card-headings{
   padding-bottom: 1.5rem;
   display: flex;
+  flex-wrap: wrap;
   gap: 3rem;
   font-size: small;
 }
