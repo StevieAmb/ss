@@ -866,11 +866,11 @@ textarea {
 .tab-section-case-studies {
   display: flex;
   flex-direction: column;
-  padding: 1em 5em;
+  padding: 1em 2em;
 }
 
 .tab-section-case-studies .content-section {
-  width: 75%;
+  width: 95%;
 }
 
 /*Style the tab */
@@ -941,6 +941,9 @@ textarea {
   width: 35%;
 }
 
+.bottom-of-card article {
+  width: 50%;
+}
 .caseStudyTabcontent .content-container {
   padding-top: 6.5rem;
   display: flex;
