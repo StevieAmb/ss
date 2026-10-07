@@ -870,7 +870,7 @@ textarea {
 }
 
 .tab-section-case-studies .content-section {
-  width: 95%;
+  width: 75%;
 }
 
 /*Style the tab */
@@ -934,7 +934,7 @@ textarea {
   display: flex;
   flex-wrap: wrap;
   gap: 3rem;
-  font-size: small;
+  font-size: medium;
 }
 
 .tab-section-case-studies .content-section .bottom-of-card img {
@@ -1385,6 +1385,22 @@ footer img {
     border-radius: .5rem;
     color: #fff;
     background: linear-gradient(to bottom, rgb(52, 71, 202), rgb(52, 71, 202, .2)); 
+  }
+
+  .tab-section-case-studies {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .tab-section-case-studies .content-section {
+    justify-content: center;
+    align-content: center;
+    width: 95%;
+  }
+
+  .caseStudyTabcontent .top-of-card img:nth-of-type(1), 
+  .caseStudyTabcontent .top-of-card img:nth-of-type(2)  {
+    width: 100%;
   }
   
   .contact-me-form label, legend {
