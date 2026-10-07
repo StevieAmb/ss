@@ -195,7 +195,8 @@ h2 {
 
 .hero-section-landing .gradient-section,
 .pricing-gradient-section,
-.about-gradient-section {
+.about-gradient-section,
+.case-study-gradient-section {
   background: linear-gradient(to bottom,  #fbd3c1, #f2eeec);
   border-radius: 1.5em;
   display: flex;
@@ -208,7 +209,8 @@ h2 {
 
 .gradient-section .half-hero-image,
 .pricing-gradient-section .half-hero-image,
-.about-gradient-section .half-hero-image {
+.about-gradient-section .half-hero-image,
+.case-study-gradient-section .half-hero-image {
   background: url('images/colorful_black_women_engineers.jpg');
   background-size: cover;
   min-width: 0vw;
@@ -231,6 +233,13 @@ h2 {
   background: url('images/pexels-pavel-danilyuk-7658285.jpg');
   background-size: cover;
   background-position: 60% 80%;
+  border: none;
+}
+
+.case-study-gradient-section .half-hero-image {
+  background: url('images/pexels-silverkblack-39219413.jpg');
+  background-size: cover;
+  background-position: 60% 50%;
   border: none;
 }
 
