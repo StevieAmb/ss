@@ -203,6 +203,10 @@ h2 {
   height: 80vh;
 }
 
+.case-study-gradient-section {
+    background: linear-gradient(to left,  #fbd3c1, #f2eeec);
+}
+
 .pricing-gradient-section {
    background: linear-gradient(to left, rgba(234, 204, 191, 0.183), rgb(101, 112, 189), rgb(101, 112, 189, 0));
 }
@@ -237,9 +241,9 @@ h2 {
 }
 
 .case-study-gradient-section .half-hero-image {
-  background: url('images/pexels-antonius-ferret-5253942.jpg');
+  background: url('images/pexels-darlene-alderson-7971542.jpg');
   background-size: cover;
-  background-position: 40% 90%;
+  background-position: 70% 90%;
   border: none;
 }
 
@@ -250,7 +254,7 @@ h2 {
   align-items: center;
 }
 
-.pricing-gradient-section h2 {
+.pricing-gradient-section h2, .case-study-gradient-section h2 {
   font-size: 3em;
   font-weight: 800;
   color: #151d54;
@@ -282,7 +286,8 @@ h2 {
 }
 
 .hero-section-landing-left,
-.pricing-hero-section-landing-left {
+.pricing-hero-section-landing-left,
+.case-study-hero-section-landing-left {
   padding-top: 3em;
   display: flex;
   gap: 1.75em;
@@ -292,7 +297,8 @@ h2 {
   width: 55vw;
 }
 
-.pricing-hero-section-landing-left {
+.pricing-hero-section-landing-left,
+.case-study-hero-section-landing-left {
   padding-left: 8em;
   align-items: flex-start;
 }
@@ -879,6 +885,7 @@ textarea {
   flex-direction: row;
   overflow: hidden;
   color: #fff;
+  background-color: #de7445;
 }
 
 /* Style the buttons that are used to open the tab content */
