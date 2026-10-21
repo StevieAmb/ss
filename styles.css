@@ -248,7 +248,7 @@ h2 {
 }
 
 .about-gradient-section .hero-section-landing-left {
-  text-align: center;
+  text-align: flex-start;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -292,12 +292,13 @@ h2 {
 .hero-section-landing-left,
 .pricing-hero-section-landing-left,
 .case-study-hero-section-landing-left {
-  padding-top: 3em;
+  padding-left: 4em;
+  padding-top: 11em;
   display: flex;
   gap: 1.75em;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  /* justify-content: center;
+  align-items: center; */
   width: 55vw;
 }
 
@@ -308,9 +309,9 @@ h2 {
 }
 
 .hero-section-landing-left p {
-  width: 30%;
-  margin: auto;
+  width: 60%;
   line-height: 1.5;
+  font-size: 1.25em;
 }
 
 .hero-image-circle {
