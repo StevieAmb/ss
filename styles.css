@@ -204,7 +204,7 @@ h2 {
 }
 
 .case-study-gradient-section {
-    background: linear-gradient(to left,  #fbd3c1, #f2eeec);
+    background: linear-gradient(to right,  #fbd3c1, #f2eeec);
 }
 
 .pricing-gradient-section {
@@ -258,6 +258,10 @@ h2 {
   font-size: 3em;
   font-weight: 800;
   color: #151d54;
+}
+
+.case-study-gradient-section h2 {
+  color: #de7445;
 }
 
 .pricing-gradient-section h3 {
