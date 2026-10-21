@@ -307,17 +307,19 @@ h2 {
 
 .pricing-hero-section-landing-left,
 .case-study-hero-section-landing-left {
-  padding-left: 8em;
+  padding-left: 6em;
   align-items: flex-start;
 }
 
-.hero-section-landing-left p {
+.hero-section-landing-left p,
+.pricing-hero-section-landing-left p {
   width: 60%;
   line-height: 1.5;
   font-size: 1.25em;
 }
 
-.hero-section-landing-left h2 {
+.hero-section-landing-left h2,
+.pricing-hero-section-landing-left h2 {
   width: 65%;
   font-size: 2.75em;
   font-weight: 600;
@@ -342,7 +344,7 @@ h2 {
 }
 
 .client-issues {
-  padding: 3em 4em;
+  padding: 10em 4em;
   display: flex;
   flex-direction: column;
   justify-content: center;
