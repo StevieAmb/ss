@@ -59,7 +59,7 @@ body {
   line-height: 1;
 }
 
-.landing-page-body, .about-page-body {
+.landing-page-body, .about-page-body, .case-study-page-body {
   background-color: #f2eeec;
 }
 
@@ -116,11 +116,14 @@ h2 {
 .sub-heading-one {
   color: #151d54;
   font-style: italic;
+  text-transform: capitalize;
 }
 
 .sub-heading-two, .testifier {
   font-style: italic;
   color: #a54b23;
+  text-transform: capitalize;
+  font-weight: 300;
 }
 
 .blue-pop {
@@ -195,11 +198,16 @@ h2 {
 
 .hero-section-landing .gradient-section,
 .pricing-gradient-section,
-.about-gradient-section {
+.about-gradient-section,
+.case-study-gradient-section {
   background: linear-gradient(to bottom,  #fbd3c1, #f2eeec);
   border-radius: 1.5em;
   display: flex;
   height: 80vh;
+}
+
+.case-study-gradient-section {
+    background: linear-gradient(to right,  #fbd3c1, #f2eeec);
 }
 
 .pricing-gradient-section {
@@ -208,7 +216,8 @@ h2 {
 
 .gradient-section .half-hero-image,
 .pricing-gradient-section .half-hero-image,
-.about-gradient-section .half-hero-image {
+.about-gradient-section .half-hero-image,
+.case-study-gradient-section .half-hero-image {
   background: url('images/colorful_black_women_engineers.jpg');
   background-size: cover;
   min-width: 0vw;
@@ -234,17 +243,28 @@ h2 {
   border: none;
 }
 
+.case-study-gradient-section .half-hero-image {
+  background: url('images/pexels-darlene-alderson-7971542.jpg');
+  background-size: cover;
+  background-position: 70% 90%;
+  border: none;
+}
+
 .about-gradient-section .hero-section-landing-left {
-  text-align: center;
+  text-align: flex-start;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.pricing-gradient-section h2 {
+.pricing-gradient-section h2, .case-study-gradient-section h2 {
   font-size: 3em;
   font-weight: 800;
   color: #151d54;
+}
+
+.case-study-gradient-section h2 {
+  color: #de7445;
 }
 
 .pricing-gradient-section h3 {
@@ -273,25 +293,36 @@ h2 {
 }
 
 .hero-section-landing-left,
-.pricing-hero-section-landing-left {
-  padding-top: 3em;
+.pricing-hero-section-landing-left,
+.case-study-hero-section-landing-left {
+  padding-left: 4em;
+  padding-top: 11em;
   display: flex;
-  gap: 1.75em;
+  gap: 1.25em;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  /* justify-content: center;
+  align-items: center; */
   width: 55vw;
 }
 
-.pricing-hero-section-landing-left {
-  padding-left: 8em;
+.pricing-hero-section-landing-left,
+.case-study-hero-section-landing-left {
+  padding-left: 6em;
   align-items: flex-start;
 }
 
-.hero-section-landing-left p {
-  width: 30%;
-  margin: auto;
+.hero-section-landing-left p,
+.pricing-hero-section-landing-left p {
+  width: 60%;
   line-height: 1.5;
+  font-size: 1.25em;
+}
+
+.hero-section-landing-left h2,
+.pricing-hero-section-landing-left h2 {
+  width: 65%;
+  font-size: 2.75em;
+  font-weight: 600;
 }
 
 .hero-image-circle {
@@ -312,14 +343,8 @@ h2 {
   padding-top: 3.5em;
 }
 
-.divider {
-  border-top: 3px solid #ff986a; /* Create the border, i.e. Divider */
-  width: clamp(10vw, 80%, 80vw);
-  margin: 4rem auto; /* Add a Margin and Center the divider */
-}
-
 .client-issues {
-  padding: 3em 4em;
+  padding: 10em 4em;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -856,8 +881,8 @@ textarea {
 
 .tab-section-case-studies {
   display: flex;
-  flex-direction: row-reverse;
-  padding: 5rem;
+  flex-direction: column;
+  padding: 1em 2em;
 }
 
 .tab-section-case-studies .content-section {
@@ -867,10 +892,10 @@ textarea {
 /*Style the tab */
 .case-study-tabs {
   display: flex;
-  justify-content: center;
   flex-direction: row;
   overflow: hidden;
   color: #fff;
+  background-color: #de7445;
 }
 
 /* Style the buttons that are used to open the tab content */
@@ -882,37 +907,35 @@ textarea {
   cursor: pointer;
   font-size: larger;
   padding: .5rem 2rem;
-  box-shadow: 4px 4px 4px 3px rgb(103, 78, 14);
+  box-shadow: 4px 4px 4px 3px #de7445;
   transition: 0.3s;
-  writing-mode: sideways-lr;
-  background-image: linear-gradient(to bottom, rgb(255, 255, 255), rgb(235, 201, 113, .5));
+  background-image: linear-gradient(to bottom, rgb(255, 255, 255), rgb(234,204,191, .5));
 
 }
 
 /* Change background color of buttons on hover */
 .case-study-tabs .caseStudyTablinks:hover {
-  color: #fff;
   background-color: #000
 }
 
 /* Create an active/current tablink class */
 .case-study-tabs .caseStudyTablinks.active {
-  background-color: #000;
-  background-image: linear-gradient(to bottom, rgb(255, 255, 255), rgb(235, 201, 113, .5));
+  color: #fff;
+  background: #ff986a;
 }
 
 /* Style the tab content */
 .caseStudyTabcontent {
   display: none;
-  padding: 1.5rem 2.5rem;
+  padding: 1.5rem 0em;
   border-top: none;
   line-height: 1.75;
   border-radius: .2rem;
-  /* border: .5px solid #161E54; */
 }
 
 .caseStudyTabcontent .top-of-card {
   display: flex;
+  flex-wrap: wrap;
   gap: 1.25rem;
   padding-bottom: 1.25rem;
 }
@@ -926,14 +949,18 @@ textarea {
 .tab-section-case-studies .content-section .bottom-of-card .card-headings{
   padding-bottom: 1.5rem;
   display: flex;
+  flex-wrap: wrap;
   gap: 3rem;
-  font-size: small;
+  font-size: medium;
 }
 
 .tab-section-case-studies .content-section .bottom-of-card img {
   width: 35%;
 }
 
+.bottom-of-card article {
+  width: 50%;
+}
 .caseStudyTabcontent .content-container {
   padding-top: 6.5rem;
   display: flex;
@@ -1375,6 +1402,22 @@ footer img {
     border-radius: .5rem;
     color: #fff;
     background: linear-gradient(to bottom, rgb(52, 71, 202), rgb(52, 71, 202, .2)); 
+  }
+
+  .tab-section-case-studies {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .tab-section-case-studies .content-section {
+    justify-content: center;
+    align-content: center;
+    width: 95%;
+  }
+
+  .caseStudyTabcontent .top-of-card img:nth-of-type(1), 
+  .caseStudyTabcontent .top-of-card img:nth-of-type(2)  {
+    width: 100%;
   }
   
   .contact-me-form label, legend {
