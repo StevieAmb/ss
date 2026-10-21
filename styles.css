@@ -131,7 +131,7 @@ h2 {
 }
 
 .pink-bold {
-  color: #ff986a;
+  color: #a66446;
 }
 
 .white-bold {
@@ -251,10 +251,9 @@ h2 {
 }
 
 .about-gradient-section .hero-section-landing-left {
-  text-align: flex-start;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  padding-left: 4em;
+  padding-top: 6em;
 }
 
 .pricing-gradient-section h2, .case-study-gradient-section h2 {
@@ -311,11 +310,22 @@ h2 {
   align-items: flex-start;
 }
 
+.about-hero-section-landing .hero-section-landing-left h2 {
+  width: 75%;
+  font-style: italic;
+  font-size: 2em;
+}
+
 .hero-section-landing-left p,
 .pricing-hero-section-landing-left p {
   width: 60%;
   line-height: 1.5;
   font-size: 1.25em;
+}
+
+.about-hero-section-landing .hero-section-landing-left p {
+  font-weight: 100;
+  font-size: .9em;
 }
 
 .hero-section-landing-left h2,
