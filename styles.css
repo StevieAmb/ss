@@ -116,11 +116,14 @@ h2 {
 .sub-heading-one {
   color: #151d54;
   font-style: italic;
+  text-transform: capitalize;
 }
 
 .sub-heading-two, .testifier {
   font-style: italic;
   color: #a54b23;
+  text-transform: capitalize;
+  font-weight: 300;
 }
 
 .blue-pop {
@@ -295,7 +298,7 @@ h2 {
   padding-left: 4em;
   padding-top: 11em;
   display: flex;
-  gap: 1.75em;
+  gap: 1.25em;
   flex-direction: column;
   /* justify-content: center;
   align-items: center; */
@@ -314,6 +317,12 @@ h2 {
   font-size: 1.25em;
 }
 
+.hero-section-landing-left h2 {
+  width: 65%;
+  font-size: 2.75em;
+  font-weight: 600;
+}
+
 .hero-image-circle {
   background: url('images/colorful_black_women_engineers.jpg');
   background-size: cover;
@@ -330,12 +339,6 @@ h2 {
 
 .line-section p {
   padding-top: 3.5em;
-}
-
-.divider {
-  border-top: 3px solid #ff986a; /* Create the border, i.e. Divider */
-  width: clamp(10vw, 80%, 80vw);
-  margin: 4rem auto; /* Add a Margin and Center the divider */
 }
 
 .client-issues {
