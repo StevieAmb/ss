@@ -131,7 +131,7 @@ h2 {
 }
 
 .pink-bold {
-  color: #ff986a;
+  color: #a66446;
 }
 
 .white-bold {
@@ -251,10 +251,9 @@ h2 {
 }
 
 .about-gradient-section .hero-section-landing-left {
-  text-align: flex-start;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  padding-left: 4em;
+  padding-top: 6em;
 }
 
 .pricing-gradient-section h2, .case-study-gradient-section h2 {
@@ -311,11 +310,22 @@ h2 {
   align-items: flex-start;
 }
 
+.about-hero-section-landing .hero-section-landing-left h2 {
+  width: 75%;
+  font-style: italic;
+  font-size: 2em;
+}
+
 .hero-section-landing-left p,
 .pricing-hero-section-landing-left p {
   width: 60%;
   line-height: 1.5;
   font-size: 1.25em;
+}
+
+.about-hero-section-landing .hero-section-landing-left p {
+  font-weight: 100;
+  font-size: .9em;
 }
 
 .hero-section-landing-left h2,
@@ -422,6 +432,9 @@ h2 {
   padding-bottom: 1em;
 }
 
+.mission-values {
+  padding-bottom: 6em;
+}
 
 .mission-values .mission-statement {
   margin-top: 6em;
@@ -439,6 +452,12 @@ h2 {
 .values-list {
   display: flex;
   justify-content: center;
+}
+
+.values-list h2 {
+  text-align: center;
+  color: #a54b23;
+  font-weight: 700;
 }
 
 .values-list article {
@@ -479,6 +498,70 @@ details>summary::before {
 
 details[open]>summary::before {
   content: '- ';
+}
+
+.softsolves-services {
+  padding: 4em;
+  background-color: #151d54;
+}
+
+.softsolves-services h2 {
+  text-align: center;
+  color: #cccccc;
+  padding-bottom: 3em;
+}
+
+.softsolves-services .services-content {
+  display: flex;
+  gap: 8em;
+  flex-wrap: wrap;
+  padding-bottom: 9em;
+}
+
+.softsolves-services .services-content:nth-of-type(2) {
+  flex-direction: row-reverse;
+  gap: 6em;
+}
+
+.softsolves-services .services-content article {
+  width: 45%;
+  color: #fff;
+  border-radius: 1em;
+}
+
+.softsolves-services .services-content article ul {
+  padding-top: 1.5em;
+  padding-left: 4em;
+  list-style-type: disc
+}
+
+.softsolves-services .services-content article ul li::marker {
+  color: #f7e2d9;
+  font-size: xx-large;
+}
+
+.softsolves-services .services-content article div {
+  text-align: center;
+  padding: 1em;
+}
+
+.softsolves-services .services-content p {
+  width: 90%;
+}
+
+.softsolves-services .services-content article:nth-child(1) {
+  background-image: linear-gradient(to left, rgb(52, 71, 202), rgb(52, 71, 202, .1));
+}
+
+.softsolves-services .services-content article:nth-child(2) {
+  padding-top: 3rem;
+  font-size: 1.25rem;
+  line-height: 1.75;
+}
+
+.softsolves-services .services-content article img {
+  width: 100%;
+  border-radius: 1em;
 }
 
 .featured-button {
