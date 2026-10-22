@@ -359,7 +359,7 @@ h2 {
 }
 
 .client-issues {
-  padding: 10em 4em;
+  padding: 15em 4em 4em 4em;
   display: flex;
   flex-direction: column;
   justify-content: center;
