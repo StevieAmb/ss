@@ -432,6 +432,10 @@ h2 {
   padding-bottom: 1em;
 }
 
+.mission-values {
+  padding-bottom: 6em;
+}
+
 .mission-values .mission-statement {
   margin-top: 6em;
   display: flex;
@@ -488,6 +492,43 @@ details>summary::before {
 
 details[open]>summary::before {
   content: '- ';
+}
+
+.softsolves-services {
+  padding: 4em;
+  background-color: #151d54;
+}
+
+.softsolves-services h2 {
+  text-align: center;
+  color: #cccccc;
+}
+
+.softsolves-services .services-content {
+  display: flex;
+  gap: 2em;
+  flex-wrap: wrap;
+  padding-bottom: 2em;
+}
+
+.softsolves-services .services-content article {
+  width: 45%;
+  color: #fff;
+  border-radius: 1em;
+}
+
+.softsolves-services .services-content article div {
+  text-align: center;
+  padding: 1em;
+}
+
+.softsolves-services .services-content article:nth-child(1) {
+  background-image: linear-gradient(to left, rgb(52, 71, 202), rgb(52, 71, 202, .1));
+}
+
+.softsolves-services .services-content article img {
+  width: 100%;
+  border-radius: 1em;
 }
 
 .featured-button {
