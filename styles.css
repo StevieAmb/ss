@@ -529,6 +529,10 @@ details[open]>summary::before {
   border-radius: 1em;
 }
 
+.softsolves-services .services-content article ul {
+  padding-top: 1.5em;
+}
+
 .softsolves-services .services-content article div {
   text-align: center;
   padding: 1em;
