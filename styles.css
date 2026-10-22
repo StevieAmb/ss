@@ -76,12 +76,12 @@ a:active, a:visited, a:link {
 }
 
 h1, h2 {
-  font-family: "Saira", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 500;
-  font-style: normal;
   font-variation-settings:
     "wdth" 100;
+  font-family: "Special Gothic Expanded One", sans-serif;
+  font-weight: 500;
+  font-style: normal;
 }
 
 h1 {
@@ -90,21 +90,19 @@ h1 {
 }
 
 h3, h4 {
-  font-family: "Saira", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 200;
-  font-style: normal;
   font-variation-settings:
     "wdth" 100;
+  font-family: "Special Gothic Expanded One", sans-serif;
+  font-weight: 700;
+  font-style: normal;
 }
 
-p, li, label, legend {
-  font-family: "Saira", sans-serif;
+p, li, label, legend, span {
+ font-family: "Nunito", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 400;
+  font-weight: 300;
   font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
 }
 
 h2 {
