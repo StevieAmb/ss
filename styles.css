@@ -531,6 +531,12 @@ details[open]>summary::before {
 
 .softsolves-services .services-content article ul {
   padding-top: 1.5em;
+  list-style-type: disc
+}
+
+.softsolves-services .services-content article ul li::marker {
+  color: #f7e2d9;
+  font-size: xx-large;
 }
 
 .softsolves-services .services-content article div {
