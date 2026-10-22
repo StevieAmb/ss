@@ -218,12 +218,19 @@ h2 {
 .case-study-gradient-section .half-hero-image {
   background: url('images/colorful_black_women_engineers.jpg');
   background-size: cover;
+  background-position: 25% 60%;
   min-width: 0vw;
-  width: 45vw;
-  height: 85vh;
+  width: 47vw;
+  height: 99vh;
   position: relative;
   top: calc(100vh - 102.5vh);
-  border: 1.9px solid #a54b23;
+  border: 1.9px solid #ffe7e0;
+}
+
+.pricing-gradient-section .half-hero-image,
+.about-gradient-section .half-hero-image,
+.case-study-gradient-section .half-hero-image {
+    height: 85vh;
 }
 
 .pricing-gradient-section .half-hero-image {
