@@ -521,6 +521,7 @@ details[open]>summary::before {
   gap: 8em;
   flex-wrap: wrap;
   padding-bottom: 9em;
+  justify-content: center;
 }
 
 .softsolves-services .services-content:nth-of-type(2) {
@@ -536,7 +537,7 @@ details[open]>summary::before {
 
 .softsolves-services .services-content article ul {
   padding-top: 1.5em;
-  padding-left: 4emgit;
+  padding-left: 4em;
   list-style-type: disc
 }
 
