@@ -231,6 +231,7 @@ h2 {
 .about-gradient-section .half-hero-image,
 .case-study-gradient-section .half-hero-image {
     height: 85vh;
+    width: 45vw;
 }
 
 .pricing-gradient-section .half-hero-image {
@@ -446,12 +447,22 @@ h2 {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 5em;
+  gap: 10em;
 }
 
 .mission-values .mission-statement article {
   width: 31%;
   line-height: 1.3;
+}
+
+.mission-statement h3 {
+  font-weight: 100;
+  padding-top: .25em;
+  font-size: 1.25em;
+}
+
+.mission-statement p {
+  font-size: 1.15em;
 }
 
 .values-list {
@@ -469,7 +480,7 @@ h2 {
   margin-top: 6em;
   border: 3px solid #a54b23;
   background-color: #eaccbf;
-  width: 59%;
+  width: 58%;
   border-radius: 1em;
 }
 
@@ -570,7 +581,7 @@ details[open]>summary::before {
   border-radius: 1em;
 }
 
-.featured-button {
+.primary-button {
   background: linear-gradient(to right, #a54b23, #de7445);
   margin-top: 2em;
   padding: 1em 2em;
