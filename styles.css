@@ -591,6 +591,10 @@ details[open]>summary::before {
   padding: 1em 2em;
 }
 
+.secondary-button:hover {
+  box-shadow: .5px .5px 1px #b8d6b5;
+}
+
 .image-of-self {
   border: 2px solid #a9a9a9;
   width: 30%;
