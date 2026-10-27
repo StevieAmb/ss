@@ -327,6 +327,7 @@ h2 {
   width: 60%;
   line-height: 1.5;
   font-size: 1.25em;
+  padding-bottom: 1.25em;
 }
 
 .about-hero-section-landing .hero-section-landing-left p {
@@ -581,15 +582,23 @@ details[open]>summary::before {
   background: linear-gradient(to right, #a54b23, #de7445);
   padding: 1em 2em;
   color: #fff;
+  font-weight: 500;
   border: 1px solid #eaccbf;
   letter-spacing: .05em;
+  font-size: 16x;
 }
 
 .secondary-button {
   border: 1px solid #97b3b7;
   color: #97b3b7;
+  font-weight: 500;
   padding: 1em 2em;
-   letter-spacing: .05em;
+  letter-spacing: .05em;
+}
+
+.secondary-button:active, .secondary-button:visited {
+   color: #97b3b7;
+  font-weight: 600;
 }
 
 .secondary-button:hover {
