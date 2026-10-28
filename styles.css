@@ -50,13 +50,10 @@ body {
   align-content: center;
   margin: 0;
   padding: 0;
-  font-family: "Saira", sans-serif;
+   font-family: "Nunito", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 200;
+  font-weight: 300;
   font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
-  line-height: 1;
 }
 
 .landing-page-body, .about-page-body, .case-study-page-body {
@@ -113,15 +110,14 @@ h2 {
 
 .sub-heading-one {
   color: #151d54;
-  font-style: italic;
   text-transform: capitalize;
 }
 
 .sub-heading-two, .testifier {
-  font-style: italic;
-  color: #a54b23;
+  color: #213235;
   text-transform: capitalize;
   font-weight: 300;
+  font-size: 14px;
 }
 
 .blue-pop {
@@ -133,7 +129,9 @@ h2 {
 }
 
 .white-bold {
-  color: #fff
+  color: #1e8191;
+    font-family: "Special Gothic Expanded One", sans-serif;
+
 }
 
 .bold {
@@ -198,10 +196,10 @@ h2 {
 .pricing-gradient-section,
 .about-gradient-section,
 .case-study-gradient-section {
-  background: linear-gradient(to bottom,  #fbd3c1, #f2eeec);
+  background: linear-gradient(to bottom,  #f7e2d9, #f2eeec);
   border-radius: 1.5em;
   display: flex;
-  height: 80vh;
+  height: 95vh;
 }
 
 .case-study-gradient-section {
@@ -216,15 +214,14 @@ h2 {
 .pricing-gradient-section .half-hero-image,
 .about-gradient-section .half-hero-image,
 .case-study-gradient-section .half-hero-image {
-  background: url('images/colorful_black_women_engineers.jpg');
+  background: url('images/pexels-picha-stock-2210122-3894378.jpg');
   background-size: cover;
-  background-position: 25% 60%;
+  background-position: 35% 60%;
   min-width: 0vw;
   width: 47vw;
   height: 99vh;
   position: relative;
   top: calc(100vh - 102.5vh);
-  border: 1.9px solid #ffe7e0;
 }
 
 .pricing-gradient-section .half-hero-image,
@@ -305,8 +302,6 @@ h2 {
   display: flex;
   gap: 1.25em;
   flex-direction: column;
-  /* justify-content: center;
-  align-items: center; */
   width: 55vw;
 }
 
@@ -337,7 +332,8 @@ h2 {
 
 .hero-section-landing-left h2,
 .pricing-hero-section-landing-left h2 {
-  width: 65%;
+  width: 75%;
+  color: #31160a ;
   font-size: 2.75em;
   font-weight: 600;
 }
@@ -357,7 +353,7 @@ h2 {
 }
 
 .client-issues {
-  padding: 15em 4em 4em 4em;
+  padding: 16em 4em 4em 4em;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -387,8 +383,7 @@ h2 {
   width: 14em;
   height: 7.5em;
   border-radius: 1em;
-  border: 1px solid #a54b23;
-  box-shadow: 1.75px 1.75px 1.75px #eaccbf;
+  border: 1px solid #003;
 }
 
 .client-issues p {
@@ -579,13 +574,17 @@ details[open]>summary::before {
 }
 
 .primary-button {
-  background: linear-gradient(to right, #a54b23, #de7445);
+  background: linear-gradient(to right, #011, #a3a2a2);
   padding: 1em 2em;
-  color: #fff;
+  color: #97b3b7;
   font-weight: 500;
-  border: 1px solid #eaccbf;
   letter-spacing: .05em;
   font-size: 16x;
+}
+
+.primary-button:active, .primary-button:visited {
+  color: #fff;
+  font-weight: 600;
 }
 
 .secondary-button {
@@ -1168,18 +1167,18 @@ footer {
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
-  color: black;
-  background-color: rgb(255, 152, 106);
+  color: #fff;
+  background-color: #000;
 }
 
 footer a {
   display: flex;
   justify-content: flex-start;
-  color: #000;
+  color: #fff;
 }
 
 footer a:active,  footer a:visited, footer a:link {
-    color: #000;
+    color: #fff;
 }
 
 .footer-heading {
