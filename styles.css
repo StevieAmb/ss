@@ -109,7 +109,7 @@ h2 {
 }
 
 .sub-heading-one {
-  color: #151d54;
+  color: #97b3b7;
   text-transform: capitalize;
 }
 
@@ -129,7 +129,7 @@ h2 {
 }
 
 .white-bold {
-  color: #1e8191;
+  color: #b63c2c;
     font-family: "Special Gothic Expanded One", sans-serif;
 
 }
@@ -222,6 +222,7 @@ h2 {
   height: 99vh;
   position: relative;
   top: calc(100vh - 102.5vh);
+  border-radius: 1em;
 }
 
 .pricing-gradient-section .half-hero-image,
