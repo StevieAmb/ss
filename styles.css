@@ -122,7 +122,8 @@ h2 {
 }
 
 .blue-pop {
-  color: #151d54;
+  color: #206e93;
+  font-family: "Special Gothic Expanded One", sans-serif;
 }
 
 .pink-bold {
@@ -131,7 +132,7 @@ h2 {
 
 .white-bold {
   color: #b63c2c;
-    font-family: "Special Gothic Expanded One", sans-serif;
+  font-family: "Special Gothic Expanded One", sans-serif;
 
 }
 
@@ -335,7 +336,7 @@ h2 {
 .hero-section-landing-left h2,
 .pricing-hero-section-landing-left h2 {
   width: 75%;
-  color: #31160a ;
+  color: #fff ;
   font-size: 2.75em;
   font-weight: 600;
 }
@@ -582,6 +583,7 @@ details[open]>summary::before {
   font-weight: 500;
   letter-spacing: .05em;
   font-size: 16x;
+  border-radius: 5px;
 }
 
 .primary-button:active, .primary-button:visited {
@@ -590,15 +592,18 @@ details[open]>summary::before {
 }
 
 .secondary-button {
-  border: 1px solid #97b3b7;
-  color: #97b3b7;
+  border: 2px solid #b63c2c;
+  color: #b63c2c;
   font-weight: 500;
+  text-align: center;
   padding: 1em 2em;
   letter-spacing: .05em;
+  border-radius: 5px;
+  width: 9em;
 }
 
 .secondary-button:active, .secondary-button:visited {
-   color: #97b3b7;
+   color: #b63c2c;
   font-weight: 600;
 }
 
@@ -1171,6 +1176,7 @@ footer {
   justify-content: flex-start;
   align-items: flex-start;
   color: #fff;
+  border-radius: 4.375em 4.375em 0 0;
   background-color: #000;
 }
 
