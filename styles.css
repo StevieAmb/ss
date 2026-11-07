@@ -97,9 +97,10 @@ h3, h4 {
 
 p, li, label, legend, span {
  font-family: "Nunito", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 300;
-  font-style: normal;
+ font-optical-sizing: auto;
+ font-weight: 300;
+ font-style: normal;
+ color: #75645c;
 }
 
 h2 {
@@ -109,12 +110,12 @@ h2 {
 }
 
 .sub-heading-one {
-  color: #97b3b7;
+  color: #75645c;
   text-transform: capitalize;
 }
 
 .sub-heading-two, .testifier {
-  color: #213235;
+  color: #75645c;
   text-transform: capitalize;
   font-weight: 300;
   font-size: 14px;
