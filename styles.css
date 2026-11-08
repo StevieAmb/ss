@@ -136,7 +136,7 @@ h2 {
 }
 
 .white-bold {
-  color: #b63c2c;
+  color: #fff;
   font-family: "Special Gothic Expanded One", sans-serif;
 
 }
@@ -203,10 +203,10 @@ h2 {
 .pricing-gradient-section,
 .about-gradient-section,
 .case-study-gradient-section {
-  background: linear-gradient(to bottom,  #ead5cc 85%, rgb(234, 204, 191, .005));
+  background: linear-gradient(to bottom,  #ead5cc 50%, rgb(234, 204, 191, .005));
   border-radius: 1.5em;
   display: flex;
-  height: 95vh;
+  height: 135vh;
 }
 
 .case-study-gradient-section {
@@ -223,10 +223,10 @@ h2 {
 .case-study-gradient-section .half-hero-image {
   background: url('images/pexels-picha-stock-2210122-3894378.jpg');
   background-size: 230%;
-  background-position: 45% 30%;
+  background-position: 50% 30%;
   min-width: 0vw;
   width: 49vw;
-  height: 120vh;
+  height: 130vh;
   position: relative;
   top: calc(100vh - 102.5vh);
   border-radius: 1em;
@@ -362,19 +362,25 @@ h2 {
 }
 
 .client-issues {
-  padding: 22em 4em 4em 4em;
+  padding: 29em 4em 4em 4em;
+}
+
+.client-issues div {
+  border-radius: 1em;
+  background-color: #eaccbf;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  box-shadow: 4px 4px 4px rgb(0, 0, 0, .2) inset;
 }
 
-.client-issues h2 {
+.client-issues div h2 {
   width: 45%;
   text-align: center;
 }
 
-.client-issues .issues-container {
+.client-issues div .issues-container {
   padding: 2em 3em;
   flex-wrap: wrap;
   display: flex;
@@ -382,7 +388,7 @@ h2 {
   gap: 2em;
 }
 
-.client-issues .issue {
+.client-issues div .issue {
   padding: 1.25em;
   text-align: center;
   display: flex;
