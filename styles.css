@@ -1059,24 +1059,21 @@ textarea {
   float: left;
   outline: none;
   border: none;
+  color: #fff;
   cursor: pointer;
   font-size: larger;
   padding: .5rem 2rem;
-  box-shadow: 4px 4px 4px 3px #de7445;
   transition: 0.3s;
-  background-image: linear-gradient(to bottom, rgb(255, 255, 255), rgb(234,204,191, .5));
-
 }
 
 /* Change background color of buttons on hover */
 .case-study-tabs .caseStudyTablinks:hover {
-  background-color: #000
+  text-decoration: overline;
 }
 
 /* Create an active/current tablink class */
 .case-study-tabs .caseStudyTablinks.active {
   color: #fff;
-  background: #ff986a;
 }
 
 /* Style the tab content */
