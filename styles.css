@@ -124,7 +124,7 @@ h2 {
 }
 
 .blue-pop {
-  color: #5a6e71;
+  color: #13455d;
   font-family: "Special Gothic Expanded One", sans-serif;
   /* text-shadow: .05em .05em .09em #000; */
   letter-spacing: .07em;
@@ -214,6 +214,10 @@ h2 {
   height: 135vh;
 }
 
+.case-study-gradient-section {
+  flex-direction: column;
+}
+
 .pricing-gradient-section {
    background: linear-gradient(to left, rgba(234, 204, 191, 0.183), rgb(101, 112, 189), rgb(101, 112, 189, 0));
 }
@@ -258,9 +262,13 @@ h2 {
 
 .case-study-gradient-section .half-hero-image {
   background: url('images/pexels-darlene-alderson-7971542.jpg');
+  top: 1em;
+  margin: auto;
   background-size: cover;
-  background-position: 20% 90%;
-  border: .1em solid #13455d;
+  background-position: 20% 50%;
+  border: .1em solid #ffe7e0;
+  width: 98%;
+  height: 90vh;
 }
 
 .about-gradient-section .hero-section-landing-left {
@@ -313,6 +321,10 @@ h2 {
   gap: .5em;
   flex-direction: column;
   width: 55vw;
+}
+
+.case-study-hero-section-landing-left {
+    padding-top: 4em;
 }
 
 .pricing-hero-section-landing-left,
@@ -1035,11 +1047,11 @@ textarea {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  padding: 15em 2em 1em 2em;
+  padding: 26em 2em 1em 2em;
 }
 
 .tab-section-case-studies .content-section {
-  width: 80%;
+  width: 50%;
 }
 
 /*Style the tab */
@@ -1052,7 +1064,7 @@ textarea {
   border-radius: 2.5em;
   padding: 1.25em;
   box-shadow: .1em .1em .2em #a3bcc0  inset;
-  margin-bottom: 2em;
+  margin-bottom: 4em;
   /* background-color: #f7e2d9; */
 }
 
@@ -1079,7 +1091,7 @@ textarea {
   color: #fff;
   border: .07em solid #fff;
   border-radius: 2em;
-  background-color: #fff;
+  background-color: #f2eeec;
   color: #13455d;
 }
 
@@ -1109,7 +1121,7 @@ textarea {
 
 .caseStudyTabcontent .top-of-card img:nth-of-type(1),
 .caseStudyTabcontent .top-of-card img:nth-of-type(2) {
-  width: 45%;
+  width: 75%;
   height: 20em;
   box-shadow: 2px 2px 4px #000;
 }
@@ -1120,8 +1132,8 @@ textarea {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 3rem;
   font-size: medium;
+  width: 100%;
 }
 
 .tab-section-case-studies .content-section .bottom-of-card img {
@@ -1129,7 +1141,7 @@ textarea {
 }
 
 .bottom-of-card article {
-  width: 50%;
+  width: 75%;
 }
 .caseStudyTabcontent .content-container {
   padding-top: 6.5rem;
