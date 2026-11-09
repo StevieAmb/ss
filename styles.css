@@ -98,7 +98,7 @@ h3, h4 {
 p, li, label, legend, span {
  font-family: "Nunito", sans-serif;
  font-optical-sizing: auto;
- font-weight: 300;
+ font-weight: 400;
  font-style: normal;
  color: #75645c;
 }
@@ -112,22 +112,26 @@ h2 {
 .sub-heading-one {
   color: #75645c;
   text-transform: capitalize;
+  font-weight: 400;
 }
 
 .sub-heading-two, .testifier {
   color: #3e342f;
   text-transform: capitalize;
-  font-weight: 300;
+  font-weight: 400;
   font-size: 14px;
 }
 
 .blue-pop {
-  color: #206e93;
+  color: #5a6e71;
   font-family: "Special Gothic Expanded One", sans-serif;
+  /* text-shadow: .05em .05em .09em #000; */
+  letter-spacing: .07em;
 }
 
-.pink-bold {
-  color: #a66446;
+.red-orange-bold {
+  color: #b63c2c;
+  font-family: "Special Gothic Expanded One", sans-serif;
 }
 
 .green-blue-pop {
@@ -331,7 +335,7 @@ h2 {
   width: 60%;
   line-height: 1.5;
   font-size: 1.25em;
-  padding-bottom: 1.25em;
+  padding-bottom: 4em;
 }
 
 .about-hero-section-landing .hero-section-landing-left p {
@@ -366,6 +370,7 @@ h2 {
 }
 
 .client-issues div {
+  padding: 1.5em;
   border-radius: 1em;
   background-color: #eaccbf;
   display: flex;
@@ -378,6 +383,8 @@ h2 {
 .client-issues div h2 {
   width: 45%;
   text-align: center;
+  font-size: 1.95em;
+  padding: .34em
 }
 
 .client-issues div .issues-container {
@@ -390,15 +397,27 @@ h2 {
 
 .client-issues div .issue {
   padding: 1.25em;
-  text-align: center;
   display: flex;
+  gap: 1em;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #fff;
-  width: 14em;
+  background: linear-gradient(to bottom, #f7e2d9 50%, rgb(247, 226, 217, .02)) ;
+  width: 19em;
   height: 7.5em;
   border-radius: 1em;
-  border: 1px solid #003;
+  border: 1px solid #bda89e;
+}
+
+.client-issues div .issue p  {
+  width: 90%;
+  font-size: 1.1em;
+  font-weight: 400;
+}
+
+.client-issues div .issue h3 {
+  color: rgb(224, 74, 54, .4);
+  font-size: 1.35em;
 }
 
 .client-issues p {
@@ -1029,7 +1048,9 @@ textarea {
   flex-direction: row;
   overflow: hidden;
   color: #fff;
-  background-color: #de7445;
+  background-color: #13455d;
+  border-radius: 2.5em;
+  padding: 1.25em;
 }
 
 /* Style the buttons that are used to open the tab content */
