@@ -276,11 +276,8 @@ h2 {
   padding-left: 4em;
   padding-top: 6em;
   margin-bottom: 13em;
+  gap: 1.25em;
 }
-
-/* .about-gradient-section {
-  flex-direction: column;
-} */
 
 .pricing-gradient-section h2, .case-study-gradient-section h2 {
   font-size: 3em;
@@ -362,7 +359,7 @@ h2 {
   border-radius: .5em;
   padding: .5em;
   background-color: #f4eae5;
-  margin-top: 1.5em;
+  margin-top: 2em;
 }
 
 .hero-section-landing-left h2,
@@ -539,6 +536,7 @@ h2 {
   font-size: 1.35em;
   padding: 1em 0em .35em;
   margin-left: -1em;
+  color: #13455d;
 }
 
 .values-list article {
@@ -560,7 +558,7 @@ details {
 summary {
   padding-bottom: .5em;
   display: block;
-  color: #a54b23;
+  color: #75645c;
   font-weight: 700;
 }
 
