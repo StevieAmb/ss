@@ -253,10 +253,11 @@ h2 {
 }
 
 .about-gradient-section .half-hero-image {
-  background: url('images/pexels-pavel-danilyuk-7658285.jpg');
+  background: url('images/christina-wocintechchat-com-UTw3j_aoIKM-unsplash.jpg');
   background-size: cover;
-  background-position: 60% 80%;
+  background-position: 40% 78%;
   border: none;
+  width: 52%;
 }
 
 .case-study-gradient-section .half-hero-image {
@@ -275,11 +276,12 @@ h2 {
   flex-direction: column;
   padding-left: 4em;
   padding-top: 6em;
+  margin-bottom: 13em;
 }
 
-.about-gradient-section {
+/* .about-gradient-section {
   flex-direction: column;
-}
+} */
 
 .pricing-gradient-section h2, .case-study-gradient-section h2 {
   font-size: 3em;
@@ -338,9 +340,10 @@ h2 {
 }
 
 .about-hero-section-landing .hero-section-landing-left h2 {
-  width: 75%;
+  width: 100%;
   font-style: italic;
-  font-size: 1.65em;
+  font-size: 1.55em;
+
 }
 
 .hero-section-landing-left p,
@@ -353,14 +356,18 @@ h2 {
 }
 
 .about-hero-section-landing .hero-section-landing-left p {
-  font-weight: 100;
-  font-size: .9em;
+  font-weight: 200;
+  font-size: 1em;
+  line-height: 1.3;
+  border-left: 2px solid rgb(0,0,0,.2);
+  border-radius: .5em;
+  padding: .5em;
+  background-color: #f4eae5;
 }
 
 .hero-section-landing-left h2,
 .pricing-hero-section-landing-left h2 {
   width: 85%;
-  color: #fff ;
   font-size: 2.85em;
   font-weight: 600;
 }
@@ -526,23 +533,27 @@ h2 {
   justify-content: center;
 }
 
-.values-list h2 {
+.values-list h3 {
   text-align: center;
-  color: #a54b23;
   font-weight: 700;
+  font-size: 1.35em;
+  padding: 1em 0em .35em;
+  margin-left: -1em;
 }
 
 .values-list article {
   margin-top: 6em;
-  border: 3px solid #a54b23;
   background-color: #eaccbf;
   width: 58%;
   border-radius: 1em;
+  box-shadow: inset .1em .1em .2em #97695a;
+  background: linear-gradient(to top, rgb(234, 204, 191), rgb(234, 204, 191, .2));
+
 }
 
 details {
   text-align: center;
-  padding: 1.2em;
+  padding: 1em;
   line-height: 1.3;
 }
 
@@ -941,9 +952,11 @@ textarea {
 
 .about-tabs-container {
   padding: 2em;
-  width: 91.1%;
-  background-color: #a54b23;
-  margin: auto;
+  width: 71.1%;
+  background-color: #13455d;
+  border-radius: 2.5em;
+  margin: 13em auto 3em;
+  box-shadow: inset .1em .1em .2em #a3bcc0;
 }
 
 /*Style the tab */
@@ -955,21 +968,8 @@ textarea {
   gap: 2em;
 }
 
-/* Style the buttons that are used to open the tab content */
-.tabs .tablinks {
-  background-color: inherit;
-  float: left;
-  border: none;
-  outline: none;
-  cursor: pointer;
-  color: #ccc;
-  padding: .5em 3.5em;
-  border-radius: 2rem;
-  transition: 0.3s;
-  background: linear-gradient(to bottom, rgb(52, 71, 202), #656fbd2a);
-  border: 1px solid #6570bd;
-  flex: 0 0 auto;
-  white-space: nowrap;
+.about-tabs a {
+  color: #fff;
 }
 
 /* Change background color of buttons on hover */
