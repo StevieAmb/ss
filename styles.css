@@ -101,7 +101,6 @@ p, li, label, legend, span {
  font-weight: 400;
  font-style: normal;
  color: #75645c;
- line-height: 1.5;
 }
 
 h2 {
@@ -340,9 +339,9 @@ h2 {
 }
 
 .about-hero-section-landing .hero-section-landing-left h2 {
-  width: 100%;
-  font-style: italic;
-  font-size: 1.55em;
+  width: 80%;
+  line-height: 1.3;
+  font-size: 1.75em;
 
 }
 
@@ -363,6 +362,7 @@ h2 {
   border-radius: .5em;
   padding: .5em;
   background-color: #f4eae5;
+  margin-top: 1.5em;
 }
 
 .hero-section-landing-left h2,
@@ -585,12 +585,12 @@ details[open]>summary::before {
 
 .softsolves-services {
   padding: 4em;
-  background-color: #151d54;
+  background-color: #0d5e87;
 }
 
 .softsolves-services h2 {
   text-align: center;
-  color: #cccccc;
+  color: #f2eeec;
   padding-bottom: 3em;
 }
 
@@ -599,6 +599,7 @@ details[open]>summary::before {
   gap: 8em;
   flex-wrap: wrap;
   padding-bottom: 9em;
+  color: #f2eeec;
   justify-content: center;
 }
 
@@ -609,14 +610,18 @@ details[open]>summary::before {
 
 .softsolves-services .services-content article {
   width: 45%;
-  color: #fff;
+  color: #f2eeec;
   border-radius: 1em;
 }
 
 .softsolves-services .services-content article ul {
   padding-top: 1.5em;
   padding-left: 4em;
-  list-style-type: disc
+  list-style-type: disc;
+}
+
+.softsolves-services .services-content article ul li {
+   color: #f2eeec;
 }
 
 .softsolves-services .services-content article ul li::marker {
@@ -631,10 +636,11 @@ details[open]>summary::before {
 
 .softsolves-services .services-content p {
   width: 90%;
+  color: #f2eeec;
 }
 
 .softsolves-services .services-content article:nth-child(1) {
-  background-image: linear-gradient(to left, rgb(52, 71, 202), rgb(52, 71, 202, .1));
+  background-image: linear-gradient(to left, #4fa7d1, rgb(52, 71, 202, .1));
 }
 
 .softsolves-services .services-content article:nth-child(2) {
