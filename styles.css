@@ -127,16 +127,15 @@ h2 {
   color: #13455d;
   font-family: "Special Gothic Expanded One", sans-serif;
   /* text-shadow: .05em .05em .09em #000; */
-  letter-spacing: .07em;
 }
 
 .red-orange-bold {
-  color: #b63c2c;
+  color: #c24105;
   font-family: "Special Gothic Expanded One", sans-serif;
 }
 
 .green-blue-pop {
-  color: #13455d;
+  color: #75645c;
   font-weight: bold;
 }
 
@@ -235,7 +234,7 @@ h2 {
   position: relative;
   top: calc(100vh - 102.5vh);
   border-radius: 1em;
-  border: 2px solid #b63c2c;
+  border: 2px solid #edc7c2;
 }
 
 .pricing-gradient-section .half-hero-image,
@@ -379,10 +378,15 @@ h2 {
   padding: 29em 4em 4em 4em;
 }
 
+.client-issues p {
+  font-size: 1.25em;
+  font-weight: 200;
+}
+
 .client-issues div {
   padding: 1.5em;
   border-radius: 1em;
-  background-color: #eaccbf;
+  background: linear-gradient(to top, rgb(234, 204, 191), rgb(234, 204, 191, .2) ) ;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -416,24 +420,24 @@ h2 {
   width: 19em;
   height: 7.5em;
   border-radius: 1em;
-  border: 1px solid #bda89e;
+  border: 1.5px solid #bda89e;
 }
 
 .client-issues div .issue p  {
   width: 90%;
   font-size: 1.1em;
-  font-weight: 400;
+  font-weight: 600;
 }
 
 .client-issues div .issue h3 {
-  color: rgb(224, 74, 54, .4);
+  color: #000;
   font-size: 1.35em;
 }
 
 .client-issues p {
   text-align: center;
   line-height: 1.35;
-  width: 30%;
+  width: 50%;
 }
 
 .softsolves-tagline-banner {
@@ -452,7 +456,7 @@ h2 {
 }
 
 .client-testimonials {
-  background-color: #eaccbf;
+  background: linear-gradient(to bottom,  #eaccbf 90%, #f2eeec) ;
   color: #fff;
   padding: 3.5em 2.5em;
   display: flex;
@@ -461,6 +465,17 @@ h2 {
 
 .client-testimonials .testimonial {
   line-height: 1.5em;
+}
+
+.client-testimonials p {
+  font-size: 1.15em;
+  font-weight: 400;
+}
+
+.client-testimonials .testifier {
+  padding-bottom: 3em;
+  font-weight: 800;
+  font-size: 1.15em;
 }
 
 .client-testimonials .featured-client-website {
@@ -620,7 +635,7 @@ details[open]>summary::before {
 .primary-button {
   background: linear-gradient(to right, #011, #a3a2a2);
   padding: 1em 2em;
-  color: #97b3b7;
+  color: #fff;
   font-weight: 500;
   letter-spacing: .05em;
   font-size: 16x;
@@ -1046,6 +1061,7 @@ textarea {
   display: flex;
   justify-content: center;
   align-items: center;
+  overflow: auto;
   flex-direction: column;
   padding: 26em 2em 1em 2em;
 }
