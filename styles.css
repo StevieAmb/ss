@@ -50,13 +50,10 @@ body {
   align-content: center;
   margin: 0;
   padding: 0;
-  font-family: "Saira", sans-serif;
+   font-family: "Nunito", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 200;
+  font-weight: 300;
   font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
-  line-height: 1;
 }
 
 .landing-page-body, .about-page-body, .case-study-page-body {
@@ -100,9 +97,11 @@ h3, h4 {
 
 p, li, label, legend, span {
  font-family: "Nunito", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 300;
-  font-style: normal;
+ font-optical-sizing: auto;
+ font-weight: 400;
+ font-style: normal;
+ color: #75645c;
+ line-height: 1.5;
 }
 
 h2 {
@@ -112,28 +111,38 @@ h2 {
 }
 
 .sub-heading-one {
-  color: #151d54;
-  font-style: italic;
+  color: #75645c;
   text-transform: capitalize;
+  font-weight: 400;
 }
 
 .sub-heading-two, .testifier {
-  font-style: italic;
-  color: #a54b23;
+  color: #3e342f;
   text-transform: capitalize;
-  font-weight: 300;
+  font-weight: 400;
+  font-size: 14px;
 }
 
 .blue-pop {
-  color: #151d54;
+  color: #13455d;
+  font-family: "Special Gothic Expanded One", sans-serif;
+  /* text-shadow: .05em .05em .09em #000; */
 }
 
-.pink-bold {
-  color: #a66446;
+.red-orange-bold {
+  color: #c24105;
+  font-family: "Special Gothic Expanded One", sans-serif;
+}
+
+.green-blue-pop {
+  color: #75645c;
+  font-weight: bold;
 }
 
 .white-bold {
-  color: #fff
+  color: #fff;
+  font-family: "Special Gothic Expanded One", sans-serif;
+
 }
 
 .bold {
@@ -198,14 +207,14 @@ h2 {
 .pricing-gradient-section,
 .about-gradient-section,
 .case-study-gradient-section {
-  background: linear-gradient(to bottom,  #fbd3c1, #f2eeec);
+  background: linear-gradient(to bottom,  #ead5cc 50%, rgb(234, 204, 191, .005));
   border-radius: 1.5em;
   display: flex;
-  height: 80vh;
+  height: 135vh;
 }
 
 .case-study-gradient-section {
-    background: linear-gradient(to right,  #fbd3c1, #f2eeec);
+  flex-direction: column;
 }
 
 .pricing-gradient-section {
@@ -216,22 +225,23 @@ h2 {
 .pricing-gradient-section .half-hero-image,
 .about-gradient-section .half-hero-image,
 .case-study-gradient-section .half-hero-image {
-  background: url('images/colorful_black_women_engineers.jpg');
-  background-size: cover;
-  background-position: 25% 60%;
+  background: url('images/pexels-picha-stock-2210122-3894378.jpg');
+  background-size: 230%;
+  background-position: 50% 30%;
   min-width: 0vw;
-  width: 47vw;
-  height: 99vh;
+  width: 49vw;
+  height: 130vh;
   position: relative;
   top: calc(100vh - 102.5vh);
-  border: 1.9px solid #ffe7e0;
+  border-radius: 1em;
+  border: 2px solid #edc7c2;
 }
 
 .pricing-gradient-section .half-hero-image,
 .about-gradient-section .half-hero-image,
 .case-study-gradient-section .half-hero-image {
-    height: 85vh;
-    width: 45vw;
+    height: 110vh;
+    width: 51vw;
 }
 
 .pricing-gradient-section .half-hero-image {
@@ -251,9 +261,13 @@ h2 {
 
 .case-study-gradient-section .half-hero-image {
   background: url('images/pexels-darlene-alderson-7971542.jpg');
+  top: 1em;
+  margin: auto;
   background-size: cover;
-  background-position: 70% 90%;
-  border: none;
+  background-position: 20% 50%;
+  border: .1em solid #ffe7e0;
+  width: 98%;
+  height: 90vh;
 }
 
 .about-gradient-section .hero-section-landing-left {
@@ -269,7 +283,7 @@ h2 {
 }
 
 .case-study-gradient-section h2 {
-  color: #de7445;
+  color: #fff;
 }
 
 .pricing-gradient-section h3 {
@@ -301,33 +315,36 @@ h2 {
 .pricing-hero-section-landing-left,
 .case-study-hero-section-landing-left {
   padding-left: 4em;
-  padding-top: 11em;
+  padding-top: 18em;
   display: flex;
-  gap: 1.25em;
+  gap: .5em;
   flex-direction: column;
-  /* justify-content: center;
-  align-items: center; */
   width: 55vw;
+}
+
+.case-study-hero-section-landing-left {
+    padding-top: 4em;
 }
 
 .pricing-hero-section-landing-left,
 .case-study-hero-section-landing-left {
-  padding-left: 6em;
+  padding-left: 4em;
   align-items: flex-start;
 }
 
 .about-hero-section-landing .hero-section-landing-left h2 {
   width: 75%;
   font-style: italic;
-  font-size: 2em;
+  font-size: 1.65em;
 }
 
 .hero-section-landing-left p,
-.pricing-hero-section-landing-left p {
+.pricing-hero-section-landing-left p,
+.case-study-hero-section-landing-left p {
   width: 60%;
   line-height: 1.5;
   font-size: 1.25em;
-  padding-bottom: 1.25em;
+  padding-bottom: 4em;
 }
 
 .about-hero-section-landing .hero-section-landing-left p {
@@ -337,8 +354,9 @@ h2 {
 
 .hero-section-landing-left h2,
 .pricing-hero-section-landing-left h2 {
-  width: 65%;
-  font-size: 2.75em;
+  width: 85%;
+  color: #fff ;
+  font-size: 2.85em;
   font-weight: 600;
 }
 
@@ -357,19 +375,33 @@ h2 {
 }
 
 .client-issues {
-  padding: 15em 4em 4em 4em;
+  padding: 29em 4em 4em 4em;
+}
+
+.client-issues p {
+  font-size: 1.25em;
+  font-weight: 200;
+}
+
+.client-issues div {
+  padding: 1.5em;
+  border-radius: 1em;
+  background: linear-gradient(to top, rgb(234, 204, 191), rgb(234, 204, 191, .2) ) ;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  box-shadow: 4px 4px 4px rgb(0, 0, 0, .2) inset;
 }
 
-.client-issues h2 {
+.client-issues div h2 {
   width: 45%;
   text-align: center;
+  font-size: 1.95em;
+  padding: .34em
 }
 
-.client-issues .issues-container {
+.client-issues div .issues-container {
   padding: 2em 3em;
   flex-wrap: wrap;
   display: flex;
@@ -377,24 +409,35 @@ h2 {
   gap: 2em;
 }
 
-.client-issues .issue {
+.client-issues div .issue {
   padding: 1.25em;
-  text-align: center;
   display: flex;
+  gap: 1em;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #fff;
-  width: 14em;
+  background: linear-gradient(to bottom, #f7e2d9 50%, rgb(247, 226, 217, .02)) ;
+  width: 19em;
   height: 7.5em;
   border-radius: 1em;
-  border: 1px solid #a54b23;
-  box-shadow: 1.75px 1.75px 1.75px #eaccbf;
+  border: 1.75px solid #bda89e;
+}
+
+.client-issues div .issue p  {
+  width: 90%;
+  font-size: 1.1em;
+  font-weight: 600;
+}
+
+.client-issues div .issue h3 {
+  color: #000;
+  font-size: 1.35em;
 }
 
 .client-issues p {
   text-align: center;
   line-height: 1.35;
-  width: 30%;
+  width: 50%;
 }
 
 .softsolves-tagline-banner {
@@ -413,7 +456,7 @@ h2 {
 }
 
 .client-testimonials {
-  background-color: #eaccbf;
+  background: linear-gradient(to bottom,  #eaccbf 90%, #f2eeec) ;
   color: #fff;
   padding: 3.5em 2.5em;
   display: flex;
@@ -422,6 +465,17 @@ h2 {
 
 .client-testimonials .testimonial {
   line-height: 1.5em;
+}
+
+.client-testimonials p {
+  font-size: 1.15em;
+  font-weight: 400;
+}
+
+.client-testimonials .testifier {
+  padding-bottom: 3em;
+  font-weight: 800;
+  font-size: 1.15em;
 }
 
 .client-testimonials .featured-client-website {
@@ -579,25 +633,33 @@ details[open]>summary::before {
 }
 
 .primary-button {
-  background: linear-gradient(to right, #a54b23, #de7445);
+  background: linear-gradient(to right, #011, #a3a2a2);
   padding: 1em 2em;
   color: #fff;
   font-weight: 500;
-  border: 1px solid #eaccbf;
   letter-spacing: .05em;
   font-size: 16x;
+  border-radius: 5px;
+}
+
+.primary-button:active, .primary-button:visited {
+  color: #fff;
+  font-weight: 600;
 }
 
 .secondary-button {
-  border: 1px solid #97b3b7;
-  color: #97b3b7;
+  border: 2px solid #b63c2c;
+  color: #b63c2c;
   font-weight: 500;
+  text-align: center;
   padding: 1em 2em;
   letter-spacing: .05em;
+  border-radius: 5px;
+  width: 9em;
 }
 
 .secondary-button:active, .secondary-button:visited {
-   color: #97b3b7;
+   color: #b63c2c;
   font-weight: 600;
 }
 
@@ -997,21 +1059,29 @@ textarea {
 
 .tab-section-case-studies {
   display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: auto;
   flex-direction: column;
-  padding: 1em 2em;
+  padding: 26em 2em 1em 2em;
 }
 
 .tab-section-case-studies .content-section {
-  width: 75%;
+  width: 50%;
 }
 
 /*Style the tab */
 .case-study-tabs {
   display: flex;
-  flex-direction: row;
+  justify-content: center;
   overflow: hidden;
   color: #fff;
-  background-color: #de7445;
+  background-color: #13455d;
+  border-radius: 2.5em;
+  padding: 1.25em;
+  box-shadow: .1em .1em .2em #a3bcc0  inset;
+  margin-bottom: 4em;
+  /* background-color: #f7e2d9; */
 }
 
 /* Style the buttons that are used to open the tab content */
@@ -1020,37 +1090,46 @@ textarea {
   float: left;
   outline: none;
   border: none;
+  color: #fff;
   cursor: pointer;
   font-size: larger;
   padding: .5rem 2rem;
-  box-shadow: 4px 4px 4px 3px #de7445;
   transition: 0.3s;
-  background-image: linear-gradient(to bottom, rgb(255, 255, 255), rgb(234,204,191, .5));
-
 }
 
 /* Change background color of buttons on hover */
 .case-study-tabs .caseStudyTablinks:hover {
-  background-color: #000
+  /* text-decoration: overline; */
 }
 
 /* Create an active/current tablink class */
 .case-study-tabs .caseStudyTablinks.active {
   color: #fff;
-  background: #ff986a;
+  border: .07em solid #fff;
+  border-radius: 2em;
+  background-color: #f2eeec;
+  color: #13455d;
 }
 
 /* Style the tab content */
 .caseStudyTabcontent {
   display: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   padding: 1.5rem 0em;
   border-top: none;
   line-height: 1.75;
   border-radius: .2rem;
+  border: .5px solid #75645c;
+  background-color: #f7e2d9;
+  box-shadow: inset .1em .1em .2em rgb(0, 0, 0, .2);
 }
 
 .caseStudyTabcontent .top-of-card {
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
   gap: 1.25rem;
   padding-bottom: 1.25rem;
@@ -1058,16 +1137,19 @@ textarea {
 
 .caseStudyTabcontent .top-of-card img:nth-of-type(1),
 .caseStudyTabcontent .top-of-card img:nth-of-type(2) {
-  width: 48%;
+  width: 75%;
+  height: 20em;
+  box-shadow: 2px 2px 4px #000;
 }
 
 .tab-section-case-studies .content-section .bottom-of-card,
 .tab-section-case-studies .content-section .bottom-of-card .card-headings{
   padding-bottom: 1.5rem;
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
-  gap: 3rem;
   font-size: medium;
+  width: 100%;
 }
 
 .tab-section-case-studies .content-section .bottom-of-card img {
@@ -1075,7 +1157,7 @@ textarea {
 }
 
 .bottom-of-card article {
-  width: 50%;
+  width: 75%;
 }
 .caseStudyTabcontent .content-container {
   padding-top: 6.5rem;
@@ -1168,18 +1250,19 @@ footer {
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
-  color: black;
-  background-color: rgb(255, 152, 106);
+  color: #fff;
+  border-radius: 4.375em 4.375em 0 0;
+  background-color: #000;
 }
 
 footer a {
   display: flex;
   justify-content: flex-start;
-  color: #000;
+  color: #fff;
 }
 
 footer a:active,  footer a:visited, footer a:link {
-    color: #000;
+    color: #fff;
 }
 
 .footer-heading {
