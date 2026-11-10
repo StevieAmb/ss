@@ -272,8 +272,13 @@ h2 {
 
 .about-gradient-section .hero-section-landing-left {
   display: flex;
+  flex-direction: column;
   padding-left: 4em;
   padding-top: 6em;
+}
+
+.about-gradient-section {
+  flex-direction: column;
 }
 
 .pricing-gradient-section h2, .case-study-gradient-section h2 {
@@ -375,7 +380,7 @@ h2 {
 }
 
 .client-issues {
-  padding: 29em 4em 4em 4em;
+  padding: 29em 4em 8em 4em;
 }
 
 .client-issues p {
@@ -402,7 +407,7 @@ h2 {
 }
 
 .client-issues div .issues-container {
-  padding: 2em 3em;
+  padding: 3.5em 3em 2em 3em;
   flex-wrap: wrap;
   display: flex;
   justify-content: center;
@@ -441,7 +446,7 @@ h2 {
 }
 
 .softsolves-tagline-banner {
-  padding: 4em 8em;
+  padding: 6em 8em;
   background: url('images/pexels-cottonbro-6863076.jpg');
   background-size: cover;
   background-position: 100% 175%;
@@ -450,7 +455,7 @@ h2 {
 .softsolves-tagline-banner .banner-text-container {
   text-align: center;
   background-color: #fff;
-  padding: 2.5em 3.5rem;
+  padding: 3.5em 4.5rem;
   font-weight: 400;
   border-radius: .75em;
 }
