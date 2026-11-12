@@ -61,7 +61,7 @@ body {
 }
 
 .pricing-page-body {
-  background: linear-gradient(to bottom, #ffffff, #13455d, #13455d);
+  background: linear-gradient(to bottom, #ffffff, #13455d 30%);
 }
 
 a {
@@ -217,7 +217,9 @@ h2 {
 }
 
 .pricing-gradient-section {
-   background: linear-gradient(to bottom, #f7e2d9, rgb(32, 110, 147, .65),  rgb(32, 110, 147, .15), rgb(32, 110, 147, .45), rgb(32, 110, 147, .15));
+   background: linear-gradient(to bottom, #f7e2d9, rgb(32, 110, 147, .35),  rgb(32, 110, 147, .35), rgb(32, 110, 147, .35), rgb(32, 110, 147, .05));
+   display: flex;
+   flex-direction: column;
 }
 
 .gradient-section .half-hero-image,
@@ -244,10 +246,14 @@ h2 {
 }
 
 .pricing-gradient-section .half-hero-image {
-  background: url('images/pexels-pnw-prod-8091326.jpg');
+  background: url('images/pexels-silverkblack-39219413.jpg');
   background-size: cover;
   background-position: 50% 60%;
   border: 1px solid #88b7cd;
+  width: 98%;
+  margin: auto;
+  top: 1em;
+  height: 70vh;
 }
 
 .about-gradient-section .half-hero-image {
@@ -332,6 +338,10 @@ h2 {
 .case-study-hero-section-landing-left {
   padding-left: 4em;
   align-items: flex-start;
+}
+
+.pricing-hero-section-landing-left {
+  padding-top: 6em;
 }
 
 .pricing-hero-section-landing-left p{
@@ -939,7 +949,7 @@ textarea {
 
 .plans-price-section {
   background-size: cover;
-  padding: 16em 2em 6em 2em;
+  padding: 31em 2em 6em 2em;
   display: block;
   padding-bottom: 4rem;
 }
@@ -1019,7 +1029,7 @@ textarea {
 
 .tabcontent article {
   padding: 3em 2em;
-  width: 27%;
+  width: 26%;
   border-radius: .5rem;
   color: #f7e2d9;
   background: linear-gradient(to bottom, #f7e2d9, #13455d 35%); 
@@ -1343,7 +1353,7 @@ footer img {
 @media screen and (max-width: 767px) {
 
   .pricing-page-body {
-    background: linear-gradient(#ffffff, #151d54,#151d54, #151d54, #151d54, #151d54, #151d54, #151d54);
+    background: linear-gradient(to bottom, #ffffff, #151d54 5%);
   }
 
    .hamburger, .close {
